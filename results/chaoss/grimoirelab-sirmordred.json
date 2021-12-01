@@ -1,0 +1,2614 @@
+{
+  "main.py": [
+    {
+      "timestamp": 1638370080.838739,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 4.0,
+        "avg_loc": 18.0,
+        "avg_tokens": 93.0,
+        "num_funs": 2,
+        "loc": 49,
+        "tokens": 238,
+        "blanks": 16,
+        "comments": 5
+      }
+    },
+    {
+      "timestamp": 1638370085.24194,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 4.0,
+        "avg_loc": 18.0,
+        "avg_tokens": 93.0,
+        "num_funs": 2,
+        "loc": 49,
+        "tokens": 238,
+        "blanks": 17,
+        "comments": 6
+      }
+    }
+  ],
+  "mordred.py": [
+    {
+      "timestamp": 1638370080.838739,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 2.0,
+        "avg_loc": 6.0,
+        "avg_tokens": 42.0,
+        "num_funs": 1,
+        "loc": 14,
+        "tokens": 67,
+        "blanks": 5,
+        "comments": 0
+      }
+    },
+    {
+      "timestamp": 1638370085.24194,
+      "analysis": {
+        "ccn": 13,
+        "avg_ccn": 4.333333333333333,
+        "avg_loc": 13.666666666666666,
+        "avg_tokens": 92.66666666666667,
+        "num_funs": 3,
+        "loc": 51,
+        "tokens": 317,
+        "blanks": 23,
+        "comments": 11
+      }
+    },
+    {
+      "timestamp": 1638370104.891352,
+      "analysis": {
+        "ccn": 71,
+        "avg_ccn": 2.3666666666666667,
+        "avg_loc": 9.533333333333333,
+        "avg_tokens": 69.2,
+        "num_funs": 30,
+        "loc": 346,
+        "tokens": 2307,
+        "blanks": 105,
+        "comments": 91
+      }
+    },
+    {
+      "timestamp": 1638370116.625895,
+      "analysis": {
+        "ccn": 101,
+        "avg_ccn": 2.525,
+        "avg_loc": 10.775,
+        "avg_tokens": 77.225,
+        "num_funs": 40,
+        "loc": 526,
+        "tokens": 3484,
+        "blanks": 139,
+        "comments": 135
+      }
+    },
+    {
+      "timestamp": 1638370131.401014,
+      "analysis": {
+        "ccn": 123,
+        "avg_ccn": 2.510204081632653,
+        "avg_loc": 10.408163265306122,
+        "avg_tokens": 75.34693877551021,
+        "num_funs": 49,
+        "loc": 613,
+        "tokens": 4128,
+        "blanks": 168,
+        "comments": 145
+      }
+    },
+    {
+      "timestamp": 1638370135.278592,
+      "analysis": {
+        "ccn": 118,
+        "avg_ccn": 2.744186046511628,
+        "avg_loc": 11.255813953488373,
+        "avg_tokens": 82.02325581395348,
+        "num_funs": 43,
+        "loc": 586,
+        "tokens": 3952,
+        "blanks": 164,
+        "comments": 146
+      }
+    },
+    {
+      "timestamp": 1638370143.948226,
+      "analysis": {
+        "ccn": 130,
+        "avg_ccn": 2.9545454545454546,
+        "avg_loc": 11.840909090909092,
+        "avg_tokens": 86.68181818181819,
+        "num_funs": 44,
+        "loc": 645,
+        "tokens": 4330,
+        "blanks": 165,
+        "comments": 153
+      }
+    },
+    {
+      "timestamp": 1638370202.501173,
+      "analysis": {
+        "ccn": 158,
+        "avg_ccn": 3.3617021276595747,
+        "avg_loc": 12.48936170212766,
+        "avg_tokens": 93.8936170212766,
+        "num_funs": 47,
+        "loc": 752,
+        "tokens": 5153,
+        "blanks": 176,
+        "comments": 159
+      }
+    },
+    {
+      "timestamp": 1638370206.298861,
+      "analysis": {
+        "ccn": 157,
+        "avg_ccn": 3.3404255319148937,
+        "avg_loc": 12.382978723404255,
+        "avg_tokens": 93.34042553191489,
+        "num_funs": 47,
+        "loc": 747,
+        "tokens": 5125,
+        "blanks": 176,
+        "comments": 158
+      }
+    },
+    {
+      "timestamp": 1638370207.308001,
+      "analysis": {
+        "ccn": 158,
+        "avg_ccn": 3.3617021276595747,
+        "avg_loc": 12.51063829787234,
+        "avg_tokens": 94.1063829787234,
+        "num_funs": 47,
+        "loc": 753,
+        "tokens": 5163,
+        "blanks": 176,
+        "comments": 159
+      }
+    },
+    {
+      "timestamp": 1638370251.701663,
+      "analysis": {
+        "ccn": 175,
+        "avg_ccn": 3.1818181818181817,
+        "avg_loc": 11.581818181818182,
+        "avg_tokens": 87.16363636363636,
+        "num_funs": 55,
+        "loc": 756,
+        "tokens": 5373,
+        "blanks": 188,
+        "comments": 170
+      }
+    }
+  ],
+  "utils/projects_json2yml.py": [
+    {
+      "timestamp": 1638370164.187299,
+      "analysis": {
+        "ccn": 3,
+        "avg_ccn": 1.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 33.333333333333336,
+        "num_funs": 3,
+        "loc": 42,
+        "tokens": 323,
+        "blanks": 14,
+        "comments": 23
+      }
+    },
+    {
+      "timestamp": 1638370221.710862,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 3.2,
+        "avg_loc": 8.0,
+        "avg_tokens": 64.0,
+        "num_funs": 5,
+        "loc": 53,
+        "tokens": 400,
+        "blanks": 19,
+        "comments": 21
+      }
+    }
+  ],
+  "mordred/task_collection.py": [
+    {
+      "timestamp": 1638370303.531011,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 4.5,
+        "avg_loc": 19.0,
+        "avg_tokens": 151.5,
+        "num_funs": 2,
+        "loc": 45,
+        "tokens": 336,
+        "blanks": 11,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 10,
+        "avg_ccn": 5.0,
+        "avg_loc": 21.0,
+        "avg_tokens": 165.0,
+        "num_funs": 2,
+        "loc": 50,
+        "tokens": 369,
+        "blanks": 16,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 10,
+        "avg_ccn": 5.0,
+        "avg_loc": 21.0,
+        "avg_tokens": 165.0,
+        "num_funs": 2,
+        "loc": 50,
+        "tokens": 369,
+        "blanks": 16,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 4.5,
+        "avg_loc": 18.0,
+        "avg_tokens": 145.0,
+        "num_funs": 2,
+        "loc": 43,
+        "tokens": 323,
+        "blanks": 11,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 32,
+        "avg_ccn": 6.4,
+        "avg_loc": 24.2,
+        "avg_tokens": 211.2,
+        "num_funs": 5,
+        "loc": 142,
+        "tokens": 1144,
+        "blanks": 40,
+        "comments": 58
+      }
+    },
+    {
+      "timestamp": 1638370700.311265,
+      "analysis": {
+        "ccn": 33,
+        "avg_ccn": 6.6,
+        "avg_loc": 24.8,
+        "avg_tokens": 215.8,
+        "num_funs": 5,
+        "loc": 147,
+        "tokens": 1175,
+        "blanks": 41,
+        "comments": 59
+      }
+    },
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 54,
+        "avg_ccn": 6.0,
+        "avg_loc": 20.88888888888889,
+        "avg_tokens": 183.88888888888889,
+        "num_funs": 9,
+        "loc": 217,
+        "tokens": 1779,
+        "blanks": 69,
+        "comments": 71
+      }
+    },
+    {
+      "timestamp": 1638370910.843054,
+      "analysis": {
+        "ccn": 64,
+        "avg_ccn": 5.818181818181818,
+        "avg_loc": 19.727272727272727,
+        "avg_tokens": 171.9090909090909,
+        "num_funs": 11,
+        "loc": 249,
+        "tokens": 2030,
+        "blanks": 78,
+        "comments": 78
+      }
+    }
+  ],
+  "mordred/task_enrich.py": [
+    {
+      "timestamp": 1638370303.531011,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 3.2,
+        "avg_loc": 15.8,
+        "avg_tokens": 107.0,
+        "num_funs": 5,
+        "loc": 87,
+        "tokens": 579,
+        "blanks": 20,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 3.2,
+        "avg_loc": 16.2,
+        "avg_tokens": 110.8,
+        "num_funs": 5,
+        "loc": 90,
+        "tokens": 604,
+        "blanks": 20,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 3.2,
+        "avg_loc": 16.2,
+        "avg_tokens": 110.8,
+        "num_funs": 5,
+        "loc": 90,
+        "tokens": 604,
+        "blanks": 20,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370487.888422,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 4.8,
+        "avg_loc": 25.0,
+        "avg_tokens": 179.6,
+        "num_funs": 5,
+        "loc": 139,
+        "tokens": 980,
+        "blanks": 28,
+        "comments": 35
+      }
+    },
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 26,
+        "avg_ccn": 5.2,
+        "avg_loc": 27.4,
+        "avg_tokens": 190.8,
+        "num_funs": 5,
+        "loc": 151,
+        "tokens": 1036,
+        "blanks": 30,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 3.0,
+        "avg_loc": 15.4,
+        "avg_tokens": 102.2,
+        "num_funs": 5,
+        "loc": 85,
+        "tokens": 555,
+        "blanks": 20,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 20,
+        "avg_ccn": 4.0,
+        "avg_loc": 18.4,
+        "avg_tokens": 132.6,
+        "num_funs": 5,
+        "loc": 104,
+        "tokens": 733,
+        "blanks": 27,
+        "comments": 31
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 4.8,
+        "avg_loc": 25.0,
+        "avg_tokens": 179.6,
+        "num_funs": 5,
+        "loc": 139,
+        "tokens": 980,
+        "blanks": 28,
+        "comments": 35
+      }
+    },
+    {
+      "timestamp": 1638370700.311265,
+      "analysis": {
+        "ccn": 26,
+        "avg_ccn": 5.2,
+        "avg_loc": 28.2,
+        "avg_tokens": 194.0,
+        "num_funs": 5,
+        "loc": 155,
+        "tokens": 1052,
+        "blanks": 30,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 26,
+        "avg_ccn": 5.2,
+        "avg_loc": 28.2,
+        "avg_tokens": 194.0,
+        "num_funs": 5,
+        "loc": 155,
+        "tokens": 1052,
+        "blanks": 30,
+        "comments": 39
+      }
+    }
+  ],
+  "mordred/task_panels.py": [
+    {
+      "timestamp": 1638370303.531011,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 3.076923076923077,
+        "avg_loc": 10.76923076923077,
+        "avg_tokens": 80.53846153846153,
+        "num_funs": 13,
+        "loc": 205,
+        "tokens": 1326,
+        "blanks": 34,
+        "comments": 64
+      }
+    },
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 3.076923076923077,
+        "avg_loc": 10.923076923076923,
+        "avg_tokens": 82.46153846153847,
+        "num_funs": 13,
+        "loc": 207,
+        "tokens": 1351,
+        "blanks": 34,
+        "comments": 64
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 3.076923076923077,
+        "avg_loc": 10.923076923076923,
+        "avg_tokens": 82.46153846153847,
+        "num_funs": 13,
+        "loc": 207,
+        "tokens": 1351,
+        "blanks": 34,
+        "comments": 64
+      }
+    },
+    {
+      "timestamp": 1638370487.888422,
+      "analysis": {
+        "ccn": 49,
+        "avg_ccn": 2.7222222222222223,
+        "avg_loc": 10.777777777777779,
+        "avg_tokens": 77.0,
+        "num_funs": 18,
+        "loc": 265,
+        "tokens": 1701,
+        "blanks": 45,
+        "comments": 68
+      }
+    },
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 54,
+        "avg_ccn": 2.8421052631578947,
+        "avg_loc": 11.105263157894736,
+        "avg_tokens": 78.21052631578948,
+        "num_funs": 19,
+        "loc": 302,
+        "tokens": 1870,
+        "blanks": 51,
+        "comments": 75
+      }
+    },
+    {
+      "timestamp": 1638370566.555094,
+      "analysis": {
+        "ccn": 54,
+        "avg_ccn": 2.8421052631578947,
+        "avg_loc": 11.105263157894736,
+        "avg_tokens": 78.21052631578948,
+        "num_funs": 19,
+        "loc": 301,
+        "tokens": 1860,
+        "blanks": 51,
+        "comments": 75
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 39,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.538461538461538,
+        "avg_tokens": 78.53846153846153,
+        "num_funs": 13,
+        "loc": 202,
+        "tokens": 1300,
+        "blanks": 35,
+        "comments": 64
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 38,
+        "avg_ccn": 2.923076923076923,
+        "avg_loc": 11.0,
+        "avg_tokens": 82.38461538461539,
+        "num_funs": 13,
+        "loc": 212,
+        "tokens": 1372,
+        "blanks": 34,
+        "comments": 63
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 49,
+        "avg_ccn": 2.7222222222222223,
+        "avg_loc": 10.777777777777779,
+        "avg_tokens": 77.0,
+        "num_funs": 18,
+        "loc": 265,
+        "tokens": 1701,
+        "blanks": 45,
+        "comments": 68
+      }
+    },
+    {
+      "timestamp": 1638370909.564409,
+      "analysis": {
+        "ccn": 80,
+        "avg_ccn": 3.8095238095238093,
+        "avg_loc": 16.428571428571427,
+        "avg_tokens": 111.0,
+        "num_funs": 21,
+        "loc": 438,
+        "tokens": 2726,
+        "blanks": 79,
+        "comments": 112
+      }
+    }
+  ],
+  "mordred/mordred.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 56,
+        "avg_ccn": 4.666666666666667,
+        "avg_loc": 19.416666666666668,
+        "avg_tokens": 140.91666666666666,
+        "num_funs": 12,
+        "loc": 256,
+        "tokens": 1810,
+        "blanks": 81,
+        "comments": 89
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 56,
+        "avg_ccn": 4.666666666666667,
+        "avg_loc": 18.583333333333332,
+        "avg_tokens": 136.33333333333334,
+        "num_funs": 12,
+        "loc": 247,
+        "tokens": 1757,
+        "blanks": 72,
+        "comments": 89
+      }
+    },
+    {
+      "timestamp": 1638370487.888422,
+      "analysis": {
+        "ccn": 47,
+        "avg_ccn": 4.2727272727272725,
+        "avg_loc": 14.090909090909092,
+        "avg_tokens": 98.36363636363636,
+        "num_funs": 11,
+        "loc": 177,
+        "tokens": 1210,
+        "blanks": 50,
+        "comments": 83
+      }
+    },
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 48,
+        "avg_ccn": 4.363636363636363,
+        "avg_loc": 14.363636363636363,
+        "avg_tokens": 100.18181818181819,
+        "num_funs": 11,
+        "loc": 180,
+        "tokens": 1232,
+        "blanks": 54,
+        "comments": 86
+      }
+    },
+    {
+      "timestamp": 1638370564.779634,
+      "analysis": {
+        "ccn": 52,
+        "avg_ccn": 4.7272727272727275,
+        "avg_loc": 15.272727272727273,
+        "avg_tokens": 107.81818181818181,
+        "num_funs": 11,
+        "loc": 190,
+        "tokens": 1316,
+        "blanks": 55,
+        "comments": 87
+      }
+    },
+    {
+      "timestamp": 1638370572.702495,
+      "analysis": {
+        "ccn": 52,
+        "avg_ccn": 4.7272727272727275,
+        "avg_loc": 15.272727272727273,
+        "avg_tokens": 107.81818181818181,
+        "num_funs": 11,
+        "loc": 190,
+        "tokens": 1316,
+        "blanks": 55,
+        "comments": 87
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 51,
+        "avg_ccn": 4.25,
+        "avg_loc": 16.083333333333332,
+        "avg_tokens": 123.0,
+        "num_funs": 12,
+        "loc": 214,
+        "tokens": 1576,
+        "blanks": 62,
+        "comments": 70
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 56,
+        "avg_ccn": 5.090909090909091,
+        "avg_loc": 17.181818181818183,
+        "avg_tokens": 116.72727272727273,
+        "num_funs": 11,
+        "loc": 212,
+        "tokens": 1418,
+        "blanks": 63,
+        "comments": 98
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 47,
+        "avg_ccn": 4.2727272727272725,
+        "avg_loc": 14.272727272727273,
+        "avg_tokens": 99.18181818181819,
+        "num_funs": 11,
+        "loc": 180,
+        "tokens": 1227,
+        "blanks": 52,
+        "comments": 86
+      }
+    },
+    {
+      "timestamp": 1638370700.311265,
+      "analysis": {
+        "ccn": 53,
+        "avg_ccn": 4.818181818181818,
+        "avg_loc": 15.545454545454545,
+        "avg_tokens": 109.9090909090909,
+        "num_funs": 11,
+        "loc": 194,
+        "tokens": 1347,
+        "blanks": 53,
+        "comments": 85
+      }
+    },
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 15.923076923076923,
+        "avg_tokens": 106.23076923076923,
+        "num_funs": 13,
+        "loc": 229,
+        "tokens": 1513,
+        "blanks": 62,
+        "comments": 86
+      }
+    }
+  ],
+  "mordred/task.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 22,
+        "avg_ccn": 2.0,
+        "avg_loc": 7.090909090909091,
+        "avg_tokens": 51.63636363636363,
+        "num_funs": 11,
+        "loc": 86,
+        "tokens": 620,
+        "blanks": 29,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 22,
+        "avg_ccn": 2.0,
+        "avg_loc": 7.090909090909091,
+        "avg_tokens": 51.63636363636363,
+        "num_funs": 11,
+        "loc": 86,
+        "tokens": 620,
+        "blanks": 29,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 21,
+        "avg_ccn": 2.1,
+        "avg_loc": 7.3,
+        "avg_tokens": 52.2,
+        "num_funs": 10,
+        "loc": 80,
+        "tokens": 571,
+        "blanks": 28,
+        "comments": 36
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 36,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.416666666666666,
+        "avg_tokens": 81.0,
+        "num_funs": 12,
+        "loc": 134,
+        "tokens": 1030,
+        "blanks": 38,
+        "comments": 51
+      }
+    },
+    {
+      "timestamp": 1638370700.311265,
+      "analysis": {
+        "ccn": 36,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.416666666666666,
+        "avg_tokens": 81.41666666666667,
+        "num_funs": 12,
+        "loc": 133,
+        "tokens": 1032,
+        "blanks": 38,
+        "comments": 51
+      }
+    },
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 36,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.416666666666666,
+        "avg_tokens": 81.41666666666667,
+        "num_funs": 12,
+        "loc": 134,
+        "tokens": 1037,
+        "blanks": 38,
+        "comments": 51
+      }
+    }
+  ],
+  "mordred/task_identities.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 33,
+        "avg_ccn": 3.6666666666666665,
+        "avg_loc": 10.444444444444445,
+        "avg_tokens": 85.11111111111111,
+        "num_funs": 9,
+        "loc": 123,
+        "tokens": 961,
+        "blanks": 33,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 35,
+        "avg_ccn": 3.888888888888889,
+        "avg_loc": 10.88888888888889,
+        "avg_tokens": 89.11111111111111,
+        "num_funs": 9,
+        "loc": 127,
+        "tokens": 997,
+        "blanks": 35,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370487.888422,
+      "analysis": {
+        "ccn": 55,
+        "avg_ccn": 3.235294117647059,
+        "avg_loc": 10.705882352941176,
+        "avg_tokens": 77.17647058823529,
+        "num_funs": 17,
+        "loc": 211,
+        "tokens": 1503,
+        "blanks": 55,
+        "comments": 47
+      }
+    },
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 91,
+        "avg_ccn": 3.25,
+        "avg_loc": 12.714285714285714,
+        "avg_tokens": 89.82142857142857,
+        "num_funs": 28,
+        "loc": 392,
+        "tokens": 2745,
+        "blanks": 103,
+        "comments": 81
+      }
+    },
+    {
+      "timestamp": 1638370564.779634,
+      "analysis": {
+        "ccn": 90,
+        "avg_ccn": 3.2142857142857144,
+        "avg_loc": 12.428571428571429,
+        "avg_tokens": 87.39285714285714,
+        "num_funs": 28,
+        "loc": 384,
+        "tokens": 2677,
+        "blanks": 102,
+        "comments": 81
+      }
+    },
+    {
+      "timestamp": 1638370572.702495,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 3.2857142857142856,
+        "avg_loc": 13.178571428571429,
+        "avg_tokens": 93.60714285714286,
+        "num_funs": 28,
+        "loc": 405,
+        "tokens": 2851,
+        "blanks": 104,
+        "comments": 85
+      }
+    },
+    {
+      "timestamp": 1638370573.707564,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 3.2857142857142856,
+        "avg_loc": 13.178571428571429,
+        "avg_tokens": 93.60714285714286,
+        "num_funs": 28,
+        "loc": 405,
+        "tokens": 2851,
+        "blanks": 104,
+        "comments": 85
+      }
+    },
+    {
+      "timestamp": 1638370580.637402,
+      "analysis": {
+        "ccn": 93,
+        "avg_ccn": 3.3214285714285716,
+        "avg_loc": 13.25,
+        "avg_tokens": 94.14285714285714,
+        "num_funs": 28,
+        "loc": 407,
+        "tokens": 2866,
+        "blanks": 103,
+        "comments": 87
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 33,
+        "avg_ccn": 3.6666666666666665,
+        "avg_loc": 10.444444444444445,
+        "avg_tokens": 85.11111111111111,
+        "num_funs": 9,
+        "loc": 123,
+        "tokens": 961,
+        "blanks": 33,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 46,
+        "avg_ccn": 3.066666666666667,
+        "avg_loc": 9.533333333333333,
+        "avg_tokens": 72.8,
+        "num_funs": 15,
+        "loc": 173,
+        "tokens": 1295,
+        "blanks": 47,
+        "comments": 51
+      }
+    },
+    {
+      "timestamp": 1638370685.018807,
+      "analysis": {
+        "ccn": 47,
+        "avg_ccn": 3.1333333333333333,
+        "avg_loc": 9.666666666666666,
+        "avg_tokens": 73.2,
+        "num_funs": 15,
+        "loc": 175,
+        "tokens": 1301,
+        "blanks": 47,
+        "comments": 51
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 3.1904761904761907,
+        "avg_loc": 11.952380952380953,
+        "avg_tokens": 87.19047619047619,
+        "num_funs": 21,
+        "loc": 284,
+        "tokens": 2045,
+        "blanks": 69,
+        "comments": 54
+      }
+    }
+  ],
+  "mordred/task_manager.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 3.0,
+        "avg_loc": 11.0,
+        "avg_tokens": 81.33333333333333,
+        "num_funs": 3,
+        "loc": 48,
+        "tokens": 286,
+        "blanks": 15,
+        "comments": 37
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.666666666666666,
+        "avg_tokens": 79.0,
+        "num_funs": 3,
+        "loc": 49,
+        "tokens": 288,
+        "blanks": 16,
+        "comments": 38
+      }
+    },
+    {
+      "timestamp": 1638370487.888422,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 3.0,
+        "avg_loc": 11.333333333333334,
+        "avg_tokens": 83.33333333333333,
+        "num_funs": 3,
+        "loc": 51,
+        "tokens": 301,
+        "blanks": 15,
+        "comments": 39
+      }
+    },
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 10,
+        "avg_ccn": 3.3333333333333335,
+        "avg_loc": 11.333333333333334,
+        "avg_tokens": 89.0,
+        "num_funs": 3,
+        "loc": 55,
+        "tokens": 338,
+        "blanks": 16,
+        "comments": 41
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 9.666666666666666,
+        "avg_tokens": 73.66666666666667,
+        "num_funs": 3,
+        "loc": 43,
+        "tokens": 261,
+        "blanks": 16,
+        "comments": 37
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 3.0,
+        "avg_loc": 11.0,
+        "avg_tokens": 83.0,
+        "num_funs": 3,
+        "loc": 48,
+        "tokens": 286,
+        "blanks": 15,
+        "comments": 37
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 3.0,
+        "avg_loc": 11.333333333333334,
+        "avg_tokens": 83.33333333333333,
+        "num_funs": 3,
+        "loc": 51,
+        "tokens": 301,
+        "blanks": 15,
+        "comments": 39
+      }
+    }
+  ],
+  "tests/run_tests.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 3,
+        "comments": 21
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 3,
+        "comments": 21
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 9,
+        "tokens": 67,
+        "blanks": 4,
+        "comments": 21
+      }
+    }
+  ],
+  "tests/test_task.py": [
+    {
+      "timestamp": 1638370323.958532,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 6.2,
+        "avg_tokens": 56.6,
+        "num_funs": 5,
+        "loc": 45,
+        "tokens": 351,
+        "blanks": 18,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 6.2,
+        "avg_tokens": 56.6,
+        "num_funs": 5,
+        "loc": 45,
+        "tokens": 351,
+        "blanks": 18,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 6.2,
+        "avg_tokens": 56.6,
+        "num_funs": 5,
+        "loc": 45,
+        "tokens": 351,
+        "blanks": 18,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 6.4,
+        "avg_tokens": 58.6,
+        "num_funs": 5,
+        "loc": 46,
+        "tokens": 361,
+        "blanks": 19,
+        "comments": 28
+      }
+    }
+  ],
+  "mordred/error.py": [
+    {
+      "timestamp": 1638370341.981615,
+      "analysis": {
+        "ccn": 3,
+        "avg_ccn": 1.0,
+        "avg_loc": 2.0,
+        "avg_tokens": 12.0,
+        "num_funs": 3,
+        "loc": 15,
+        "tokens": 60,
+        "blanks": 3,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 2.2,
+        "avg_tokens": 13.4,
+        "num_funs": 5,
+        "loc": 30,
+        "tokens": 107,
+        "blanks": 6,
+        "comments": 33
+      }
+    }
+  ],
+  "mordred/config.py": [
+    {
+      "timestamp": 1638370552.604419,
+      "analysis": {
+        "ccn": 55,
+        "avg_ccn": 4.583333333333333,
+        "avg_loc": 35.333333333333336,
+        "avg_tokens": 164.16666666666666,
+        "num_funs": 12,
+        "loc": 437,
+        "tokens": 2020,
+        "blanks": 53,
+        "comments": 50
+      }
+    },
+    {
+      "timestamp": 1638370564.779634,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 33.38461538461539,
+        "avg_tokens": 158.6153846153846,
+        "num_funs": 13,
+        "loc": 447,
+        "tokens": 2113,
+        "blanks": 58,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638370566.555094,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 33.38461538461539,
+        "avg_tokens": 158.6153846153846,
+        "num_funs": 13,
+        "loc": 447,
+        "tokens": 2113,
+        "blanks": 58,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638370572.702495,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 33.38461538461539,
+        "avg_tokens": 158.46153846153845,
+        "num_funs": 13,
+        "loc": 447,
+        "tokens": 2111,
+        "blanks": 58,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638370580.637402,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 33.92307692307692,
+        "avg_tokens": 160.3846153846154,
+        "num_funs": 13,
+        "loc": 454,
+        "tokens": 2136,
+        "blanks": 58,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 55,
+        "avg_ccn": 4.583333333333333,
+        "avg_loc": 32.25,
+        "avg_tokens": 154.25,
+        "num_funs": 12,
+        "loc": 400,
+        "tokens": 1901,
+        "blanks": 52,
+        "comments": 50
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 55,
+        "avg_ccn": 4.583333333333333,
+        "avg_loc": 33.916666666666664,
+        "avg_tokens": 159.33333333333334,
+        "num_funs": 12,
+        "loc": 420,
+        "tokens": 1962,
+        "blanks": 53,
+        "comments": 50
+      }
+    },
+    {
+      "timestamp": 1638370700.311265,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 34.46153846153846,
+        "avg_tokens": 162.23076923076923,
+        "num_funs": 13,
+        "loc": 460,
+        "tokens": 2158,
+        "blanks": 55,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 4.615384615384615,
+        "avg_loc": 34.61538461538461,
+        "avg_tokens": 162.84615384615384,
+        "num_funs": 13,
+        "loc": 462,
+        "tokens": 2166,
+        "blanks": 55,
+        "comments": 67
+      }
+    }
+  ],
+  "mordred/_version.py": [
+    {
+      "timestamp": 1638370564.779634,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    },
+    {
+      "timestamp": 1638370572.702495,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    }
+  ],
+  "mordred/__init__.py": [
+    {
+      "timestamp": 1638370634.517018,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 2,
+        "tokens": 17,
+        "blanks": 3,
+        "comments": 21
+      }
+    }
+  ],
+  "mordred/github.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 7.666666666666667,
+        "avg_tokens": 55.666666666666664,
+        "num_funs": 3,
+        "loc": 28,
+        "tokens": 193,
+        "blanks": 14,
+        "comments": 30
+      }
+    }
+  ],
+  "mordred/task_projects.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 19,
+        "avg_ccn": 2.111111111111111,
+        "avg_loc": 8.88888888888889,
+        "avg_tokens": 63.55555555555556,
+        "num_funs": 9,
+        "loc": 101,
+        "tokens": 662,
+        "blanks": 40,
+        "comments": 40
+      }
+    },
+    {
+      "timestamp": 1638370939.060613,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 1.7777777777777777,
+        "avg_loc": 7.888888888888889,
+        "avg_tokens": 53.55555555555556,
+        "num_funs": 9,
+        "loc": 90,
+        "tokens": 564,
+        "blanks": 33,
+        "comments": 27
+      }
+    }
+  ],
+  "mordred/task_report.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 14.0,
+        "avg_tokens": 127.0,
+        "num_funs": 3,
+        "loc": 56,
+        "tokens": 447,
+        "blanks": 16,
+        "comments": 30
+      }
+    }
+  ],
+  "mordred/task_track.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 14.0,
+        "avg_tokens": 103.66666666666667,
+        "num_funs": 3,
+        "loc": 51,
+        "tokens": 366,
+        "blanks": 17,
+        "comments": 29
+      }
+    },
+    {
+      "timestamp": 1638370692.065448,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 2.3333333333333335,
+        "avg_loc": 16.333333333333332,
+        "avg_tokens": 115.66666666666667,
+        "num_funs": 3,
+        "loc": 59,
+        "tokens": 408,
+        "blanks": 19,
+        "comments": 31
+      }
+    }
+  ],
+  "tests/test_enrich_all.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 11,
+        "avg_ccn": 1.5714285714285714,
+        "avg_loc": 6.857142857142857,
+        "avg_tokens": 58.142857142857146,
+        "num_funs": 7,
+        "loc": 78,
+        "tokens": 569,
+        "blanks": 22,
+        "comments": 33
+      }
+    }
+  ],
+  "tests/test_github.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 23,
+        "tokens": 150,
+        "blanks": 17,
+        "comments": 24
+      }
+    }
+  ],
+  "tests/test_task_collection.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 5.5,
+        "avg_tokens": 41.0,
+        "num_funs": 2,
+        "loc": 26,
+        "tokens": 159,
+        "blanks": 12,
+        "comments": 25
+      }
+    },
+    {
+      "timestamp": 1638371045.141743,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 1.5,
+        "avg_loc": 11.0,
+        "avg_tokens": 69.5,
+        "num_funs": 4,
+        "loc": 64,
+        "tokens": 385,
+        "blanks": 28,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638371063.547417,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 1.5,
+        "avg_loc": 11.25,
+        "avg_tokens": 70.5,
+        "num_funs": 4,
+        "loc": 65,
+        "tokens": 389,
+        "blanks": 28,
+        "comments": 30
+      }
+    }
+  ],
+  "tests/test_task_enrich.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.5,
+        "avg_tokens": 93.5,
+        "num_funs": 2,
+        "loc": 38,
+        "tokens": 268,
+        "blanks": 15,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638371386.370338,
+      "analysis": {
+        "ccn": 10,
+        "avg_ccn": 1.4285714285714286,
+        "avg_loc": 13.714285714285714,
+        "avg_tokens": 128.0,
+        "num_funs": 7,
+        "loc": 115,
+        "tokens": 1001,
+        "blanks": 47,
+        "comments": 45
+      }
+    }
+  ],
+  "tests/test_task_identities.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 1.125,
+        "avg_loc": 6.875,
+        "avg_tokens": 46.75,
+        "num_funs": 8,
+        "loc": 75,
+        "tokens": 481,
+        "blanks": 35,
+        "comments": 29
+      }
+    }
+  ],
+  "tests/test_task_projects.py": [
+    {
+      "timestamp": 1638370673.549632,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 1.1428571428571428,
+        "avg_loc": 8.428571428571429,
+        "avg_tokens": 60.0,
+        "num_funs": 7,
+        "loc": 76,
+        "tokens": 500,
+        "blanks": 34,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638371164.011858,
+      "analysis": {
+        "ccn": 16,
+        "avg_ccn": 1.6,
+        "avg_loc": 27.5,
+        "avg_tokens": 198.0,
+        "num_funs": 10,
+        "loc": 296,
+        "tokens": 2077,
+        "blanks": 92,
+        "comments": 36
+      }
+    }
+  ],
+  "setup.py": [
+    {
+      "timestamp": 1638370717.318128,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 51,
+        "tokens": 230,
+        "blanks": 7,
+        "comments": 26
+      }
+    }
+  ],
+  "tests/test_task_panels.py": [
+    {
+      "timestamp": 1638370909.564409,
+      "analysis": {
+        "ccn": 9,
+        "avg_ccn": 1.8,
+        "avg_loc": 4.2,
+        "avg_tokens": 31.4,
+        "num_funs": 5,
+        "loc": 37,
+        "tokens": 258,
+        "blanks": 22,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638371009.535023,
+      "analysis": {
+        "ccn": 11,
+        "avg_ccn": 1.8333333333333333,
+        "avg_loc": 4.666666666666667,
+        "avg_tokens": 37.166666666666664,
+        "num_funs": 6,
+        "loc": 46,
+        "tokens": 336,
+        "blanks": 29,
+        "comments": 32
+      }
+    },
+    {
+      "timestamp": 1638371033.643574,
+      "analysis": {
+        "ccn": 11,
+        "avg_ccn": 1.8333333333333333,
+        "avg_loc": 4.666666666666667,
+        "avg_tokens": 37.166666666666664,
+        "num_funs": 6,
+        "loc": 46,
+        "tokens": 336,
+        "blanks": 29,
+        "comments": 32
+      }
+    },
+    {
+      "timestamp": 1638371056.923604,
+      "analysis": {
+        "ccn": 12,
+        "avg_ccn": 1.7142857142857142,
+        "avg_loc": 7.857142857142857,
+        "avg_tokens": 52.285714285714285,
+        "num_funs": 7,
+        "loc": 80,
+        "tokens": 517,
+        "blanks": 36,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371069.385297,
+      "analysis": {
+        "ccn": 12,
+        "avg_ccn": 1.7142857142857142,
+        "avg_loc": 7.857142857142857,
+        "avg_tokens": 52.285714285714285,
+        "num_funs": 7,
+        "loc": 80,
+        "tokens": 517,
+        "blanks": 36,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371072.201851,
+      "analysis": {
+        "ccn": 12,
+        "avg_ccn": 1.7142857142857142,
+        "avg_loc": 7.857142857142857,
+        "avg_tokens": 52.57142857142857,
+        "num_funs": 7,
+        "loc": 80,
+        "tokens": 519,
+        "blanks": 36,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371095.825268,
+      "analysis": {
+        "ccn": 11,
+        "avg_ccn": 1.1,
+        "avg_loc": 11.2,
+        "avg_tokens": 65.0,
+        "num_funs": 10,
+        "loc": 139,
+        "tokens": 799,
+        "blanks": 52,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371364.858359,
+      "analysis": {
+        "ccn": 10,
+        "avg_ccn": 1.1111111111111112,
+        "avg_loc": 9.0,
+        "avg_tokens": 56.0,
+        "num_funs": 9,
+        "loc": 106,
+        "tokens": 646,
+        "blanks": 43,
+        "comments": 30
+      }
+    }
+  ],
+  "mordred/eclipse_projects_lib.py": [
+    {
+      "timestamp": 1638370939.060613,
+      "analysis": {
+        "ccn": 50,
+        "avg_ccn": 6.25,
+        "avg_loc": 10.375,
+        "avg_tokens": 100.0,
+        "num_funs": 8,
+        "loc": 83,
+        "tokens": 808,
+        "blanks": 45,
+        "comments": 71
+      }
+    }
+  ],
+  "tests/test_config.py": [
+    {
+      "timestamp": 1638371001.363177,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 1.0,
+        "avg_loc": 11.0,
+        "avg_tokens": 140.42857142857142,
+        "num_funs": 7,
+        "loc": 89,
+        "tokens": 1047,
+        "blanks": 36,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371095.825268,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 1.0,
+        "avg_loc": 11.571428571428571,
+        "avg_tokens": 105.0,
+        "num_funs": 7,
+        "loc": 93,
+        "tokens": 799,
+        "blanks": 36,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371353.732287,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 1.0,
+        "avg_loc": 15.142857142857142,
+        "avg_tokens": 134.57142857142858,
+        "num_funs": 7,
+        "loc": 118,
+        "tokens": 1006,
+        "blanks": 39,
+        "comments": 32
+      }
+    },
+    {
+      "timestamp": 1638371358.51324,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 1.0,
+        "avg_loc": 15.428571428571429,
+        "avg_tokens": 136.85714285714286,
+        "num_funs": 7,
+        "loc": 120,
+        "tokens": 1022,
+        "blanks": 40,
+        "comments": 33
+      }
+    },
+    {
+      "timestamp": 1638371386.370338,
+      "analysis": {
+        "ccn": 11,
+        "avg_ccn": 1.0,
+        "avg_loc": 23.181818181818183,
+        "avg_tokens": 157.27272727272728,
+        "num_funs": 11,
+        "loc": 267,
+        "tokens": 1798,
+        "blanks": 62,
+        "comments": 43
+      }
+    }
+  ],
+  "sirmordred/task_panels.py": [
+    {
+      "timestamp": 1638371003.915303,
+      "analysis": {
+        "ccn": 84,
+        "avg_ccn": 4.0,
+        "avg_loc": 16.61904761904762,
+        "avg_tokens": 113.23809523809524,
+        "num_funs": 21,
+        "loc": 440,
+        "tokens": 2766,
+        "blanks": 80,
+        "comments": 112
+      }
+    },
+    {
+      "timestamp": 1638371009.535023,
+      "analysis": {
+        "ccn": 87,
+        "avg_ccn": 4.142857142857143,
+        "avg_loc": 16.857142857142858,
+        "avg_tokens": 115.80952380952381,
+        "num_funs": 21,
+        "loc": 463,
+        "tokens": 2901,
+        "blanks": 86,
+        "comments": 112
+      }
+    },
+    {
+      "timestamp": 1638371018.670627,
+      "analysis": {
+        "ccn": 87,
+        "avg_ccn": 4.142857142857143,
+        "avg_loc": 16.857142857142858,
+        "avg_tokens": 115.80952380952381,
+        "num_funs": 21,
+        "loc": 463,
+        "tokens": 2901,
+        "blanks": 86,
+        "comments": 112
+      }
+    },
+    {
+      "timestamp": 1638371033.643574,
+      "analysis": {
+        "ccn": 91,
+        "avg_ccn": 4.333333333333333,
+        "avg_loc": 17.142857142857142,
+        "avg_tokens": 117.76190476190476,
+        "num_funs": 21,
+        "loc": 481,
+        "tokens": 2996,
+        "blanks": 86,
+        "comments": 111
+      }
+    },
+    {
+      "timestamp": 1638371035.829211,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 4.476190476190476,
+        "avg_loc": 17.333333333333332,
+        "avg_tokens": 119.95238095238095,
+        "num_funs": 21,
+        "loc": 497,
+        "tokens": 3096,
+        "blanks": 90,
+        "comments": 111
+      }
+    },
+    {
+      "timestamp": 1638371037.795822,
+      "analysis": {
+        "ccn": 96,
+        "avg_ccn": 4.571428571428571,
+        "avg_loc": 17.476190476190474,
+        "avg_tokens": 120.85714285714286,
+        "num_funs": 21,
+        "loc": 500,
+        "tokens": 3115,
+        "blanks": 91,
+        "comments": 111
+      }
+    },
+    {
+      "timestamp": 1638371046.183024,
+      "analysis": {
+        "ccn": 96,
+        "avg_ccn": 4.571428571428571,
+        "avg_loc": 17.476190476190474,
+        "avg_tokens": 120.85714285714286,
+        "num_funs": 21,
+        "loc": 501,
+        "tokens": 3123,
+        "blanks": 91,
+        "comments": 111
+      }
+    },
+    {
+      "timestamp": 1638371056.923604,
+      "analysis": {
+        "ccn": 88,
+        "avg_ccn": 4.0,
+        "avg_loc": 15.136363636363637,
+        "avg_tokens": 108.86363636363636,
+        "num_funs": 22,
+        "loc": 467,
+        "tokens": 2980,
+        "blanks": 98,
+        "comments": 100
+      }
+    },
+    {
+      "timestamp": 1638371069.385297,
+      "analysis": {
+        "ccn": 93,
+        "avg_ccn": 4.2272727272727275,
+        "avg_loc": 15.772727272727273,
+        "avg_tokens": 115.22727272727273,
+        "num_funs": 22,
+        "loc": 525,
+        "tokens": 3304,
+        "blanks": 112,
+        "comments": 100
+      }
+    },
+    {
+      "timestamp": 1638371072.201851,
+      "analysis": {
+        "ccn": 93,
+        "avg_ccn": 4.2272727272727275,
+        "avg_loc": 15.818181818181818,
+        "avg_tokens": 116.0909090909091,
+        "num_funs": 22,
+        "loc": 527,
+        "tokens": 3326,
+        "blanks": 113,
+        "comments": 100
+      }
+    },
+    {
+      "timestamp": 1638371078.389375,
+      "analysis": {
+        "ccn": 93,
+        "avg_ccn": 4.2272727272727275,
+        "avg_loc": 15.818181818181818,
+        "avg_tokens": 116.0909090909091,
+        "num_funs": 22,
+        "loc": 535,
+        "tokens": 3360,
+        "blanks": 113,
+        "comments": 100
+      }
+    },
+    {
+      "timestamp": 1638371079.62103,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 4.2727272727272725,
+        "avg_loc": 15.954545454545455,
+        "avg_tokens": 116.5909090909091,
+        "num_funs": 22,
+        "loc": 538,
+        "tokens": 3371,
+        "blanks": 113,
+        "comments": 101
+      }
+    },
+    {
+      "timestamp": 1638371081.459966,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 4.2727272727272725,
+        "avg_loc": 15.954545454545455,
+        "avg_tokens": 116.5909090909091,
+        "num_funs": 22,
+        "loc": 538,
+        "tokens": 3371,
+        "blanks": 113,
+        "comments": 101
+      }
+    },
+    {
+      "timestamp": 1638371083.926738,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.181818181818182,
+        "avg_loc": 15.954545454545455,
+        "avg_tokens": 117.22727272727273,
+        "num_funs": 22,
+        "loc": 538,
+        "tokens": 3387,
+        "blanks": 112,
+        "comments": 101
+      }
+    },
+    {
+      "timestamp": 1638371118.018959,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.181818181818182,
+        "avg_loc": 16.59090909090909,
+        "avg_tokens": 119.18181818181819,
+        "num_funs": 22,
+        "loc": 577,
+        "tokens": 3503,
+        "blanks": 112,
+        "comments": 102
+      }
+    },
+    {
+      "timestamp": 1638371333.54343,
+      "analysis": {
+        "ccn": 106,
+        "avg_ccn": 5.578947368421052,
+        "avg_loc": 20.36842105263158,
+        "avg_tokens": 145.31578947368422,
+        "num_funs": 19,
+        "loc": 607,
+        "tokens": 3617,
+        "blanks": 133,
+        "comments": 82
+      }
+    },
+    {
+      "timestamp": 1638371386.370338,
+      "analysis": {
+        "ccn": 97,
+        "avg_ccn": 5.705882352941177,
+        "avg_loc": 19.647058823529413,
+        "avg_tokens": 144.76470588235293,
+        "num_funs": 17,
+        "loc": 556,
+        "tokens": 3328,
+        "blanks": 120,
+        "comments": 79
+      }
+    }
+  ],
+  "sirmordred/config.py": [
+    {
+      "timestamp": 1638371006.096133,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 40.6875,
+        "avg_tokens": 178.75,
+        "num_funs": 16,
+        "loc": 668,
+        "tokens": 2937,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371009.535023,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 41.0625,
+        "avg_tokens": 180.0,
+        "num_funs": 16,
+        "loc": 674,
+        "tokens": 2957,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371035.829211,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 41.4375,
+        "avg_tokens": 181.25,
+        "num_funs": 16,
+        "loc": 680,
+        "tokens": 2977,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371045.141743,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 41.4375,
+        "avg_tokens": 181.125,
+        "num_funs": 16,
+        "loc": 680,
+        "tokens": 2975,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371056.923604,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 41.4375,
+        "avg_tokens": 181.125,
+        "num_funs": 16,
+        "loc": 680,
+        "tokens": 2975,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371069.385297,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 42.5625,
+        "avg_tokens": 184.875,
+        "num_funs": 16,
+        "loc": 698,
+        "tokens": 3035,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371072.201851,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 42.9375,
+        "avg_tokens": 186.125,
+        "num_funs": 16,
+        "loc": 704,
+        "tokens": 3055,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371081.459966,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 42.9375,
+        "avg_tokens": 186.125,
+        "num_funs": 16,
+        "loc": 704,
+        "tokens": 3055,
+        "blanks": 69,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371132.607853,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 4.1875,
+        "avg_loc": 43.3125,
+        "avg_tokens": 187.375,
+        "num_funs": 16,
+        "loc": 712,
+        "tokens": 3081,
+        "blanks": 70,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371333.54343,
+      "analysis": {
+        "ccn": 64,
+        "avg_ccn": 4.571428571428571,
+        "avg_loc": 38.07142857142857,
+        "avg_tokens": 175.85714285714286,
+        "num_funs": 14,
+        "loc": 551,
+        "tokens": 2544,
+        "blanks": 54,
+        "comments": 64
+      }
+    },
+    {
+      "timestamp": 1638371353.732287,
+      "analysis": {
+        "ccn": 64,
+        "avg_ccn": 4.571428571428571,
+        "avg_loc": 38.142857142857146,
+        "avg_tokens": 176.14285714285714,
+        "num_funs": 14,
+        "loc": 552,
+        "tokens": 2548,
+        "blanks": 54,
+        "comments": 66
+      }
+    },
+    {
+      "timestamp": 1638371358.51324,
+      "analysis": {
+        "ccn": 64,
+        "avg_ccn": 4.571428571428571,
+        "avg_loc": 38.214285714285715,
+        "avg_tokens": 176.28571428571428,
+        "num_funs": 14,
+        "loc": 553,
+        "tokens": 2550,
+        "blanks": 54,
+        "comments": 67
+      }
+    },
+    {
+      "timestamp": 1638371386.370338,
+      "analysis": {
+        "ccn": 71,
+        "avg_ccn": 3.9444444444444446,
+        "avg_loc": 32.22222222222222,
+        "avg_tokens": 144.55555555555554,
+        "num_funs": 18,
+        "loc": 674,
+        "tokens": 2931,
+        "blanks": 80,
+        "comments": 132
+      }
+    },
+    {
+      "timestamp": 1638371394.134114,
+      "analysis": {
+        "ccn": 71,
+        "avg_ccn": 3.9444444444444446,
+        "avg_loc": 32.55555555555556,
+        "avg_tokens": 145.66666666666666,
+        "num_funs": 18,
+        "loc": 680,
+        "tokens": 2951,
+        "blanks": 80,
+        "comments": 132
+      }
+    }
+  ],
+  "sirmordred/task_enrich.py": [
+    {
+      "timestamp": 1638371006.096133,
+      "analysis": {
+        "ccn": 49,
+        "avg_ccn": 7.0,
+        "avg_loc": 29.0,
+        "avg_tokens": 210.57142857142858,
+        "num_funs": 7,
+        "loc": 222,
+        "tokens": 1574,
+        "blanks": 49,
+        "comments": 40
+      }
+    },
+    {
+      "timestamp": 1638371085.412074,
+      "analysis": {
+        "ccn": 57,
+        "avg_ccn": 7.125,
+        "avg_loc": 29.625,
+        "avg_tokens": 218.5,
+        "num_funs": 8,
+        "loc": 259,
+        "tokens": 1867,
+        "blanks": 68,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638371103.281187,
+      "analysis": {
+        "ccn": 59,
+        "avg_ccn": 7.375,
+        "avg_loc": 30.125,
+        "avg_tokens": 222.0,
+        "num_funs": 8,
+        "loc": 263,
+        "tokens": 1895,
+        "blanks": 68,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638371132.607853,
+      "analysis": {
+        "ccn": 60,
+        "avg_ccn": 6.666666666666667,
+        "avg_loc": 26.77777777777778,
+        "avg_tokens": 201.33333333333334,
+        "num_funs": 9,
+        "loc": 262,
+        "tokens": 1926,
+        "blanks": 72,
+        "comments": 47
+      }
+    },
+    {
+      "timestamp": 1638371381.132114,
+      "analysis": {
+        "ccn": 68,
+        "avg_ccn": 6.8,
+        "avg_loc": 27.8,
+        "avg_tokens": 211.8,
+        "num_funs": 10,
+        "loc": 301,
+        "tokens": 2239,
+        "blanks": 83,
+        "comments": 59
+      }
+    },
+    {
+      "timestamp": 1638371389.871902,
+      "analysis": {
+        "ccn": 69,
+        "avg_ccn": 6.9,
+        "avg_loc": 28.4,
+        "avg_tokens": 213.7,
+        "num_funs": 10,
+        "loc": 307,
+        "tokens": 2258,
+        "blanks": 82,
+        "comments": 59
+      }
+    }
+  ],
+  "utils/micro.py": [
+    {
+      "timestamp": 1638371013.974176,
+      "analysis": {
+        "ccn": 22,
+        "avg_ccn": 2.75,
+        "avg_loc": 9.5,
+        "avg_tokens": 65.875,
+        "num_funs": 8,
+        "loc": 95,
+        "tokens": 646,
+        "blanks": 50,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638371089.159372,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.5,
+        "avg_tokens": 71.625,
+        "num_funs": 8,
+        "loc": 103,
+        "tokens": 692,
+        "blanks": 50,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638371107.24046,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.5,
+        "avg_tokens": 71.625,
+        "num_funs": 8,
+        "loc": 104,
+        "tokens": 705,
+        "blanks": 51,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638371374.15795,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 11.666666666666666,
+        "avg_tokens": 79.77777777777777,
+        "num_funs": 9,
+        "loc": 129,
+        "tokens": 859,
+        "blanks": 56,
+        "comments": 53
+      }
+    },
+    {
+      "timestamp": 1638371381.132114,
+      "analysis": {
+        "ccn": 24,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 11.88888888888889,
+        "avg_tokens": 84.66666666666667,
+        "num_funs": 9,
+        "loc": 131,
+        "tokens": 907,
+        "blanks": 58,
+        "comments": 58
+      }
+    }
+  ],
+  "sirmordred/task_collection.py": [
+    {
+      "timestamp": 1638371026.497763,
+      "analysis": {
+        "ccn": 65,
+        "avg_ccn": 5.909090909090909,
+        "avg_loc": 19.90909090909091,
+        "avg_tokens": 173.63636363636363,
+        "num_funs": 11,
+        "loc": 251,
+        "tokens": 2049,
+        "blanks": 78,
+        "comments": 78
+      }
+    },
+    {
+      "timestamp": 1638371132.607853,
+      "analysis": {
+        "ccn": 67,
+        "avg_ccn": 5.583333333333333,
+        "avg_loc": 18.833333333333332,
+        "avg_tokens": 165.5,
+        "num_funs": 12,
+        "loc": 258,
+        "tokens": 2126,
+        "blanks": 82,
+        "comments": 78
+      }
+    },
+    {
+      "timestamp": 1638371381.132114,
+      "analysis": {
+        "ccn": 18,
+        "avg_ccn": 6.0,
+        "avg_loc": 27.666666666666668,
+        "avg_tokens": 224.66666666666666,
+        "num_funs": 3,
+        "loc": 95,
+        "tokens": 734,
+        "blanks": 31,
+        "comments": 30
+      }
+    }
+  ],
+  "sirmordred/sirmordred.py": [
+    {
+      "timestamp": 1638371100.437998,
+      "analysis": {
+        "ccn": 61,
+        "avg_ccn": 4.357142857142857,
+        "avg_loc": 15.571428571428571,
+        "avg_tokens": 102.57142857142857,
+        "num_funs": 14,
+        "loc": 244,
+        "tokens": 1595,
+        "blanks": 70,
+        "comments": 85
+      }
+    }
+  ],
+  "sirmordred/task.py": [
+    {
+      "timestamp": 1638371103.281187,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 3.076923076923077,
+        "avg_loc": 10.923076923076923,
+        "avg_tokens": 82.46153846153847,
+        "num_funs": 13,
+        "loc": 154,
+        "tokens": 1149,
+        "blanks": 46,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638371132.607853,
+      "analysis": {
+        "ccn": 42,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.714285714285714,
+        "avg_tokens": 79.35714285714286,
+        "num_funs": 14,
+        "loc": 164,
+        "tokens": 1193,
+        "blanks": 48,
+        "comments": 57
+      }
+    }
+  ],
+  "sirmordred/task_projects.py": [
+    {
+      "timestamp": 1638371164.011858,
+      "analysis": {
+        "ccn": 29,
+        "avg_ccn": 3.2222222222222223,
+        "avg_loc": 9.777777777777779,
+        "avg_tokens": 72.77777777777777,
+        "num_funs": 9,
+        "loc": 106,
+        "tokens": 731,
+        "blanks": 33,
+        "comments": 45
+      }
+    }
+  ],
+  "sirmordred/task_manager.py": [
+    {
+      "timestamp": 1638371394.134114,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 3.0,
+        "avg_loc": 10.8,
+        "avg_tokens": 85.4,
+        "num_funs": 5,
+        "loc": 73,
+        "tokens": 490,
+        "blanks": 21,
+        "comments": 38
+      }
+    }
+  ]
+}

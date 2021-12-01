@@ -2,7 +2,6 @@
     "repositories":[
         "chaoss/grimoirelab-bestiary",
         "chaoss/grimoirelab-sirmordred",
-        "chaoss/grimoirelab",
         "chaoss/grimoirelab-sortinghat",
         "chaoss/grimoirelab-sigils",
         "chaoss/grimoirelab-perceval",

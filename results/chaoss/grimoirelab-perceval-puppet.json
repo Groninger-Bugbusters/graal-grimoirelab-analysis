@@ -1,0 +1,592 @@
+{
+  "perceval/backends/puppet/puppetforge.py": [
+    {
+      "timestamp": 1638370113.47367,
+      "analysis": {
+        "ccn": 31,
+        "avg_ccn": 1.9375,
+        "avg_loc": 7.1875,
+        "avg_tokens": 46.0625,
+        "num_funs": 16,
+        "loc": 171,
+        "tokens": 866,
+        "blanks": 93,
+        "comments": 85
+      }
+    },
+    {
+      "timestamp": 1638370125.88344,
+      "analysis": {
+        "ccn": 31,
+        "avg_ccn": 1.9375,
+        "avg_loc": 7.125,
+        "avg_tokens": 45.9375,
+        "num_funs": 16,
+        "loc": 169,
+        "tokens": 880,
+        "blanks": 94,
+        "comments": 85
+      }
+    },
+    {
+      "timestamp": 1638370133.344582,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 6.944444444444445,
+        "avg_tokens": 46.166666666666664,
+        "num_funs": 18,
+        "loc": 181,
+        "tokens": 974,
+        "blanks": 103,
+        "comments": 90
+      }
+    },
+    {
+      "timestamp": 1638370139.556181,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 6.944444444444445,
+        "avg_tokens": 46.388888888888886,
+        "num_funs": 18,
+        "loc": 182,
+        "tokens": 981,
+        "blanks": 102,
+        "comments": 90
+      }
+    },
+    {
+      "timestamp": 1638370142.06595,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 6.944444444444445,
+        "avg_tokens": 46.388888888888886,
+        "num_funs": 18,
+        "loc": 183,
+        "tokens": 986,
+        "blanks": 103,
+        "comments": 90
+      }
+    },
+    {
+      "timestamp": 1638370146.703672,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 6.944444444444445,
+        "avg_tokens": 46.5,
+        "num_funs": 18,
+        "loc": 183,
+        "tokens": 988,
+        "blanks": 104,
+        "comments": 94
+      }
+    },
+    {
+      "timestamp": 1638370172.819323,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 6.944444444444445,
+        "avg_tokens": 46.5,
+        "num_funs": 18,
+        "loc": 183,
+        "tokens": 984,
+        "blanks": 104,
+        "comments": 94
+      }
+    },
+    {
+      "timestamp": 1638370188.960404,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 7.0,
+        "avg_tokens": 46.888888888888886,
+        "num_funs": 18,
+        "loc": 184,
+        "tokens": 991,
+        "blanks": 104,
+        "comments": 94
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 7.0,
+        "avg_tokens": 46.888888888888886,
+        "num_funs": 18,
+        "loc": 184,
+        "tokens": 991,
+        "blanks": 104,
+        "comments": 93
+      }
+    },
+    {
+      "timestamp": 1638370212.501007,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 7.0,
+        "avg_tokens": 46.888888888888886,
+        "num_funs": 18,
+        "loc": 188,
+        "tokens": 1006,
+        "blanks": 104,
+        "comments": 93
+      }
+    },
+    {
+      "timestamp": 1638370217.606283,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 7.0,
+        "avg_tokens": 46.77777777777778,
+        "num_funs": 18,
+        "loc": 188,
+        "tokens": 1004,
+        "blanks": 104,
+        "comments": 93
+      }
+    },
+    {
+      "timestamp": 1638370227.678734,
+      "analysis": {
+        "ccn": 34,
+        "avg_ccn": 1.8888888888888888,
+        "avg_loc": 7.055555555555555,
+        "avg_tokens": 48.111111111111114,
+        "num_funs": 18,
+        "loc": 191,
+        "tokens": 1028,
+        "blanks": 104,
+        "comments": 96
+      }
+    }
+  ],
+  "setup.py": [
+    {
+      "timestamp": 1638370113.47367,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 170,
+        "blanks": 9,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370128.149751,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 44,
+        "tokens": 172,
+        "blanks": 9,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370160.450161,
+      "analysis": {
+        "ccn": 3,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.0,
+        "avg_tokens": 30.666666666666668,
+        "num_funs": 3,
+        "loc": 61,
+        "tokens": 313,
+        "blanks": 16,
+        "comments": 27
+      }
+    },
+    {
+      "timestamp": 1638370169.298208,
+      "analysis": {
+        "ccn": 3,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.0,
+        "avg_tokens": 30.666666666666668,
+        "num_funs": 3,
+        "loc": 59,
+        "tokens": 315,
+        "blanks": 16,
+        "comments": 27
+      }
+    },
+    {
+      "timestamp": 1638370180.010232,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 67,
+        "tokens": 322,
+        "blanks": 14,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370188.960404,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 67,
+        "tokens": 321,
+        "blanks": 14,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370193.388314,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "blanks": 14,
+        "comments": 23
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "blanks": 14,
+        "comments": 22
+      }
+    },
+    {
+      "timestamp": 1638370222.229829,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "blanks": 14,
+        "comments": 22
+      }
+    }
+  ],
+  "tests/test_puppetforge.py": [
+    {
+      "timestamp": 1638370113.47367,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 2.5,
+        "avg_loc": 16.5625,
+        "avg_tokens": 123.125,
+        "num_funs": 16,
+        "loc": 302,
+        "tokens": 2128,
+        "blanks": 106,
+        "comments": 55
+      }
+    },
+    {
+      "timestamp": 1638370125.88344,
+      "analysis": {
+        "ccn": 40,
+        "avg_ccn": 2.5,
+        "avg_loc": 16.5625,
+        "avg_tokens": 123.125,
+        "num_funs": 16,
+        "loc": 298,
+        "tokens": 2108,
+        "blanks": 105,
+        "comments": 53
+      }
+    },
+    {
+      "timestamp": 1638370133.344582,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.2,
+        "avg_loc": 13.95,
+        "avg_tokens": 103.85,
+        "num_funs": 20,
+        "loc": 318,
+        "tokens": 2244,
+        "blanks": 116,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370143.585495,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.2,
+        "avg_loc": 14.0,
+        "avg_tokens": 104.65,
+        "num_funs": 20,
+        "loc": 319,
+        "tokens": 2260,
+        "blanks": 116,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370160.450161,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.2,
+        "avg_loc": 14.0,
+        "avg_tokens": 104.65,
+        "num_funs": 20,
+        "loc": 319,
+        "tokens": 2258,
+        "blanks": 116,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370188.960404,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.2,
+        "avg_loc": 14.05,
+        "avg_tokens": 105.25,
+        "num_funs": 20,
+        "loc": 320,
+        "tokens": 2270,
+        "blanks": 116,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.2,
+        "avg_loc": 14.05,
+        "avg_tokens": 105.25,
+        "num_funs": 20,
+        "loc": 320,
+        "tokens": 2270,
+        "blanks": 116,
+        "comments": 56
+      }
+    },
+    {
+      "timestamp": 1638370212.501007,
+      "analysis": {
+        "ccn": 46,
+        "avg_ccn": 2.1904761904761907,
+        "avg_loc": 14.428571428571429,
+        "avg_tokens": 115.38095238095238,
+        "num_funs": 21,
+        "loc": 343,
+        "tokens": 2593,
+        "blanks": 122,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370217.606283,
+      "analysis": {
+        "ccn": 46,
+        "avg_ccn": 2.1904761904761907,
+        "avg_loc": 14.428571428571429,
+        "avg_tokens": 115.28571428571429,
+        "num_funs": 21,
+        "loc": 343,
+        "tokens": 2591,
+        "blanks": 122,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370227.678734,
+      "analysis": {
+        "ccn": 46,
+        "avg_ccn": 2.1904761904761907,
+        "avg_loc": 15.047619047619047,
+        "avg_tokens": 120.9047619047619,
+        "num_funs": 21,
+        "loc": 356,
+        "tokens": 2709,
+        "blanks": 125,
+        "comments": 58
+      }
+    }
+  ],
+  "perceval/__init__.py": [
+    {
+      "timestamp": 1638370125.88344,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 5,
+        "tokens": 34,
+        "blanks": 4,
+        "comments": 20
+      }
+    },
+    {
+      "timestamp": 1638370169.298208,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "blanks": 1,
+        "comments": 21
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "blanks": 1,
+        "comments": 20
+      }
+    }
+  ],
+  "tests/run_tests.py": [
+    {
+      "timestamp": 1638370125.88344,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 3,
+        "comments": 21
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 3,
+        "comments": 20
+      }
+    }
+  ],
+  "tests/__init__.py": [
+    {
+      "timestamp": 1638370160.450161,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "tests/base.py": [
+    {
+      "timestamp": 1638370160.450161,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 50.0,
+        "num_funs": 3,
+        "loc": 23,
+        "tokens": 176,
+        "blanks": 12,
+        "comments": 24
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 50.0,
+        "num_funs": 3,
+        "loc": 23,
+        "tokens": 176,
+        "blanks": 12,
+        "comments": 23
+      }
+    }
+  ],
+  "perceval/backends/__init__.py": [
+    {
+      "timestamp": 1638370169.298208,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "blanks": 1,
+        "comments": 20
+      }
+    },
+    {
+      "timestamp": 1638370205.913402,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "blanks": 1,
+        "comments": 20
+      }
+    }
+  ]
+}

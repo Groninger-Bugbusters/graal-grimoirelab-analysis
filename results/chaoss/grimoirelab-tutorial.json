@@ -1,0 +1,18 @@
+{
+  "python/scripts/cleanup.py": [
+    {
+      "timestamp": 1638370666.482726,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 18,
+        "tokens": 134,
+        "blanks": 8,
+        "comments": 0
+      }
+    }
+  ]
+}

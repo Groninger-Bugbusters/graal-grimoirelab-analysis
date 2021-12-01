@@ -1,0 +1,1086 @@
+{
+  "enrich.py": [
+    {
+      "timestamp": 1638370118.718917,
+      "analysis": {
+        "ccn": 68,
+        "avg_ccn": 2.6153846153846154,
+        "avg_loc": 7.076923076923077,
+        "avg_tokens": 61.19230769230769,
+        "num_funs": 26,
+        "loc": 263,
+        "tokens": 1753,
+        "blanks": 158,
+        "comments": 277
+      }
+    },
+    {
+      "timestamp": 1638370128.879992,
+      "analysis": {
+        "ccn": 70,
+        "avg_ccn": 2.6923076923076925,
+        "avg_loc": 7.538461538461538,
+        "avg_tokens": 65.65384615384616,
+        "num_funs": 26,
+        "loc": 275,
+        "tokens": 1869,
+        "blanks": 159,
+        "comments": 280
+      }
+    },
+    {
+      "timestamp": 1638370139.733519,
+      "analysis": {
+        "ccn": 85,
+        "avg_ccn": 2.65625,
+        "avg_loc": 7.375,
+        "avg_tokens": 61.625,
+        "num_funs": 32,
+        "loc": 335,
+        "tokens": 2244,
+        "blanks": 193,
+        "comments": 326
+      }
+    },
+    {
+      "timestamp": 1638370155.552239,
+      "analysis": {
+        "ccn": 85,
+        "avg_ccn": 2.65625,
+        "avg_loc": 7.375,
+        "avg_tokens": 61.625,
+        "num_funs": 32,
+        "loc": 335,
+        "tokens": 2244,
+        "blanks": 193,
+        "comments": 326
+      }
+    }
+  ],
+  "tests/test_enrich.py": [
+    {
+      "timestamp": 1638370118.718917,
+      "analysis": {
+        "ccn": 3,
+        "avg_ccn": 1.0,
+        "avg_loc": 16.333333333333332,
+        "avg_tokens": 178.33333333333334,
+        "num_funs": 3,
+        "loc": 62,
+        "tokens": 595,
+        "blanks": 33,
+        "comments": 42
+      }
+    },
+    {
+      "timestamp": 1638370152.730303,
+      "analysis": {
+        "ccn": 4,
+        "avg_ccn": 1.0,
+        "avg_loc": 14.25,
+        "avg_tokens": 157.5,
+        "num_funs": 4,
+        "loc": 71,
+        "tokens": 697,
+        "blanks": 31,
+        "comments": 43
+      }
+    },
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 4,
+        "avg_ccn": 1.0,
+        "avg_loc": 14.25,
+        "avg_tokens": 157.5,
+        "num_funs": 4,
+        "loc": 71,
+        "tokens": 697,
+        "blanks": 31,
+        "comments": 43
+      }
+    },
+    {
+      "timestamp": 1638370182.756372,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 20.0,
+        "avg_tokens": 239.2,
+        "num_funs": 5,
+        "loc": 114,
+        "tokens": 1266,
+        "blanks": 34,
+        "comments": 46
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 1.0,
+        "avg_loc": 26.8,
+        "avg_tokens": 340.0,
+        "num_funs": 5,
+        "loc": 147,
+        "tokens": 1772,
+        "blanks": 33,
+        "comments": 46
+      }
+    },
+    {
+      "timestamp": 1638370263.063799,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 1.0,
+        "avg_loc": 24.0,
+        "avg_tokens": 302.8333333333333,
+        "num_funs": 6,
+        "loc": 158,
+        "tokens": 1898,
+        "blanks": 37,
+        "comments": 48
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 1.0,
+        "avg_loc": 24.0,
+        "avg_tokens": 302.8333333333333,
+        "num_funs": 6,
+        "loc": 158,
+        "tokens": 1898,
+        "blanks": 37,
+        "comments": 49
+      }
+    },
+    {
+      "timestamp": 1638370332.792746,
+      "analysis": {
+        "ccn": 6,
+        "avg_ccn": 1.0,
+        "avg_loc": 24.0,
+        "avg_tokens": 302.8333333333333,
+        "num_funs": 6,
+        "loc": 158,
+        "tokens": 1898,
+        "blanks": 38,
+        "comments": 49
+      }
+    }
+  ],
+  "events.py": [
+    {
+      "timestamp": 1638370128.879992,
+      "analysis": {
+        "ccn": 66,
+        "avg_ccn": 6.0,
+        "avg_loc": 24.90909090909091,
+        "avg_tokens": 243.45454545454547,
+        "num_funs": 11,
+        "loc": 357,
+        "tokens": 2861,
+        "blanks": 120,
+        "comments": 169
+      }
+    }
+  ],
+  "examples/openstack_gender.py": [
+    {
+      "timestamp": 1638370128.879992,
+      "analysis": {
+        "ccn": 31,
+        "avg_ccn": 5.166666666666667,
+        "avg_loc": 25.833333333333332,
+        "avg_tokens": 228.83333333333334,
+        "num_funs": 6,
+        "loc": 247,
+        "tokens": 1641,
+        "blanks": 76,
+        "comments": 38
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 31,
+        "avg_ccn": 5.166666666666667,
+        "avg_loc": 25.833333333333332,
+        "avg_tokens": 228.83333333333334,
+        "num_funs": 6,
+        "loc": 247,
+        "tokens": 1647,
+        "blanks": 76,
+        "comments": 38
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 31,
+        "avg_ccn": 5.166666666666667,
+        "avg_loc": 25.833333333333332,
+        "avg_tokens": 228.83333333333334,
+        "num_funs": 6,
+        "loc": 247,
+        "tokens": 1647,
+        "blanks": 76,
+        "comments": 39
+      }
+    }
+  ],
+  "df_utils/__init__.py": [
+    {
+      "timestamp": 1638370152.730303,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    },
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "enrich/__init__.py": [
+    {
+      "timestamp": 1638370152.730303,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    },
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "events/__init__.py": [
+    {
+      "timestamp": 1638370152.730303,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    },
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "tests/test_format.py": [
+    {
+      "timestamp": 1638370152.730303,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 110.0,
+        "num_funs": 1,
+        "loc": 22,
+        "tokens": 162,
+        "blanks": 9,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 110.0,
+        "num_funs": 1,
+        "loc": 22,
+        "tokens": 162,
+        "blanks": 9,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 110.0,
+        "num_funs": 1,
+        "loc": 22,
+        "tokens": 164,
+        "blanks": 9,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 110.0,
+        "num_funs": 1,
+        "loc": 22,
+        "tokens": 164,
+        "blanks": 9,
+        "comments": 27
+      }
+    },
+    {
+      "timestamp": 1638370332.792746,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 110.0,
+        "num_funs": 1,
+        "loc": 22,
+        "tokens": 164,
+        "blanks": 12,
+        "comments": 27
+      }
+    }
+  ],
+  "examples/areas_code.py": [
+    {
+      "timestamp": 1638370170.655921,
+      "analysis": {
+        "ccn": 22,
+        "avg_ccn": 5.5,
+        "avg_loc": 19.75,
+        "avg_tokens": 166.25,
+        "num_funs": 4,
+        "loc": 91,
+        "tokens": 717,
+        "blanks": 43,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 12.777777777777779,
+        "avg_tokens": 103.55555555555556,
+        "num_funs": 9,
+        "loc": 320,
+        "tokens": 1845,
+        "blanks": 77,
+        "comments": 43
+      }
+    },
+    {
+      "timestamp": 1638370247.983936,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 12.777777777777779,
+        "avg_tokens": 103.55555555555556,
+        "num_funs": 9,
+        "loc": 320,
+        "tokens": 1845,
+        "blanks": 77,
+        "comments": 43
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 12.777777777777779,
+        "avg_tokens": 103.55555555555556,
+        "num_funs": 9,
+        "loc": 320,
+        "tokens": 1845,
+        "blanks": 77,
+        "comments": 44
+      }
+    },
+    {
+      "timestamp": 1638370318.841751,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 12.666666666666666,
+        "avg_tokens": 102.22222222222223,
+        "num_funs": 9,
+        "loc": 319,
+        "tokens": 1833,
+        "blanks": 76,
+        "comments": 45
+      }
+    }
+  ],
+  "areas_code.py": [
+    {
+      "timestamp": 1638370182.756372,
+      "analysis": {
+        "ccn": 13,
+        "avg_ccn": 1.8571428571428572,
+        "avg_loc": 13.0,
+        "avg_tokens": 98.71428571428571,
+        "num_funs": 7,
+        "loc": 259,
+        "tokens": 1445,
+        "blanks": 65,
+        "comments": 72
+      }
+    },
+    {
+      "timestamp": 1638370188.986603,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 1.6666666666666667,
+        "avg_loc": 12.777777777777779,
+        "avg_tokens": 103.55555555555556,
+        "num_funs": 9,
+        "loc": 320,
+        "tokens": 1839,
+        "blanks": 77,
+        "comments": 43
+      }
+    }
+  ],
+  "enrich/enrich.py": [
+    {
+      "timestamp": 1638370182.756372,
+      "analysis": {
+        "ccn": 91,
+        "avg_ccn": 2.676470588235294,
+        "avg_loc": 7.5588235294117645,
+        "avg_tokens": 64.26470588235294,
+        "num_funs": 34,
+        "loc": 362,
+        "tokens": 2466,
+        "blanks": 204,
+        "comments": 349
+      }
+    }
+  ],
+  "events/events.py": [
+    {
+      "timestamp": 1638370182.756372,
+      "analysis": {
+        "ccn": 89,
+        "avg_ccn": 4.944444444444445,
+        "avg_loc": 22.555555555555557,
+        "avg_tokens": 214.94444444444446,
+        "num_funs": 18,
+        "loc": 512,
+        "tokens": 4134,
+        "blanks": 166,
+        "comments": 187
+      }
+    },
+    {
+      "timestamp": 1638370188.986603,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.263157894736842,
+        "avg_tokens": 209.1578947368421,
+        "num_funs": 19,
+        "loc": 531,
+        "tokens": 4246,
+        "blanks": 160,
+        "comments": 189
+      }
+    }
+  ],
+  "ceres/_version.py": [
+    {
+      "timestamp": 1638370209.82657,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    }
+  ],
+  "setup.py": [
+    {
+      "timestamp": 1638370209.82657,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 225,
+        "blanks": 8,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370211.414505,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 225,
+        "blanks": 8,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 225,
+        "blanks": 8,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370258.166555,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 48,
+        "tokens": 227,
+        "blanks": 8,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638370267.405486,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 205,
+        "blanks": 8,
+        "comments": 23
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 205,
+        "blanks": 8,
+        "comments": 22
+      }
+    },
+    {
+      "timestamp": 1638370299.429448,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 42,
+        "tokens": 200,
+        "blanks": 8,
+        "comments": 22
+      }
+    },
+    {
+      "timestamp": 1638370305.12495,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 42,
+        "tokens": 200,
+        "blanks": 8,
+        "comments": 22
+      }
+    }
+  ],
+  "tests/run_tests.py": [
+    {
+      "timestamp": 1638370209.82657,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 5,
+        "comments": 19
+      }
+    },
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 4,
+        "comments": 21
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 4,
+        "comments": 20
+      }
+    }
+  ],
+  "examples/engines_analysis.py": [
+    {
+      "timestamp": 1638370232.991958,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 5.0,
+        "avg_loc": 22.666666666666668,
+        "avg_tokens": 166.0,
+        "num_funs": 3,
+        "loc": 117,
+        "tokens": 668,
+        "blanks": 39,
+        "comments": 37
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 15,
+        "avg_ccn": 5.0,
+        "avg_loc": 22.666666666666668,
+        "avg_tokens": 166.0,
+        "num_funs": 3,
+        "loc": 117,
+        "tokens": 668,
+        "blanks": 39,
+        "comments": 38
+      }
+    }
+  ],
+  "cereslib/events/events.py": [
+    {
+      "timestamp": 1638370238.739985,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.263157894736842,
+        "avg_tokens": 209.1578947368421,
+        "num_funs": 19,
+        "loc": 531,
+        "tokens": 4246,
+        "blanks": 160,
+        "comments": 189
+      }
+    },
+    {
+      "timestamp": 1638370242.822408,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.473684210526315,
+        "avg_tokens": 211.89473684210526,
+        "num_funs": 19,
+        "loc": 536,
+        "tokens": 4301,
+        "blanks": 163,
+        "comments": 189
+      }
+    },
+    {
+      "timestamp": 1638370247.983936,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.473684210526315,
+        "avg_tokens": 211.89473684210526,
+        "num_funs": 19,
+        "loc": 536,
+        "tokens": 4301,
+        "blanks": 163,
+        "comments": 189
+      }
+    },
+    {
+      "timestamp": 1638370258.166555,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.473684210526315,
+        "avg_tokens": 210.94736842105263,
+        "num_funs": 19,
+        "loc": 536,
+        "tokens": 4285,
+        "blanks": 163,
+        "comments": 189
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 92,
+        "avg_ccn": 4.842105263157895,
+        "avg_loc": 22.473684210526315,
+        "avg_tokens": 210.94736842105263,
+        "num_funs": 19,
+        "loc": 536,
+        "tokens": 4285,
+        "blanks": 163,
+        "comments": 190
+      }
+    },
+    {
+      "timestamp": 1638370301.079565,
+      "analysis": {
+        "ccn": 85,
+        "avg_ccn": 4.473684210526316,
+        "avg_loc": 21.736842105263158,
+        "avg_tokens": 208.3684210526316,
+        "num_funs": 19,
+        "loc": 522,
+        "tokens": 4236,
+        "blanks": 156,
+        "comments": 189
+      }
+    },
+    {
+      "timestamp": 1638370307.729012,
+      "analysis": {
+        "ccn": 85,
+        "avg_ccn": 4.473684210526316,
+        "avg_loc": 21.94736842105263,
+        "avg_tokens": 210.94736842105263,
+        "num_funs": 19,
+        "loc": 527,
+        "tokens": 4288,
+        "blanks": 156,
+        "comments": 189
+      }
+    }
+  ],
+  "cereslib/_version.py": [
+    {
+      "timestamp": 1638370240.782193,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    }
+  ],
+  "cereslib/dfutils/filter.py": [
+    {
+      "timestamp": 1638370252.075281,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 3.5,
+        "avg_loc": 5.5,
+        "avg_tokens": 56.5,
+        "num_funs": 2,
+        "loc": 30,
+        "tokens": 129,
+        "blanks": 16,
+        "comments": 45
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 7,
+        "avg_ccn": 3.5,
+        "avg_loc": 5.5,
+        "avg_tokens": 56.5,
+        "num_funs": 2,
+        "loc": 30,
+        "tokens": 129,
+        "blanks": 16,
+        "comments": 46
+      }
+    }
+  ],
+  "tests/test_filter.py": [
+    {
+      "timestamp": 1638370252.075281,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 118.0,
+        "num_funs": 2,
+        "loc": 35,
+        "tokens": 289,
+        "blanks": 15,
+        "comments": 28
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 118.0,
+        "num_funs": 2,
+        "loc": 35,
+        "tokens": 289,
+        "blanks": 15,
+        "comments": 29
+      }
+    },
+    {
+      "timestamp": 1638370332.792746,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 118.0,
+        "num_funs": 2,
+        "loc": 35,
+        "tokens": 289,
+        "blanks": 16,
+        "comments": 29
+      }
+    }
+  ],
+  "cereslib/enrich/enrich.py": [
+    {
+      "timestamp": 1638370263.063799,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 2.611111111111111,
+        "avg_loc": 7.861111111111111,
+        "avg_tokens": 68.72222222222223,
+        "num_funs": 36,
+        "loc": 391,
+        "tokens": 2763,
+        "blanks": 217,
+        "comments": 389
+      }
+    },
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 2.611111111111111,
+        "avg_loc": 7.861111111111111,
+        "avg_tokens": 68.72222222222223,
+        "num_funs": 36,
+        "loc": 391,
+        "tokens": 2763,
+        "blanks": 217,
+        "comments": 390
+      }
+    },
+    {
+      "timestamp": 1638370299.429448,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 2.611111111111111,
+        "avg_loc": 7.861111111111111,
+        "avg_tokens": 68.72222222222223,
+        "num_funs": 36,
+        "loc": 391,
+        "tokens": 2766,
+        "blanks": 217,
+        "comments": 390
+      }
+    },
+    {
+      "timestamp": 1638370310.774118,
+      "analysis": {
+        "ccn": 94,
+        "avg_ccn": 2.611111111111111,
+        "avg_loc": 7.861111111111111,
+        "avg_tokens": 68.72222222222223,
+        "num_funs": 36,
+        "loc": 391,
+        "tokens": 2766,
+        "blanks": 217,
+        "comments": 390
+      }
+    }
+  ],
+  "cereslib/__init__.py": [
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 5,
+        "blanks": 1,
+        "comments": 20
+      }
+    },
+    {
+      "timestamp": 1638370299.429448,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 20
+      }
+    }
+  ],
+  "cereslib/dfutils/format.py": [
+    {
+      "timestamp": 1638370286.962747,
+      "analysis": {
+        "ccn": 12,
+        "avg_ccn": 3.0,
+        "avg_loc": 5.0,
+        "avg_tokens": 39.0,
+        "num_funs": 4,
+        "loc": 36,
+        "tokens": 173,
+        "blanks": 29,
+        "comments": 62
+      }
+    },
+    {
+      "timestamp": 1638370299.429448,
+      "analysis": {
+        "ccn": 12,
+        "avg_ccn": 3.0,
+        "avg_loc": 5.0,
+        "avg_tokens": 39.0,
+        "num_funs": 4,
+        "loc": 35,
+        "tokens": 171,
+        "blanks": 27,
+        "comments": 62
+      }
+    }
+  ],
+  "tests/test_events.py": [
+    {
+      "timestamp": 1638370318.841751,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 28.5,
+        "avg_tokens": 249.0,
+        "num_funs": 2,
+        "loc": 69,
+        "tokens": 551,
+        "blanks": 16,
+        "comments": 25
+      }
+    },
+    {
+      "timestamp": 1638370332.792746,
+      "analysis": {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 28.5,
+        "avg_tokens": 249.0,
+        "num_funs": 2,
+        "loc": 68,
+        "tokens": 549,
+        "blanks": 16,
+        "comments": 25
+      }
+    }
+  ]
+}

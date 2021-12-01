@@ -1,0 +1,392 @@
+{
+  "src/migration/__init__.py": [
+    {
+      "timestamp": 1638370468.059011,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    },
+    {
+      "timestamp": 1638370751.75011,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "src/migration/to_kibana5.py": [
+    {
+      "timestamp": 1638370468.059011,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 16.333333333333332,
+        "avg_tokens": 138.33333333333334,
+        "num_funs": 3,
+        "loc": 71,
+        "tokens": 496,
+        "blanks": 24,
+        "comments": 38
+      }
+    },
+    {
+      "timestamp": 1638371426.099227,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 16.333333333333332,
+        "avg_tokens": 138.33333333333334,
+        "num_funs": 3,
+        "loc": 71,
+        "tokens": 496,
+        "blanks": 24,
+        "comments": 37
+      }
+    }
+  ],
+  "src/migration/utils.py": [
+    {
+      "timestamp": 1638370468.059011,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 2.5,
+        "avg_loc": 10.0,
+        "avg_tokens": 73.0,
+        "num_funs": 2,
+        "loc": 22,
+        "tokens": 152,
+        "blanks": 6,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638370751.75011,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 2.5,
+        "avg_loc": 10.0,
+        "avg_tokens": 73.0,
+        "num_funs": 2,
+        "loc": 22,
+        "tokens": 152,
+        "blanks": 6,
+        "comments": 30
+      }
+    },
+    {
+      "timestamp": 1638371426.099227,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 2.5,
+        "avg_loc": 10.0,
+        "avg_tokens": 73.0,
+        "num_funs": 2,
+        "loc": 22,
+        "tokens": 152,
+        "blanks": 6,
+        "comments": 29
+      }
+    }
+  ],
+  "src/migration/replacer.py": [
+    {
+      "timestamp": 1638370751.75011,
+      "analysis": {
+        "ccn": 8,
+        "avg_ccn": 2.6666666666666665,
+        "avg_loc": 17.333333333333332,
+        "avg_tokens": 150.33333333333334,
+        "num_funs": 3,
+        "loc": 74,
+        "tokens": 532,
+        "blanks": 25,
+        "comments": 38
+      }
+    }
+  ],
+  "src/owlwatch/owlwatch.py": [
+    {
+      "timestamp": 1638370792.272974,
+      "analysis": {
+        "ccn": 20,
+        "avg_ccn": 2.5,
+        "avg_loc": 15.0,
+        "avg_tokens": 110.75,
+        "num_funs": 8,
+        "loc": 157,
+        "tokens": 1016,
+        "blanks": 44,
+        "comments": 49
+      }
+    }
+  ],
+  "src/owlwatch/schema/__init__.py": [
+    {
+      "timestamp": 1638370792.272974,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 0,
+        "tokens": 0,
+        "blanks": 0,
+        "comments": 0
+      }
+    }
+  ],
+  "src/owlwatch/schema/model.py": [
+    {
+      "timestamp": 1638370792.272974,
+      "analysis": {
+        "ccn": 36,
+        "avg_ccn": 2.1176470588235294,
+        "avg_loc": 6.117647058823529,
+        "avg_tokens": 44.88235294117647,
+        "num_funs": 17,
+        "loc": 151,
+        "tokens": 920,
+        "blanks": 62,
+        "comments": 160
+      }
+    },
+    {
+      "timestamp": 1638370823.688893,
+      "analysis": {
+        "ccn": 41,
+        "avg_ccn": 2.411764705882353,
+        "avg_loc": 7.529411764705882,
+        "avg_tokens": 51.64705882352941,
+        "num_funs": 17,
+        "loc": 179,
+        "tokens": 1060,
+        "blanks": 62,
+        "comments": 171
+      }
+    },
+    {
+      "timestamp": 1638370878.248458,
+      "analysis": {
+        "ccn": 44,
+        "avg_ccn": 2.4444444444444446,
+        "avg_loc": 7.722222222222222,
+        "avg_tokens": 51.833333333333336,
+        "num_funs": 18,
+        "loc": 195,
+        "tokens": 1137,
+        "blanks": 71,
+        "comments": 194
+      }
+    }
+  ],
+  "src/owlwatch/test/run_tests.py": [
+    {
+      "timestamp": 1638370792.272974,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "blanks": 3,
+        "comments": 21
+      }
+    }
+  ],
+  "src/owlwatch/test/test_model.py": [
+    {
+      "timestamp": 1638370792.272974,
+      "analysis": {
+        "ccn": 21,
+        "avg_ccn": 1.0,
+        "avg_loc": 5.142857142857143,
+        "avg_tokens": 38.76190476190476,
+        "num_funs": 21,
+        "loc": 118,
+        "tokens": 887,
+        "blanks": 47,
+        "comments": 57
+      }
+    },
+    {
+      "timestamp": 1638370815.461248,
+      "analysis": {
+        "ccn": 23,
+        "avg_ccn": 1.0454545454545454,
+        "avg_loc": 5.545454545454546,
+        "avg_tokens": 41.77272727272727,
+        "num_funs": 22,
+        "loc": 132,
+        "tokens": 993,
+        "blanks": 55,
+        "comments": 62
+      }
+    }
+  ],
+  "panels/_version.py": [
+    {
+      "timestamp": 1638370848.986548,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    },
+    {
+      "timestamp": 1638370938.914773,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    },
+    {
+      "timestamp": 1638371048.896388,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    },
+    {
+      "timestamp": 1638371443.905834,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    },
+    {
+      "timestamp": 1638371580.220176,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "blanks": 0,
+        "comments": 1
+      }
+    }
+  ],
+  "setup.py": [
+    {
+      "timestamp": 1638370848.986548,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 41,
+        "tokens": 236,
+        "blanks": 6,
+        "comments": 26
+      }
+    },
+    {
+      "timestamp": 1638371426.099227,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 41,
+        "tokens": 236,
+        "blanks": 6,
+        "comments": 25
+      }
+    },
+    {
+      "timestamp": 1638371427.08366,
+      "analysis": {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 36,
+        "tokens": 206,
+        "blanks": 6,
+        "comments": 22
+      }
+    }
+  ],
+  "src/indextest/compare.py": [
+    {
+      "timestamp": 1638371426.099227,
+      "analysis": {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 10.0,
+        "avg_tokens": 78.0,
+        "num_funs": 1,
+        "loc": 10,
+        "tokens": 79,
+        "blanks": 7,
+        "comments": 29
+      }
+    }
+  ],
+  "src/indextest/connect.py": [
+    {
+      "timestamp": 1638371426.099227,
+      "analysis": {
+        "ccn": 5,
+        "avg_ccn": 2.5,
+        "avg_loc": 6.0,
+        "avg_tokens": 64.0,
+        "num_funs": 2,
+        "loc": 16,
+        "tokens": 145,
+        "blanks": 10,
+        "comments": 34
+      }
+    }
+  ]
+}
