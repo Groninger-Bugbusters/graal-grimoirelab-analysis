@@ -1,0 +1,21 @@
+{
+    "repositories":[
+        "chaoss/grimoirelab-bestiary",
+        "chaoss/grimoirelab-sirmordred",
+        "chaoss/grimoirelab",
+        "chaoss/grimoirelab-sortinghat",
+        "chaoss/grimoirelab-sigils",
+        "chaoss/grimoirelab-perceval",
+        "chaoss/grimoirelab-elk",
+        "chaoss/grimoirelab-graal", 
+        "chaoss/grimoirelab-tutorial",
+        "chaoss/grimoirelab-perceval-weblate", 
+        "chaoss/grimoirelab-perceval-puppet",
+        "chaoss/grimoire-perceval-opnfv",
+        "chaoss/grimoire-perceval-mozilla",
+        "chaoss/grimoirelab-kidash",
+        "chaoss/grimoirelab-toolkit",
+        "chaoss/grimoirelab-cereslib",
+        "chaoss/grimoirelab-kingarthur"
+    ]
+}
