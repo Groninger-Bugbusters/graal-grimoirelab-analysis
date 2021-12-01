@@ -1,3 +1,4 @@
+from joblib import Parallel, delayed
 from array import array
 from graal.backends.core.cocom import CoCom
 import json
@@ -10,8 +11,8 @@ import math
 
 class GithubCoComPythonAnalysis:
     """
-    Can be used to analyse a single Github repository, 
-    and store and graph the complexity changes per python file. 
+    Can be used to analyse a single Github repository,
+    and store and graph the complexity changes per python file.
     """
     BASE_URL = "http://github.com/"
     DATA_PATH = "./tmp/"
@@ -29,7 +30,7 @@ class GithubCoComPythonAnalysis:
         """
         Sets up Graal repository
         """
-        sys.stdout.write(f'Started analysis with repo: {repository_name}')
+        sys.stdout.write(f'Started analysis with repo: {repository_name}\n')
         self.repository_name = repository_name
         repo_uri = os.path.join(self.BASE_URL, repository_name)
         repo_dir = os.path.join(self.DATA_PATH, repository_name)
@@ -39,8 +40,8 @@ class GithubCoComPythonAnalysis:
 
     def start(self):
         """
-        Template method that starts repository analysis using Graal.Cocom. 
-        Handles all commits, and stores and graphs the results. 
+        Template method that starts repository analysis using Graal.Cocom.
+        Handles all commits, and stores and graphs the results.
         """
         self.start_analysis()
         self.store_complexity()
@@ -56,12 +57,12 @@ class GithubCoComPythonAnalysis:
         sys.stdout.write('\rDone!')
         sys.stdout.flush()
         sys.stdout.write("\n")
-    
+
     def handle(self, commit: dict):
         """
-        If the commit is a merge, it iterates through 
-        all affected files, and per python file adds 
-        the Cocom results to the analysis results. 
+        If the commit is a merge, it iterates through
+        all affected files, and per python file adds
+        the Cocom results to the analysis results.
         """
         if GithubCoComPythonAnalysis.is_merge(commit):
             for file in commit["data"]["analysis"]:
@@ -144,9 +145,17 @@ class GithubCoComPythonAnalysis:
         return file["ext"] == "py"
 
 
-if __name__ == "__main__":
-    repository = "chaoss/grimoirelab-graal"
+def perform_repository_analysis(repository: str):
     ra = GithubCoComPythonAnalysis(repository)
     ra.start()
     # ra.load_complexity()
     # ra.graph_complexity()
+
+
+if __name__ == "__main__":
+    with open("./config.json") as config:
+        data = config.read()
+        json_data = json.loads(data)
+        repositories = json_data["repositories"]
+    Parallel(n_jobs=len(repositories))(delayed(perform_repository_analysis)(
+        repositories[i]) for i in range(len(repositories)))
