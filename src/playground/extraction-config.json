@@ -1,0 +1,8 @@
+{
+    "repositories": [
+        {
+            "uri": "chaoss/grimoirelab/graal",
+            "entrypoint": "graal"
+        }
+    ]
+}

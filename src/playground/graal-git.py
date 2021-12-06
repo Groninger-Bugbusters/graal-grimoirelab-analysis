@@ -9,14 +9,14 @@ import matplotlib.pyplot as plt
 import math
 
 
-class GithubCoComPythonAnalysis:
+class GraalTest:
     """
     Can be used to analyse a single Github repository,
     and store and graph the complexity changes per python file.
     """
     BASE_URL = "http://github.com/"
-    DATA_PATH = "./tmp/"
-    RESULTS_PATH = "./results/"
+    DATA_PATH = "../tmp/"
+    RESULTS_PATH = "../results/"
     LOG_EXT = ".json"
 
     repository_name: str = None
@@ -64,9 +64,9 @@ class GithubCoComPythonAnalysis:
         all affected files, and per python file adds
         the Cocom results to the analysis results.
         """
-        if GithubCoComPythonAnalysis.is_merge(commit):
+        if GraalTest.is_merge(commit):
             for file in commit["data"]["analysis"]:
-                if GithubCoComPythonAnalysis.is_python(file):
+                if GraalTest.is_python(file):
                     self.add_file_complexity(commit, file)
 
     def add_file_complexity(self, commit: dict, file: dict):
@@ -146,7 +146,7 @@ class GithubCoComPythonAnalysis:
 
 
 def perform_repository_analysis(repository: str):
-    ra = GithubCoComPythonAnalysis(repository)
+    ra = GraalTest(repository)
     ra.start()
     # ra.load_complexity()
     # ra.graph_complexity()
