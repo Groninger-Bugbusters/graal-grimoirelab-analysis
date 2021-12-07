@@ -1,0 +1,604 @@
+[
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815989.731854,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "f4f4cf0dbf69b2130bf150d396bd2f22e63c05f7",
+  "updated_on": 1601379270.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f71eba81aa2dfc32b230d0184bd7c60111b3b70d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f71eba81aa2dfc32b230d0184bd7c60111b3b70d",
+    "AuthorDate": "Tue Sep 29 13:34:30 2020 +0200",
+    "CommitDate": "Tue Sep 29 13:34:30 2020 +0200",
+    "message": "[weblate] Initial import\n\nThis code proposes an initial version of the backend to extract\nchanges from a Weblate instance. The changes can be collected\nfor a given project or for all the projects in the instance.\n\nThe initial tests have been done on:\n- https://hosted.weblate.org (Weblate API 4.2)\n- https://translations.documentfoundation.org (Weblate API 4.1)\n\nNotes:\n- Sleep for rate is working in >=4.1.\n- Incremental fetching works for all projects in >=4.1.\n- Incremental fetching works for single projects in >=4.2.\n- Users details can be fetched only if the token has enough permissions.\n  See details at: https://docs.weblate.org/en/latest/api.html#get--api-users-.\n\nThe backend can be executed as follows:\n```\nperceval weblate\nhttps://translations.documentfoundation.org\n-t\n<token>\n--from-date\n2020-01-01\n--no-archive\n```\n\nThe token can be obtained after registering to a weblate\ninstance (e.g., https://translations.documentfoundation.org/),\nvia the page <instance>/accounts/profile/#api\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 23
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815991.044384,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "03ada762a03aba8c348778fcdfb1e4b3541dd071",
+  "updated_on": 1601482166.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "53937128bbdea7b90a7345324365a8f9239e11e7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "53937128bbdea7b90a7345324365a8f9239e11e7",
+    "AuthorDate": "Wed Sep 30 18:09:26 2020 +0200",
+    "CommitDate": "Wed Sep 30 18:09:26 2020 +0200",
+    "message": "Add fetch 'units' data\n\nThis code adds fetching 'units' and fixes duplicate entry.\n\nTest added accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815992.186122,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "650b16ed7237c8e9a7c6f19688661277a6d86ba1",
+  "updated_on": 1602068735.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5ef2212032dc0046781ba2b9dfa56eade10226a8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5ef2212032dc0046781ba2b9dfa56eade10226a8",
+    "AuthorDate": "Wed Oct 7 12:43:48 2020 +0200",
+    "CommitDate": "Wed Oct 7 13:05:35 2020 +0200",
+    "message": "Fix URL error when there are not items\n\nThis code fixes the error\n`requests.exceptions.MissingSchema: Invalid URL 'None'`.\nThis error is caused to fetch items using None as URL.\n\nTest files updated accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815993.067616,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "419c3ade5530a83585dedaf6bbcff8830dacfefa",
+  "updated_on": 1602075372.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f99492626d50ad6e8b2681371b4e487dbbac896c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f99492626d50ad6e8b2681371b4e487dbbac896c",
+    "AuthorDate": "Wed Oct 7 14:56:12 2020 +0200",
+    "CommitDate": "Wed Oct 7 14:56:12 2020 +0200",
+    "message": "Add author_data, user_data, and unit_data fields by default\n\nThis code sets these fields as None by default. And fix the URL\nto fetch author info.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815994.339845,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "dbb1496ece6781ce7d41c3ca76dab710ef914a62",
+  "updated_on": 1602246122.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "400bd936d848e5f53d97d9d650ffa640e65c422a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "400bd936d848e5f53d97d9d650ffa640e65c422a",
+    "AuthorDate": "Fri Oct 9 14:22:02 2020 +0200",
+    "CommitDate": "Fri Oct 9 14:22:02 2020 +0200",
+    "message": "Update Bitergia's references to Chaoss\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815995.381048,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "db10cfa9a1e9bbb47ab05e5fe50138be067dc91f",
+  "updated_on": 1602601153.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8",
+    "AuthorDate": "Tue Oct 13 16:59:13 2020 +0200",
+    "CommitDate": "Tue Oct 13 16:59:13 2020 +0200",
+    "message": "Increase version package to 0.1.0\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815996.656991,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "93eb36fea04e76951de6b1c5c8fe23bc8e02e22c",
+  "updated_on": 1604650331.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "753a731bf07ea12049ddfa8127319cbace9ed67a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "753a731bf07ea12049ddfa8127319cbace9ed67a",
+    "AuthorDate": "Fri Nov 6 13:07:29 2020 +0530",
+    "CommitDate": "Fri Nov 6 13:42:11 2020 +0530",
+    "message": "[weblate] Fix flake8 errors and tests\n\nThis commit fixes the flake8 errors in the tests. It also\nfixes the failing tests which are also responsible for the\ntravis build failure.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815997.70901,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "e1afbe380eafb90306e2abe61a730895d8278ffb",
+  "updated_on": 1605003715.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c0ba2efd26b9e52499827247563c670f636171d1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "c0ba2efd26b9e52499827247563c670f636171d1",
+    "Merge": "e50cf0e 753a731",
+    "AuthorDate": "Tue Nov 10 11:21:55 2020 +0100",
+    "CommitDate": "Tue Nov 10 11:21:55 2020 +0100",
+    "message": "Merge branch 'fix-weblate-tests' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #2\nCloses #2",
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815998.901455,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "2250cfd48d3627b2d06bbba263f6e165b97eb764",
+  "updated_on": 1605003788.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4a5dff6b57bf2e10121e5c43dda0cf3d62193f74"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "4a5dff6b57bf2e10121e5c43dda0cf3d62193f74",
+    "AuthorDate": "Thu Nov 5 13:30:21 2020 +0530",
+    "CommitDate": "Tue Nov 10 11:23:08 2020 +0100",
+    "message": "[travis] Fix travis build\n\n- Fixed the file name typo in tests requirements file.\n\n- Support for python 3.6, 3.7 and 3.8\n  This code aims at aligning the CI tests across the\ndifferent grimoirelab components.\n  Python 3.5 is removed as its support period has ended and\nPython 3.6, 3.7 and 3.8 are now supported.\n  The version of setuptools and pip has been downgraded as a\nhotfix to solve the failing CI tests.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816000.08189,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "5f63de7bd0458cab53f59c34babbe1f01ca2699d",
+  "updated_on": 1605003811.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d",
+    "Merge": "c0ba2ef 4a5dff6",
+    "AuthorDate": "Tue Nov 10 11:23:31 2020 +0100",
+    "CommitDate": "Tue Nov 10 11:23:31 2020 +0100",
+    "message": "Merge branch 'support-35-36-37-travis' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #1\nCloses #1",
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816001.158421,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "9db2c8d99ea3819462b44423540e713d2561e9a6",
+  "updated_on": 1610610064.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "dfd580bc78c15d0b0e41d37c8092f8259fa9ddc1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "dfd580bc78c15d0b0e41d37c8092f8259fa9ddc1",
+    "AuthorDate": "Thu Jan 14 13:08:14 2021 +0530",
+    "CommitDate": "Thu Jan 14 13:11:04 2021 +0530",
+    "message": "[CI] Migrate from Travis CI to GitHub Actions\n\nTravis CI has brought a few changes in its plans\nwhich is causing friction to the current workflow.\n\nThis commit removes the support of Travis CI and adds\nthe support of GitHub Actions as the new CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816002.536853,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "757eb32f26ba6a63a2306300679af8f43f74cecf",
+  "updated_on": 1610898456.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5308845ac751b83a1ea3c83737788f507f426cb4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5308845ac751b83a1ea3c83737788f507f426cb4",
+    "Merge": "12ab60a dfd580b",
+    "AuthorDate": "Sun Jan 17 16:47:36 2021 +0100",
+    "CommitDate": "Sun Jan 17 16:47:36 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #3\nCloses #3",
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816003.823945,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "fcca5926b0b4ed1cd3bf1835072b78ee6b867f39",
+  "updated_on": 1611741855.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f253ae8ff725db3504377e3c574754d8dd025759"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f253ae8ff725db3504377e3c574754d8dd025759",
+    "AuthorDate": "Wed Jan 27 13:54:30 2021 +0530",
+    "CommitDate": "Wed Jan 27 15:34:15 2021 +0530",
+    "message": "[perceval-weblate] Add poetry support\n\nThis commit adds the files required to add poetry support\nto the perceval-weblate project.\n\nThis update is required to start using the Bitergia/release-tools\nfor automating the GrimoireLab toolset releases.\n\nThe version of httpretty is also updated to keep it aligned\nwith the other perceval tools.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816005.064402,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "e76b6ff7a3262623b97e9eb3b3dbb8ecc2b6e37f",
+  "updated_on": 1611744283.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3729307ec58ba473ff198b5ed5a94f14beb365f8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "3729307ec58ba473ff198b5ed5a94f14beb365f8",
+    "Merge": "5308845 f253ae8",
+    "AuthorDate": "Wed Jan 27 11:44:43 2021 +0100",
+    "CommitDate": "Wed Jan 27 11:44:43 2021 +0100",
+    "message": "Merge branch 'add-poetry' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #4\nCloses #4",
+    "analysis": {
+      "warnings": 25
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816006.170459,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "9f4fe71de3369f4d983123127f9ef4a41f5cb37f",
+  "updated_on": 1624361323.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7fa714707893875e197d2c933db5ff9ca5813cac"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "7fa714707893875e197d2c933db5ff9ca5813cac",
+    "AuthorDate": "Mon Jun 21 19:29:39 2021 +0200",
+    "CommitDate": "Tue Jun 22 13:28:43 2021 +0200",
+    "message": "Support for weblate version 4.7\n\nThis change is needed to fetch changes from weblate 4.7\n\n'changes' must end with '/'as '.../api/changes/'  or it will\nreturn 404 (Page Not Found).\n\nThere are 'unit' URLs that return 404 (Not Found) when they were\nremoved. It is now a WARNING instead of an ERROR to keep running.\n\nTest updated accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816007.520099,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "3cb2961a597e740e0e6fabafa57d77bae2919bcf",
+  "updated_on": 1624363899.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "0bb5dc19bfc456421336e3f9fbae9201683f6a0b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "0bb5dc19bfc456421336e3f9fbae9201683f6a0b",
+    "Merge": "3729307 7fa7147",
+    "AuthorDate": "Tue Jun 22 14:11:39 2021 +0200",
+    "CommitDate": "Tue Jun 22 14:11:39 2021 +0200",
+    "message": "Merge branch 'support_4.7' of 'https://github.com/zhquan/grimoirelab-perceval-weblate'\n\nMerges #6\nCloses #6\nFixes #5",
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816008.906023,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "c0cd386bb26abfb4111b15eb66938634d5d24f02",
+  "updated_on": 1625728304.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9a81a27c81dc1b1e2e061e2a0d4e430d5b3ca49d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "9a81a27c81dc1b1e2e061e2a0d4e430d5b3ca49d",
+    "AuthorDate": "Thu Jul 8 12:41:44 2021 +0530",
+    "CommitDate": "Thu Jul 8 12:41:44 2021 +0530",
+    "message": "Bump grimoirelab-toolkit from 0.1.12 to 0.2.0\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816010.352465,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "1b17bc5cf4d7ab8bb2e65eea39d6df7335ca115c",
+  "updated_on": 1626794840.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "0fc817210823d1cb6258b164e34cf3b9520961b8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "0fc817210823d1cb6258b164e34cf3b9520961b8",
+    "Merge": "0bb5dc1 9a81a27",
+    "AuthorDate": "Tue Jul 20 17:27:20 2021 +0200",
+    "CommitDate": "Tue Jul 20 17:27:20 2021 +0200",
+    "message": "Merge branch 'grimoirelab-toolkit-0.2.0' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #7\nCloses #7",
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816011.582729,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "0cad9ca3286bee1c3e849556310c454f30fe172b",
+  "updated_on": 1626796676.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8366eebaf82da5de46ad8981666300935d9a2753"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "8366eebaf82da5de46ad8981666300935d9a2753",
+    "AuthorDate": "Tue Jul 20 17:57:56 2021 +0200",
+    "CommitDate": "Tue Jul 20 17:57:56 2021 +0200",
+    "message": "Update version number to 0.1.1\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816012.82126,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "edbd7497bacb1323b82bfe8afc9aee1e5c7697f6",
+  "updated_on": 1628001423.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f293b06dd831d8a155d701ede258a671b38af6b0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f293b06dd831d8a155d701ede258a671b38af6b0",
+    "AuthorDate": "Tue Aug 3 16:37:03 2021 +0200",
+    "CommitDate": "Tue Aug 3 16:37:03 2021 +0200",
+    "message": "[pyproject] Update python \"^3.6.1\"\n\npoetry.lock updated.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816013.917918,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "4b45f8e41815b7de0108707b5ec8d77b11a2122b",
+  "updated_on": 1628003372.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "fe7d24043dbd81f95abfe3a4a4b3928839f201c1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "fe7d24043dbd81f95abfe3a4a4b3928839f201c1",
+    "Merge": "8366eeb f293b06",
+    "AuthorDate": "Tue Aug 3 17:09:32 2021 +0200",
+    "CommitDate": "Tue Aug 3 17:09:32 2021 +0200",
+    "message": "Merge branch 'python_3.6.1' of 'https://github.com/zhquan/grimoirelab-perceval-weblate'\n\nMerges #8\nCloses #8",
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816014.973064,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "3e50347878954428c74c0d12b0ec43e47ec9ef4e",
+  "updated_on": 1628758835.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5675ef345ae6935f5b1f59b5a8c005b85a8e808b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5675ef345ae6935f5b1f59b5a8c005b85a8e808b",
+    "AuthorDate": "Thu Aug 12 11:00:35 2021 +0200",
+    "CommitDate": "Thu Aug 12 11:00:35 2021 +0200",
+    "message": "Update version number to 0.1.2\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 26
+    },
+    "analyzer": "flake8"
+  }
+},
+]

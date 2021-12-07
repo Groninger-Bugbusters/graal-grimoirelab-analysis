@@ -1,0 +1,2650 @@
+[
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816435.703411,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c252abe30cd77162f41796e9d995af4885ca6cc0",
+  "updated_on": 1484841621.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c8325c4aafa16778807ab82597170665fba4cc5d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "c8325c4aafa16778807ab82597170665fba4cc5d",
+    "AuthorDate": "Thu Jan 19 17:00:21 2017 +0100",
+    "CommitDate": "Thu Jan 19 17:00:21 2017 +0100",
+    "message": "Initial import",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816435.773285,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "8c4bfcda531e7cf7844b7f3a294e4e3d52d5c068",
+  "updated_on": 1484930881.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7dd7deacd840095e0f0dbc267823741d2cbf02bb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "7dd7deacd840095e0f0dbc267823741d2cbf02bb",
+    "AuthorDate": "Thu Jan 19 17:00:55 2017 +0100",
+    "CommitDate": "Fri Jan 20 17:48:01 2017 +0100",
+    "message": "[tests] Set up unit tests framework",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816436.572565,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "fc0952d3738b013a1597e820a9d4c2a8a9c665d6",
+  "updated_on": 1484930886.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9524646cd3afba5f5b021755dc4ce40c0f850d5a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "9524646cd3afba5f5b021755dc4ce40c0f850d5a",
+    "AuthorDate": "Thu Jan 19 17:01:33 2017 +0100",
+    "CommitDate": "Fri Jan 20 17:48:06 2017 +0100",
+    "message": "[backends] Define namespace for puppet backends",
+    "analysis": {
+      "warnings": 0
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816437.459632,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "6356d45b023721c16ca894bb9856ad6828b49c8d",
+  "updated_on": 1485195373.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3e52e5f4cb4497bc383cd1a87297a812316fc998"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "3e52e5f4cb4497bc383cd1a87297a812316fc998",
+    "AuthorDate": "Fri Jan 20 17:40:35 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:16:13 2017 +0100",
+    "message": "[puppet-forge] Add client class to fetch modules and releases",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816438.41398,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "bdea17ef5422db25ec3e8ea7139280e0b947c80f",
+  "updated_on": 1485195387.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d6e635b130be7f2e70f822879c71cc6ae73ba54b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d6e635b130be7f2e70f822879c71cc6ae73ba54b",
+    "AuthorDate": "Mon Jan 23 18:12:27 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:16:27 2017 +0100",
+    "message": "[puppet-forge] Add PuppetForge backend class",
+    "analysis": {
+      "warnings": 8
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816439.433606,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "eaa189c25271e02b229860d202e70700a1f7d547",
+  "updated_on": 1485195387.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "2bac06b1e7dafc249650992d0e0564fa141e3ade"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "2bac06b1e7dafc249650992d0e0564fa141e3ade",
+    "AuthorDate": "Mon Jan 23 18:41:15 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:16:27 2017 +0100",
+    "message": "[puppet-forge] Add PuppetForgeCommand class",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816440.589999,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "82cb72900be91bafcc6b34d67e85959955909902",
+  "updated_on": 1485195387.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "a86af82fb94c710dc21134aa8639a403c6bf192f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "a86af82fb94c710dc21134aa8639a403c6bf192f",
+    "AuthorDate": "Mon Jan 23 19:02:02 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:16:27 2017 +0100",
+    "message": "[puppetforge] Rename puppet-forge backend to puppetforge",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816441.393665,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "66e5b8889739cb6a140de18523cb3660ff13b979",
+  "updated_on": 1485195719.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ff267a574321eb70a4a3c844d75fffa7c80e37c8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "ff267a574321eb70a4a3c844d75fffa7c80e37c8",
+    "AuthorDate": "Mon Jan 23 19:20:21 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:21:59 2017 +0100",
+    "message": "Add setup.py",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816442.278078,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "37d5a8f945dbf17fffc62d4b6b7e55ab13e22472",
+  "updated_on": 1485195719.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "af99b3d18dba9c95d070b507e6900900c4f4a250"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "af99b3d18dba9c95d070b507e6900900c4f4a250",
+    "AuthorDate": "Mon Jan 23 19:19:50 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:21:59 2017 +0100",
+    "message": "Add README file",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816443.443877,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "b58af3e29c79e7408a8abeb9fb0a6f2ee393e5a1",
+  "updated_on": 1485196908.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4a54a927a48047c2654af2a6a72bd605bf299c53"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "4a54a927a48047c2654af2a6a72bd605bf299c53",
+    "AuthorDate": "Mon Jan 23 19:41:48 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:41:48 2017 +0100",
+    "message": "Add TravisCI and Coveralls configuration",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816444.370674,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "eb9937d263d5a54d8a126d5f24e4f8725d99f7a8",
+  "updated_on": 1485197199.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6ec65b94933161ccfdb991b184e24e06d79a8e47"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "6ec65b94933161ccfdb991b184e24e06d79a8e47",
+    "AuthorDate": "Mon Jan 23 19:46:39 2017 +0100",
+    "CommitDate": "Mon Jan 23 19:46:39 2017 +0100",
+    "message": "Add TravisCI and Coveralls badges",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816445.523723,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "72448eecd2f952a3dc54d2c420e91042ec13ae5f",
+  "updated_on": 1488195497.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ee9f21b0e98b1079affde763a44f19bf6b84cb4d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "ee9f21b0e98b1079affde763a44f19bf6b84cb4d",
+    "AuthorDate": "Mon Feb 27 12:38:17 2017 +0100",
+    "CommitDate": "Mon Feb 27 12:38:17 2017 +0100",
+    "message": "[puppet-forge] Add method to fetch users data using the client",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816446.617717,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "67ee8a70014064626a21503c42486d8ca5e6fe62",
+  "updated_on": 1488197175.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6ade1e1e1c99c791d6494fe9ab74a03a339af924"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "6ade1e1e1c99c791d6494fe9ab74a03a339af924",
+    "AuthorDate": "Mon Feb 27 13:04:41 2017 +0100",
+    "CommitDate": "Mon Feb 27 13:06:15 2017 +0100",
+    "message": "[puppet-forge] Support parsing of user JSON streams",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816447.633899,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "7c9de5977f9b5833410e5c069ffd82ecafd201ff",
+  "updated_on": 1488197202.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1251ba6556e59f7f3cddfc5d326323e83f6b80d8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "1251ba6556e59f7f3cddfc5d326323e83f6b80d8",
+    "AuthorDate": "Mon Feb 27 13:06:42 2017 +0100",
+    "CommitDate": "Mon Feb 27 13:06:42 2017 +0100",
+    "message": "[puppet-forge] Fetch owners data\n\nData related to the owner of a module is now included on\neach item under the key 'owner_data'. It includes information\nsuch as the display name of the owner and the data when her\naccount was created.\n\nBackend version updated to 0.2.0.",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816448.820474,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "10d1abdff5874660c87fcb478e91aa66cd418e5d",
+  "updated_on": 1488199228.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "49cad2347ac9bdde2a294d6a17b95ca1f2b632d6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "49cad2347ac9bdde2a294d6a17b95ca1f2b632d6",
+    "AuthorDate": "Mon Feb 27 13:40:28 2017 +0100",
+    "CommitDate": "Mon Feb 27 13:40:28 2017 +0100",
+    "message": "Update version number to 0.1.0.dev2",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816450.05473,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "abfd0f97aaa875dc0d3f3c38795123580e7745e0",
+  "updated_on": 1488804649.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "70140bf6f89179ae077fb98c89625422bfeff151"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "70140bf6f89179ae077fb98c89625422bfeff151",
+    "AuthorDate": "Mon Mar 6 13:27:51 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:49 2017 +0100",
+    "message": "[tests] Fix whitespace/black lines PEP8 code style errors",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816451.065975,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "6aef82ae50bfb3781dad450cff5bdc9ee0371a70",
+  "updated_on": 1488804653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b6090e0dd04b23084971d2e5fbe2f26481111182"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "b6090e0dd04b23084971d2e5fbe2f26481111182",
+    "AuthorDate": "Mon Mar 6 13:30:17 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:53 2017 +0100",
+    "message": "[tests] Fix indentation PEP8 code style errors",
+    "analysis": {
+      "warnings": 9
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816452.165958,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "9b9c14dba78954cffdcb3b82e0c9f394219761ab",
+  "updated_on": 1488804653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6abea4e6e9f679c1c7cd99bfd8217e49f9e0fa4d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "6abea4e6e9f679c1c7cd99bfd8217e49f9e0fa4d",
+    "AuthorDate": "Mon Mar 6 13:31:40 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:53 2017 +0100",
+    "message": "[perceval] Fix whitespace/black lines PEP8 code style errors",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816452.957262,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "e50c27c89e1cf0c6ff947d6ac51e94428aae0b18",
+  "updated_on": 1488804653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "34b3c169b5e3b64602e6ead2e93eb3d42a0bc0a4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "34b3c169b5e3b64602e6ead2e93eb3d42a0bc0a4",
+    "AuthorDate": "Mon Mar 6 13:32:37 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:53 2017 +0100",
+    "message": "Fix PEP8 code style errors in setup.py",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816453.853206,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "83108fa1e82e01486b7fd84c0ab9fbbc4c391016",
+  "updated_on": 1488804653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "850fb8e43de72593ca473c55f078f2412a4662d2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "850fb8e43de72593ca473c55f078f2412a4662d2",
+    "AuthorDate": "Mon Mar 6 13:33:07 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:53 2017 +0100",
+    "message": "Add flake8 configuration\n\nThis configuration sets the maximum line length to 130\ncharacters because some unit tests can have long lines;\nexcludes some directories from the analysis, such as build,\ndist, etc; and ignores the next errors:\n\n  * E129 visually indented line with same indent as next logical line\n  * E402 module level import not at top of file\n  * F841 local variable '_' is assigned to but never used",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816454.610107,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c2a82055f5e662db675ae81a2dee18ac01713cfd",
+  "updated_on": 1488804653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "733ff86e5bd92214693b1028f3350d9d40bf3faf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "733ff86e5bd92214693b1028f3350d9d40bf3faf",
+    "AuthorDate": "Mon Mar 6 13:35:56 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:50:53 2017 +0100",
+    "message": "Add flake8 tests to TravisCI\n\nThis tool will check the code style of the code pushed\nto the repository, failing the build if flake8 detects\nany error.",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816455.713529,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "dfc659bec4e58a188942418c8ea169caef0fccd2",
+  "updated_on": 1488804736.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7bebdf40ee4a92eaf59a1f89a4f5f55071eef061"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "7bebdf40ee4a92eaf59a1f89a4f5f55071eef061",
+    "Merge": "49cad23 733ff86",
+    "AuthorDate": "Mon Mar 6 13:51:46 2017 +0100",
+    "CommitDate": "Mon Mar 6 13:52:16 2017 +0100",
+    "message": "Merge branch 'flake8' of 'https://github.com/grimoirelab/perceval-puppet.git'",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816456.508962,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "9a0a2930f65c37d7bf963fc56b443d0b4bb2426c",
+  "updated_on": 1489087428.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5444f832616af309cf07b078499f41af5956fc73"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "5444f832616af309cf07b078499f41af5956fc73",
+    "AuthorDate": "Thu Mar 9 20:23:48 2017 +0100",
+    "CommitDate": "Thu Mar 9 20:23:48 2017 +0100",
+    "message": "Update version number to 0.1.0.dev3",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816457.293481,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "e00ba58ba699f91c809dc8c6ee32c6e5c3ef950b",
+  "updated_on": 1495555428.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9c0d4c72a0e9b3c7c1e3295f72ebe70c5c874084"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "9c0d4c72a0e9b3c7c1e3295f72ebe70c5c874084",
+    "AuthorDate": "Tue May 23 18:03:48 2017 +0200",
+    "CommitDate": "Tue May 23 18:03:48 2017 +0200",
+    "message": "Remove deprecated functions from utils module\n\nThis functions are now part of GrimoireLab toolkit\npackage.\n\nVersion number updated to 0.1.0.dev5.",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816458.204597,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "733258561de5b8395d08990879ccb5462e19c9d6",
+  "updated_on": 1515605350.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d7fb5756f8d5f9928f10bee391db8a169ba54248"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d7fb5756f8d5f9928f10bee391db8a169ba54248",
+    "AuthorDate": "Wed Jan 3 17:48:55 2018 +0100",
+    "CommitDate": "Wed Jan 10 18:29:10 2018 +0100",
+    "message": "[puppetforge] Apply generic HTTP client to PuppetForge\n\nThe generic client is applied to the PuppetForge backend. Now\nconnection problems are transparently handled by the generic\nclient.",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816459.051281,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "ee4d14519157e6cab823f402a92a43aef645e8d8",
+  "updated_on": 1515607187.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "283d6c96e7410b6138be801e0068e819bcf895ed"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "283d6c96e7410b6138be801e0068e819bcf895ed",
+    "Merge": "9c0d4c7 d7fb575",
+    "AuthorDate": "Wed Jan 10 18:59:47 2018 +0100",
+    "CommitDate": "Wed Jan 10 18:59:47 2018 +0100",
+    "message": "Merge branch 'apply-http-client' of 'https://github.com/valeriocos/perceval-puppet.git'\n\nMerges #1\nCloses #1",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816459.906738,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "68467319429ac53e7216113e005cd8276cb7b305",
+  "updated_on": 1515607232.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "372e6f6d8c09ba36d76ad44957198054426bd602"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "372e6f6d8c09ba36d76ad44957198054426bd602",
+    "AuthorDate": "Tue Jan 9 16:09:20 2018 +0100",
+    "CommitDate": "Wed Jan 10 19:00:32 2018 +0100",
+    "message": "[setup] Update minimum version of perceval required\n\nThis patch updates the minimum version of Perceval required",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816460.787339,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "7d77b92d2db583dd0290f403afbba771eced0c2a",
+  "updated_on": 1515607296.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "daf08b7084f73cc40467fe8ff5f063dc5bbd5f22"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "daf08b7084f73cc40467fe8ff5f063dc5bbd5f22",
+    "Merge": "283d6c9 372e6f6",
+    "AuthorDate": "Wed Jan 10 19:01:36 2018 +0100",
+    "CommitDate": "Wed Jan 10 19:01:36 2018 +0100",
+    "message": "Merge branch 'fix-perceval-version' of 'https://github.com/valeriocos/perceval-puppet.git'\n\nMerges #3\nCloses #3\nFixes #2",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816461.769038,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "36ad97dec15598fc1c50bf375e39b464f1c7ca43",
+  "updated_on": 1516653706.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "2314dc745a2323100ed94c5e3413f663b38fc506"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "2314dc745a2323100ed94c5e3413f663b38fc506",
+    "AuthorDate": "Mon Jan 22 21:41:46 2018 +0100",
+    "CommitDate": "Mon Jan 22 21:41:46 2018 +0100",
+    "message": "Update version number to 0.1.2",
+    "analysis": {
+      "warnings": 2
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816462.768231,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "d1f26641bb9868639df28233f5323043beae9d25",
+  "updated_on": 1519288978.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "734189392f478ecdb5217c419bd70064c0a32512"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "734189392f478ecdb5217c419bd70064c0a32512",
+    "AuthorDate": "Fri Jan 19 12:19:01 2018 +0100",
+    "CommitDate": "Thu Feb 22 09:42:58 2018 +0100",
+    "message": "[puppetforge] Apply archive to PuppetForge backend\n\nThis code allows the PuppetForge backend to store fetched data to\narchives. Thus it allows to transparently play back previous fetch\nexecutions, enabling the recovery of the stored data as it was\noriginally collected from the data source.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816463.630648,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "674d7bf0bf3979caecf314ebc6acfef0a7190773",
+  "updated_on": 1519381968.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c996de4f0e64f601e0a43b59b77b662fe16829d8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "c996de4f0e64f601e0a43b59b77b662fe16829d8",
+    "Merge": "2314dc7 7341893",
+    "AuthorDate": "Fri Feb 23 11:32:48 2018 +0100",
+    "CommitDate": "Fri Feb 23 11:32:48 2018 +0100",
+    "message": "Merge branch 'archive-puppet' of 'https://github.com/valeriocos/perceval'\n\nMerges #4\nCloses #4",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816464.453487,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "aa3a04fe930bfe20f7ca33e52518e50108ebb9e3",
+  "updated_on": 1519382659.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f77da730090c98c1d7badc78829f6de9d38d6421"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "f77da730090c98c1d7badc78829f6de9d38d6421",
+    "AuthorDate": "Fri Feb 23 11:44:19 2018 +0100",
+    "CommitDate": "Fri Feb 23 11:44:19 2018 +0100",
+    "message": "Rename GrimoireLab references to CHAOSS\n\nGrimoireLab repositories were moved to CHAOSS organization\nin GitHub. This patch updates the references to it.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816465.37496,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "7cff8895bff70648fd98862440d8200fa177d065",
+  "updated_on": 1519382831.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d42ace8ba649555c7ceb27934692e80f9f2755ea"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d42ace8ba649555c7ceb27934692e80f9f2755ea",
+    "AuthorDate": "Fri Feb 23 11:47:11 2018 +0100",
+    "CommitDate": "Fri Feb 23 11:47:11 2018 +0100",
+    "message": "Update Perceval dependency version\n\nThis package only works with Perceval version supporting\narchives. The first one is 0.9.11.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816466.337963,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "b8918c30b0bbce06ffc47b23646826e926647a8d",
+  "updated_on": 1519382987.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "73693eca1234364815e562d4c35e0d0cc8f1cea9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "73693eca1234364815e562d4c35e0d0cc8f1cea9",
+    "AuthorDate": "Fri Feb 23 11:49:47 2018 +0100",
+    "CommitDate": "Fri Feb 23 11:49:47 2018 +0100",
+    "message": "Update version number to 0.1.3",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816467.297872,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "06b5b0cde382dc057c9eea755897e50ccd8b431b",
+  "updated_on": 1519828757.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "cfc61a3575915944c3e99d0d76a9f08ffa6a782f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "cfc61a3575915944c3e99d0d76a9f08ffa6a782f",
+    "AuthorDate": "Wed Feb 28 15:39:17 2018 +0100",
+    "CommitDate": "Wed Feb 28 15:39:17 2018 +0100",
+    "message": "[puppetforge] Align fetch signature to the backend generic one\n\nThis code aligns the signature of the fetch method to the one\nprovided by the generic backend",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816468.252576,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "4c2e467952d00425ee85e183cbcb8cb64f92451f",
+  "updated_on": 1519949606.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c586cd4ff09307ed96728049eccf3a5c403a08e3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "c586cd4ff09307ed96728049eccf3a5c403a08e3",
+    "Merge": "73693ec cfc61a3",
+    "AuthorDate": "Fri Mar 2 01:13:26 2018 +0100",
+    "CommitDate": "Fri Mar 2 01:13:26 2018 +0100",
+    "message": "Merge branch 'align-fetch-generic' of 'https://github.com/valeriocos/perceval'\n\nMerges #11\nCloses #11",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816469.3831,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "2c0df691b94d247818c6401a71978c38735e8ed5",
+  "updated_on": 1519993218.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f8ad26cd54d7bea5e7631a7df192808c14067fe0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "f8ad26cd54d7bea5e7631a7df192808c14067fe0",
+    "AuthorDate": "Fri Mar 2 13:20:18 2018 +0100",
+    "CommitDate": "Fri Mar 2 13:20:18 2018 +0100",
+    "message": "[puppetforge] Add valid categories\n\nThis code defines the valid categories for the backend",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816470.20691,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "74d095da74a75e73c785af1164d0c55d3b7e4420",
+  "updated_on": 1520253589.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b65befc2f231e3d2cf94e19b08a683c8880a3f3a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "b65befc2f231e3d2cf94e19b08a683c8880a3f3a",
+    "Merge": "c586cd4 f8ad26c",
+    "AuthorDate": "Mon Mar 5 13:39:49 2018 +0100",
+    "CommitDate": "Mon Mar 5 13:39:49 2018 +0100",
+    "message": "Merge branch 'add-check-category' of 'https://github.com/valeriocos/perceval-opnfv'\n\nMerges #6\nCloses #6",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816471.133508,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "1389030be517ab6453c93274425a007313f8602a",
+  "updated_on": 1520846984.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3d89adeb060f2e59a2dbb02e9a3f65c77b22eb0d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "3d89adeb060f2e59a2dbb02e9a3f65c77b22eb0d",
+    "AuthorDate": "Mon Mar 12 10:29:44 2018 +0100",
+    "CommitDate": "Mon Mar 12 10:29:44 2018 +0100",
+    "message": "[tests] Modify puppetforge tests when fetching from archive\n\nThis patch adds two different backend objects (one fetches data\nfrom remote a data source and the other one from an archive)\nin order to ensure that backend and method\nparams are initialized in the same way independently from which method\nis called (fetch or fetch_from_archive)",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816472.403912,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "a8278e088a377bd0e5b8e97144884253d1e033bf",
+  "updated_on": 1520849606.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9731994373b0c95a79e33cd87e80a4cabc969436"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "9731994373b0c95a79e33cd87e80a4cabc969436",
+    "Merge": "b65befc 3d89ade",
+    "AuthorDate": "Mon Mar 12 11:13:26 2018 +0100",
+    "CommitDate": "Mon Mar 12 11:13:26 2018 +0100",
+    "message": "Merge branch 'fix-test-archive-double' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #7\nCloses #7",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816473.475865,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "a4c4f12625744a8dd6c3e75a49f1a140e0b04875",
+  "updated_on": 1520849703.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "fc6c2a6b327c9f2914199c5544a7440d1dbb98d1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "fc6c2a6b327c9f2914199c5544a7440d1dbb98d1",
+    "AuthorDate": "Mon Mar 12 10:28:31 2018 +0100",
+    "CommitDate": "Mon Mar 12 11:15:03 2018 +0100",
+    "message": "[puppetforge] Set category when calling fetch and fetch_from_archive\n\nThis patch adds to the params of the fetch_items method the category.\nThus, it allows to handle fetching operations\n(fetch and fetch_from_archive) with multiple categories",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816474.362081,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "807fc7ef21418a97f0cae5ce46d7427b31cf2609",
+  "updated_on": 1520849711.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c6a395dff7259abe76736702de1fed9487bea9bf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "c6a395dff7259abe76736702de1fed9487bea9bf",
+    "Merge": "9731994 fc6c2a6",
+    "AuthorDate": "Mon Mar 12 11:15:11 2018 +0100",
+    "CommitDate": "Mon Mar 12 11:15:11 2018 +0100",
+    "message": "Merge branch 'fix-backend-category-fetch-items' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #14\nCloses #14",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816475.389664,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "91b2b2e5a1ad0f272e9457d94d74237250febd57",
+  "updated_on": 1520920354.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "591bf296f4816de0383189ab43cf71f4414d9256"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "591bf296f4816de0383189ab43cf71f4414d9256",
+    "AuthorDate": "Tue Mar 13 06:52:34 2018 +0100",
+    "CommitDate": "Tue Mar 13 06:52:34 2018 +0100",
+    "message": "Update version number to 0.1.4",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816476.456932,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "468752a4e194c62b995059f0eaa280d685a2c46f",
+  "updated_on": 1521129526.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5a242fb60731230d08df6cca33c9be7bde87fc66"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "5a242fb60731230d08df6cca33c9be7bde87fc66",
+    "AuthorDate": "Thu Mar 15 16:58:46 2018 +0100",
+    "CommitDate": "Thu Mar 15 16:58:46 2018 +0100",
+    "message": "Update URLs from requirements pip-file\n\nLast URLs pointed to GrimoireLab repositories, which now are\nunder CHAOSS organization on GitHub.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816477.37404,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "a2637dd08a448ddda592655b5a2783bc14241110",
+  "updated_on": 1521129613.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7e0ca3a39f07cb5b14c5702f856bc8b2905143bf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "7e0ca3a39f07cb5b14c5702f856bc8b2905143bf",
+    "AuthorDate": "Thu Mar 15 17:00:13 2018 +0100",
+    "CommitDate": "Thu Mar 15 17:00:13 2018 +0100",
+    "message": "Add tests requirements pip file\n\nBy adding this file, it was necessary also to modify travis\nconfiguration file to use `requirements_tests.txt` file\ninstead of installing each requirement individually.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816478.381964,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "cadd8ac3480c79eddc61159e58228de0e9c8b996",
+  "updated_on": 1521129646.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c6137c658c32d288297ded236e68bbc50d43aa70"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "c6137c658c32d288297ded236e68bbc50d43aa70",
+    "AuthorDate": "Thu Mar 15 17:00:46 2018 +0100",
+    "CommitDate": "Thu Mar 15 17:00:46 2018 +0100",
+    "message": "Add support to run tests using setup.py file\n\nTo run user-defined commands using setup.py it is necessary\nto add Command derivated classes. In this case, TestCommand\nclass was included to run tests.\n\nThe inclusion of `pkg_resources` is necessary to ensure that\nPerceval is imported from the right path, inserting its location\nin the first position of `sys.path` variable. This change is due\nto the use of namespaces by Perceval.\n\nTo avoid import problems, it was necessary to add `base.py`\nscript, an empty `__init__.py` file into tests directory and\nchange how the package is imported in `test_puppetforge.py`.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816479.211439,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "91c5189c939ffabea56ea0dbdf8616d524594cf6",
+  "updated_on": 1521131328.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "26dd0a8ea42f8cfef7f271128ef87c12a782a1dc"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "26dd0a8ea42f8cfef7f271128ef87c12a782a1dc",
+    "Merge": "591bf29 c6137c6",
+    "AuthorDate": "Thu Mar 15 17:28:48 2018 +0100",
+    "CommitDate": "Thu Mar 15 17:28:48 2018 +0100",
+    "message": "Merge branch 'fix_tests' of 'https://github.com/mafesan/grimoirelab-perceval-puppet'\n\nMerges #9\nCloses #9",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816480.390917,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "4c006c8b5819e0b0c842cb2d521fbd5e6484c187",
+  "updated_on": 1523311989.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4dabeff04705dc7aadff2d64cf64bdc7fc92d4fb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "4dabeff04705dc7aadff2d64cf64bdc7fc92d4fb",
+    "AuthorDate": "Tue Apr 10 00:13:09 2018 +0200",
+    "CommitDate": "Tue Apr 10 00:13:09 2018 +0200",
+    "message": "[setup.py] Bump version number\n\nWe need a new version number, to ensure that the last changes enter pypi.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816481.464132,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c5ba017cd8f57ee8b4d12553280b577aff4f12d8",
+  "updated_on": 1523334402.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "50195eb854b2f5a075aba44d900f0d59a8be7458"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "50195eb854b2f5a075aba44d900f0d59a8be7458",
+    "AuthorDate": "Tue Apr 10 00:13:09 2018 +0200",
+    "CommitDate": "Tue Apr 10 06:26:42 2018 +0200",
+    "message": "[setup.py] Bump version number\n\nWe need a new version number, to ensure that the last changes enter pypi.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816482.416456,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "72b0e891ee137b4300487432401d54555f6a80bf",
+  "updated_on": 1523529985.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8020c651600dd40677198519ae29946d540ea15f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "8020c651600dd40677198519ae29946d540ea15f",
+    "AuthorDate": "Thu Apr 12 12:46:25 2018 +0200",
+    "CommitDate": "Thu Apr 12 12:46:25 2018 +0200",
+    "message": "Update version number to 0.1.6",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816483.418356,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "36515c5370f77b3434ed5b480f2d638f2da7c4fc",
+  "updated_on": 1525708077.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ac4636fff146bcae7e254bd5698372fcdc2ffe14"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "ac4636fff146bcae7e254bd5698372fcdc2ffe14",
+    "AuthorDate": "Mon May 7 17:47:57 2018 +0200",
+    "CommitDate": "Mon May 7 17:47:57 2018 +0200",
+    "message": "Fix support for package namespaces\n\nThis module was not really using package namespaces.\nThis patch should provide that support.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816484.520784,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "4611e4e637be4c971af59785b78bfd0de338539c",
+  "updated_on": 1526048851.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "354f9aa5105d34a751f6882b0cf1e8ca2c800424"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "354f9aa5105d34a751f6882b0cf1e8ca2c800424",
+    "Merge": "8020c65 ac4636f",
+    "AuthorDate": "Fri May 11 16:27:31 2018 +0200",
+    "CommitDate": "Fri May 11 16:27:31 2018 +0200",
+    "message": "Merge branch 'fix-pkgnamespaces' of 'https://github.com/jgbarah-chaoss/grimoirelab-perceval-opnfv.git'\n\nMerges #16\nCloses #16",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816485.556418,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "21cdaacdf7e736ef0103890fde3a2bb81b495e1f",
+  "updated_on": 1526571437.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "392f659a0efe2f1b674fc555ee98b8d0d961c8e0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "392f659a0efe2f1b674fc555ee98b8d0d961c8e0",
+    "AuthorDate": "Thu May 17 17:37:17 2018 +0200",
+    "CommitDate": "Thu May 17 17:37:17 2018 +0200",
+    "message": "Update version number to 0.1.7",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816486.646282,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "72d94549478705e08a057c30a5449e2d91d5d049",
+  "updated_on": 1531123726.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5e609588175b0db02aa75096e9044372bf7c4bc7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "5e609588175b0db02aa75096e9044372bf7c4bc7",
+    "AuthorDate": "Mon Jul 9 10:08:46 2018 +0200",
+    "CommitDate": "Mon Jul 9 10:08:46 2018 +0200",
+    "message": "[puppetforge] Change toolkit import\n\nThis code replaces the import of grimoirelab toolkit to make the\ncode working with the new package structure of the toolkit.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816487.70183,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "2f17ea443153b20f18d5bf5da56ce8a6b35cc1f3",
+  "updated_on": 1531381043.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5124730b89d6e4ec928652e5b9f31bbd637c1a55"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "5124730b89d6e4ec928652e5b9f31bbd637c1a55",
+    "Merge": "392f659 5e60958",
+    "AuthorDate": "Thu Jul 12 09:37:23 2018 +0200",
+    "CommitDate": "Thu Jul 12 09:37:23 2018 +0200",
+    "message": "Merge branch 'grimoirelab_toolkit' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #13\nCloses #13",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816488.528841,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "86cecb8fe541d8470d88873e0825c52834d3eda9",
+  "updated_on": 1531414416.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6c072815393aefbb7a1153db694e95cf156c6556"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "6c072815393aefbb7a1153db694e95cf156c6556",
+    "AuthorDate": "Thu Jul 12 18:53:36 2018 +0200",
+    "CommitDate": "Thu Jul 12 18:53:36 2018 +0200",
+    "message": "Update version number to 0.1.8",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816489.408367,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "f224c0d4286fd110196a4b94b1e61b4b4fb397ea",
+  "updated_on": 1532085191.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3c86bbf9caf3cdea4dafda43c624598f4e66003d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "3c86bbf9caf3cdea4dafda43c624598f4e66003d",
+    "AuthorDate": "Fri Jul 20 13:13:11 2018 +0200",
+    "CommitDate": "Fri Jul 20 13:13:11 2018 +0200",
+    "message": "[travis] Change how perceval-puppet is installed\n\nThis code modifies how perceval-puppet is installed, thus now the\ninstallation is achieved via `pip install .`",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816490.415754,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "f83c2e61bd960c01abc120ac1eb88bd5ff187715",
+  "updated_on": 1532108178.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "14eae81018ca6720edb5a7eb65a5f58d5032414e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "14eae81018ca6720edb5a7eb65a5f58d5032414e",
+    "Merge": "6c07281 3c86bbf",
+    "AuthorDate": "Fri Jul 20 19:36:18 2018 +0200",
+    "CommitDate": "Fri Jul 20 19:36:18 2018 +0200",
+    "message": "Merge branch 'fix-travis' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #15\nCloses #15",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816491.537942,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "428ea79b40a617cd1fb7d6647d1e69803f84f949",
+  "updated_on": 1532341636.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "22397d27bc0781f2e138c6222adccd66e248b12d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "22397d27bc0781f2e138c6222adccd66e248b12d",
+    "AuthorDate": "Fri Jul 13 13:42:51 2018 +0200",
+    "CommitDate": "Mon Jul 23 12:27:16 2018 +0200",
+    "message": "[setup] Align setup to perceval one\n\nThis code aligns the code in the setup.py to the one in perceval.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816492.508753,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "8108fe4694d5bddf77a8a74c5cabf448f15e7b77",
+  "updated_on": 1532365134.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "65556f090dae1bc996aee8395d2441af49bc7e7b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "65556f090dae1bc996aee8395d2441af49bc7e7b",
+    "Merge": "14eae81 22397d2",
+    "AuthorDate": "Mon Jul 23 18:58:54 2018 +0200",
+    "CommitDate": "Mon Jul 23 18:58:54 2018 +0200",
+    "message": "Merge branch 'improve-test' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #14\nCloses #14",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816493.562694,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "9b0881b821c549a8d0d79bf6d9cf5ae80db7bea2",
+  "updated_on": 1532506983.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "67ea7d010fee4394f3a17ce98865b4026aa8cfc8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "67ea7d010fee4394f3a17ce98865b4026aa8cfc8",
+    "AuthorDate": "Wed Jul 25 10:23:03 2018 +0200",
+    "CommitDate": "Wed Jul 25 10:23:03 2018 +0200",
+    "message": "Update version number to 0.1.10",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816494.750406,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "e25265646721cc22a686a384b43b1cdaa535f219",
+  "updated_on": 1532540135.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9491baf26e94d7db72cc218812abc2ced1bc411c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "9491baf26e94d7db72cc218812abc2ced1bc411c",
+    "AuthorDate": "Sat Jul 21 19:06:57 2018 +0200",
+    "CommitDate": "Wed Jul 25 19:35:35 2018 +0200",
+    "message": "[doc] Update install from source code section in README.md\n\nThis code updates the information to install perceval-puppet. Thus,\nthe new way of installing perceval is:\n`pip3 install .`.",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816495.761456,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "91694f9e91d1b750b638e7fc2d8628a3eb0e9ef6",
+  "updated_on": 1532540143.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "963110d25fb4199089ba2105d55efe33b224fc8d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "963110d25fb4199089ba2105d55efe33b224fc8d",
+    "Merge": "67ea7d0 9491baf",
+    "AuthorDate": "Wed Jul 25 19:35:43 2018 +0200",
+    "CommitDate": "Wed Jul 25 19:35:43 2018 +0200",
+    "message": "Merge branch 'update-readme-install' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #16\nCloses #16",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816496.943823,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "8a8a428aa1024a71f740fbc1430f5522b0249ec3",
+  "updated_on": 1534960027.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3e3afc3f55059bf56f7685ea821e3623f7c4bee5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "3e3afc3f55059bf56f7685ea821e3623f7c4bee5",
+    "AuthorDate": "Wed Aug 22 19:46:19 2018 +0200",
+    "CommitDate": "Wed Aug 22 19:47:07 2018 +0200",
+    "message": "Update version number to 0.1.11",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816498.050156,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "2d3dfb3205883be6adaee34fb2c8f3b0c5e5c7ba",
+  "updated_on": 1556186843.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "62909589b20a09f613cf85959d7ca23969bc73dd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "62909589b20a09f613cf85959d7ca23969bc73dd",
+    "AuthorDate": "Thu Apr 25 15:08:20 2019 +0530",
+    "CommitDate": "Thu Apr 25 15:37:23 2019 +0530",
+    "message": "[puppetforge] Include available category options in the helptext\n\nThis code adds the available options for param --category\nfor PuppetForge backend to the helptext, and aligns it\nwith the parent Backend. Also includes the corresponding test.\n\nSigned-off-by: Harshal Mittal <harshalmittal4@gmail.com>",
+    "Signed-off-by": [
+      "Harshal Mittal <harshalmittal4@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816499.046876,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "ae8b68c2bc3a17cd1a58390139bb2166f23fdfd8",
+  "updated_on": 1556186890.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "81bfda891b0ea2760b4fc1fe7831e62a4f335a27"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "81bfda891b0ea2760b4fc1fe7831e62a4f335a27",
+    "AuthorDate": "Thu Apr 25 15:38:10 2019 +0530",
+    "CommitDate": "Thu Apr 25 15:38:10 2019 +0530",
+    "message": "[setup.py] Minor update to avoid flake8 error\n\nSigned-off-by: Harshal Mittal <harshalmittal4@gmail.com>",
+    "Signed-off-by": [
+      "Harshal Mittal <harshalmittal4@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816500.082203,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "b077db8952082b019f7033ff47e7068705780484",
+  "updated_on": 1556200495.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e6d98d448be316a73f375f46d55d6d91ac5c6322"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "e6d98d448be316a73f375f46d55d6d91ac5c6322",
+    "Merge": "3e3afc3 81bfda8",
+    "AuthorDate": "Thu Apr 25 09:54:55 2019 -0400",
+    "CommitDate": "Thu Apr 25 09:54:55 2019 -0400",
+    "message": "Merge branch 'Include_category_options_in_helptext' of 'https://github.com/harshalmittal4/grimoirelab-perceval-puppet.git'\n\nMerges #18\nCloses #18",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816501.122086,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "a5c247aa5eebb9fbc86debebb7c39eaf2abb44da",
+  "updated_on": 1556299084.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "50bc3521ba69391382129733a6e9e945ec25d30f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "50bc3521ba69391382129733a6e9e945ec25d30f",
+    "AuthorDate": "Fri Apr 26 13:18:04 2019 -0400",
+    "CommitDate": "Fri Apr 26 13:18:04 2019 -0400",
+    "message": "Update Perceval requirement to 0.12.12 or later\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816502.110841,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "5f4014a6ca0ec333476eb8e9d23d8f3c94602819",
+  "updated_on": 1556299113.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4b215df2e8045ce3d6538e532e8b5c660ebed7ea"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "4b215df2e8045ce3d6538e532e8b5c660ebed7ea",
+    "AuthorDate": "Fri Apr 26 13:18:33 2019 -0400",
+    "CommitDate": "Fri Apr 26 13:18:33 2019 -0400",
+    "message": "Update version number to 0.1.12\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816503.341956,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c1c13851a8debf53170e8bd1295c4759c301c658",
+  "updated_on": 1562754678.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "bc15c9174d2dac59d1422a4180a0009acdcf4fad"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "bc15c9174d2dac59d1422a4180a0009acdcf4fad",
+    "AuthorDate": "Wed Jul 10 12:31:18 2019 +0200",
+    "CommitDate": "Wed Jul 10 12:31:18 2019 +0200",
+    "message": "[setup] Fix format type for long description of package\n\nPypi requires that the format of the long description for a\npackage is detailed in the variable `long_description_content_type`,\nin setup.py. Since it now supports Markdown, the conversion to\nreST is not needed anymore.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816504.553784,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "1d469024811c232a213dcc7fc0247792ea3a71f6",
+  "updated_on": 1563263911.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "53d3e2c9f2abb3563637d95997fc66d0541dd145"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "53d3e2c9f2abb3563637d95997fc66d0541dd145",
+    "Merge": "4b215df bc15c91",
+    "AuthorDate": "Tue Jul 16 09:58:31 2019 +0200",
+    "CommitDate": "Tue Jul 16 09:58:31 2019 +0200",
+    "message": "Merge branch 'setup-long-desc' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #19",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816505.678412,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "b3180ba142d7222d3648b012d4548a277513ab79",
+  "updated_on": 1563265431.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "93dda964d796be0c7dae9d57fcf14661c46cbf2b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "93dda964d796be0c7dae9d57fcf14661c46cbf2b",
+    "AuthorDate": "Mon Jul 15 09:21:09 2019 +0200",
+    "CommitDate": "Tue Jul 16 10:23:51 2019 +0200",
+    "message": "[perceval-puppet] Update license and copyright info\n\nThis code updates the license info based on the content of\nhttps://www.gnu.org/licenses/gpl-3.0.html. Furthermore, it\nalso extends the copyrigth timeframe to 2019.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816506.797076,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "2d772e9cbb25ff0fed31bed3f6a4ac6683bd435c",
+  "updated_on": 1563300947.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "043a016b79913536caf5fc0b37b9317e01e0791a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "043a016b79913536caf5fc0b37b9317e01e0791a",
+    "Merge": "53d3e2c 93dda96",
+    "AuthorDate": "Tue Jul 16 20:15:47 2019 +0200",
+    "CommitDate": "Tue Jul 16 20:15:47 2019 +0200",
+    "message": "Merge branch 'update-license' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #20\nCloses #20",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816507.772003,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "aa026a0a7ea81c2223185fcf211a280ed81e002f",
+  "updated_on": 1563539464.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "2231130fba1d35aaedaab2ad67c3cee66d1bf425"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "2231130fba1d35aaedaab2ad67c3cee66d1bf425",
+    "AuthorDate": "Fri Jul 19 14:06:12 2019 +0200",
+    "CommitDate": "Fri Jul 19 14:31:04 2019 +0200",
+    "message": "Include metadata files and tests in sdist packages\n\nSource distribution packages will start including\nsome missing metadata files such as the license and\nthe list of authors.\n\nIt also will include the code needed to test the\nsoftware. This is useful for distros which could\nneed to pass some tests before generating the packages\n(e.g, in rpm or deb formats).\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816508.65449,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "af1e68ad236b212235ed4e48f382c40fc3580e0c",
+  "updated_on": 1563539468.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "564e8d62fab531ca2e7f42fd21a3d03745fa6ef7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "564e8d62fab531ca2e7f42fd21a3d03745fa6ef7",
+    "AuthorDate": "Fri Jul 19 14:06:58 2019 +0200",
+    "CommitDate": "Fri Jul 19 14:31:08 2019 +0200",
+    "message": "Update version number to 0.1.13\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816509.685598,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "335b9e421a5f708439aa83fed3924a436ac3331a",
+  "updated_on": 1568638521.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4a73d0a738ac307510823252cc0e43f32f124304"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "4a73d0a738ac307510823252cc0e43f32f124304",
+    "AuthorDate": "Mon Sep 16 14:54:05 2019 +0200",
+    "CommitDate": "Mon Sep 16 14:55:21 2019 +0200",
+    "message": "[puppetforge] Add search fields\n\nThis code extends the Puppetforge backend by including a set of\nsearch fields to simplify query operations. The search fields\nintroduced are: item_id, module_group, slug.\n\nTests have been added accordingly.\nThe backend version is set to 0.5.0.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816510.817953,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "98553168a698e3b541e6fdad3aca41f975cefbb7",
+  "updated_on": 1568648653.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "039ebc47a3f0a839f91b4f2fc0f0195907e06d71"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "039ebc47a3f0a839f91b4f2fc0f0195907e06d71",
+    "Merge": "564e8d6 4a73d0a",
+    "AuthorDate": "Mon Sep 16 17:44:13 2019 +0200",
+    "CommitDate": "Mon Sep 16 17:44:13 2019 +0200",
+    "message": "Merge branch 'search-terms' of 'https://github.com/valeriocos/perceva-puppet'\n\nMerges #21\nCloses #21",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816512.026216,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "7cfdda6bb5dddacee2fdc819d350b9171f20cbe4",
+  "updated_on": 1568808442.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "94ee0d1e38ff06dceef940b6f41e28401ffca05d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "94ee0d1e38ff06dceef940b6f41e28401ffca05d",
+    "AuthorDate": "Wed Sep 18 14:07:22 2019 +0200",
+    "CommitDate": "Wed Sep 18 14:07:22 2019 +0200",
+    "message": "Update version number to 0.1.14\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816512.954296,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c508d0efd013be63c281955aea67228b1e2a8054",
+  "updated_on": 1569330001.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "afcfb7350e382c498a475890a9b0643e9a0e3fb7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "afcfb7350e382c498a475890a9b0643e9a0e3fb7",
+    "AuthorDate": "Tue Sep 24 15:00:01 2019 +0200",
+    "CommitDate": "Tue Sep 24 15:00:01 2019 +0200",
+    "message": "[backend] Change signature BackendCommandArgumentParser\n\nThis code changes the signature of the class `BackendCommandArgumentParser`,\nwhich now accepts as first parameter the backend object instead\nits categories. This change is needed to simplify accessing other backend\nattributes, beyond the categories.\n\nPuppetforge backend and corresponding tests have been updated.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816513.769348,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "3dc8dd58c55ad7057bdbb78ed82d20c0f7f52de9",
+  "updated_on": 1569339670.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "911af08254f6fb8033d7052959b09d2f34027796"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "911af08254f6fb8033d7052959b09d2f34027796",
+    "Merge": "94ee0d1 afcfb73",
+    "AuthorDate": "Tue Sep 24 17:41:10 2019 +0200",
+    "CommitDate": "Tue Sep 24 17:41:10 2019 +0200",
+    "message": "Merge branch 'change-backendcommandargumentparser-sign' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #22\nCloses #22",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816514.813198,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "dab9fa3a9b348fca092b2b73bdc4aa5c0fdf25cf",
+  "updated_on": 1569952179.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e2d2ca07055d170ee27c76ada7f5c2c7d37a3f5c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "e2d2ca07055d170ee27c76ada7f5c2c7d37a3f5c",
+    "AuthorDate": "Tue Oct 1 19:49:39 2019 +0200",
+    "CommitDate": "Tue Oct 1 19:49:39 2019 +0200",
+    "message": "Increase version package to 0.1.15\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816515.602079,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "d29d232664ebd50a15751f9aa575958fb4f5a1de",
+  "updated_on": 1573468358.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e02cc28040b899edf950f9ec3ea77d4fe3d68c81"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "e02cc28040b899edf950f9ec3ea77d4fe3d68c81",
+    "AuthorDate": "Fri Nov 8 20:36:14 2019 +0100",
+    "CommitDate": "Mon Nov 11 11:32:38 2019 +0100",
+    "message": "[travis] Support for python 3.5 and 3.6\n\nThis code aims at aligning the CI tests across\nthe\u00a0different grimoirelab components.\n\nPython 3.4 is removed and Python 3.5 and 3.6\u00a0are\nnow supported.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816516.409341,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "1c162ca61cd93a5195614909abfa55ff81e99eda",
+  "updated_on": 1573468597.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "61a664e9ebc606e35797c5b1c89568535a5ed45c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "61a664e9ebc606e35797c5b1c89568535a5ed45c",
+    "Merge": "911af08 e02cc28",
+    "AuthorDate": "Mon Nov 11 11:36:37 2019 +0100",
+    "CommitDate": "Mon Nov 11 11:36:37 2019 +0100",
+    "message": "Merge branch 'support-35-36-travis' of 'https://github.com/valeriocos/perceval-puppet'\n\nMerges #23\nCloses #23",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816517.638003,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "5237c6fb9af7d04d9678222f84d0e693fd475c89",
+  "updated_on": 1574931787.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5dfe78eb110968ea50f30fbaad1a8318e8027a5e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "5dfe78eb110968ea50f30fbaad1a8318e8027a5e",
+    "AuthorDate": "Thu Nov 28 10:03:07 2019 +0100",
+    "CommitDate": "Thu Nov 28 10:03:07 2019 +0100",
+    "message": "Increase version package to 0.1.16\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816518.648213,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "231e3c9e82af0b21412eb839d34fe94ed8695f94",
+  "updated_on": 1581765576.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d9eba6e14c74fac4241d0e8ceb91d5233c97bb61"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d9eba6e14c74fac4241d0e8ceb91d5233c97bb61",
+    "AuthorDate": "Thu Feb 13 16:57:36 2020 +0100",
+    "CommitDate": "Sat Feb 15 12:19:36 2020 +0100",
+    "message": "[puppetforge] Support for SSL verification\n\nThis code enhances the backend with the support\nto disable SSL verification.\n\nTests have been added accordingly.\n\nBackend version is now 0.6.0\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816519.684836,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "c97fe736b15b1fae7c3dab5061ea80e6c789e411",
+  "updated_on": 1581849822.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1b173d14a5884a7f9bb3c5906058a058a2def2a0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "1b173d14a5884a7f9bb3c5906058a058a2def2a0",
+    "Merge": "5dfe78e d9eba6e",
+    "AuthorDate": "Sun Feb 16 11:43:42 2020 +0100",
+    "CommitDate": "Sun Feb 16 11:43:42 2020 +0100",
+    "message": "Merge branch 'ssl_verification' of 'https://github.com/zhquan/grimoirelab-perceval-puppet'\n\nMerges #24\nCloses #24",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816520.706585,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "5246e83cdda0175386e072f7ab066116045b1d2e",
+  "updated_on": 1582641892.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8b3baf7657c1ff7c26fb64432025faadf99d3a74"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "8b3baf7657c1ff7c26fb64432025faadf99d3a74",
+    "AuthorDate": "Tue Feb 25 15:44:52 2020 +0100",
+    "CommitDate": "Tue Feb 25 15:44:52 2020 +0100",
+    "message": "Update version number 0.1.17\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816521.928482,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "8f8e83827f56483e5c0edea050062170189154d7",
+  "updated_on": 1586340484.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b8d89bfe147359a7559e688ff484d768fa3cc97c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "b8d89bfe147359a7559e688ff484d768fa3cc97c",
+    "AuthorDate": "Wed Apr 8 15:38:04 2020 +0530",
+    "CommitDate": "Wed Apr 8 15:38:04 2020 +0530",
+    "message": "[travis] Upgrade setuptools and pip\n\nThis code upgrades the setuptools and pip. This change\nstems from the fix at: chaoss/grimoirelab-perceval#643\nIt was needed to fix the CI tests that were failing due\nto the following error:\n```\nFile \"../python3.5/site-packages/setuptools/sandbox.py\", line 44, in _execfile\n  code = compile(script, filename, 'exec')\nFile \"/tmp/easy_install-wu9lgsxc/pandoc-2.0a4/setup.py\", line 11\n  error = f\"pip is not installed, refer to <{url}> for instructions.\"\n                                                                    ^\nSyntaxError: invalid syntax\n```\n\nSigned-off-by: Animesh Kumar <animuz111@gmail.com>",
+    "Signed-off-by": [
+      "Animesh Kumar <animuz111@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816523.332599,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "9735931f0b4ab60b547e893b2d268018481693be",
+  "updated_on": 1586344999.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "a64765e881bee287432493e5e193fcfa5dcf2239"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "a64765e881bee287432493e5e193fcfa5dcf2239",
+    "Merge": "8b3baf7 b8d89bf",
+    "AuthorDate": "Wed Apr 8 13:23:19 2020 +0200",
+    "CommitDate": "Wed Apr 8 13:23:19 2020 +0200",
+    "message": "Merge branch 'travis-fix' of 'https://github.com/animeshk08/grimoirelab-perceval-puppet'\n\nMerges #25\nCloses #25",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816524.508607,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "00334c8ad1ba035970224e9b7298c82d23ee65f0",
+  "updated_on": 1587664461.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "01d5cc55215e9835f57535bec27c6fe1ab616ea3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "01d5cc55215e9835f57535bec27c6fe1ab616ea3",
+    "AuthorDate": "Thu Apr 23 19:54:21 2020 +0200",
+    "CommitDate": "Thu Apr 23 19:54:21 2020 +0200",
+    "message": "Update version number to 0.1.18\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816525.289975,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "1bed7888e76ab4abc56ee59739e125e5216de035",
+  "updated_on": 1605087341.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "91175431afa29590262bc492fab1486ed1e6ccf1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "91175431afa29590262bc492fab1486ed1e6ccf1",
+    "AuthorDate": "Thu Nov 5 13:28:41 2020 +0530",
+    "CommitDate": "Wed Nov 11 15:05:41 2020 +0530",
+    "message": "[travis] Support for python 3.6, 3.7 and 3.8\n\nThis code aims at aligning the CI tests across the\ndifferent grimoirelab components.\n\nPython 3.5 is removed as its support period has ended and\nPython 3.6, 3.7 and 3.8 are now supported.\n\nThe version of setuptools and pip has been downgraded as a\nhotfix to solve the failing CI tests.\n\nThe version of httpretty module is also updated.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816526.220557,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "07282c2479e52940d6149ee3126f370948f6d19a",
+  "updated_on": 1605090556.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "022dd94e208a95c714b8ebce27fbe35d3aba57a5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "022dd94e208a95c714b8ebce27fbe35d3aba57a5",
+    "Merge": "01d5cc5 9117543",
+    "AuthorDate": "Wed Nov 11 11:29:16 2020 +0100",
+    "CommitDate": "Wed Nov 11 11:29:16 2020 +0100",
+    "message": "Merge branch 'support-35-36-37-travis' of 'https://github.com/vchrombie/grimoirelab-perceval-puppet'\n\nMerges #26\nCloses #26",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816527.100524,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "6162aa4c0f730f064b71f9e68f367b7f4974c492",
+  "updated_on": 1610608115.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d36f29bc3f2176dfcd839e0c4ae6d5c3c9f368d2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d36f29bc3f2176dfcd839e0c4ae6d5c3c9f368d2",
+    "AuthorDate": "Thu Jan 14 12:34:10 2021 +0530",
+    "CommitDate": "Thu Jan 14 12:38:35 2021 +0530",
+    "message": "[CI] Migrate from Travis CI to GitHub Actions\n\nTravis CI has brought a few changes in its plans\nwhich is causing friction to the current workflow.\n\nThis commit removes the support of Travis CI and adds\nthe support of GitHub Actions as the new CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816528.222131,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "bfffc3fa5ead86526c5f8ee2e7654bbc2c4177ca",
+  "updated_on": 1610898168.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1fcc2eb8ce426df81871a1bbaeb5fea85cdffe73"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "1fcc2eb8ce426df81871a1bbaeb5fea85cdffe73",
+    "Merge": "022dd94 d36f29b",
+    "AuthorDate": "Sun Jan 17 16:42:48 2021 +0100",
+    "CommitDate": "Sun Jan 17 16:42:48 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-perceval-puppet'\n\nMerges #27\nCloses #27",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816529.533988,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "8d7cbbd9d726f655f2bcbad72098aa88947f6e0b",
+  "updated_on": 1611735550.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "58594e39f42c605d15a1b79481488945ea374c50"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "58594e39f42c605d15a1b79481488945ea374c50",
+    "AuthorDate": "Wed Jan 27 13:20:50 2021 +0530",
+    "CommitDate": "Wed Jan 27 13:49:10 2021 +0530",
+    "message": "[perceval-puppet] Add poetry support\n\nThis commit adds the files required to add poetry support\nto the perceval-puppet project.\n\nThis update is required to start using the Bitergia/release-tools\nfor automating the GrimoireLab toolset releases.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816530.445874,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "f5ae5872bc119e562c8142f40c41450cdefbd7da",
+  "updated_on": 1611741315.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "87636904d2e019dee5e03e181cd064ac52842221"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "87636904d2e019dee5e03e181cd064ac52842221",
+    "Merge": "1fcc2eb 58594e3",
+    "AuthorDate": "Wed Jan 27 10:55:15 2021 +0100",
+    "CommitDate": "Wed Jan 27 10:55:15 2021 +0100",
+    "message": "Merge branch 'add-poetry' of 'https://github.com/vchrombie/grimoirelab-perceval-puppet'\n\nMerges #28\nCloses #28",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816531.491404,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "99765da167dddc76e991f4aef1b31a28fcf1be53",
+  "updated_on": 1625728682.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "667651d0c9e1fd93a73b2c21cb7823b426bcaa85"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "667651d0c9e1fd93a73b2c21cb7823b426bcaa85",
+    "AuthorDate": "Thu Jul 8 12:48:02 2021 +0530",
+    "CommitDate": "Thu Jul 8 12:48:02 2021 +0530",
+    "message": "Bump grimoirelab-toolkit from 0.1.12 to 0.2.0\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816532.440118,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "3dc9f5c316bd445830a901ab214083b3f71ebff0",
+  "updated_on": 1626794040.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "291555535a04289308233864f15f99d2ad604309"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "291555535a04289308233864f15f99d2ad604309",
+    "Merge": "8763690 667651d",
+    "AuthorDate": "Tue Jul 20 17:14:00 2021 +0200",
+    "CommitDate": "Tue Jul 20 17:14:00 2021 +0200",
+    "message": "Merge branch 'grimoirelab-toolkit-0.2.0' of https://github.com/vchrombie/grimoirelab-perceval-puppet\n\nMerges #29\nCloses #29",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816533.282013,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "1478418d7d0e930eb77b040223acf0dec49a7bcc",
+  "updated_on": 1626796464.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f1f6473072af3ecfbf35eba473ec2dba771faed0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "f1f6473072af3ecfbf35eba473ec2dba771faed0",
+    "AuthorDate": "Tue Jul 20 17:54:24 2021 +0200",
+    "CommitDate": "Tue Jul 20 17:54:24 2021 +0200",
+    "message": "Update version number to 0.1.19\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816534.195904,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "6b92effc904d516fe0b9e0385ff05d216c53f835",
+  "updated_on": 1628001379.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7a86aa848d51178be8ff80097818ec9bba4ff5ae"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "7a86aa848d51178be8ff80097818ec9bba4ff5ae",
+    "AuthorDate": "Tue Aug 3 16:36:19 2021 +0200",
+    "CommitDate": "Tue Aug 3 16:36:19 2021 +0200",
+    "message": "[pyproject] Update python \"^3.6.1\"\n\npoetry.lock updated.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816535.227621,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "13b4a04a58ad483941c14b21205c561461d1adba",
+  "updated_on": 1628003250.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8d7e8a55d15c589f2f31419e0a9a0d338ce97bf4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "8d7e8a55d15c589f2f31419e0a9a0d338ce97bf4",
+    "Merge": "f1f6473 7a86aa8",
+    "AuthorDate": "Tue Aug 3 17:07:30 2021 +0200",
+    "CommitDate": "Tue Aug 3 17:07:30 2021 +0200",
+    "message": "Merge branch 'python_3.6.1' of 'https://github.com/zhquan/grimoirelab-perceval-puppet'\n\nMerges #30\nCloses #30",
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816536.043466,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "uuid": "0e0c5ff12f4c498905415cadc8156ca651ef6991",
+  "updated_on": 1628758595.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d9740823d10ce020d28221a96007757271b8f70a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-puppet",
+  "data": {
+    "commit": "d9740823d10ce020d28221a96007757271b8f70a",
+    "AuthorDate": "Thu Aug 12 10:56:35 2021 +0200",
+    "CommitDate": "Thu Aug 12 10:56:35 2021 +0200",
+    "message": "Update version number to 0.1.20\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 7
+    },
+    "analyzer": "flake8"
+  }
+},
+]

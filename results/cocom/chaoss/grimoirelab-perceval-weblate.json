@@ -1,0 +1,2047 @@
+[
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815686.921567,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "f4f4cf0dbf69b2130bf150d396bd2f22e63c05f7",
+  "updated_on": 1601379270.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f71eba81aa2dfc32b230d0184bd7c60111b3b70d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f71eba81aa2dfc32b230d0184bd7c60111b3b70d",
+    "parents": [],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Tue Sep 29 13:34:30 2020 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Tue Sep 29 13:34:30 2020 +0200",
+    "message": "[weblate] Initial import\n\nThis code proposes an initial version of the backend to extract\nchanges from a Weblate instance. The changes can be collected\nfor a given project or for all the projects in the instance.\n\nThe initial tests have been done on:\n- https://hosted.weblate.org (Weblate API 4.2)\n- https://translations.documentfoundation.org (Weblate API 4.1)\n\nNotes:\n- Sleep for rate is working in >=4.1.\n- Incremental fetching works for all projects in >=4.1.\n- Incremental fetching works for single projects in >=4.2.\n- Users details can be fetched only if the token has enough permissions.\n  See details at: https://docs.weblate.org/en/latest/api.html#get--api-users-.\n\nThe backend can be executed as follows:\n```\nperceval weblate\nhttps://translations.documentfoundation.org\n-t\n<token>\n--from-date\n2020-01-01\n--no-archive\n```\n\nThe token can be obtained after registering to a weblate\ninstance (e.g., https://translations.documentfoundation.org/),\nvia the page <instance>/accounts/profile/#api\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "gitignore",
+        "file_path": ".gitignore"
+      },
+      {
+        "blanks": 6,
+        "comments": 0,
+        "loc": 19,
+        "ext": "yml",
+        "file_path": ".travis.yml"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "/tmp/worktrees/grimoirelab-perceval-weblate/AUTHORS",
+        "file_path": "AUTHORS"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "/tmp/worktrees/grimoirelab-perceval-weblate/LICENSE",
+        "file_path": "LICENSE"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "in",
+        "file_path": "MANIFEST.in"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "/tmp/worktrees/grimoirelab-perceval-weblate/NEWS",
+        "file_path": "NEWS"
+      },
+      {
+        "blanks": 17,
+        "comments": 0,
+        "loc": 33,
+        "ext": "md",
+        "file_path": "README.md"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "ext": "py",
+        "blanks": 1,
+        "comments": 20,
+        "file_path": "perceval/__init__.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "ext": "py",
+        "blanks": 1,
+        "comments": 20,
+        "file_path": "perceval/backends/__init__.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "ext": "py",
+        "blanks": 1,
+        "comments": 20,
+        "file_path": "perceval/backends/weblate/__init__.py"
+      },
+      {
+        "ccn": 32,
+        "avg_ccn": 1.7777777777777777,
+        "avg_loc": 6.722222222222222,
+        "avg_tokens": 48.888888888888886,
+        "num_funs": 18,
+        "loc": 201,
+        "tokens": 1131,
+        "ext": "py",
+        "blanks": 91,
+        "comments": 117,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "txt",
+        "file_path": "requirements.txt"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "txt",
+        "file_path": "requirements_test.txt"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "cfg",
+        "file_path": "setup.cfg"
+      },
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 9,
+        "ext": "py",
+        "blanks": 1,
+        "comments": 20,
+        "file_path": "tests/__init__.py"
+      },
+      {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 50.0,
+        "num_funs": 3,
+        "loc": 23,
+        "tokens": 176,
+        "ext": "py",
+        "blanks": 12,
+        "comments": 22,
+        "file_path": "tests/base.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 35,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 62,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_archived.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 196,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_expected.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 34,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_page_2.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 13,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_user_1.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 13,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_user_2.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 3,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_user_no_permission.json"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "ext": "py",
+        "blanks": 3,
+        "comments": 20,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 54,
+        "avg_ccn": 3.176470588235294,
+        "avg_loc": 13.764705882352942,
+        "avg_tokens": 106.94117647058823,
+        "num_funs": 17,
+        "loc": 269,
+        "tokens": 1987,
+        "ext": "py",
+        "blanks": 95,
+        "comments": 41,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815690.99529,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "03ada762a03aba8c348778fcdfb1e4b3541dd071",
+  "updated_on": 1601482166.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "53937128bbdea7b90a7345324365a8f9239e11e7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "53937128bbdea7b90a7345324365a8f9239e11e7",
+    "parents": [
+      "f71eba81aa2dfc32b230d0184bd7c60111b3b70d"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Wed Sep 30 18:09:26 2020 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Wed Sep 30 18:09:26 2020 +0200",
+    "message": "Add fetch 'units' data\n\nThis code adds fetching 'units' and fixes duplicate entry.\n\nTest added accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 35,
+        "avg_ccn": 1.8421052631578947,
+        "avg_loc": 7.368421052631579,
+        "avg_tokens": 52.68421052631579,
+        "num_funs": 19,
+        "loc": 220,
+        "tokens": 1253,
+        "ext": "py",
+        "blanks": 92,
+        "comments": 118,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 35,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 62,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_archived.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 220,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_expected.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 24,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_unit.json"
+      },
+      {
+        "ccn": 57,
+        "avg_ccn": 3.1666666666666665,
+        "avg_loc": 14.222222222222221,
+        "avg_tokens": 108.88888888888889,
+        "num_funs": 18,
+        "loc": 294,
+        "tokens": 2144,
+        "ext": "py",
+        "blanks": 103,
+        "comments": 42,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815692.957006,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "650b16ed7237c8e9a7c6f19688661277a6d86ba1",
+  "updated_on": 1602068735.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "5ef2212032dc0046781ba2b9dfa56eade10226a8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5ef2212032dc0046781ba2b9dfa56eade10226a8",
+    "parents": [
+      "53937128bbdea7b90a7345324365a8f9239e11e7"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Wed Oct 7 12:43:48 2020 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Wed Oct 7 13:05:35 2020 +0200",
+    "message": "Fix URL error when there are not items\n\nThis code fixes the error\n`requests.exceptions.MissingSchema: Invalid URL 'None'`.\nThis error is caused to fetch items using None as URL.\n\nTest files updated accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 35,
+        "avg_ccn": 1.8421052631578947,
+        "avg_loc": 7.368421052631579,
+        "avg_tokens": 52.73684210526316,
+        "num_funs": 19,
+        "loc": 220,
+        "tokens": 1254,
+        "ext": "py",
+        "blanks": 92,
+        "comments": 118,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 63,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_archived.json"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 35,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_page_2.json"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815693.778442,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "419c3ade5530a83585dedaf6bbcff8830dacfefa",
+  "updated_on": 1602075372.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f99492626d50ad6e8b2681371b4e487dbbac896c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f99492626d50ad6e8b2681371b4e487dbbac896c",
+    "parents": [
+      "5ef2212032dc0046781ba2b9dfa56eade10226a8"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Wed Oct 7 14:56:12 2020 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Wed Oct 7 14:56:12 2020 +0200",
+    "message": "Add author_data, user_data, and unit_data fields by default\n\nThis code sets these fields as None by default. And fix the URL\nto fetch author info.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 35,
+        "avg_ccn": 1.8421052631578947,
+        "avg_loc": 7.526315789473684,
+        "avg_tokens": 53.68421052631579,
+        "num_funs": 19,
+        "loc": 223,
+        "tokens": 1272,
+        "ext": "py",
+        "blanks": 92,
+        "comments": 118,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815695.289793,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "dbb1496ece6781ce7d41c3ca76dab710ef914a62",
+  "updated_on": 1602246122.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "400bd936d848e5f53d97d9d650ffa640e65c422a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "400bd936d848e5f53d97d9d650ffa640e65c422a",
+    "parents": [
+      "f99492626d50ad6e8b2681371b4e487dbbac896c"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Fri Oct 9 14:22:02 2020 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Fri Oct 9 14:22:02 2020 +0200",
+    "message": "Update Bitergia's references to Chaoss\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 17,
+        "comments": 0,
+        "loc": 33,
+        "ext": "md",
+        "file_path": "README.md"
+      },
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815695.991817,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "db10cfa9a1e9bbb47ab05e5fe50138be067dc91f",
+  "updated_on": 1602601153.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8",
+    "parents": [
+      "400bd936d848e5f53d97d9d650ffa640e65c422a"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Oct 13 16:59:13 2020 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Oct 13 16:59:13 2020 +0200",
+    "message": "Increase version package to 0.1.0\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815698.530081,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "93eb36fea04e76951de6b1c5c8fe23bc8e02e22c",
+  "updated_on": 1604650331.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "753a731bf07ea12049ddfa8127319cbace9ed67a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "753a731bf07ea12049ddfa8127319cbace9ed67a",
+    "parents": [
+      "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Fri Nov 6 13:07:29 2020 +0530",
+    "Commit": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "CommitDate": "Fri Nov 6 13:42:11 2020 +0530",
+    "message": "[weblate] Fix flake8 errors and tests\n\nThis commit fixes the flake8 errors in the tests. It also\nfixes the failing tests which are also responsible for the\ntravis build failure.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 50.0,
+        "num_funs": 3,
+        "loc": 23,
+        "tokens": 176,
+        "ext": "py",
+        "blanks": 12,
+        "comments": 22,
+        "file_path": "tests/base.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 225,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_expected.json"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "ext": "py",
+        "blanks": 3,
+        "comments": 20,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 57,
+        "avg_ccn": 3.1666666666666665,
+        "avg_loc": 14.222222222222221,
+        "avg_tokens": 108.88888888888889,
+        "num_funs": 18,
+        "loc": 294,
+        "tokens": 2144,
+        "ext": "py",
+        "blanks": 102,
+        "comments": 42,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815701.040145,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "e1afbe380eafb90306e2abe61a730895d8278ffb",
+  "updated_on": 1605003715.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "c0ba2efd26b9e52499827247563c670f636171d1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "c0ba2efd26b9e52499827247563c670f636171d1",
+    "parents": [
+      "e50cf0e1c0c8af6df40ab9dc65788d92a909faf8",
+      "753a731bf07ea12049ddfa8127319cbace9ed67a"
+    ],
+    "Merge": "e50cf0e 753a731",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Nov 10 11:21:55 2020 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Nov 10 11:21:55 2020 +0100",
+    "message": "Merge branch 'fix-weblate-tests' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #2\nCloses #2",
+    "files": [
+      "MANIFEST.in",
+      "requirements_test.txt",
+      "README.md",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 6,
+        "avg_ccn": 2.0,
+        "avg_loc": 5.333333333333333,
+        "avg_tokens": 50.0,
+        "num_funs": 3,
+        "loc": 23,
+        "tokens": 176,
+        "ext": "py",
+        "blanks": 12,
+        "comments": 22,
+        "file_path": "tests/base.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 225,
+        "ext": "json",
+        "file_path": "tests/data/weblate/weblate_changes_expected.json"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 6,
+        "tokens": 51,
+        "ext": "py",
+        "blanks": 3,
+        "comments": 20,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 57,
+        "avg_ccn": 3.1666666666666665,
+        "avg_loc": 14.222222222222221,
+        "avg_tokens": 108.88888888888889,
+        "num_funs": 18,
+        "loc": 294,
+        "tokens": 2144,
+        "ext": "py",
+        "blanks": 102,
+        "comments": 42,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815702.573061,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "2250cfd48d3627b2d06bbba263f6e165b97eb764",
+  "updated_on": 1605003788.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "4a5dff6b57bf2e10121e5c43dda0cf3d62193f74"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "4a5dff6b57bf2e10121e5c43dda0cf3d62193f74",
+    "parents": [
+      "c0ba2efd26b9e52499827247563c670f636171d1"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Thu Nov 5 13:30:21 2020 +0530",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Nov 10 11:23:08 2020 +0100",
+    "message": "[travis] Fix travis build\n\n- Fixed the file name typo in tests requirements file.\n\n- Support for python 3.6, 3.7 and 3.8\n  This code aims at aligning the CI tests across the\ndifferent grimoirelab components.\n  Python 3.5 is removed as its support period has ended and\nPython 3.6, 3.7 and 3.8 are now supported.\n  The version of setuptools and pip has been downgraded as a\nhotfix to solve the failing CI tests.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 6,
+        "comments": 0,
+        "loc": 21,
+        "ext": "yml",
+        "file_path": ".travis.yml"
+      },
+      {
+        "blanks": null,
+        "comments": null,
+        "loc": null,
+        "ccn": null,
+        "avg_ccn": null,
+        "avg_loc": null,
+        "avg_tokens": null,
+        "num_funs": null,
+        "tokens": null,
+        "file_path": "requirements_test.txt"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "txt",
+        "file_path": "requirements_tests.txt"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815703.088829,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "5f63de7bd0458cab53f59c34babbe1f01ca2699d",
+  "updated_on": 1605003811.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d",
+    "parents": [
+      "c0ba2efd26b9e52499827247563c670f636171d1",
+      "4a5dff6b57bf2e10121e5c43dda0cf3d62193f74"
+    ],
+    "Merge": "c0ba2ef 4a5dff6",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Nov 10 11:23:31 2020 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Nov 10 11:23:31 2020 +0100",
+    "message": "Merge branch 'support-35-36-37-travis' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #1\nCloses #1",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 6,
+        "comments": 0,
+        "loc": 21,
+        "ext": "yml",
+        "file_path": ".travis.yml"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815704.540619,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "9db2c8d99ea3819462b44423540e713d2561e9a6",
+  "updated_on": 1610610064.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "dfd580bc78c15d0b0e41d37c8092f8259fa9ddc1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "dfd580bc78c15d0b0e41d37c8092f8259fa9ddc1",
+    "parents": [
+      "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Thu Jan 14 13:08:14 2021 +0530",
+    "Commit": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "CommitDate": "Thu Jan 14 13:11:04 2021 +0530",
+    "message": "[CI] Migrate from Travis CI to GitHub Actions\n\nTravis CI has brought a few changes in its plans\nwhich is causing friction to the current workflow.\n\nThis commit removes the support of Travis CI and adds\nthe support of GitHub Actions as the new CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 9,
+        "comments": 2,
+        "loc": 34,
+        "ext": "yml",
+        "file_path": ".github/workflows/ci.yml"
+      },
+      {
+        "blanks": null,
+        "comments": null,
+        "loc": null,
+        "ccn": null,
+        "avg_ccn": null,
+        "avg_loc": null,
+        "avg_tokens": null,
+        "num_funs": null,
+        "tokens": null,
+        "file_path": ".travis.yml"
+      },
+      {
+        "blanks": 16,
+        "comments": 0,
+        "loc": 33,
+        "ext": "md",
+        "file_path": "README.md"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815705.977571,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "757eb32f26ba6a63a2306300679af8f43f74cecf",
+  "updated_on": 1610898456.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "5308845ac751b83a1ea3c83737788f507f426cb4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5308845ac751b83a1ea3c83737788f507f426cb4",
+    "parents": [
+      "12ab60a1d49583715bd60e1db5aee1a3a86ebb2d",
+      "dfd580bc78c15d0b0e41d37c8092f8259fa9ddc1"
+    ],
+    "Merge": "12ab60a dfd580b",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Sun Jan 17 16:47:36 2021 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Sun Jan 17 16:47:36 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #3\nCloses #3",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 9,
+        "comments": 2,
+        "loc": 34,
+        "ext": "yml",
+        "file_path": ".github/workflows/ci.yml"
+      },
+      {
+        "blanks": 16,
+        "comments": 0,
+        "loc": 33,
+        "ext": "md",
+        "file_path": "README.md"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815708.629402,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "fcca5926b0b4ed1cd3bf1835072b78ee6b867f39",
+  "updated_on": 1611741855.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f253ae8ff725db3504377e3c574754d8dd025759"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f253ae8ff725db3504377e3c574754d8dd025759",
+    "parents": [
+      "5308845ac751b83a1ea3c83737788f507f426cb4"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Wed Jan 27 13:54:30 2021 +0530",
+    "Commit": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "CommitDate": "Wed Jan 27 15:34:15 2021 +0530",
+    "message": "[perceval-weblate] Add poetry support\n\nThis commit adds the files required to add poetry support\nto the perceval-weblate project.\n\nThis update is required to start using the Bitergia/release-tools\nfor automating the GrimoireLab toolset releases.\n\nThe version of httpretty is also updated to keep it aligned\nwith the other perceval tools.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "txt",
+        "file_path": "requirements_tests.txt"
+      },
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815711.036288,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "e76b6ff7a3262623b97e9eb3b3dbb8ecc2b6e37f",
+  "updated_on": 1611744283.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "3729307ec58ba473ff198b5ed5a94f14beb365f8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "3729307ec58ba473ff198b5ed5a94f14beb365f8",
+    "parents": [
+      "5308845ac751b83a1ea3c83737788f507f426cb4",
+      "f253ae8ff725db3504377e3c574754d8dd025759"
+    ],
+    "Merge": "5308845 f253ae8",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Wed Jan 27 11:44:43 2021 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Wed Jan 27 11:44:43 2021 +0100",
+    "message": "Merge branch 'add-poetry' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #4\nCloses #4",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "txt",
+        "file_path": "requirements_tests.txt"
+      },
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815712.493149,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "9f4fe71de3369f4d983123127f9ef4a41f5cb37f",
+  "updated_on": 1624361323.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "7fa714707893875e197d2c933db5ff9ca5813cac"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "7fa714707893875e197d2c933db5ff9ca5813cac",
+    "parents": [
+      "3729307ec58ba473ff198b5ed5a94f14beb365f8"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Mon Jun 21 19:29:39 2021 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Tue Jun 22 13:28:43 2021 +0200",
+    "message": "Support for weblate version 4.7\n\nThis change is needed to fetch changes from weblate 4.7\n\n'changes' must end with '/'as '.../api/changes/'  or it will\nreturn 404 (Page Not Found).\n\nThere are 'unit' URLs that return 404 (Not Found) when they were\nremoved. It is now a WARNING instead of an ERROR to keep running.\n\nTest updated accordingly.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 35,
+        "avg_ccn": 1.8421052631578947,
+        "avg_loc": 7.526315789473684,
+        "avg_tokens": 53.8421052631579,
+        "num_funs": 19,
+        "loc": 223,
+        "tokens": 1275,
+        "ext": "py",
+        "blanks": 91,
+        "comments": 120,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      },
+      {
+        "ccn": 57,
+        "avg_ccn": 3.1666666666666665,
+        "avg_loc": 14.222222222222221,
+        "avg_tokens": 108.88888888888889,
+        "num_funs": 18,
+        "loc": 294,
+        "tokens": 2144,
+        "ext": "py",
+        "blanks": 102,
+        "comments": 42,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815713.73794,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "3cb2961a597e740e0e6fabafa57d77bae2919bcf",
+  "updated_on": 1624363899.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "0bb5dc19bfc456421336e3f9fbae9201683f6a0b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "0bb5dc19bfc456421336e3f9fbae9201683f6a0b",
+    "parents": [
+      "3729307ec58ba473ff198b5ed5a94f14beb365f8",
+      "7fa714707893875e197d2c933db5ff9ca5813cac"
+    ],
+    "Merge": "3729307 7fa7147",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Jun 22 14:11:39 2021 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Jun 22 14:11:39 2021 +0200",
+    "message": "Merge branch 'support_4.7' of 'https://github.com/zhquan/grimoirelab-perceval-weblate'\n\nMerges #6\nCloses #6\nFixes #5",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 35,
+        "avg_ccn": 1.8421052631578947,
+        "avg_loc": 7.526315789473684,
+        "avg_tokens": 53.8421052631579,
+        "num_funs": 19,
+        "loc": 223,
+        "tokens": 1275,
+        "ext": "py",
+        "blanks": 91,
+        "comments": 120,
+        "file_path": "perceval/backends/weblate/weblate.py"
+      },
+      {
+        "ccn": 57,
+        "avg_ccn": 3.1666666666666665,
+        "avg_loc": 14.222222222222221,
+        "avg_tokens": 108.88888888888889,
+        "num_funs": 18,
+        "loc": 294,
+        "tokens": 2144,
+        "ext": "py",
+        "blanks": 102,
+        "comments": 42,
+        "file_path": "tests/test_weblate.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815715.226032,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "c0cd386bb26abfb4111b15eb66938634d5d24f02",
+  "updated_on": 1625728304.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "9a81a27c81dc1b1e2e061e2a0d4e430d5b3ca49d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "9a81a27c81dc1b1e2e061e2a0d4e430d5b3ca49d",
+    "parents": [
+      "0bb5dc19bfc456421336e3f9fbae9201683f6a0b"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>",
+    "AuthorDate": "Thu Jul 8 12:41:44 2021 +0530",
+    "Commit": "Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>",
+    "CommitDate": "Thu Jul 8 12:41:44 2021 +0530",
+    "message": "Bump grimoirelab-toolkit from 0.1.12 to 0.2.0\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venuvardhanreddytekula8@gmail.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815716.587819,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "1b17bc5cf4d7ab8bb2e65eea39d6df7335ca115c",
+  "updated_on": 1626794840.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "0fc817210823d1cb6258b164e34cf3b9520961b8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "0fc817210823d1cb6258b164e34cf3b9520961b8",
+    "parents": [
+      "0bb5dc19bfc456421336e3f9fbae9201683f6a0b",
+      "9a81a27c81dc1b1e2e061e2a0d4e430d5b3ca49d"
+    ],
+    "Merge": "0bb5dc1 9a81a27",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Jul 20 17:27:20 2021 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Jul 20 17:27:20 2021 +0200",
+    "message": "Merge branch 'grimoirelab-toolkit-0.2.0' of 'https://github.com/vchrombie/grimoirelab-perceval-weblate'\n\nMerges #7\nCloses #7",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815717.738302,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "0cad9ca3286bee1c3e849556310c454f30fe172b",
+  "updated_on": 1626796676.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8366eebaf82da5de46ad8981666300935d9a2753"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "8366eebaf82da5de46ad8981666300935d9a2753",
+    "parents": [
+      "0fc817210823d1cb6258b164e34cf3b9520961b8"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Tue Jul 20 17:57:56 2021 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Tue Jul 20 17:57:56 2021 +0200",
+    "message": "Update version number to 0.1.1\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      },
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815719.048149,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "edbd7497bacb1323b82bfe8afc9aee1e5c7697f6",
+  "updated_on": 1628001423.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f293b06dd831d8a155d701ede258a671b38af6b0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "f293b06dd831d8a155d701ede258a671b38af6b0",
+    "parents": [
+      "8366eebaf82da5de46ad8981666300935d9a2753"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Tue Aug 3 16:37:03 2021 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Tue Aug 3 16:37:03 2021 +0200",
+    "message": "[pyproject] Update python \"^3.6.1\"\n\npoetry.lock updated.\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815720.162286,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "4b45f8e41815b7de0108707b5ec8d77b11a2122b",
+  "updated_on": 1628003372.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "fe7d24043dbd81f95abfe3a4a4b3928839f201c1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "fe7d24043dbd81f95abfe3a4a4b3928839f201c1",
+    "parents": [
+      "8366eebaf82da5de46ad8981666300935d9a2753",
+      "f293b06dd831d8a155d701ede258a671b38af6b0"
+    ],
+    "Merge": "8366eeb f293b06",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Aug 3 17:09:32 2021 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Tue Aug 3 17:09:32 2021 +0200",
+    "message": "Merge branch 'python_3.6.1' of 'https://github.com/zhquan/grimoirelab-perceval-weblate'\n\nMerges #8\nCloses #8",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "lock",
+        "file_path": "poetry.lock"
+      },
+      {
+        "blanks": 10,
+        "comments": 0,
+        "loc": 39,
+        "ext": "toml",
+        "file_path": "pyproject.toml"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815720.833419,
+  "origin": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "uuid": "3e50347878954428c74c0d12b0ec43e47ec9ef4e",
+  "updated_on": 1628758835.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "5675ef345ae6935f5b1f59b5a8c005b85a8e808b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-perceval-weblate",
+  "data": {
+    "commit": "5675ef345ae6935f5b1f59b5a8c005b85a8e808b",
+    "parents": [
+      "fe7d24043dbd81f95abfe3a4a4b3928839f201c1"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Thu Aug 12 11:00:35 2021 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Thu Aug 12 11:00:35 2021 +0200",
+    "message": "Update version number to 0.1.2\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "requirements_tests.txt",
+      "requirements.txt",
+      "poetry.lock",
+      "AUTHORS",
+      "setup.cfg",
+      "NEWS",
+      "pyproject.toml",
+      "LICENSE",
+      "setup.py",
+      "perceval/__init__.py",
+      "perceval/backends/__init__.py",
+      "perceval/backends/weblate/__init__.py",
+      "perceval/backends/weblate/weblate.py",
+      "tests/test_weblate.py",
+      "tests/run_tests.py",
+      "tests/__init__.py",
+      "tests/base.py",
+      "tests/data/weblate/weblate_changes_page_2.json",
+      "tests/data/weblate/weblate_changes.json",
+      "tests/data/weblate/weblate_unit.json",
+      "tests/data/weblate/weblate_user_1.json",
+      "tests/data/weblate/weblate_changes_expected.json",
+      "tests/data/weblate/weblate_changes_archived.json",
+      "tests/data/weblate/weblate_user_2.json",
+      "tests/data/weblate/weblate_user_no_permission.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 2,
+        "avg_ccn": 1.0,
+        "avg_loc": 3.5,
+        "avg_tokens": 40.0,
+        "num_funs": 2,
+        "loc": 62,
+        "tokens": 299,
+        "ext": "py",
+        "blanks": 14,
+        "comments": 21,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+]
