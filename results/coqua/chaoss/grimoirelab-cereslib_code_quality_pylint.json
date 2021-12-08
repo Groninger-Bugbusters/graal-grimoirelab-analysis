@@ -1,0 +1,3786 @@
+[
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.281954,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f80d0de0115f2753ce8c9e63a47ff71208c87a2f",
+  "updated_on": 1457626534.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "3feac22f25fc2228851547c53018742b10927f8a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "3feac22f25fc2228851547c53018742b10927f8a",
+    "AuthorDate": "Thu Mar 10 17:15:34 2016 +0100",
+    "CommitDate": "Thu Mar 10 17:15:34 2016 +0100",
+    "message": "Initial commit",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.346793,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "d8e8fa37f1e4ee9dbe9bd35b1eb4de442339a4c2",
+  "updated_on": 1464284047.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e065f08d71609de44151ecdd9d9cb152dbf8713b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e065f08d71609de44151ecdd9d9cb152dbf8713b",
+    "AuthorDate": "Thu May 26 19:34:07 2016 +0200",
+    "CommitDate": "Thu May 26 19:34:07 2016 +0200",
+    "message": "Add module to deal with format and unification of data\n\nMethods receive as entry a pandas.DataFrame.\nThose return a new dataframe with some basic formating activity such as\nadding, removing, filling and dates formating.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.402907,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "dea1fbd7771efc94764574dd06329d4bd61ae74a",
+  "updated_on": 1464340680.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b74c0e7083cf5699dd5bcb93141de9202ef346b4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b74c0e7083cf5699dd5bcb93141de9202ef346b4",
+    "AuthorDate": "Fri May 27 11:18:00 2016 +0200",
+    "CommitDate": "Fri May 27 11:18:00 2016 +0200",
+    "message": "Update documentation of main class in format.py",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.461664,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3987035568cda1a1d844430a83e326ae49c28608",
+  "updated_on": 1464620850.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d1dbeedca2a1de58faded48d4c8a9f3fdc78aaed"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d1dbeedca2a1de58faded48d4c8a9f3fdc78aaed",
+    "AuthorDate": "Mon May 30 17:07:30 2016 +0200",
+    "CommitDate": "Mon May 30 17:07:30 2016 +0200",
+    "message": "Add first version of the 'eventizing' tool\n\nThis helps to split items coming from Perceval into\nthe several events (open ticket, closed ticket, etc).",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.573134,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "da0fecb34b582b960120dc631ec58f83a5ffd37a",
+  "updated_on": 1464635640.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4f2c47d27d3b7547160cd9e8877059bfaa27184e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4f2c47d27d3b7547160cd9e8877059bfaa27184e",
+    "AuthorDate": "Mon May 30 21:14:00 2016 +0200",
+    "CommitDate": "Mon May 30 21:14:00 2016 +0200",
+    "message": "Add two levels of events for Git activity: commit and file actions",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.638273,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "aa6709ab8ec9c55ec612a366260d08bbd5dc9622",
+  "updated_on": 1464693894.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b793a417459f50181a8e856762005f768506dc06"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b793a417459f50181a8e856762005f768506dc06",
+    "AuthorDate": "Tue May 31 13:24:54 2016 +0200",
+    "CommitDate": "Tue May 31 13:24:54 2016 +0200",
+    "message": "Add a first level of events for Gerrit activity",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.728325,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3e44475b33bc5618d0fb5e8618622db771731531",
+  "updated_on": 1464856171.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a11edb6557f9fc89a1eef8e27b6349b9b1f92075"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a11edb6557f9fc89a1eef8e27b6349b9b1f92075",
+    "AuthorDate": "Thu Jun 2 10:29:31 2016 +0200",
+    "CommitDate": "Thu Jun 2 10:29:31 2016 +0200",
+    "message": "Add first enricher for pair programming activities\n\nThis module controls those authors and committers that are\ndifferent. If so, those commits are duplicated in the original\ndata frame with updated info about the original author.\n\nThis module works when the process within the organization\nuses author and committer as a pair programming process.\nFor other cases such as identification of pair programming\nin the log message or in the author name, further work\nis needed.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.80002,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "78fed981715210cbfd6fc93a441c4038a1ef6178",
+  "updated_on": 1473199976.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "dc7089a3a6f8b42dc811c51ae5641a47f34c5420"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "dc7089a3a6f8b42dc811c51ae5641a47f34c5420",
+    "AuthorDate": "Wed Sep 7 00:12:56 2016 +0200",
+    "CommitDate": "Wed Sep 7 00:12:56 2016 +0200",
+    "message": "Add TimeDifference analyzer in the enrichment process",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.897591,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2e23677f6d084398d60a13a77e5f5477bc9013ca",
+  "updated_on": 1473200005.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a4afa25b87d0aa9ad25b53457b92e494c761552d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a4afa25b87d0aa9ad25b53457b92e494c761552d",
+    "AuthorDate": "Wed Sep 7 00:13:25 2016 +0200",
+    "CommitDate": "Wed Sep 7 00:13:25 2016 +0200",
+    "message": "Add logic to work with missing fields in Git\n\nThis was also modified to work with Python 3",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815881.99402,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8bc1f400b59d059dc835a5f81047ac1f13302190",
+  "updated_on": 1473257012.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4777088acb7f2ae1d5e53aca226b113ac3f90c5c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4777088acb7f2ae1d5e53aca226b113ac3f90c5c",
+    "AuthorDate": "Wed Sep 7 16:03:32 2016 +0200",
+    "CommitDate": "Wed Sep 7 16:03:32 2016 +0200",
+    "message": "Add tests for the enrich TimeDifference module",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.106893,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "bc5bfecc1fdd1c57a1b8537e1f8f4e08432e1f1c",
+  "updated_on": 1473257064.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "454bb85c0d5eafb35651b31e980499ec8b29449a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "454bb85c0d5eafb35651b31e980499ec8b29449a",
+    "AuthorDate": "Wed Sep 7 16:04:24 2016 +0200",
+    "CommitDate": "Wed Sep 7 16:04:24 2016 +0200",
+    "message": "Add File Type enrichment module\n\nThis version checks basically C/C++ extensions and makes\na difference between 'code' and 'others'",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.169646,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5672e0bdf8480f153869d5b1757126b518d781b2",
+  "updated_on": 1473354362.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "63b71d74ae0d5788016d143823a0cff165c88a13"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "63b71d74ae0d5788016d143823a0cff165c88a13",
+    "AuthorDate": "Thu Sep 8 19:06:02 2016 +0200",
+    "CommitDate": "Thu Sep 8 19:06:02 2016 +0200",
+    "message": "Add Gender enrichment module\n\nThis helps thanks to the genderize.io API to retrieve and enrich\ninformation about developers.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.293397,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "ea059846c3e0386e578179d32ab43e85a62cf9d2",
+  "updated_on": 1473671939.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fa55dd9ee87dd8ab2f566df9f86aff48823d5d90"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fa55dd9ee87dd8ab2f566df9f86aff48823d5d90",
+    "AuthorDate": "Mon Sep 12 11:18:59 2016 +0200",
+    "CommitDate": "Mon Sep 12 11:18:59 2016 +0200",
+    "message": "Add Email class to 'eventize' the mboxes data source",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.391646,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "363add09358ff6a76cd9e1651d306cb90ef946d0",
+  "updated_on": 1473753486.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e82d38e15e3fcd9265968998d4a9047123e9dd69"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e82d38e15e3fcd9265968998d4a9047123e9dd69",
+    "AuthorDate": "Tue Sep 13 09:58:06 2016 +0200",
+    "CommitDate": "Tue Sep 13 09:58:06 2016 +0200",
+    "message": "Fix wrong var name",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.482866,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "ff507022c31d769f36b3e52ae6b449715d2bb69d",
+  "updated_on": 1473753503.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4328d4b9c03dba39f90179ab654c7f176f16f710"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4328d4b9c03dba39f90179ab654c7f176f16f710",
+    "AuthorDate": "Tue Sep 13 09:58:23 2016 +0200",
+    "CommitDate": "Tue Sep 13 09:58:23 2016 +0200",
+    "message": "Add proper date parser",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.555443,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5a51bbff7d3c481054b07d9a5a39d66fc3faa014",
+  "updated_on": 1473940690.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4b72133e3e13a82f80874ccdd1898cea1badbfb0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4b72133e3e13a82f80874ccdd1898cea1badbfb0",
+    "AuthorDate": "Thu Sep 15 13:58:10 2016 +0200",
+    "CommitDate": "Thu Sep 15 13:58:10 2016 +0200",
+    "message": "Add class to enrich information from tags in the mailing lists",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.613175,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "9a0000870cb1bda011d4109d727810743e04fe70",
+  "updated_on": 1473940753.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "92fb19d9c211b24a8c2def09718133bf3b8d05a0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "92fb19d9c211b24a8c2def09718133bf3b8d05a0",
+    "AuthorDate": "Thu Sep 15 13:59:13 2016 +0200",
+    "CommitDate": "Thu Sep 15 13:59:13 2016 +0200",
+    "message": "Check that some fields exist",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.682164,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0cabe078b042b468b8eff256ad173e69b587eb9e",
+  "updated_on": 1474043502.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "bb52e90dcf0fdb71a9baee0129ee450fcf42088b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "bb52e90dcf0fdb71a9baee0129ee450fcf42088b",
+    "AuthorDate": "Fri Sep 16 18:31:42 2016 +0200",
+    "CommitDate": "Fri Sep 16 18:31:42 2016 +0200",
+    "message": "Add lists split enrich method\n\nThis method helps to split a list of elements in a cell\ninto several new rows in the dataframe. This does not\nreplace the old row, but appends at the end of the dataframe.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.741409,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f5cc1ebca81a93128e17f2c4ff2befebf133fdb0",
+  "updated_on": 1474370003.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "3258a735db67549690bdbe45c26b79dfdbd81b4a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "3258a735db67549690bdbe45c26b79dfdbd81b4a",
+    "AuthorDate": "Tue Sep 20 13:13:23 2016 +0200",
+    "CommitDate": "Tue Sep 20 13:13:23 2016 +0200",
+    "message": "Add Filter class to help in the post-filtering process after events\n\nThis module is intended to help in the removal of rows and columns\nnot needed any more.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.80494,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e2106c4f4ad2541ec68f36aa8f261516833cb563",
+  "updated_on": 1474399449.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1fad7871a23539480718f36a12e83afba7ba3aaf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1fad7871a23539480718f36a12e83afba7ba3aaf",
+    "AuthorDate": "Tue Sep 20 21:24:09 2016 +0200",
+    "CommitDate": "Tue Sep 20 21:24:09 2016 +0200",
+    "message": "Add class to calculate the max/min value grouped by a third column value",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.900252,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "75feb862dc89a702fd03c3237bca8735a5c2eb13",
+  "updated_on": 1474399515.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "f38bc9011c0283a49072cfc98246a9b5b9614e93"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "f38bc9011c0283a49072cfc98246a9b5b9614e93",
+    "AuthorDate": "Tue Sep 20 21:25:15 2016 +0200",
+    "CommitDate": "Tue Sep 20 21:25:15 2016 +0200",
+    "message": "Ignore TZ in the information coming from mailing lists",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815882.962936,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3d6020feb8c436dc7f14ea0d28290d8e30bc7dc7",
+  "updated_on": 1474453180.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fe35880d15fe97d5cba6a1cd2851bd75b094c104"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fe35880d15fe97d5cba6a1cd2851bd75b094c104",
+    "AuthorDate": "Wed Sep 21 12:19:40 2016 +0200",
+    "CommitDate": "Wed Sep 21 12:19:40 2016 +0200",
+    "message": "Add committer and committer date info",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.034691,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8fea664ff2cbe385b31c22854d30a9d765e7ba40",
+  "updated_on": 1474474673.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "c90330e920d51659f8ec446bebbc300e8e0a7697"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "c90330e920d51659f8ec446bebbc300e8e0a7697",
+    "AuthorDate": "Wed Sep 21 18:17:53 2016 +0200",
+    "CommitDate": "Wed Sep 21 18:17:53 2016 +0200",
+    "message": "[enrich] Parse the values of the flags used in the email",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.116361,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e2a8b3e7a6db48586a245986fdea8147f49447d3",
+  "updated_on": 1474499037.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "214792c63f31b4279cfa5796425790322145cae9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "214792c63f31b4279cfa5796425790322145cae9",
+    "AuthorDate": "Thu Sep 22 01:03:57 2016 +0200",
+    "CommitDate": "Thu Sep 22 01:03:57 2016 +0200",
+    "message": "Add SplitEmail class to create two new columns with name and email\n\nThis helps to parse information coming from several data sources\nsuch as mailing lists or git repositories",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.251256,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a5f2e3ea5c1cfa772af87ba3276ec6790864cbb6",
+  "updated_on": 1474875806.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a1765c1e0e0804f7a5a2d31fb408c5ffdc6bbcbb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a1765c1e0e0804f7a5a2d31fb408c5ffdc6bbcbb",
+    "AuthorDate": "Mon Sep 26 09:43:26 2016 +0200",
+    "CommitDate": "Mon Sep 26 09:43:26 2016 +0200",
+    "message": "Add class to deal with surrogates and use UTF8",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.344608,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0bb1156cb3f5bd8f81e69ab38d1e4f5212acdb40",
+  "updated_on": 1476394252.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fc0e9a6f2cca741f395ed10969547f4197e5a2bd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fc0e9a6f2cca741f395ed10969547f4197e5a2bd",
+    "AuthorDate": "Thu Oct 13 23:30:52 2016 +0200",
+    "CommitDate": "Thu Oct 13 23:30:52 2016 +0200",
+    "message": "Add support for all of the changes of a given bugzilla item",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.551266,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a2f24754622cd166f5715c896ab8d2290b43bb2e",
+  "updated_on": 1476397325.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4bae6f67ce9b7d89d7eb0b714b6015871196974c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4bae6f67ce9b7d89d7eb0b714b6015871196974c",
+    "AuthorDate": "Fri Oct 14 00:22:05 2016 +0200",
+    "CommitDate": "Fri Oct 14 00:22:05 2016 +0200",
+    "message": "Add BugzillaRest support to eventize a JSON document",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.644773,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8ae66e404b56642ae59a4ef137fb9a70195f40e6",
+  "updated_on": 1476451221.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4c2be422ebaea55564d918fc7ef0275b3fef4067"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4c2be422ebaea55564d918fc7ef0275b3fef4067",
+    "AuthorDate": "Fri Oct 14 15:20:21 2016 +0200",
+    "CommitDate": "Fri Oct 14 15:20:21 2016 +0200",
+    "message": "Previous data checks",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.723239,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "670a3625dcaf0f8ab70dc7ea0d8b5086be0f80ea",
+  "updated_on": 1476451247.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e136d466d3c53c9895e377aa4894467a9fd710e5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e136d466d3c53c9895e377aa4894467a9fd710e5",
+    "AuthorDate": "Fri Oct 14 15:20:47 2016 +0200",
+    "CommitDate": "Fri Oct 14 15:20:47 2016 +0200",
+    "message": "Add extra file extensions for the file type enrich phase",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.810755,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "9eaf80c2694675d2798940b49509c45af845562c",
+  "updated_on": 1476960671.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "3d9b1dc186e4320ac0422a68ca44bab4fbcaaa81"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "3d9b1dc186e4320ac0422a68ca44bab4fbcaaa81",
+    "AuthorDate": "Thu Oct 20 12:51:11 2016 +0200",
+    "CommitDate": "Thu Oct 20 12:51:11 2016 +0200",
+    "message": "Add deeper events granularity for Gerrit",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.870055,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0f635c9cfa71a541bd863cc72c0cbb31260aa86f",
+  "updated_on": 1477001137.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4bd438dfab34b37e4fc52e3f10121062dfade9bd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4bd438dfab34b37e4fc52e3f10121062dfade9bd",
+    "AuthorDate": "Fri Oct 21 00:05:37 2016 +0200",
+    "CommitDate": "Fri Oct 21 00:05:37 2016 +0200",
+    "message": "Add repository as extra info in the Gerrit eventizer",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815883.985859,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5a211534195326d5663aa23518e0a97591f199a1",
+  "updated_on": 1477001163.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "dd7e816ea03d108e6caf2b367956fd39385d57fa"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "dd7e816ea03d108e6caf2b367956fd39385d57fa",
+    "AuthorDate": "Fri Oct 21 00:06:03 2016 +0200",
+    "CommitDate": "Fri Oct 21 00:06:03 2016 +0200",
+    "message": "Add Projects enricher based on a pre-processed dataframe",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.047118,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f94d151658fb6c075d420642cc9ae4691ade6a72",
+  "updated_on": 1490620839.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "78f2f7678539f4b935055b3b13a2d09a08723bd5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "78f2f7678539f4b935055b3b13a2d09a08723bd5",
+    "AuthorDate": "Mon Mar 27 15:20:39 2017 +0200",
+    "CommitDate": "Mon Mar 27 15:20:39 2017 +0200",
+    "message": "Add OpenStack gender analysis as example",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.136332,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8fdece8371f5baa5f16d78c9eb198c16f576597d",
+  "updated_on": 1490621784.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "f2ebd94877490c406aa701cda994e315ae9ed728"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "f2ebd94877490c406aa701cda994e315ae9ed728",
+    "AuthorDate": "Mon Mar 27 15:36:24 2017 +0200",
+    "CommitDate": "Mon Mar 27 15:36:24 2017 +0200",
+    "message": "Add Git repository information when eventizing",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.19721,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a14de42bb7c23f5a584b7ebbcbd10683c00137a3",
+  "updated_on": 1490709266.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fb76b289cb7e0f3c6224b3688346661bd495cb70"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fb76b289cb7e0f3c6224b3688346661bd495cb70",
+    "AuthorDate": "Tue Mar 28 15:54:26 2017 +0200",
+    "CommitDate": "Tue Mar 28 15:54:26 2017 +0200",
+    "message": "Add dataset for the TimeDifference enricher",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.291681,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "818a01ba358ca50374e8ea01393c46646e6f0e7d",
+  "updated_on": 1490709423.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8777ad815259073dd9f801944bf6021ae50c8beb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8777ad815259073dd9f801944bf6021ae50c8beb",
+    "AuthorDate": "Tue Mar 28 15:57:03 2017 +0200",
+    "CommitDate": "Tue Mar 28 15:57:03 2017 +0200",
+    "message": "Add OpenStack Gender analysis as example\n\nThis also adds the list of OpenStack project teams according\nto the Foundation.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.366565,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8e780464996726b985f39cef36106695c044fc76",
+  "updated_on": 1490692202.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "2788c72da59ee1d23884e78b27f0793c188f1448"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "2788c72da59ee1d23884e78b27f0793c188f1448",
+    "AuthorDate": "Tue Mar 28 11:10:02 2017 +0200",
+    "CommitDate": "Tue Mar 28 11:10:02 2017 +0200",
+    "message": "Add UUID enrichment",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.460814,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5d6796abf9586ad00f128f5d3bfa65fdb4911efa",
+  "updated_on": 1490704561.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "2916f04e325d2dc0c0ab017c65c22caa153df8ef"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "2916f04e325d2dc0c0ab017c65c22caa153df8ef",
+    "AuthorDate": "Tue Mar 28 14:36:01 2017 +0200",
+    "CommitDate": "Tue Mar 28 14:36:01 2017 +0200",
+    "message": "Update docstrings",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.545069,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e705128567e0db8796b3111f6a17a90e37cdeb56",
+  "updated_on": 1490709654.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "9bad597fdae4c0d8c72cec99a93fe929d87ca627"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "9bad597fdae4c0d8c72cec99a93fe929d87ca627",
+    "Merge": "8777ad8 2916f04",
+    "AuthorDate": "Tue Mar 28 16:00:54 2017 +0200",
+    "CommitDate": "Tue Mar 28 16:00:54 2017 +0200",
+    "message": "Merge pull request #1 from alpgarcia/enrich-uuid\n\nAdd UUID enrichment",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.640793,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "d86cee939cb518bd9cabde9df0dc0c6d1696b355",
+  "updated_on": 1490709797.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8bc2cc160cb8c44ff1b1ac5efdbfabb40bbf76de"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8bc2cc160cb8c44ff1b1ac5efdbfabb40bbf76de",
+    "AuthorDate": "Tue Mar 28 16:03:17 2017 +0200",
+    "CommitDate": "Tue Mar 28 16:03:17 2017 +0200",
+    "message": "Allow running test file on its own",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.769969,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "56be8bcef8e6537906027080120c1467a2c8178d",
+  "updated_on": 1491228153.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "7afb24c916cb79e64ed25b46c1f86e8eb198b660"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "7afb24c916cb79e64ed25b46c1f86e8eb198b660",
+    "AuthorDate": "Mon Apr 3 16:02:33 2017 +0200",
+    "CommitDate": "Mon Apr 3 16:02:33 2017 +0200",
+    "message": "Update Uuid enricher",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.850958,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5c79964493c84cfd6e314da95921268f91d37660",
+  "updated_on": 1494583265.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "bfcfedf1dfd0379998b97c61803d6307ac0c7a68"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "bfcfedf1dfd0379998b97c61803d6307ac0c7a68",
+    "AuthorDate": "Fri May 12 12:01:05 2017 +0200",
+    "CommitDate": "Fri May 12 12:01:05 2017 +0200",
+    "message": "Add Alberto as author in the test file",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815884.937655,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f6660796fbf7b2500e4b5aa982674186ddba8970",
+  "updated_on": 1493330602.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "3add78f3d2f1490fbb6af690da2d433b846d8969"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "3add78f3d2f1490fbb6af690da2d433b846d8969",
+    "AuthorDate": "Fri Apr 28 00:03:22 2017 +0200",
+    "CommitDate": "Fri Apr 28 00:03:22 2017 +0200",
+    "message": "Update Gender enricher to support gender CSV files",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.03326,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "49661821ece116e8871ccc2020860502d6f333ad",
+  "updated_on": 1493330645.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "61ab0c46b09299c07e86320d612a0fcc281491b1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "61ab0c46b09299c07e86320d612a0fcc281491b1",
+    "AuthorDate": "Fri Apr 28 00:04:05 2017 +0200",
+    "CommitDate": "Fri Apr 28 00:04:05 2017 +0200",
+    "message": "Add 'by default' values when eventizing",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.108184,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "024c4c0ae49d1141366eb4338b547da801c8bb44",
+  "updated_on": 1493369999.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "86ba8cdf0e978f7cc66ea36d852886b643556602"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "86ba8cdf0e978f7cc66ea36d852886b643556602",
+    "AuthorDate": "Fri Apr 28 10:59:59 2017 +0200",
+    "CommitDate": "Fri Apr 28 10:59:59 2017 +0200",
+    "message": "Update OpenStack Diversity analysis Ceres client",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.190671,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "76d4de86dcafd13fb687d3f7aee24b0f9db0311f",
+  "updated_on": 1494583321.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "654c3e8dcc298d3a4d84487578d2f05e0b8f558e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "654c3e8dcc298d3a4d84487578d2f05e0b8f558e",
+    "Merge": "bfcfedf 86ba8cd",
+    "AuthorDate": "Fri May 12 12:02:01 2017 +0200",
+    "CommitDate": "Fri May 12 12:02:01 2017 +0200",
+    "message": "Merge branch 'master' of https://github.com/dicortazar/ceres",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.270983,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "79edff54cba3758ffbccf4f4d33618c909f2ad24",
+  "updated_on": 1497118147.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a8b996bda898f2100b546556cf101c16bc996638"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a8b996bda898f2100b546556cf101c16bc996638",
+    "AuthorDate": "Sat Jun 10 20:09:07 2017 +0200",
+    "CommitDate": "Sat Jun 10 20:09:07 2017 +0200",
+    "message": "Add flag parser enricher to retrieve real authors from SCM logs\n\nThere are cases where commits are committed by bots. In some of those\ncases it is necessary to parse the message left by developers.\nAn example of this could be the WebKit case where the author and\nreviewer of the patch are identified.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.330611,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e745a57c657f1ecbefda7ac91f98acee381acdf2",
+  "updated_on": 1497118266.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8dfb2c704dc444a366ca646056f5f3e646043653"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8dfb2c704dc444a366ca646056f5f3e646043653",
+    "AuthorDate": "Sat Jun 10 20:11:06 2017 +0200",
+    "CommitDate": "Sat Jun 10 20:11:06 2017 +0200",
+    "message": "Add message log to the standard analysis of the Perceval log for Git",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.413283,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "759f25d877a6274df8d3bdbaa6a48069aa5528ec",
+  "updated_on": 1497119495.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1aa327326ec6f15dd64ccad27f0dd4e1c01f3925"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1aa327326ec6f15dd64ccad27f0dd4e1c01f3925",
+    "AuthorDate": "Sat Jun 10 20:31:35 2017 +0200",
+    "CommitDate": "Sat Jun 10 20:31:35 2017 +0200",
+    "message": "Add domain split class as enricher\n\nThis helps to create a new column named as 'domain'.\nThat basically contains the domains of the email addresses\nof the given column.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.537689,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "6a5df0ebbfad41d02138ac7006a365628922f598",
+  "updated_on": 1499177101.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1d8c6cbfbff2d0f7295b24296c6ed9d6702b9920"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1d8c6cbfbff2d0f7295b24296c6ed9d6702b9920",
+    "AuthorDate": "Tue Jul 4 16:05:01 2017 +0200",
+    "CommitDate": "Tue Jul 4 16:05:01 2017 +0200",
+    "message": "Add code for analyzing render engines",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.608804,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "b457769996cd3490108e17a89076a862c3e56f69",
+  "updated_on": 1511187721.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a282e33100fccf7ab7f7e450a560b31c3c4286ce"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a282e33100fccf7ab7f7e450a560b31c3c4286ce",
+    "AuthorDate": "Mon Nov 20 15:22:01 2017 +0100",
+    "CommitDate": "Mon Nov 20 15:22:01 2017 +0100",
+    "message": "Add option to remove columns and drop duplicates",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.68138,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "55fe85a004403ae24d7d0ef47b4992580156537c",
+  "updated_on": 1511187827.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "ac4a918b94bcbfce1f52cae77299d6ae3acd02fa"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "ac4a918b94bcbfce1f52cae77299d6ae3acd02fa",
+    "AuthorDate": "Mon Nov 20 15:23:47 2017 +0100",
+    "CommitDate": "Mon Nov 20 15:23:47 2017 +0100",
+    "message": "Update Git and Gerrit classes to create events",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.767418,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "bcbd3f2ec53513374145d64b986cfb5a39a43b31",
+  "updated_on": 1511195892.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b814420cd96f081b3431e90c2845e4bb83d94067"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b814420cd96f081b3431e90c2845e4bb83d94067",
+    "AuthorDate": "Mon Nov 20 17:38:12 2017 +0100",
+    "CommitDate": "Mon Nov 20 17:38:12 2017 +0100",
+    "message": "Add example to parse commits and work at the file level",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.893325,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c5b411f59d4152ed532d638154ab089fd921f207",
+  "updated_on": 1511198339.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4b6cb2e112ca49c67b252e7fd71a932de71fd246"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4b6cb2e112ca49c67b252e7fd71a932de71fd246",
+    "AuthorDate": "Mon Nov 20 18:18:59 2017 +0100",
+    "CommitDate": "Mon Nov 20 18:18:59 2017 +0100",
+    "message": "Fix uuid enrichment\n\n* Separator changed to ','\n* drop_duplicates method from Pandas does not accept an empty\n  list as `subset` parameter. Remove that parameter if that\n  happens.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815885.997469,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "eda2089fe30bb693a674e88213e42b8bf1298d09",
+  "updated_on": 1511198552.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "744eaaaafac2783d55635a6f4eca29edcfeb75f8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "744eaaaafac2783d55635a6f4eca29edcfeb75f8",
+    "Merge": "b814420 4b6cb2e",
+    "AuthorDate": "Mon Nov 20 18:22:32 2017 +0100",
+    "CommitDate": "Mon Nov 20 18:22:32 2017 +0100",
+    "message": "Merge pull request #2 from alpgarcia/create_modules\n\nFix uuid enrichment",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.078506,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c635887a445113d2b1ad3a8a9c7a36f2d5c9953a",
+  "updated_on": 1511285115.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "010dfe3adbaf783e4dfeffb82c0cd832d8910424"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "010dfe3adbaf783e4dfeffb82c0cd832d8910424",
+    "AuthorDate": "Tue Nov 21 18:25:15 2017 +0100",
+    "CommitDate": "Tue Nov 21 18:25:15 2017 +0100",
+    "message": "Refactor project in modules by functionality\n\nProject refactoring split the project in 3 modules, one per\nfunctionality: eventize, enrichment, dataframe processing.\n\nTests have been updated to use these new modules.\n\nTests have been also updated to allow their execution from\nany path. CSV data files for tests are now loaded taking\ninto account their absolute path, obtained from test file\nreal path at runtime.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.166684,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2f4e003743203ae325a30c87639a599a32e1a33d",
+  "updated_on": 1511306164.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a2898df299a2ce92dcb8494b1993c25f19ed0d11"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a2898df299a2ce92dcb8494b1993c25f19ed0d11",
+    "Merge": "744eaaa 010dfe3",
+    "AuthorDate": "Wed Nov 22 00:16:04 2017 +0100",
+    "CommitDate": "Wed Nov 22 00:16:04 2017 +0100",
+    "message": "Merge branch 'alpgarcia-create_modules' into refactoring",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.258035,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "75ca5b1f6f529a31587f45384241457eab0b2aa0",
+  "updated_on": 1511306664.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "23d1692f43d8e6fc5172edc6fbc0cf22ac5bf3a6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "23d1692f43d8e6fc5172edc6fbc0cf22ac5bf3a6",
+    "AuthorDate": "Wed Nov 22 00:24:24 2017 +0100",
+    "CommitDate": "Wed Nov 22 00:24:24 2017 +0100",
+    "message": "Fix Areas of Code example to fit new directories structure\n\nChanges are focused on the new path for the methods used\nin both places: imports and in the code.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.419624,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f04ce026a30dcfa67fde4a8c8aac88c30e8fa773",
+  "updated_on": 1511306834.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "69c9325ecdf046a33990fc41c8e499f90209bbc9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "69c9325ecdf046a33990fc41c8e499f90209bbc9",
+    "AuthorDate": "Wed Nov 22 00:27:14 2017 +0100",
+    "CommitDate": "Wed Nov 22 00:27:14 2017 +0100",
+    "message": "Fix issue when 'eventizing' in Git\n\nThis change update the information found at the granularity\nlevel 2 for a Git analysis.\n\nThis used to wrongly assigned\nsome specific 'eventized' fields to this granularity\nwhen those should only work at the level 1.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.52485,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "6064cf830466585efe6a489b45cb54fa6ac5efb4",
+  "updated_on": 1511198574.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "5b1517076b5e331a077f7690e4ea4198bbda63ba"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "5b1517076b5e331a077f7690e4ea4198bbda63ba",
+    "Merge": "b814420 744eaaa",
+    "AuthorDate": "Mon Nov 20 18:22:54 2017 +0100",
+    "CommitDate": "Mon Nov 20 18:22:54 2017 +0100",
+    "message": "Merge pull request #3 from dicortazar/refactoring\n\nRefactoring",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.660807,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "cb3fca8b8392297ee19ada97abc9fdb93701c1bc",
+  "updated_on": 1511442184.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b27dfd785884967099cc30d615401de23f1184fa"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b27dfd785884967099cc30d615401de23f1184fa",
+    "AuthorDate": "Tue Nov 21 18:25:15 2017 +0100",
+    "CommitDate": "Thu Nov 23 14:03:04 2017 +0100",
+    "message": "Refactor project in modules by functionality\n\nProject refactoring split the project in 3 modules, one per\nfunctionality: eventize, enrichment, dataframe processing.\n\nTests have been updated to use these new modules.\n\nTests have been also updated to allow their execution from\nany path. CSV data files for tests are now loaded taking\ninto account their absolute path, obtained from test file\nreal path at runtime.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.73534,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "18ef0a82e4524be3fc7b0dfcf05322a7ff55ee4e",
+  "updated_on": 1511442184.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fa31750a7ead9f05b452f935d76c38b67c443300"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fa31750a7ead9f05b452f935d76c38b67c443300",
+    "AuthorDate": "Wed Nov 22 00:24:24 2017 +0100",
+    "CommitDate": "Thu Nov 23 14:03:04 2017 +0100",
+    "message": "Fix Areas of Code example to fit new directories structure\n\nChanges are focused on the new path for the methods used\nin both places: imports and in the code.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.85283,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "9fa83eebee8f8055bd284d076413b898ed0b3f81",
+  "updated_on": 1511442184.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b14aced18914b98c6ff221a9d5386f57b5c9010a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b14aced18914b98c6ff221a9d5386f57b5c9010a",
+    "AuthorDate": "Wed Nov 22 00:27:14 2017 +0100",
+    "CommitDate": "Thu Nov 23 14:03:04 2017 +0100",
+    "message": "Fix issue when 'eventizing' in Git\n\nThis change update the information found at the granularity\nlevel 2 for a Git analysis.\n\nThis used to wrongly assigned\nsome specific 'eventized' fields to this granularity\nwhen those should only work at the level 1.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815886.985449,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "17e77678d18813eba96e11c15590de420e337d8b",
+  "updated_on": 1511442287.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "45d60f2a14e694bfef2f7c5b46e73fdea029742f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "45d60f2a14e694bfef2f7c5b46e73fdea029742f",
+    "Merge": "5b15170 b14aced",
+    "AuthorDate": "Thu Nov 23 14:04:47 2017 +0100",
+    "CommitDate": "Thu Nov 23 14:04:47 2017 +0100",
+    "message": "Merge branch 'merge-refactoring' of 'https://github.com/dicortazar/ceres'\n\nRefactor source code to create proper modules",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.138248,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8e1b6986f40d848fbc075253a96ea8ef97a22da5",
+  "updated_on": 1511552840.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "45efbbde6bfb3dead5cdc3199eda4494cd0c6448"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "45efbbde6bfb3dead5cdc3199eda4494cd0c6448",
+    "AuthorDate": "Fri Nov 24 20:47:20 2017 +0100",
+    "CommitDate": "Fri Nov 24 20:47:20 2017 +0100",
+    "message": "Add information to the README file",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.290227,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "25ee23652535a68a68ffcb28686679ad0051463e",
+  "updated_on": 1512034505.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "c714c6361f0d7f0cd4fcaffc5072eae29cf4b597"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "c714c6361f0d7f0cd4fcaffc5072eae29cf4b597",
+    "AuthorDate": "Fri Nov 24 12:46:10 2017 +0100",
+    "CommitDate": "Thu Nov 30 10:35:05 2017 +0100",
+    "message": "Add ignore list to the repo\n\nIn particular to ignore .settings file. Also includes some generic\nfiles that should be excluded.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.368986,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "fa7b94f74b27774e6260b138cc94906f0c8d6c52",
+  "updated_on": 1512034956.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "2e7d18cc53637abc8e95a10fe367aa16d0c576c4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "2e7d18cc53637abc8e95a10fe367aa16d0c576c4",
+    "AuthorDate": "Thu Nov 30 10:42:36 2017 +0100",
+    "CommitDate": "Thu Nov 30 10:42:36 2017 +0100",
+    "message": "Add required libraries\n\nRequirements file specify python modules needed to run areas of\ncode index builder.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.455965,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "86f43074f63ab00e73692abadb97d92552adbf06",
+  "updated_on": 1512035076.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "cb968807143e7fe736756986bb72c70d6fe9cb41"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "cb968807143e7fe736756986bb72c70d6fe9cb41",
+    "AuthorDate": "Thu Nov 30 10:44:36 2017 +0100",
+    "CommitDate": "Thu Nov 30 10:44:36 2017 +0100",
+    "message": "Add areas of code index builder\n\n* First version of the index builder.\n* Events for Git now includes info from SortingHat and\n  projects.json\n* File path enrich to extract different path parts (extension, dir\n  name, file name, etc.)",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.53341,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "7b30f15acbe1c0c9c0039e468a068adc19905baf",
+  "updated_on": 1512124690.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "04f227c5a11b92ab101e54fece2f8b02f61ddfe5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "04f227c5a11b92ab101e54fece2f8b02f61ddfe5",
+    "AuthorDate": "Fri Dec 1 11:38:10 2017 +0100",
+    "CommitDate": "Fri Dec 1 11:38:10 2017 +0100",
+    "message": "Fix variable name in tests to keep them working",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.617349,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "074b436b3757643c8779381bf6c7a39e4602b3b2",
+  "updated_on": 1512124777.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "86c980b88de7bddca0a8061fc5c372bc33050b57"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "86c980b88de7bddca0a8061fc5c372bc33050b57",
+    "Merge": "45efbbd 04f227c",
+    "AuthorDate": "Fri Dec 1 11:39:37 2017 +0100",
+    "CommitDate": "Fri Dec 1 11:39:37 2017 +0100",
+    "message": "Merge branch 'alpgarcia-areas-of-code'",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.740701,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "46c079969034f606e826ceaf113fdd9a866ea732",
+  "updated_on": 1512662541.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "6adfa938f5337c7004f74c4037f9375567f69bc4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "6adfa938f5337c7004f74c4037f9375567f69bc4",
+    "AuthorDate": "Thu Dec 7 17:02:21 2017 +0100",
+    "CommitDate": "Thu Dec 7 17:02:21 2017 +0100",
+    "message": "Add config for flake8\n\nAdded setup.cfg file to allow to verify code style using flake8.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815887.88234,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f2bda760f4f72e29ad9631a72e75951520a7c163",
+  "updated_on": 1512664427.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "0279d67a1d741b40311ad4d3dbdd9069eda7c9f8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "0279d67a1d741b40311ad4d3dbdd9069eda7c9f8",
+    "AuthorDate": "Thu Dec 7 17:33:47 2017 +0100",
+    "CommitDate": "Thu Dec 7 17:33:47 2017 +0100",
+    "message": "Add incremental updates support in Areas of Code\n\nNow it is possible to build areas of code index incrementally by\nrunning the builder with `inc=true` in the General section of\n`.settings`.\n\nTo be able to build the index incrementally, we need to build\na custom `_id`, unique for each event we generate. We use the\nfollowing combination to achieve this:\nPerceval_UUID + \"_\" + filepath + \"_\" + fileaction\n\nFixed a bug that didn't upload the last bunch of events. The\nprevious bunch was uploaded twice instead (it just overwrote\nthose items instead of uploading the new ones).\n\nSome refactoring to get a clear view of the main loop.\n\nAlso adds support for merges filter by adding `files` field to\nall items. This field will contain the number of files touched\nby the given commit. This way we have this number available for\nall file events generated for a commit.\n\nCode compliant with PEP8.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.031597,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "47e472b91b7c54c7968460f458a1131da427732e",
+  "updated_on": 1512998084.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "139baafba3ee11c5bf1d33f6b1d92db8c05361f1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "139baafba3ee11c5bf1d33f6b1d92db8c05361f1",
+    "AuthorDate": "Mon Dec 11 14:14:44 2017 +0100",
+    "CommitDate": "Mon Dec 11 14:14:44 2017 +0100",
+    "message": "Add write index creation if doesn't exist\n\nWhen using ncremental mode from scratch index is now automatically\ncreated if doesn't exist.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.1235,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "07089d4828af715bffd63d631f1aa72618011baa",
+  "updated_on": 1513271885.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "2abd2ad00d6fee314762c32200f796ef0c36ad6a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "2abd2ad00d6fee314762c32200f796ef0c36ad6a",
+    "Merge": "86c980b 139baaf",
+    "AuthorDate": "Thu Dec 14 18:18:05 2017 +0100",
+    "CommitDate": "Thu Dec 14 18:18:05 2017 +0100",
+    "message": "Merge branch 'alpgarcia-incremental'",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.2264,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "626aef58c980b805bbc1d9537fade72f1be752bb",
+  "updated_on": 1513795449.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "80d45e055f12c98b28d47cbff6a9d9b599b90181"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "80d45e055f12c98b28d47cbff6a9d9b599b90181",
+    "AuthorDate": "Wed Dec 20 18:35:11 2017 +0100",
+    "CommitDate": "Wed Dec 20 19:44:09 2017 +0100",
+    "message": "Fix error when enriching just the last Git commit\n\nApply method does not work when dealing with a single commit. For\nsome reason related to how we build our events DF, the call to\nsplit filepath parts fails when use the incremental mode after\nfinishing collecting all items. At this point just the last item\nshould be retrieved again (as we use gte in incremental mode to\nensure we don't miss any commit), enriched and updated. However\napply method fails with:\n`ValueError: Shape of passed values is (1, 2), indices imply\n(1, 32)`\n\nTo avoid this, now we use pandas .str methods to split filepath.\n\nSome minor formatting issues have been also fixed according to\nPEP8.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.298699,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "4f36d2caed5c6998f108e24eac11d8d29023e61f",
+  "updated_on": 1518173439.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "22d14bf89146d8bc66551381663640f8a5ba0b80"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "22d14bf89146d8bc66551381663640f8a5ba0b80",
+    "AuthorDate": "Fri Feb 9 11:50:39 2018 +0100",
+    "CommitDate": "Fri Feb 9 11:50:39 2018 +0100",
+    "message": "Order folders to produce a proper structure\n\nWhen importing, now it's needed to use import ceres.xxx",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.354033,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a9a697239381dc79c356f7379c41a37152645472",
+  "updated_on": 1518173605.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "322fbda3e6f42d7db3a610dc4e7dfe88f35f132f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "322fbda3e6f42d7db3a610dc4e7dfe88f35f132f",
+    "AuthorDate": "Fri Feb 9 11:53:25 2018 +0100",
+    "CommitDate": "Fri Feb 9 11:53:25 2018 +0100",
+    "message": "Move Areas of Code example to the examples folder",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.421985,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2b411a5edf6e16306d2d86cc5c9fb20e67e9aeff",
+  "updated_on": 1518173797.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "4e66e4e3d4dda49a2c49bafd3b43a70370d0675c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "4e66e4e3d4dda49a2c49bafd3b43a70370d0675c",
+    "AuthorDate": "Fri Feb 9 11:56:37 2018 +0100",
+    "CommitDate": "Fri Feb 9 11:56:37 2018 +0100",
+    "message": "Update example to use the new Ceres folders structure",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.557212,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f3b4f29eadc4820c44c79127de6297c61d03abbc",
+  "updated_on": 1518566962.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "12dab73a24d3cf97eb763b0ed76927a87f694b1d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "12dab73a24d3cf97eb763b0ed76927a87f694b1d",
+    "AuthorDate": "Wed Feb 14 01:09:22 2018 +0100",
+    "CommitDate": "Wed Feb 14 01:09:22 2018 +0100",
+    "message": "[setup] First try at producing a package.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.630337,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3bfd78efe513010a95f6603c8218c269f99e51ca",
+  "updated_on": 1518625950.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a32d9eb2fe1a336af5077ddd2d6ea5254f7467c2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a32d9eb2fe1a336af5077ddd2d6ea5254f7467c2",
+    "Merge": "4e66e4e 12dab73",
+    "AuthorDate": "Wed Feb 14 17:32:30 2018 +0100",
+    "CommitDate": "Wed Feb 14 17:32:30 2018 +0100",
+    "message": "Merge branch 'jgbarah-tests-setup'\n\nMerge PR #10",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.782738,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2ec5d058a44c710d2707e4e863bf9cc1b9d6ad51",
+  "updated_on": 1518734758.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "47302f9136e0cb8f5cf446cf438afcb0b4a43507"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "47302f9136e0cb8f5cf446cf438afcb0b4a43507",
+    "AuthorDate": "Thu Feb 15 23:45:58 2018 +0100",
+    "CommitDate": "Thu Feb 15 23:45:58 2018 +0100",
+    "message": "[setup] Second try, now with more accurate dependencies.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815888.871331,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "418eea083349b4ebe50fd617ee904209a2d3dafc",
+  "updated_on": 1518777551.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "f26fcfdecfabc2628bfe7da90bc929b651b24061"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "f26fcfdecfabc2628bfe7da90bc929b651b24061",
+    "Merge": "a32d9eb 47302f9",
+    "AuthorDate": "Fri Feb 16 11:39:11 2018 +0100",
+    "CommitDate": "Fri Feb 16 11:39:11 2018 +0100",
+    "message": "Merge pull request #11 from jgbarah-tests/setup-2\n\n[setup] Second try, now with more accurate dependencies.",
+    "analysis": {},
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815931.202375,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f84f81db3f232bf397766285b4fb422c0835823d",
+  "updated_on": 1519037888.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b1c56fd7e5aec97199bcd590a453abec2f47034c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b1c56fd7e5aec97199bcd590a453abec2f47034c",
+    "AuthorDate": "Mon Feb 19 11:58:08 2018 +0100",
+    "CommitDate": "Mon Feb 19 11:58:08 2018 +0100",
+    "message": "[setup] New try at packaging, now with cereslib as a name\n\nModule changed from ceres to cereslib\nceres/df_utils moved tto cereslib/dfutils\n\nMinor change in run_tests.py: now it includes first line for\nautorun.",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815970.372682,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2dbad6c340b44198d849b0d5102add07554b9c89",
+  "updated_on": 1519668417.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8446ce5b7cf451a5cee53026096805cc1ca1a566"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8446ce5b7cf451a5cee53026096805cc1ca1a566",
+    "Merge": "f26fcfd b1c56fd",
+    "AuthorDate": "Mon Feb 26 19:06:57 2018 +0100",
+    "CommitDate": "Mon Feb 26 19:06:57 2018 +0100",
+    "message": "Merge branch 'jgbarah-tests-setup-3'\n\nClose #12",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816009.218335,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "43de0c42875f5cd201ae77dd93a55fb4a282851a",
+  "updated_on": 1519687398.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "67e4a80b467b914ab283175d8f5ab13ca5eb251d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "67e4a80b467b914ab283175d8f5ab13ca5eb251d",
+    "AuthorDate": "Tue Feb 27 00:23:18 2018 +0100",
+    "CommitDate": "Tue Feb 27 00:23:18 2018 +0100",
+    "message": "[enrich] Add onion analysis as new enricher\n\nThis class returns a new columns with the status of core, regular or\ncasual depending on the activity provided to the class.",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816042.769651,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "9c5af19f1c315dc93bd48e19b0c94045924e3162",
+  "updated_on": 1519906994.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "00e68d64f157aab185541bcb5fbc7a105cbf0ac1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "00e68d64f157aab185541bcb5fbc7a105cbf0ac1",
+    "AuthorDate": "Thu Mar 1 13:23:14 2018 +0100",
+    "CommitDate": "Thu Mar 1 13:23:14 2018 +0100",
+    "message": "[events] Fix gelk sortinghat module refactoring\n\nAs there is a mutual dependency between cereslib and gelk, it was\nneeded to refactor gelk sortinhat module to avoid collisions with\nsortinhat package and its sortinhat module.\n\nThis change refactors events module according to gelk refactoring.",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816073.08108,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5f472a2539395cdd713a98264678c01d4c0c2b89",
+  "updated_on": 1519909183.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "6a5b0bf95bc307be18fc0d34a41757b76c5d71e9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "6a5b0bf95bc307be18fc0d34a41757b76c5d71e9",
+    "Merge": "67e4a80 00e68d6",
+    "AuthorDate": "Thu Mar 1 13:59:43 2018 +0100",
+    "CommitDate": "Thu Mar 1 13:59:43 2018 +0100",
+    "message": "Merge pull request #13 from alpgarcia/refactoring-gelk\n\n[events] Fix gelk sortinghat module refactoring",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816103.668407,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e9cc17b10e3e27577af7119108ce46c2546cb993",
+  "updated_on": 1520443996.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e18bfc46b408b0a093890fe508c51b2a3c289de1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e18bfc46b408b0a093890fe508c51b2a3c289de1",
+    "AuthorDate": "Wed Mar 7 09:29:28 2018 -0800",
+    "CommitDate": "Wed Mar 7 09:33:16 2018 -0800",
+    "message": "Updating version number for new pypi package",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816136.391399,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "bb359f61e602a57d8ba1af94d9b3498cadaab65f",
+  "updated_on": 1520846006.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1b9bb1a3e1e12c71a68cc50a4c06f1866db2bb68"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1b9bb1a3e1e12c71a68cc50a4c06f1866db2bb68",
+    "Merge": "6a5b0bf e18bfc4",
+    "AuthorDate": "Mon Mar 12 02:13:26 2018 -0700",
+    "CommitDate": "Mon Mar 12 02:13:26 2018 -0700",
+    "message": "Merge pull request #14 from jgbarah-tests/version-0.1.1\n\nUpdating version number for new pypi package",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816169.04584,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "715d53cec39c1672fb01004824594b77d0bf7622",
+  "updated_on": 1520611105.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "eaf89780113fa82df8e133e80f505d2ac9b33649"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "eaf89780113fa82df8e133e80f505d2ac9b33649",
+    "AuthorDate": "Fri Mar 9 16:58:25 2018 +0100",
+    "CommitDate": "Fri Mar 9 16:58:25 2018 +0100",
+    "message": "[events] Add Git author domain from email\n\nAlso fixes some constants from Events class that were used\nas Git class constants from inside Events class.",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816202.049695,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "f058a40db8f30a459275621a4ab9f831bcb5bb86",
+  "updated_on": 1520846399.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "3c1556fc4a8ede996cc8d797feda29293a3b74c6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "3c1556fc4a8ede996cc8d797feda29293a3b74c6",
+    "Merge": "1b9bb1a eaf8978",
+    "AuthorDate": "Mon Mar 12 02:19:59 2018 -0700",
+    "CommitDate": "Mon Mar 12 02:19:59 2018 -0700",
+    "message": "Merge pull request #15 from alpgarcia/author-domain\n\n[events] Add Git author domain from email",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816235.500403,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a97bfdd84cebe212335ea25d52580fe0ee183ed2",
+  "updated_on": 1521537637.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "23c5e20adff13496fd2b0b9b98c36914731a906f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "23c5e20adff13496fd2b0b9b98c36914731a906f",
+    "AuthorDate": "Tue Mar 20 10:20:37 2018 +0100",
+    "CommitDate": "Tue Mar 20 10:20:37 2018 +0100",
+    "message": "[release] Update version number to 0.1.2",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816266.630157,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "99ab5bdd5c6831e0484193da231dd7065ce95c35",
+  "updated_on": 1521792723.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "47f066743e70eede090a85618406268417f1d536"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "47f066743e70eede090a85618406268417f1d536",
+    "AuthorDate": "Fri Mar 23 09:12:03 2018 +0100",
+    "CommitDate": "Fri Mar 23 09:12:03 2018 +0100",
+    "message": "[events] Update elk import\n\nThis code modifies the import section to include the new name of\nthe elk package",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816300.484639,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "147a0ba26d672a915553f3c2cae05ddc2af1257d",
+  "updated_on": 1521792833.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a9e3da92df52762f88600d18c2f6d06444d29a6c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a9e3da92df52762f88600d18c2f6d06444d29a6c",
+    "AuthorDate": "Fri Mar 23 09:13:53 2018 +0100",
+    "CommitDate": "Fri Mar 23 09:13:53 2018 +0100",
+    "message": "[examples] Update elk import\n\nThis code modifies the import section to include the new name of\nthe elk package",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816333.756795,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "15b396d5d10335e5dd71fede658624a9eda1abe3",
+  "updated_on": 1521825178.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8eacb771b0f9162c65c9afdb789c31f3e3b6c2db"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8eacb771b0f9162c65c9afdb789c31f3e3b6c2db",
+    "Merge": "23c5e20 a9e3da9",
+    "AuthorDate": "Fri Mar 23 18:12:58 2018 +0100",
+    "CommitDate": "Fri Mar 23 18:12:58 2018 +0100",
+    "message": "Merge pull request #16 from valeriocos/modify-import-elk\n\nUpdate elk import",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816366.004734,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "21239536497b9228a555e4d2cb6dd3b33e440578",
+  "updated_on": 1522124704.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "7156a4a77f42c60894e24b6bec734b9468ecf261"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "7156a4a77f42c60894e24b6bec734b9468ecf261",
+    "AuthorDate": "Tue Mar 27 06:25:04 2018 +0200",
+    "CommitDate": "Tue Mar 27 06:25:04 2018 +0200",
+    "message": "[release] Update version number to 0.1.3",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.328712,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3e0fc099a741caa6784e91a173a83db7160fda2c",
+  "updated_on": 1533226240.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b3721c87598a3e5d7be61c2e00fb92c0391ebc22"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b3721c87598a3e5d7be61c2e00fb92c0391ebc22",
+    "AuthorDate": "Tue Jul 31 19:42:15 2018 +0200",
+    "CommitDate": "Thu Aug 2 18:10:40 2018 +0200",
+    "message": "Fix filter method when a column has no values\n\n`filter_` method raises an exception when column is empty\n(it has no values or all of them are nan). This change\nadds a control flow for that situation together with\ncorresponding tests.",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816432.162174,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "bf1c077326a717ef927daa1d72f2e1953fdc3d23",
+  "updated_on": 1533283987.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "948b5c6fc50ef0ade708ea804733d57e144e48d3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "948b5c6fc50ef0ade708ea804733d57e144e48d3",
+    "Merge": "7156a4a b3721c8",
+    "AuthorDate": "Fri Aug 3 10:13:07 2018 +0200",
+    "CommitDate": "Fri Aug 3 10:13:07 2018 +0200",
+    "message": "Merge branch 'alpgarcia-filter-rows'\n\nMerges #17 Closes #17",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816465.692451,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e70967a8c0578f6831609ef71531e5ba6e82afe9",
+  "updated_on": 1534957023.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1ccb6620fe8b63f652198f94d74b58450f9bb27e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1ccb6620fe8b63f652198f94d74b58450f9bb27e",
+    "AuthorDate": "Wed Aug 22 18:57:03 2018 +0200",
+    "CommitDate": "Wed Aug 22 18:57:03 2018 +0200",
+    "message": "[release] Update version number to 0.1.4",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816495.641394,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "4fa61eaf6bdea73641eebf28d3159162c451c79f",
+  "updated_on": 1542317120.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e1ff2d625c102a3989e5bff58085d4456328e66c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e1ff2d625c102a3989e5bff58085d4456328e66c",
+    "AuthorDate": "Thu Nov 15 16:25:20 2018 -0500",
+    "CommitDate": "Thu Nov 15 16:25:20 2018 -0500",
+    "message": "Fix date parsing errors using grimoirelab-toolkit\n\nSome dates in string format can be wrong, making 'dateutil' library\nfail when parsing and converting them to 'datetime' objects.\nThe package 'grimoirelab-toolkit' provides functions which deals\nwith these errors parsing those dates with the best-effort possible.\n\nThis patch replaces the usage of 'dateutil' parser by 'str_to_datetime'\nfunction available in 'grimoirelab-toolkit'.\n\nPackage dependencies were updated accordingly.",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816526.700969,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0f673cdaf965e07782b5fbe2ebbe0e5abbfb6896",
+  "updated_on": 1542388685.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d6d2b55ca9ecdbf790fbacc1e50a41ef6d08ec15"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d6d2b55ca9ecdbf790fbacc1e50a41ef6d08ec15",
+    "Merge": "1ccb662 e1ff2d6",
+    "AuthorDate": "Fri Nov 16 18:18:05 2018 +0100",
+    "CommitDate": "Fri Nov 16 18:18:05 2018 +0100",
+    "message": "Merge branch 'sduenas-fix-datetime-parsing'",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816555.428112,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "898c490a9425ec31a9541183166f1f8815397ad3",
+  "updated_on": 1542405245.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "0603f44e6559bce7f5a655f8ac10f3e8db2a1c34"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "0603f44e6559bce7f5a655f8ac10f3e8db2a1c34",
+    "AuthorDate": "Fri Nov 16 16:54:05 2018 -0500",
+    "CommitDate": "Fri Nov 16 16:54:05 2018 -0500",
+    "message": "[release] Update version number to 0.1.5",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816586.301646,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c8de1bca71131feeaeff2d90133116c04705ca1a",
+  "updated_on": 1542878488.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "59c7720cbb4da1204e28a8fab0f0c48f3c70babe"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "59c7720cbb4da1204e28a8fab0f0c48f3c70babe",
+    "AuthorDate": "Wed Nov 21 18:05:24 2018 +0100",
+    "CommitDate": "Thu Nov 22 10:21:28 2018 +0100",
+    "message": "[enrich] Prepend file dir paths with slash\n\nThis code prepends to the values of the attribute `file_dir_name` a\nslash, thus avoiding to have directories with empty values.",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816615.067671,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0049c82b90bdd85b7590ca7e21ead4b88b4ff82a",
+  "updated_on": 1542878488.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "f7f631612aee25fb18e2da863d3b0dd2633aacff"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "f7f631612aee25fb18e2da863d3b0dd2633aacff",
+    "AuthorDate": "Thu Nov 22 10:16:31 2018 +0100",
+    "CommitDate": "Thu Nov 22 10:21:28 2018 +0100",
+    "message": "[tests] Update FilePath test code\n\nThis code updates the test code of the FilePath class according\nto the change introduced in b073dd1",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816641.869757,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5d4c2c226af82d513ef47fc30eb8c2107d0eb842",
+  "updated_on": 1542883183.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "74bf2485b316adb9d8a566321844fd6380cb630e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "74bf2485b316adb9d8a566321844fd6380cb630e",
+    "Merge": "0603f44 f7f6316",
+    "AuthorDate": "Thu Nov 22 11:39:43 2018 +0100",
+    "CommitDate": "Thu Nov 22 11:39:43 2018 +0100",
+    "message": "Merge branch 'valeriocos-prepend-file-dir-with-slash' of 'https://github.com/valeriocos/grimoirelab-cereslib.git'\n\nMerges #19 Closes #19",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816668.171849,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "9c6964ea5e929c9cbf0088c47959603ce92fbbcc",
+  "updated_on": 1543945883.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "5e03774f649c779312b31c3a9a28d651a487179d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "5e03774f649c779312b31c3a9a28d651a487179d",
+    "AuthorDate": "Tue Dec 4 12:51:23 2018 -0500",
+    "CommitDate": "Tue Dec 4 12:51:23 2018 -0500",
+    "message": "[release] Update version number to 0.1.6",
+    "analysis": {
+      "quality": "8.18",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816695.848086,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "ebdc9946cb5ef08c72ec58ddaabdfc5cad6ca42a",
+  "updated_on": 1549454900.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "420b08774ee0ece0ebf4dd3dd2b1441bc8c94bb3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "420b08774ee0ece0ebf4dd3dd2b1441bc8c94bb3",
+    "AuthorDate": "Sun Feb 3 16:45:27 2019 +0100",
+    "CommitDate": "Wed Feb 6 13:08:20 2019 +0100",
+    "message": "[enrich] Add .go as extension for the Go programming language",
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816723.272626,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "74bdc5d8ff01284d6a9cb5801b263e9b8fd08394",
+  "updated_on": 1549454982.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "5110e6ca490a4f24bec3124286ebf51fd4e08bdd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "5110e6ca490a4f24bec3124286ebf51fd4e08bdd",
+    "AuthorDate": "Wed Feb 6 13:09:42 2019 +0100",
+    "CommitDate": "Wed Feb 6 13:09:42 2019 +0100",
+    "message": "[release] Update version number to 0.1.7",
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816749.877425,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "48064df308ba6bc484f592cc8a00f2f0ae1b26c1",
+  "updated_on": 1562752596.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8eea3beb3e1ae225e9d7b7f852967755def9ca8c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8eea3beb3e1ae225e9d7b7f852967755def9ca8c",
+    "AuthorDate": "Wed Jul 10 11:56:36 2019 +0200",
+    "CommitDate": "Wed Jul 10 11:56:36 2019 +0200",
+    "message": "[setup] Fix format type for long description of package\n\nPypi requires that the format of the long description for a\npackage is detailed in the variable `long_description_content_type`,\nin setup.py. Since it now supports Markdown, the conversion to\nreST is not needed anymore.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816775.98885,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "654c429a7acf806b942b61742c6c3c3d99bbf4eb",
+  "updated_on": 1563262638.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "610864d592580230f9bee8ee86b673db1c01253a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "610864d592580230f9bee8ee86b673db1c01253a",
+    "Merge": "5110e6c 8eea3be",
+    "AuthorDate": "Tue Jul 16 09:37:18 2019 +0200",
+    "CommitDate": "Tue Jul 16 09:37:18 2019 +0200",
+    "message": "Merge branch 'setup-long-desc' of 'https://github.com/valeriocos/grimoirelab-cereslib'\n\nMerges #23",
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816799.834485,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "b662836034b94a0c996c757464fd8f20dc4eb164",
+  "updated_on": 1563265722.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a5b3ece100f55a723dd9b0642d50b1ed472e7cda"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a5b3ece100f55a723dd9b0642d50b1ed472e7cda",
+    "AuthorDate": "Mon Jul 15 09:24:53 2019 +0200",
+    "CommitDate": "Tue Jul 16 10:28:42 2019 +0200",
+    "message": "[cereslib] Update license info\n\nThis code updates the license info based on\nthe content of https://www.gnu.org/licenses/gpl-3.0.html\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816825.615553,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "d9d71d11a78b070f7678ad78eca860bce4359933",
+  "updated_on": 1563347995.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "09b02478e4a594bf62148356914a64f4828b7c0d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "09b02478e4a594bf62148356914a64f4828b7c0d",
+    "Merge": "610864d a5b3ece",
+    "AuthorDate": "Wed Jul 17 09:19:55 2019 +0200",
+    "CommitDate": "Wed Jul 17 09:19:55 2019 +0200",
+    "message": "Merge branch 'update-license' of 'https://github.com/grimoirelab-cereslib'\n\nMerges #24",
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816849.283836,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5abe69e45a8ac19ffe2356f259c9978a199c5dc2",
+  "updated_on": 1563531849.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a97497263960ef8ac208468c6bd8fc68a794218b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a97497263960ef8ac208468c6bd8fc68a794218b",
+    "AuthorDate": "Fri Jul 19 12:24:09 2019 +0200",
+    "CommitDate": "Fri Jul 19 12:24:09 2019 +0200",
+    "message": "[release] Update version number to 0.1.8\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816874.866358,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "4486b81f0f7a023318e277dba742771ec3e44b02",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "ba36ea52a50e9ebccf1c8e8583dc3bed7b7cc9ee"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "ba36ea52a50e9ebccf1c8e8583dc3bed7b7cc9ee",
+    "AuthorDate": "Thu Nov 22 12:07:26 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[tests] Add travis CI\n\nA .travis.yml is included in the repository to enable continuos\nintegration for cereslib code.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.17",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816898.013505,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0ac46dc5e026e47c42b184d4edb7142c76416a95",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "bb845c6304f96e324cb05161b217a465ea830476"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "bb845c6304f96e324cb05161b217a465ea830476",
+    "AuthorDate": "Thu Nov 22 12:14:36 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[dfutils] Fix flake8 errors\n\nThis code fixes minor errors thrown by flake8.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.21",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816929.034838,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "db008ad96c4ff6817946ea3de2a03e0190ec45da",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "0b9355c4c724da05cf0827ba7e8c25927d7a033f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "0b9355c4c724da05cf0827ba7e8c25927d7a033f",
+    "AuthorDate": "Thu Nov 22 12:21:30 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[enrich] Fix flake8 errors\n\nThis code fixes minor errors thrown by flake8.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.24",
+      "num_modules": 6,
+      "warnings": 115
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816954.367344,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5c8b34e2b9a06dd68fd6b3d77dc0f7eb2c50547b",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "b3026199dfebd1b51c1dc45003c55de759371a01"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "b3026199dfebd1b51c1dc45003c55de759371a01",
+    "AuthorDate": "Thu Nov 22 12:50:17 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[cereslib] Remove import from __init__.py\n\nThis code removes the import `._version.__version__` which is not\nused.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816978.601379,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "2a0b364c2c63d4e33fb4a29764ead4450eb001dd",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "18ac5720019344df9b85d3047ec08e82382359c3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "18ac5720019344df9b85d3047ec08e82382359c3",
+    "AuthorDate": "Thu Nov 22 13:09:08 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[setup] Remove scripts param\n\nThis code removes the scripts param, which is not needed in\ncereslib.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817005.409785,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "8c7c0215b5f3248ac4e59660d70143411817c047",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "37ed3cae3bdfa685e532729f4b20942f2cc5eb91"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "37ed3cae3bdfa685e532729f4b20942f2cc5eb91",
+    "AuthorDate": "Thu Nov 22 12:08:47 2018 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[setup.cfg] Ignore W504 error\n\nThis code enhances the setup.cfg to ignore W504 flake8 errors.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817031.867799,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "916ac501f61f66bfda2fa49f82d6b4536178eb26",
+  "updated_on": 1573574554.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "5a35bae64bfbcc133062232264592c7f590698dc"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "5a35bae64bfbcc133062232264592c7f590698dc",
+    "AuthorDate": "Tue Nov 12 16:53:31 2019 +0100",
+    "CommitDate": "Tue Nov 12 17:02:34 2019 +0100",
+    "message": "[install] Align dependencies in requirements and setup\n\nThis code aligns the dependencies listed in the\nrequirements.txt and setup.py.\n\nMost dependencies are obtained when installing ELK, only\nnumpy, scipy and six are needed to be explicitly installed.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817058.900839,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "19734fe5c96ca56bb413d7646814fd751356555c",
+  "updated_on": 1573574754.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "1d190be00cb6ad61ec4fba58fd425a04d569abd5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "1d190be00cb6ad61ec4fba58fd425a04d569abd5",
+    "AuthorDate": "Tue Nov 12 17:05:54 2019 +0100",
+    "CommitDate": "Tue Nov 12 17:05:54 2019 +0100",
+    "message": "[setup.cfg] Ignore W605 error\n\nThis code enhances the setup.cfg to ignore W605 flake8 errors.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817089.265311,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0efe6ee094fea2492f1caf5762f34696a8242a68",
+  "updated_on": 1573650951.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "51cd4c7494d0de4bb46de68c85aaf3363c779e5d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "51cd4c7494d0de4bb46de68c85aaf3363c779e5d",
+    "AuthorDate": "Wed Nov 13 14:15:51 2019 +0100",
+    "CommitDate": "Wed Nov 13 14:15:51 2019 +0100",
+    "message": "[README] Add travis and coveralls badges\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817114.315753,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "89363fe0c026f1da28177b5ac2f27b0ef63bb691",
+  "updated_on": 1573651406.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d8e157990f5f8f96bab5534ab12d6ff8c268c73e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d8e157990f5f8f96bab5534ab12d6ff8c268c73e",
+    "Merge": "a974972 51cd4c7",
+    "AuthorDate": "Wed Nov 13 14:23:26 2019 +0100",
+    "CommitDate": "Wed Nov 13 14:23:26 2019 +0100",
+    "message": "Merge branch 'add-travis' of 'https://github.com/valeriocos/grimoirelab-cereslib'\n\nMerges #20",
+    "analysis": {
+      "quality": "8.25",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817139.682521,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "1a86cb02dbdaf172c2c957bfffa43e3091185904",
+  "updated_on": 1573836748.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8122b26522fa68813eb6e8b6119f6afe5d2df55b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8122b26522fa68813eb6e8b6119f6afe5d2df55b",
+    "AuthorDate": "Fri Nov 15 16:30:35 2019 +0100",
+    "CommitDate": "Fri Nov 15 17:52:28 2019 +0100",
+    "message": "[events-events] Handle empty sortinghat dict\n\nThis code allows to handle an empty dict returned\nby the method `get_item_sh`.\n\nThis change is needed to allow running GrimoireLab\nwithout Sortinghat.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817163.383997,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "fe66c73acabfe8a53de5bc8f8a9162462f5ddc34",
+  "updated_on": 1573837324.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "e40be1073a0d694c13a5865d54a13968ff03bc30"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "e40be1073a0d694c13a5865d54a13968ff03bc30",
+    "Merge": "d8e1579 8122b26",
+    "AuthorDate": "Fri Nov 15 18:02:04 2019 +0100",
+    "CommitDate": "Fri Nov 15 18:02:04 2019 +0100",
+    "message": "Merge branch 'handle-missing-sortinghat-info' of 'https://github.com/valeriocos/grimoirelab-cereslib'\n\nMerges #26",
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817187.988852,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "ceebce0020a31bcf33510f5404640b177ba5127c",
+  "updated_on": 1574933935.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "a31cd01a194a75f2c4fe44697014d3f4b5ec687f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "a31cd01a194a75f2c4fe44697014d3f4b5ec687f",
+    "AuthorDate": "Thu Nov 28 10:38:55 2019 +0100",
+    "CommitDate": "Thu Nov 28 10:38:55 2019 +0100",
+    "message": "Update version number to 0.1.9\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817212.805237,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "dfb422468f025e8d397bb6c5d99872380e1256bd",
+  "updated_on": 1580132768.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8be2df233d962da9a10c9e3cbd331c0b6ec0a1e0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8be2df233d962da9a10c9e3cbd331c0b6ec0a1e0",
+    "AuthorDate": "Mon Jan 27 14:43:54 2020 +0100",
+    "CommitDate": "Mon Jan 27 14:46:08 2020 +0100",
+    "message": "[setup] Reduce constraints on dependencies\n\nHaving numpy and scipy restricted caused some trouble with Python 3.7\n(because there are no ready to install versions for those libraries\nfor Python 3.7), so I'm releasing their constraints on old versions.\n\nAlthough six is not causing trouble, I'm also releasing its limit on\ndependencies, preventing for the future.\n\nSigned-off-by: Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "Signed-off-by": [
+      "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>"
+    ],
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817238.544799,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "bc94da169ea7d63dd76986b42126de99eba2f9da",
+  "updated_on": 1580137756.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "700c4bca98b5bdfc24037c98a500f924f6922adb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "700c4bca98b5bdfc24037c98a500f924f6922adb",
+    "Merge": "a31cd01 8be2df2",
+    "AuthorDate": "Mon Jan 27 16:09:16 2020 +0100",
+    "CommitDate": "Mon Jan 27 16:09:16 2020 +0100",
+    "message": "Merge branch 'update-dependencies' of 'https://github.com/jgbarah-chaoss/grimoirelab-cereslib'\n\nMerges #27\nCloses #27",
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817263.66608,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "a3208a7583c19c162690339a2e4dcde441f0ac13",
+  "updated_on": 1580223887.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "dd6909a7bdbb784c91881418e764cc1857a2b544"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "dd6909a7bdbb784c91881418e764cc1857a2b544",
+    "AuthorDate": "Tue Jan 28 16:04:47 2020 +0100",
+    "CommitDate": "Tue Jan 28 16:04:47 2020 +0100",
+    "message": "Update version number to 0.1.10\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.22",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817288.070128,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "e357d38bc2bff667f6d47890e5eaa9bbb16cab90",
+  "updated_on": 1584440078.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "85c3fa98bb21457a7429a8565f18bd5dd142c938"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "85c3fa98bb21457a7429a8565f18bd5dd142c938",
+    "AuthorDate": "Fri Mar 13 18:00:24 2020 +0100",
+    "CommitDate": "Tue Mar 17 11:14:38 2020 +0100",
+    "message": "[events] Add support for multiple affiliations\n\nThis code allows to store in the study indexes information\nof multiple affiliations. Such a data is stored as a list\nin the sortinghat-related attribute <rol>_multi_org_names\n(e.g., author_multi_org_names).\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817314.942081,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "906a74c79ec7bd125413f526bf1e573edd3c3fb1",
+  "updated_on": 1584703564.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "09b3d8fd1e0af78d205c2f3e8c5af2d382fb813e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "09b3d8fd1e0af78d205c2f3e8c5af2d382fb813e",
+    "Merge": "dd6909a 85c3fa9",
+    "AuthorDate": "Fri Mar 20 12:26:04 2020 +0100",
+    "CommitDate": "Fri Mar 20 12:26:04 2020 +0100",
+    "message": "Merge branch 'add-multi-orgs' of 'https://github.com/valeriocos/grimoirelab-cereslib'\n\nMerges #28\nCloses #28",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817339.944787,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c696a4a9b3115a5fcd14be565d16f6dde97b4045",
+  "updated_on": 1584703746.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "894f0d929a92a235038e9fc36c6e206018e4bc48"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "894f0d929a92a235038e9fc36c6e206018e4bc48",
+    "AuthorDate": "Fri Mar 20 12:29:06 2020 +0100",
+    "CommitDate": "Fri Mar 20 12:29:06 2020 +0100",
+    "message": "Update version number to 0.1.11\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817368.732126,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "7f311f5d78080e4f0005c847f791f34cb5189636",
+  "updated_on": 1585081843.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "facf737b1c1dbbb9211faf2b2f7245559ec4d891"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "facf737b1c1dbbb9211faf2b2f7245559ec4d891",
+    "AuthorDate": "Wed Mar 25 01:54:12 2020 +0530",
+    "CommitDate": "Wed Mar 25 02:00:43 2020 +0530",
+    "message": "Fix a small typo\n\nA typo in spelling of \"member\"\n\nSigned-off-by: Kshitij Gupta <kgupta3199@gmail.com>",
+    "Signed-off-by": [
+      "Kshitij Gupta <kgupta3199@gmail.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817392.016236,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "976e0896f56f83e3b71a42cdecf3d6e2b0fff7bd",
+  "updated_on": 1585122357.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d98ca4279c3fac2c99cecc06baf89a09a8bc01cc"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d98ca4279c3fac2c99cecc06baf89a09a8bc01cc",
+    "Merge": "894f0d9 facf737",
+    "AuthorDate": "Wed Mar 25 08:45:57 2020 +0100",
+    "CommitDate": "Wed Mar 25 08:45:57 2020 +0100",
+    "message": "Merge branch 'patch-1' of 'https://github.com/kshitij3199/grimoirelab-cereslib/'\n\nMerges #29\nCloses #29",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817415.537041,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c816834e966764d24cd669f938623f9cac44dcf2",
+  "updated_on": 1586350455.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "8dd48f5ad24d5b1200b882044a5d269100063542"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "8dd48f5ad24d5b1200b882044a5d269100063542",
+    "AuthorDate": "Wed Apr 8 14:54:15 2020 +0200",
+    "CommitDate": "Wed Apr 8 14:54:15 2020 +0200",
+    "message": "[travis] Upgrade setuptools and pip\n\nThis code upgrades the setuptools and pip. This change\nis needed to fix the CI tests that were failing due\nto the following error:\n\n```\nComplete output from command python setup.py egg_info:\n    Traceback (most recent call last):\n      File \"/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages/setuptools/sandbox.py\", line 154, in save_modules\n        yield saved\n      File \"/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages/setuptools/sandbox.py\", line 195, in setup_context\n        yield\n      File \"/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages/setuptools/sandbox.py\", line 250, in run_setup\n        _execfile(setup_script, ns)\n      File \"/home/travis/virtualenv/python3.5.6/lib/python3.5/site-packages/setuptools/sandbox.py\", line 44, in _execfile\n        code = compile(script, filename, 'exec')\n      File \"/tmp/easy_install-wu9lgsxc/pandoc-2.0a4/setup.py\", line 11\n        error = f\"pip is not installed, refer to <{url}> for instructions.\"\n                                                                        ^\n    SyntaxError: invalid syntax\n```\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817439.621907,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "35fe3405ecb71c64e1eec7ec95f77f4b3c80c045",
+  "updated_on": 1586353500.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "820ff508d5e275baae52516aef3c09a0b69a3b94"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "820ff508d5e275baae52516aef3c09a0b69a3b94",
+    "Merge": "d98ca42 8dd48f5",
+    "AuthorDate": "Wed Apr 8 15:45:00 2020 +0200",
+    "CommitDate": "Wed Apr 8 15:45:00 2020 +0200",
+    "message": "Merge branch 'upgrade-travis' of 'https://github.com/zhquan/grimoirelab-cereslib'\n\nMerges #30\nCloses #30",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817463.480273,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "b1bb80eda1193f86bceb7bb1adcdbe2a63ecf510",
+  "updated_on": 1587665132.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "2f6ac3d15bcd4d963e8c3632852021e0c1353acc"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "2f6ac3d15bcd4d963e8c3632852021e0c1353acc",
+    "AuthorDate": "Thu Apr 23 20:05:32 2020 +0200",
+    "CommitDate": "Thu Apr 23 20:05:32 2020 +0200",
+    "message": "Update version number to 0.1.12\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817487.413556,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "d434f0549f7472624348a45cba75c3ce03d5e54e",
+  "updated_on": 1588237621.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d8ef24020477fdd092201951911ae4d0ff662132"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d8ef24020477fdd092201951911ae4d0ff662132",
+    "AuthorDate": "Thu Apr 30 12:14:26 2020 +0530",
+    "CommitDate": "Thu Apr 30 14:37:01 2020 +0530",
+    "message": "[test] Add test for Git events\n\nThis commit adds tests for eventize method\nfor Git backend.\nTest data and projects map file has been added.\n\nSigned-off-by: Nitish Gupta <imnitish.ng@gmail.com>",
+    "Signed-off-by": [
+      "Nitish Gupta <imnitish.ng@gmail.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817511.792805,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "cb4540f31ee9fe85f806a7ab2c45b2a0fbfcd2b3",
+  "updated_on": 1588264378.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "722a8249f8e1f6e1038bad233804ee9cc1150fad"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "722a8249f8e1f6e1038bad233804ee9cc1150fad",
+    "Merge": "2f6ac3d d8ef240",
+    "AuthorDate": "Thu Apr 30 18:32:58 2020 +0200",
+    "CommitDate": "Thu Apr 30 18:32:58 2020 +0200",
+    "message": "Merge branch 'eventize_test' of 'https://github.com/imnitishng/grimoirelab-cereslib'\n\nMerges #32\nCloses #32",
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817537.635738,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "48653ac0cf3d75c862a8757934d512caa3096fe3",
+  "updated_on": 1592029128.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "26b1304967efb900c4ae8eb2b76f2e2d3bded43b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "26b1304967efb900c4ae8eb2b76f2e2d3bded43b",
+    "AuthorDate": "Sat Jun 13 08:18:48 2020 +0200",
+    "CommitDate": "Sat Jun 13 08:18:48 2020 +0200",
+    "message": "Update version number to 0.1.13\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817562.757223,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "5803457746e90f9e7b178fcb823085e3e46414c9",
+  "updated_on": 1592034124.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d596ac47b44498b79a3c353be63404a7e6a4bac5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d596ac47b44498b79a3c353be63404a7e6a4bac5",
+    "AuthorDate": "Sat Jun 13 09:31:39 2020 +0200",
+    "CommitDate": "Sat Jun 13 09:42:04 2020 +0200",
+    "message": "[deps] Constraint numpy version to <= 1.18.3\n\nThe numpy deps is constrainted to <= 1.18.3 due to\na failure in building the docker image for grimoirelab\nin docker, where the numpy version is 1.19.0rc1.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.23",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817588.777967,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "87c8af49266edac2dc3ee7405e2e4469b17aa303",
+  "updated_on": 1592034124.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "ca52d0ff29444ab92865f04ce7fd7a3edaa443e3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "ca52d0ff29444ab92865f04ce7fd7a3edaa443e3",
+    "AuthorDate": "Sat Jun 13 09:33:50 2020 +0200",
+    "CommitDate": "Sat Jun 13 09:42:04 2020 +0200",
+    "message": "[enrich-enrich] Fix flake8 E741 ambiguous variable name\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817613.426276,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "3d7c91c801005695a4cdd8dcc1678a68fa718ec3",
+  "updated_on": 1592034391.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "53768c5cde7b002d42eb1151c21a662159463072"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "53768c5cde7b002d42eb1151c21a662159463072",
+    "AuthorDate": "Sat Jun 13 09:46:31 2020 +0200",
+    "CommitDate": "Sat Jun 13 09:46:31 2020 +0200",
+    "message": "Update version number to 0.1.14\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817637.852433,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "b164db5b3c3f25d9b984ebbf7aacb39ff30cff67",
+  "updated_on": 1611323671.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "0de6bbdff3b82c28a0387d148c3b03801520ed2e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "0de6bbdff3b82c28a0387d148c3b03801520ed2e",
+    "AuthorDate": "Fri Jan 22 19:20:22 2021 +0530",
+    "CommitDate": "Fri Jan 22 19:24:31 2021 +0530",
+    "message": "[flake8] Fix flake8 errors\n\nThis commit fixes all the existing flake8 errors\nin the tests. It also includes the metadata files\nand tests in MANIFEST.in file.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817662.891541,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "117d1cac59ed40565d38ab3dc347d2e2290ce0ce",
+  "updated_on": 1611335293.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "fc8a167485c4d406ff9b4824b9666699a8cbec41"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "fc8a167485c4d406ff9b4824b9666699a8cbec41",
+    "Merge": "53768c5 0de6bbd",
+    "AuthorDate": "Fri Jan 22 18:08:13 2021 +0100",
+    "CommitDate": "Fri Jan 22 18:08:13 2021 +0100",
+    "message": "Merge branch 'fix-flake8-errors' of 'https://github.com/vchrombie/grimoirelab-cereslib'\n\nMerges #34\nCloses #34",
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817688.367325,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "518f4ec7d199faa71ab0cdc9119e44b9fa15685e",
+  "updated_on": 1611335422.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d09dfda150ec3bed6f4fbf50dc7e81900bdc13e0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d09dfda150ec3bed6f4fbf50dc7e81900bdc13e0",
+    "AuthorDate": "Thu Jan 21 16:42:05 2021 +0530",
+    "CommitDate": "Fri Jan 22 18:10:22 2021 +0100",
+    "message": "[CI] Migrate from Travis CI to GitHub Actions\n\nTravis CI has brought a few changes in its plans\nwhich is causing friction to the current workflow.\n\nThis commit removes the support of Travis CI and adds\nthe support of GitHub Actions as the new CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817712.140438,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "0f646e51e11c27581d25f15d02490814a0412e32",
+  "updated_on": 1611335445.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "d79713c312f68ab24df67d623582c36d0a25a1ec"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "d79713c312f68ab24df67d623582c36d0a25a1ec",
+    "Merge": "fc8a167 d09dfda",
+    "AuthorDate": "Fri Jan 22 18:10:45 2021 +0100",
+    "CommitDate": "Fri Jan 22 18:10:45 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-cereslib'\n\nMerges #35\nCloses #35",
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638817735.321932,
+  "origin": "http://github.com/chaoss/grimoirelab-cereslib",
+  "uuid": "c20e90c70c06bd038ba61a01236bcffb3cb15b02",
+  "updated_on": 1611664265.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_pylint",
+  "search_fields": {
+    "item_id": "c047e6d5fcda4826fdd5f29403fb62952537f8af"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-cereslib",
+  "data": {
+    "commit": "c047e6d5fcda4826fdd5f29403fb62952537f8af",
+    "AuthorDate": "Tue Jan 26 13:31:05 2021 +0100",
+    "CommitDate": "Tue Jan 26 13:31:05 2021 +0100",
+    "message": "Update version number to 0.1.15\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "quality": "8.26",
+      "num_modules": 5,
+      "warnings": 107
+    },
+    "analyzer": "pylint"
+  }
+}
+]

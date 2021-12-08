@@ -1,0 +1,2247 @@
+[
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.200677,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "691896a036c48ffde358e14289c72680f2f33e20",
+  "updated_on": 1494584478.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9dc821962567715e5358b1192e1b15d8868d2b6c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "9dc821962567715e5358b1192e1b15d8868d2b6c",
+    "AuthorDate": "Thu May 11 20:03:20 2017 +0200",
+    "CommitDate": "Fri May 12 12:21:18 2017 +0200",
+    "message": "Initial import\n\nSet LICENSE, AUTHORS, common configuration, version and\npackage directory.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.284401,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "27c7c570bd83224ee50e3670e026d56dfc7292e5",
+  "updated_on": 1494584485.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "09a87197441ed7ae32e5473da9b952a3d79314eb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "09a87197441ed7ae32e5473da9b952a3d79314eb",
+    "AuthorDate": "Thu May 11 20:10:14 2017 +0200",
+    "CommitDate": "Fri May 12 12:21:25 2017 +0200",
+    "message": "[tests] Set up unit tests framework",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.338226,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "65f774a33dc1f0b0b08a702594f0505af22208e1",
+  "updated_on": 1494584485.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "bf302f17458b477ab029dd5f8139015df47ce719"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "bf302f17458b477ab029dd5f8139015df47ce719",
+    "AuthorDate": "Thu May 11 20:10:54 2017 +0200",
+    "CommitDate": "Fri May 12 12:21:25 2017 +0200",
+    "message": "[uris] Add module for handling URIs",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.395821,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "68e6afbfbd19cf3702ab31b3c6a8c337b2b13418",
+  "updated_on": 1494601067.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "74b150ddab11032d7e6922431db199caf7eb381b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "74b150ddab11032d7e6922431db199caf7eb381b",
+    "AuthorDate": "Thu May 11 20:11:35 2017 +0200",
+    "CommitDate": "Fri May 12 16:57:47 2017 +0200",
+    "message": "[datetime] Add module for managing datatime objects\n\nThis module contains functions to parse datetimes from\nstrings, to set default timezones or to convert dates\nin different time formats.\n\nThe functions on this module were originally developed\nin Perceval tool.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.480324,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "cb4a55425a9500fdeed20390eb0ecbd0fd96e701",
+  "updated_on": 1494601078.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "7d2870f5f77712f91f759062b6e7c8db66146e8b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "7d2870f5f77712f91f759062b6e7c8db66146e8b",
+    "AuthorDate": "Thu May 11 20:16:01 2017 +0200",
+    "CommitDate": "Fri May 12 16:57:58 2017 +0200",
+    "message": "[introspect] Add module for handling instrospection\n\nCommon functions for instrospection in callables.\nFunctions originally developed in Perceval project.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.604818,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "276904f22748e8215834e9889d67f48b2b9d7a38",
+  "updated_on": 1494601078.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c82b458df53c9aa2671a3713aef422993f181fd1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "c82b458df53c9aa2671a3713aef422993f181fd1",
+    "AuthorDate": "Fri May 12 12:23:20 2017 +0200",
+    "CommitDate": "Fri May 12 16:57:58 2017 +0200",
+    "message": "Add README file",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.713557,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "d7a2fae9dc50b7a07163f0a5505533a95823eb1e",
+  "updated_on": 1494601078.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b50f76df0b9b27aac3b3e58f3323f90ad5add7c7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "b50f76df0b9b27aac3b3e58f3323f90ad5add7c7",
+    "AuthorDate": "Fri May 12 12:25:57 2017 +0200",
+    "CommitDate": "Fri May 12 16:57:58 2017 +0200",
+    "message": "Add setup.py script",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816398.904224,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "abe7850f10b700c316a3ec35f10c389420afc9ee",
+  "updated_on": 1494607747.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "60bd7febaba83a4c9597aea8762356a0cd443c01"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "60bd7febaba83a4c9597aea8762356a0cd443c01",
+    "AuthorDate": "Fri May 12 18:49:07 2017 +0200",
+    "CommitDate": "Fri May 12 18:49:07 2017 +0200",
+    "message": "Add TravisCI and Coveralls configuration",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.010709,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "ddcbf508d5a8c6183c99e26dc383eafb331f4339",
+  "updated_on": 1494608403.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1534e302b12a808755fd0d27462ea666ec5469fe"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "1534e302b12a808755fd0d27462ea666ec5469fe",
+    "AuthorDate": "Fri May 12 19:00:03 2017 +0200",
+    "CommitDate": "Fri May 12 19:00:03 2017 +0200",
+    "message": "Add TravisCI and Coveralls badges",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.111133,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "5c43023fc70b7e38484ff65bbf1899ca1b9c9332",
+  "updated_on": 1494860858.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "957701ef06eb2f33e2cc4d9f98f611acf1507206"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "957701ef06eb2f33e2cc4d9f98f611acf1507206",
+    "AuthorDate": "Mon May 15 17:07:38 2017 +0200",
+    "CommitDate": "Mon May 15 17:07:38 2017 +0200",
+    "message": "Release 0.1.0",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.241608,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "919e6137d53c87692422cf029c36b82f53ff8e42",
+  "updated_on": 1499986579.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "258a40013e6d7389183e526337f69e0479a38a77"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "258a40013e6d7389183e526337f69e0479a38a77",
+    "AuthorDate": "Fri Jul 14 00:56:19 2017 +0200",
+    "CommitDate": "Fri Jul 14 00:56:19 2017 +0200",
+    "message": "Aviod problems for building the package when no pandoc is installed.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.308783,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "e8813d9f648a367b28c670f54bc680022dc1a21e",
+  "updated_on": 1506416661.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "95d271af32744eb38f73df592f2e0dc5ea97683b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "95d271af32744eb38f73df592f2e0dc5ea97683b",
+    "AuthorDate": "Mon Sep 25 19:52:51 2017 +0200",
+    "CommitDate": "Tue Sep 26 11:04:21 2017 +0200",
+    "message": "Add MANIFEST.in and bump version.\n\nWe need MANIFEST.in in order to add README.md to the package.\nWe need to bump the version to have new packages for pypi.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.39696,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "6f6f6634aafd4040049e34c7a7eb2627fce01530",
+  "updated_on": 1510924488.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "2edee2e6f790cbf30032e4ba37fd5e58ef8bbb21"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "2edee2e6f790cbf30032e4ba37fd5e58ef8bbb21",
+    "AuthorDate": "Fri Nov 10 12:51:09 2017 +0100",
+    "CommitDate": "Fri Nov 17 14:14:48 2017 +0100",
+    "message": "[datetime] Fix to handle dates with invalid time offset\n\nThis commit fixes the handling of dates with invalid offset\n(e.g., missing + or - in the timezone or characters badly encoded)",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.488531,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "f5d49de1142657121da3d35e0264c7c9eaf1d582",
+  "updated_on": 1510925472.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d950454bc33c75866e2136943bc87f588f6bae93"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "d950454bc33c75866e2136943bc87f588f6bae93",
+    "Merge": "95d271a 2edee2e",
+    "AuthorDate": "Fri Nov 17 14:31:12 2017 +0100",
+    "CommitDate": "Fri Nov 17 14:31:12 2017 +0100",
+    "message": "Merge branch 'fix-invalid-date-error' of 'https://github.com/valeriocos/grimoirelab-toolkit.git'\n\nMerges #3\nCloses #3",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.584443,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "400bf3664a2807775f0d690f511fb606b00a6125",
+  "updated_on": 1511457024.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "49da2a7efd4605f8ca71b3cf283e9d62c3f02647"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "49da2a7efd4605f8ca71b3cf283e9d62c3f02647",
+    "AuthorDate": "Thu Nov 23 18:10:24 2017 +0100",
+    "CommitDate": "Thu Nov 23 18:10:24 2017 +0100",
+    "message": "Update version number to 0.1.2",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.647153,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "882e705fb60057ddc3a030ca2fde14cdeaca32d2",
+  "updated_on": 1515586847.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "da8b3db5e81f05c90815900d940a22ec312c8835"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "da8b3db5e81f05c90815900d940a22ec312c8835",
+    "AuthorDate": "Wed Jan 10 12:59:57 2018 +0100",
+    "CommitDate": "Wed Jan 10 13:20:47 2018 +0100",
+    "message": "Fix tests for Concourse compatibility\n\nBy default, Python gets tests from its `PYTHONPATH`.\nThe line which was removed now in each test forced to get tests\nfrom the source code directory for developing purposes.\n\nThe reason why these lines have been removed is because\nwe are working with Concourse CI tool and we need the tests\nto execute from the installed directory.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.70706,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "99e6514e168861e5b7dc15fdd2bf1aa054246c82",
+  "updated_on": 1515604765.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e73dc0b42c70ab32e7e6be4d2e7742bf2bde00af"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "e73dc0b42c70ab32e7e6be4d2e7742bf2bde00af",
+    "Merge": "49da2a7 da8b3db",
+    "AuthorDate": "Wed Jan 10 18:19:25 2018 +0100",
+    "CommitDate": "Wed Jan 10 18:19:25 2018 +0100",
+    "message": "Merge 'fix_tests_concourse' of 'https://github.com/mghfdez/grimoirelab-toolkit.git'\n\nMerges #4\nCloses #4",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.80314,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "d97f11f0e799c72a906303d8f399816d27743f9d",
+  "updated_on": 1516100973.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "87d52db6a2ddec4ec6cc51a903aa7cd6a31d07a1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "87d52db6a2ddec4ec6cc51a903aa7cd6a31d07a1",
+    "AuthorDate": "Tue Jan 16 10:12:07 2018 +0100",
+    "CommitDate": "Tue Jan 16 12:09:33 2018 +0100",
+    "message": "Add tests requirements pip-file\n\nThis file is empty for the moment, as this package doesn't require\nany requirements.\n\nThis file is also included in the `.travis.yml` file in the same\nway as `requirements.txt` file.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.899714,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7e6f3d258f1ab6ea618315174ab9bacf88d50704",
+  "updated_on": 1516101075.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ffdedae0b73e7922393e397dcd9ea64c7752d983"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ffdedae0b73e7922393e397dcd9ea64c7752d983",
+    "Merge": "e73dc0b 87d52db",
+    "AuthorDate": "Tue Jan 16 12:10:27 2018 +0100",
+    "CommitDate": "Tue Jan 16 12:11:15 2018 +0100",
+    "message": "Merge 'requirements_tests' of 'https://github.com/mghfdez/grimoirelab-toolkit.git'\n\nMerges #5\nCloses #5",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816399.995524,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "b973446d6ac8f154e8c56a470d87835457099897",
+  "updated_on": 1516115328.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ba711c7b82ca95493b69f39049d6f900cba73ff6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ba711c7b82ca95493b69f39049d6f900cba73ff6",
+    "AuthorDate": "Tue Jan 16 12:30:44 2018 +0100",
+    "CommitDate": "Tue Jan 16 16:08:48 2018 +0100",
+    "message": "[datetime] Add timezone data to datetime_utcnow()\n\nThis code fixes issue #6. It includes timezone information\nto the current utc time returned by datetime_utcnow(), thus\navoiding the creation of a naive datetime instance.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.069318,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "0cb2198a32ec2bb6b3b43f98291f2a7fea79f952",
+  "updated_on": 1516117513.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "40c2ffd7ddd667c949ecefbecdaf9875b5f6b909"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "40c2ffd7ddd667c949ecefbecdaf9875b5f6b909",
+    "Merge": "ffdedae ba711c7",
+    "AuthorDate": "Tue Jan 16 16:45:13 2018 +0100",
+    "CommitDate": "Tue Jan 16 16:45:13 2018 +0100",
+    "message": "Merge branch 'fix-naive-datetime-instance' of 'https://github.com/grimoirelab/grimoirelab-toolkit'\n\nMerges #7\nCloses #7\nFixes #7",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.136925,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "50ea259462a71cea20df10bbfe2337a10ab04a70",
+  "updated_on": 1516651803.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e7578502418e822dc277801120852ac8d53f428a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "e7578502418e822dc277801120852ac8d53f428a",
+    "AuthorDate": "Mon Jan 22 21:10:03 2018 +0100",
+    "CommitDate": "Mon Jan 22 21:10:03 2018 +0100",
+    "message": "Update version number to 0.1.3",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.225047,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "85c2c33eeb95222f22e9e57879b8dafccafaba44",
+  "updated_on": 1516788818.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b1cf6fa89c5046ae2e47cd62cd816f9dbdc5313f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "b1cf6fa89c5046ae2e47cd62cd816f9dbdc5313f",
+    "AuthorDate": "Tue Jan 23 11:45:20 2018 +0100",
+    "CommitDate": "Wed Jan 24 11:13:38 2018 +0100",
+    "message": "[introspect] Ignore * and ** parameters in method signatures\n\nThis code allows to ignore * and ** parameters of the fetch method\nin backend.py",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.385891,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "34eace81945257a34ae4307c6b05b01e815bb6f8",
+  "updated_on": 1516795255.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8c7f9966e2acc0e593a8685a20e9e30edc1ce93e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "8c7f9966e2acc0e593a8685a20e9e30edc1ce93e",
+    "Merge": "40c2ffd b1cf6fa",
+    "AuthorDate": "Wed Jan 24 13:00:55 2018 +0100",
+    "CommitDate": "Wed Jan 24 13:00:55 2018 +0100",
+    "message": "Merge branch 'fix-introspect' of 'https://github.com/valeriocos/grimoirelab-toolkit.git'\n\nMerges #8\nCloses #8",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.481069,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "3b90cb26bbd3e04b5f7a74565cc0a382ac12dbd3",
+  "updated_on": 1516798388.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "dcba0252a43e3138c9ee2ef6280e54403ecb5498"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "dcba0252a43e3138c9ee2ef6280e54403ecb5498",
+    "AuthorDate": "Wed Jan 24 13:53:08 2018 +0100",
+    "CommitDate": "Wed Jan 24 13:53:08 2018 +0100",
+    "message": "Update version number to 0.1.4",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.548333,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "fff5439c95cc62941014c9300eee841c29e9bf48",
+  "updated_on": 1518183576.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "42908e46e1d9236cecf2da77aa14b5d163cb35c1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "42908e46e1d9236cecf2da77aa14b5d163cb35c1",
+    "AuthorDate": "Fri Feb 9 14:03:54 2018 +0100",
+    "CommitDate": "Fri Feb 9 14:39:36 2018 +0100",
+    "message": "Add support to run tests using setup.py file\n\nTo run user-defined commands using setup.py it is necessary\nto add Command derivated classes. In this case, TestCommand\nclass was included to run tests.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.621126,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "6cbf6f95ed308848d57ce08f42d454f14ce8da39",
+  "updated_on": 1518195258.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3fa9802d0ae6b03532c77b7bd5568c2a1d883d9a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "3fa9802d0ae6b03532c77b7bd5568c2a1d883d9a",
+    "Merge": "dcba025 42908e4",
+    "AuthorDate": "Fri Feb 9 17:54:18 2018 +0100",
+    "CommitDate": "Fri Feb 9 17:54:18 2018 +0100",
+    "message": "Merge branch 'fix_tests_concourse' of 'https://github.com/mafesan/grimoirelab-toolkit'\n\nMerges #9\nCloses #9",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.717743,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "99fc64cc3af6eda3752c65ddfdd76ca550cc472d",
+  "updated_on": 1519146962.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "547ed2b928f903b5971b8448f1c661afe5117fa2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "547ed2b928f903b5971b8448f1c661afe5117fa2",
+    "AuthorDate": "Tue Feb 20 18:08:41 2018 +0100",
+    "CommitDate": "Tue Feb 20 18:16:02 2018 +0100",
+    "message": "Update coverage call to remove 'omit' parameter\n\nSince the latest changes made by commit 42908e46e1d, tests are\nrun (by default) using the installed egg package. In Travis CI,\ncoverage script was called omitting eggs packages. This\nproduced an empty coverage report.\n\nThis commit removes the omit parameter to analyze files inside\nthe egg package.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.809999,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "e0a303fae6a511a35b24e51982b21498fb8dcade",
+  "updated_on": 1519149363.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "4749a014e6f031034818ed525fb944d2eb4e03b9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "4749a014e6f031034818ed525fb944d2eb4e03b9",
+    "AuthorDate": "Tue Feb 20 18:56:03 2018 +0100",
+    "CommitDate": "Tue Feb 20 18:56:03 2018 +0100",
+    "message": "Rename GrimoireLab references to CHAOSS\n\nGrimoireLab repositories were moved to CHAOSS organization\nin GitHub. This patch updates the references to it.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.892157,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "a55b09f8fae41c4f75e6651ac66109af58d65c32",
+  "updated_on": 1519729021.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "49bff19753e0295909c0573bb6bac62a9d4a05b3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "49bff19753e0295909c0573bb6bac62a9d4a05b3",
+    "AuthorDate": "Tue Feb 27 11:57:01 2018 +0100",
+    "CommitDate": "Tue Feb 27 11:57:01 2018 +0100",
+    "message": "Update CI config to run tests using Python 3.5 and 3.6",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816400.971607,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "d56a614e6ef692abf6c8fb2f86396c42583fdaa8",
+  "updated_on": 1520921674.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ce0e845e5e72457b20a28ed5cf68446aa861764b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ce0e845e5e72457b20a28ed5cf68446aa861764b",
+    "AuthorDate": "Tue Mar 13 07:14:34 2018 +0100",
+    "CommitDate": "Tue Mar 13 07:14:34 2018 +0100",
+    "message": "Update version number to 0.1.5",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.064678,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7e7394decfa0077f1a06352d06953549fb2f956f",
+  "updated_on": 1522162905.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "250173c7259e6ba5416db25fca202e45ff62c08b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "250173c7259e6ba5416db25fca202e45ff62c08b",
+    "AuthorDate": "Mon Mar 26 19:18:40 2018 +0200",
+    "CommitDate": "Tue Mar 27 17:01:45 2018 +0200",
+    "message": "[datetime] Handle wrong timezone offset\n\nThis patch allows to handle dates with wrong timezone offsets\n(e.g., -3402). The wrong timezone is replaced by UTC+0.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.123589,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "b6958f89f3b92842763aee40d466b329f14fa005",
+  "updated_on": 1522166734.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "89dbd88fb54a375923c4b8f1ea73868ee8afa6d7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "89dbd88fb54a375923c4b8f1ea73868ee8afa6d7",
+    "AuthorDate": "Tue Mar 27 17:45:12 2018 +0200",
+    "CommitDate": "Tue Mar 27 18:05:34 2018 +0200",
+    "message": "[tests] Increase test coverage\n\nThis code increases the test coverage for the class datetime.py.\nThus, it includes a new test to check that an exception is\nthrown when a unixtime is wrongly converted to a datetime\nobject.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.187269,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "64a1e15b2aae70f113a281090802f8cfedb673d0",
+  "updated_on": 1522167187.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d6d4dd9f6234e2b990afffc6adc183a39dab11cf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "d6d4dd9f6234e2b990afffc6adc183a39dab11cf",
+    "Merge": "ce0e845 89dbd88",
+    "AuthorDate": "Tue Mar 27 18:13:07 2018 +0200",
+    "CommitDate": "Tue Mar 27 18:13:07 2018 +0200",
+    "message": "Merge branch 'handle-wrong-timezones' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #10\nCloses #10",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.250347,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7d58886f06d96cae005638cb54ac379f3904bfac",
+  "updated_on": 1522747759.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "0e520df415e1d62ed21da33abba94a29b843e05c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "0e520df415e1d62ed21da33abba94a29b843e05c",
+    "AuthorDate": "Tue Apr 3 11:29:19 2018 +0200",
+    "CommitDate": "Tue Apr 3 11:29:19 2018 +0200",
+    "message": "Update version number to 0.1.6",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.338657,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "67f30c0b56e07adaa229da89643f148bc36f167a",
+  "updated_on": 1523298256.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "e747b1ce8f1f7cd00290a0f7fd0d7834d024ecc6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "e747b1ce8f1f7cd00290a0f7fd0d7834d024ecc6",
+    "AuthorDate": "Mon Apr 9 20:24:16 2018 +0200",
+    "CommitDate": "Mon Apr 9 20:24:16 2018 +0200",
+    "message": "[introspect] Add function to find the properties in a class\n\nFunction find_class_properties() will allow to search for\nthe members of a class defined as 'property'.",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.419279,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "e36ce2020857dbb702d4e0d45b76027496d75440",
+  "updated_on": 1523350045.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "554a726e03b60700d368b82ce6dc899a80fa9583"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "554a726e03b60700d368b82ce6dc899a80fa9583",
+    "Merge": "0e520df e747b1c",
+    "AuthorDate": "Tue Apr 10 10:47:25 2018 +0200",
+    "CommitDate": "Tue Apr 10 10:47:25 2018 +0200",
+    "message": "Merge branch 'find-properties' of 'https://github.com/sduenas/grimoirelab-toolkit'\n\nMerges #11\nCloses #11",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816401.484755,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7d96b456c78e85a3b16b2c22d057d621ff21ee10",
+  "updated_on": 1523350148.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "bb304b914bde59f4a1008763a99eb0e653fe2572"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "bb304b914bde59f4a1008763a99eb0e653fe2572",
+    "AuthorDate": "Tue Apr 10 10:49:08 2018 +0200",
+    "CommitDate": "Tue Apr 10 10:49:08 2018 +0200",
+    "message": "Update version number to 0.1.7",
+    "analysis": {},
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816402.407942,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "5b637e874a71dd92f3383a51569fe43efb090767",
+  "updated_on": 1531086450.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "08cfae7b157098d936e2dff0f28b9db4c35ad5a3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "08cfae7b157098d936e2dff0f28b9db4c35ad5a3",
+    "AuthorDate": "Sun Jul 8 23:39:17 2018 +0200",
+    "CommitDate": "Sun Jul 8 23:47:30 2018 +0200",
+    "message": "Change module name to grimoirelab_toolkit.\n\nThis includes modifying setup.py, and tests.\n\nThis change will break any module using this one, so they should\nbe changed accordingly.",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816403.431358,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "f389b4a16c137188411ee4f9279d3b4fa167aedb",
+  "updated_on": 1531380414.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1133a60705ee99b8b4a02f721c50d10f1b7d5ca6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "1133a60705ee99b8b4a02f721c50d10f1b7d5ca6",
+    "Merge": "bb304b9 08cfae7",
+    "AuthorDate": "Thu Jul 12 09:26:54 2018 +0200",
+    "CommitDate": "Thu Jul 12 09:26:54 2018 +0200",
+    "message": "Merge branch 'grimoirelab_toolkit' of 'https://github.com/jgbarah-chaoss/grimoirelab-toolkit'\nMerges #13\nCloses #13",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816404.413273,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "4b4bcb020d4aa0cee6e77cf3ce3b13443ae7c1d5",
+  "updated_on": 1531414752.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "eae1959a1378708442e5d3fd55f49f3492ae4cf0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "eae1959a1378708442e5d3fd55f49f3492ae4cf0",
+    "AuthorDate": "Thu Jul 12 18:59:12 2018 +0200",
+    "CommitDate": "Thu Jul 12 18:59:12 2018 +0200",
+    "message": "Update version number to 0.1.8",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816405.285219,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "adde4f4961bcfae45fb61ae627da649979db6d92",
+  "updated_on": 1549908158.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d2bd2500ddf3a92c9848795f3ac793ab4c48054e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "d2bd2500ddf3a92c9848795f3ac793ab4c48054e",
+    "AuthorDate": "Mon Feb 11 14:11:32 2019 +0100",
+    "CommitDate": "Mon Feb 11 19:02:38 2019 +0100",
+    "message": "[dependency] Update python-dateutil to 2.8.0\n\nThis code updates the dependency of the python-dateutil package to 2.8.0 in the\nsetup.py and requirements.txt. The test `test_invalid_timezone` has been removed\nsince it is not needed anymore. The change was needed due to the fact that the\nversion 2.8.0 allows to deal with negative timezone offsets, something that\nwasn't handled before.",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816406.235641,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "060164e26266964ffc938fe4e47dd4c2c2db2dcc",
+  "updated_on": 1549958819.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ec1c4f044c746939c4e9e547d1968318da722132"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ec1c4f044c746939c4e9e547d1968318da722132",
+    "Merge": "eae1959 d2bd250",
+    "AuthorDate": "Tue Feb 12 09:06:59 2019 +0100",
+    "CommitDate": "Tue Feb 12 09:06:59 2019 +0100",
+    "message": "Merge branch 'update-dateutil-dep' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #16\nCloses #16\nFixes #15",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816407.386035,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "d1ae638e7ddc72d90e83efb5de8a4cbbb5b90791",
+  "updated_on": 1549958993.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ceeb062b6336dcd1335331aa6d4e434a053c45d6"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ceeb062b6336dcd1335331aa6d4e434a053c45d6",
+    "AuthorDate": "Mon Feb 11 19:04:38 2019 +0100",
+    "CommitDate": "Tue Feb 12 09:09:53 2019 +0100",
+    "message": "[travis] Update coverage source param\n\nThis code updates the coverage source param, which now\nis `grimoirelab_toolkit`.",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816408.18198,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "108cbeef6f6abf930a81213c2546da6b5a3446f3",
+  "updated_on": 1549959046.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b7aecf70e115a1db53421f333c0429d455a51170"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "b7aecf70e115a1db53421f333c0429d455a51170",
+    "Merge": "ec1c4f0 ceeb062",
+    "AuthorDate": "Tue Feb 12 09:10:46 2019 +0100",
+    "CommitDate": "Tue Feb 12 09:10:46 2019 +0100",
+    "message": "Merge branch 'fix-coveralls' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #17\nCloses #17",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816409.145092,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "1e34047acf1743743506bb740d3cdc6d79b331c2",
+  "updated_on": 1550055040.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "30f36e89f3070f1a7b9973ea3c8a31f4b792ee2b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "30f36e89f3070f1a7b9973ea3c8a31f4b792ee2b",
+    "AuthorDate": "Wed Feb 13 11:50:40 2019 +0100",
+    "CommitDate": "Wed Feb 13 11:50:40 2019 +0100",
+    "message": "Update version number to 0.1.9",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816409.849908,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "f062609ff43c7e085cb1c5d450a0b0cbbeeb38c4",
+  "updated_on": 1562752278.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "a2d049336ad400fde90d8e9096aed6473faf6d3d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "a2d049336ad400fde90d8e9096aed6473faf6d3d",
+    "AuthorDate": "Wed Jul 10 11:51:18 2019 +0200",
+    "CommitDate": "Wed Jul 10 11:51:18 2019 +0200",
+    "message": "[setup] Fix format type for long description of package\n\nPypi requires that the format of the long description for a\npackage is detailed in the variable `long_description_content_type`,\nin setup.py. Since it now supports Markdown, the conversion to\nreST is not needed anymore.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816410.78685,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "bf0c2eebd895fa9124bb420d76ec6471f842746d",
+  "updated_on": 1563262487.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6c93e15d7fe313218a59774e235087e7ee186b0a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "6c93e15d7fe313218a59774e235087e7ee186b0a",
+    "Merge": "30f36e8 a2d0493",
+    "AuthorDate": "Tue Jul 16 09:34:47 2019 +0200",
+    "CommitDate": "Tue Jul 16 09:34:47 2019 +0200",
+    "message": "Merge branch 'setup-long-desc' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #19",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816411.710074,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "c5e291f2ad02e763f1a7fee37af24f0cfefcfd1f",
+  "updated_on": 1563265802.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "376867e950ac765d11a6725cc49d3bffb73c558d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "376867e950ac765d11a6725cc49d3bffb73c558d",
+    "AuthorDate": "Mon Jul 15 10:07:43 2019 +0200",
+    "CommitDate": "Tue Jul 16 10:30:02 2019 +0200",
+    "message": "[grimoirelab-toolkit] Update copyright info\n\nThis code updates the copyright info, extending\nthe time range to 2019.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816412.422742,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "74c3de81ee680aa23dde78b2bc7fd2a1fb673569",
+  "updated_on": 1563301387.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "655bc891da9f28b13445b8b0ea68279296ec9bf1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "655bc891da9f28b13445b8b0ea68279296ec9bf1",
+    "Merge": "6c93e15 376867e",
+    "AuthorDate": "Tue Jul 16 20:23:07 2019 +0200",
+    "CommitDate": "Tue Jul 16 20:23:07 2019 +0200",
+    "message": "Merge branch 'update-license' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #20\nCloses #20",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816413.4544,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "045bdb5677e7843313de783dbf12e5f6073ed0a8",
+  "updated_on": 1563535061.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "9aae92e72f2098f54b5ad572710e8d2dc46ddf49"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "9aae92e72f2098f54b5ad572710e8d2dc46ddf49",
+    "AuthorDate": "Fri Jul 19 13:17:41 2019 +0200",
+    "CommitDate": "Fri Jul 19 13:17:41 2019 +0200",
+    "message": "Include metadata files and tests in sdist packages\n\nSource distribution packages will start including\nsome missing metadata files such as the license and\nthe list of authors.\n\nIt also will include the code needed to test the\nsoftware. This is useful for distros which could\nneed to pass some tests before generating the packages\n(e.g, in rpm or deb formats).\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816414.421875,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "061ddb4360565da68db759b5274f03cba000a6f2",
+  "updated_on": 1563536569.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "dd5f1dce4a37a7941a96a1acc5ec95bf151393c5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "dd5f1dce4a37a7941a96a1acc5ec95bf151393c5",
+    "AuthorDate": "Fri Jul 19 13:42:49 2019 +0200",
+    "CommitDate": "Fri Jul 19 13:42:49 2019 +0200",
+    "message": "Update version number to 0.1.10",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816415.206159,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "a50f16c4dd21b0c4e16e0cb21d63dbe88058256b",
+  "updated_on": 1573285152.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "469cad4d75af3c57881a2842e697295c578edcef"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "469cad4d75af3c57881a2842e697295c578edcef",
+    "AuthorDate": "Sat Nov 9 08:37:19 2019 +0100",
+    "CommitDate": "Sat Nov 9 08:39:12 2019 +0100",
+    "message": "[travis] Support for python 3.5 and 3.6\n\nThis code aims at aligning the CI tests across\nthe\u00a0different grimoirelab components.\n\nPython 3.4 is removed and Python 3.5 and 3.6\u00a0are\nnow supported.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816416.197308,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "eb525160f86d43cf1f91607f9775f0386aa657b2",
+  "updated_on": 1573469055.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "d1c81d53381ed086045e9c1077e88802941bb112"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "d1c81d53381ed086045e9c1077e88802941bb112",
+    "Merge": "dd5f1dc 469cad4",
+    "AuthorDate": "Mon Nov 11 11:44:15 2019 +0100",
+    "CommitDate": "Mon Nov 11 11:44:15 2019 +0100",
+    "message": "Merge branch 'support-35-36-travis' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #23\nCloses #23",
+    "analysis": {
+      "warnings": 3
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816416.936739,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "4ac7cb6e8dfd8a7957bd73cc192f02b7e8b3855d",
+  "updated_on": 1573478488.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "2da6a98c6cd9950fda4dd448e5eea5177209f145"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "2da6a98c6cd9950fda4dd448e5eea5177209f145",
+    "AuthorDate": "Wed Nov 6 15:07:46 2019 +0100",
+    "CommitDate": "Mon Nov 11 14:21:28 2019 +0100",
+    "message": "[datetime] Handle dates with offsets outside 24h\n\nWhen analyzing https://mail.gnome.org/archives/gtk-list/`, certain\nmessage dates are converted by `str_to_datetime` to a datetime obj\nwith no timezome and a large offset. For instance, the date\n`Sun, 28 Feb 1999 19:17:37 -7700 (EST)` is converted to\n`datetime(1999, 2, 28, 19, 17, 37, tzinfo=tzoffset(None, -277200))`,\nwhich has an offset not included between -timedelta(hours=24) and\ntimedelta(hours=24) and produces a ValueError.\n\nThis code handles such a case by checking that the offset is valid\n(using the method `astimezone`). If the offset is not valid, the\nValueError exception is handled, the date is converted to UTC\nand the offset is removed.\n\nTests have been added accordingly.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816418.318274,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "1a46ee9d898e982f5f74e8a23d9952933c5cadb4",
+  "updated_on": 1573496150.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "ba1f9318228a79f393a5edea1a33efbff341ca85"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "ba1f9318228a79f393a5edea1a33efbff341ca85",
+    "Merge": "d1c81d5 2da6a98",
+    "AuthorDate": "Mon Nov 11 14:21:56 2019 +0100",
+    "CommitDate": "Mon Nov 11 19:15:50 2019 +0100",
+    "message": "Merge branch 'fix-issue-21' of 'https://github.com/valeriocos/grimoirelab-toolkit.git'\n\nMerges #22\nCloses #22",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816419.269981,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "ffe5dbe765682f4d023ac3528da95606012237ae",
+  "updated_on": 1574934658.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "562047df21f4bb3b76e14f1a5d70993be4a94013"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "562047df21f4bb3b76e14f1a5d70993be4a94013",
+    "AuthorDate": "Thu Nov 28 10:50:58 2019 +0100",
+    "CommitDate": "Thu Nov 28 10:50:58 2019 +0100",
+    "message": "Update version number to 0.1.11\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816420.075743,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7f37eb0c6cd2959eaa46ecc8cf748897d2173de0",
+  "updated_on": 1584729887.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "fd6f77b6e147e9386e50a3c4337917f041dbce44"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "fd6f77b6e147e9386e50a3c4337917f041dbce44",
+    "AuthorDate": "Sat Mar 21 00:14:47 2020 +0530",
+    "CommitDate": "Sat Mar 21 00:14:47 2020 +0530",
+    "message": "[toolkit] Update license and copyright information\nThis commit updates license information for every source\ncode file in Toolkit. The author names are also updated\nusing a script\"\n\nSigned-off-by: Sanjana Nayar <sanjananayar2k1@gmail.com>",
+    "Signed-off-by": [
+      "Sanjana Nayar <sanjananayar2k1@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816421.289509,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "fb6c829114041c7cd381d14a7e77e242ec4a2be3",
+  "updated_on": 1584782626.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "58a0830092c4e432ad9c81d4368aee01f6eac6d2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "58a0830092c4e432ad9c81d4368aee01f6eac6d2",
+    "Merge": "562047d fd6f77b",
+    "AuthorDate": "Sat Mar 21 10:23:46 2020 +0100",
+    "CommitDate": "Sat Mar 21 10:23:46 2020 +0100",
+    "message": "Merge branch 'update_license_info' of 'https://github.com/sanjana091001/grimoirelab-toolkit'\n\nMerges #25\nCloses #25",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816422.223676,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "33f9d3c82665253fa2b847f04f7ebdc265c2b9fb",
+  "updated_on": 1586337303.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "c302adb59b253b4e6f4341c5d48b88f1d2546a8f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "c302adb59b253b4e6f4341c5d48b88f1d2546a8f",
+    "AuthorDate": "Wed Apr 8 11:15:03 2020 +0200",
+    "CommitDate": "Wed Apr 8 11:15:03 2020 +0200",
+    "message": "[travis] Upgrade setuptools and pip\n\nThis code upgrades the setuptools and pip. This change\nstems from the fix at:\nhttps://github.com/chaoss/grimoirelab-perceval/pull/643.\nIt was needed to fix the CI tests that were failing due\nto the following error:\n\n```\nFile \"../python3.5/site-packages/setuptools/sandbox.py\", line 44, in _execfile\n  code = compile(script, filename, 'exec')\nFile \"/tmp/easy_install-wu9lgsxc/pandoc-2.0a4/setup.py\", line 11\n  error = f\"pip is not installed, refer to <{url}> for instructions.\"\n                                                                    ^\nSyntaxError: invalid syntax\n```\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816423.182491,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7be988c6f4662479319008068d3df92d9e83973c",
+  "updated_on": 1586363581.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "bd4bfe7fdafad04a25e26ba5ec3db51f575f3d9d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "bd4bfe7fdafad04a25e26ba5ec3db51f575f3d9d",
+    "Merge": "58a0830 c302adb",
+    "AuthorDate": "Wed Apr 8 18:33:01 2020 +0200",
+    "CommitDate": "Wed Apr 8 18:33:01 2020 +0200",
+    "message": "Merge branch 'upgrade-travis' of 'https://github.com/valeriocos/grimoirelab-toolkit'\n\nMerges #26\nCloses #26",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816423.915027,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "e46c45866d98ec9cf93e4e193b9a122c52abd91d",
+  "updated_on": 1587665225.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "eb7823383cb5843b72143ac6e97d124ff5bffa55"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "eb7823383cb5843b72143ac6e97d124ff5bffa55",
+    "AuthorDate": "Thu Apr 23 20:07:05 2020 +0200",
+    "CommitDate": "Thu Apr 23 20:07:05 2020 +0200",
+    "message": "Update version number to 0.1.12\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816424.727089,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "1e18cc57af492172164e2480ff76f65fdc9c2902",
+  "updated_on": 1596473456.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "681b29bac5a2b055164ff2c52a27f1ea299565f8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "681b29bac5a2b055164ff2c52a27f1ea299565f8",
+    "AuthorDate": "Mon Aug 3 18:50:56 2020 +0200",
+    "CommitDate": "Mon Aug 3 18:50:56 2020 +0200",
+    "message": "Add poetry support\n\nThis change is necessary to start using the GrimoireLab\nrelease tools.\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816425.693575,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "5798a9ce2035508c91dad24f14a06e092868899a",
+  "updated_on": 1596533423.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6230394618eb077f5d2221be026c8e09dd951c52"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "6230394618eb077f5d2221be026c8e09dd951c52",
+    "Merge": "eb78233 681b29b",
+    "AuthorDate": "Tue Aug 4 11:30:23 2020 +0200",
+    "CommitDate": "Tue Aug 4 11:30:23 2020 +0200",
+    "message": "Merge branch 'add-poetry' of 'https://github.com/sduenas/grimoirelab-toolkit'\n\nMerges #27\nCloses #27",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816426.64227,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "3de515521f1de4c37ac332f2128fce92fa0501d4",
+  "updated_on": 1604480435.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "0862856267509daf015c77844d85d0695a442f63"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "0862856267509daf015c77844d85d0695a442f63",
+    "AuthorDate": "Mon Nov 2 14:41:14 2020 +0530",
+    "CommitDate": "Wed Nov 4 14:30:35 2020 +0530",
+    "message": "[travis] Support for python 3.6, 3.7 and 3.8\n\nThis code aims at aligning the CI tests across the\ndifferent grimoirelab components.\n\nPython 3.5 is removed as its support period has ended and\nPython 3.6, 3.7 and 3.8 are now supported.\n\nThe version of setuptools and pip has been downgraded as a\nhotfix to solve the failing CI tests.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816427.597959,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "145fb494660930ee4b35fff190b1f7dd8b9e4721",
+  "updated_on": 1604483010.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "b0e6c2d4467399378e361a5822b5ca9bd03f1d4b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "b0e6c2d4467399378e361a5822b5ca9bd03f1d4b",
+    "Merge": "6230394 0862856",
+    "AuthorDate": "Wed Nov 4 10:43:30 2020 +0100",
+    "CommitDate": "Wed Nov 4 10:43:30 2020 +0100",
+    "message": "Merge branch 'support-35-36-37-travis' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #29\nCloses #29",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816428.745474,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "e7b780af25e7261752f1c50e914c636e2a4845e9",
+  "updated_on": 1610035831.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "26aaeb00f11e441167df0d4035ca4832c6fc335a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "26aaeb00f11e441167df0d4035ca4832c6fc335a",
+    "AuthorDate": "Wed Dec 2 15:12:08 2020 +0530",
+    "CommitDate": "Thu Jan 7 21:40:31 2021 +0530",
+    "message": "[CI] Migrate from Travis CI to GitHub Actions\n\nTravis CI has brought a few changes in their plans\nwhich is causing friction to the current workflow.\n\nThis commit removes the support of Travis CI and\nadds the support of GitHub Actions as the new CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816429.787553,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "442186b44f7292d1c5e70941161c8449022d832b",
+  "updated_on": 1610042854.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "60e5872ef9442790225377ee6735db85c393f961"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "60e5872ef9442790225377ee6735db85c393f961",
+    "Merge": "b0e6c2d 26aaeb0",
+    "AuthorDate": "Thu Jan 7 19:07:34 2021 +0100",
+    "CommitDate": "Thu Jan 7 19:07:34 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #30\nCloses #30",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816430.705073,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "9b240674d0992a6883694321b8f5d6317b643274",
+  "updated_on": 1610469779.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "fde6c1a7467a119b8717e38524ec5b3e43477683"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "fde6c1a7467a119b8717e38524ec5b3e43477683",
+    "AuthorDate": "Thu Jan 7 23:50:56 2021 +0530",
+    "CommitDate": "Tue Jan 12 22:12:59 2021 +0530",
+    "message": "[gha] Update support for coveralls\n\nThis commit updates the configurations for coveralls\nin the GitHub Actions CI workflow. This is necessary\nfor generating coveralls report.\n\nIt also removes a duplicate command for installing wheel.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816431.944235,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "edfb02067aa08baaa2a828d55a895344837ec829",
+  "updated_on": 1610475337.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "5bf8fc87332d74eb3d170025d0edac5f43ac7ff5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "5bf8fc87332d74eb3d170025d0edac5f43ac7ff5",
+    "Merge": "60e5872 fde6c1a",
+    "AuthorDate": "Tue Jan 12 19:15:37 2021 +0100",
+    "CommitDate": "Tue Jan 12 19:15:37 2021 +0100",
+    "message": "Merge branch 'master' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #31\nCloses #31",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816432.957959,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "c1ac3a866226f8218bbe01e8e7293a56c13ebd20",
+  "updated_on": 1617638436.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "761009d3479e49e7c922d1aa614ff6b8dcc9db47"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "761009d3479e49e7c922d1aa614ff6b8dcc9db47",
+    "AuthorDate": "Thu Apr 1 11:37:28 2021 +0400",
+    "CommitDate": "Mon Apr 5 20:00:36 2021 +0400",
+    "message": "[tests] Add tests for invalid timezone\n\nCoverage was missing for when timezone\nmight be invalid. Added a test which takes an invalid date\nand tries to convert it to UTC. Being invalid, it will trigger\nthe exception on line 92, remove timezone info and convert to UTC.\n\nSigned-off-by: sevagenv <sevagenv@gmail.com>",
+    "Signed-off-by": [
+      "sevagenv <sevagenv@gmail.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816433.817876,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "0d31a8b8c6163a24274e7dd462bf34cc29a0a429",
+  "updated_on": 1617696088.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "dfbb5e834ee2f18351b0c12ba3041836d45d20c9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "dfbb5e834ee2f18351b0c12ba3041836d45d20c9",
+    "Merge": "5bf8fc8 761009d",
+    "AuthorDate": "Tue Apr 6 10:01:28 2021 +0200",
+    "CommitDate": "Tue Apr 6 10:01:28 2021 +0200",
+    "message": "Merge branch 'test-coverage' of 'https://github.com/VSevagen/grimoirelab-toolkit'\n\nMerges #35\nCloses #35",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816434.961974,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "59b8d9f05a4b5e57ca2f585993662a49628ae038",
+  "updated_on": 1617807045.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "f95047defdde154a012f07ec46c2fc4f99815c72"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "f95047defdde154a012f07ec46c2fc4f99815c72",
+    "AuthorDate": "Tue Apr 6 22:14:07 2021 +0530",
+    "CommitDate": "Wed Apr 7 20:20:45 2021 +0530",
+    "message": "[poetry] Add setuptools to the build-system\n\nThis commit adds the setuptools version to the\npoetry setup configurations. This is needed to\nfix the 'No module named \"setuptools\"' bug.\n\nhttps://github.com/chaoss/grimoirelab-perceval/issues/720\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816435.863049,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "3fff1a76ac9bc7e57dcf9bb019eb564db32f448d",
+  "updated_on": 1618244858.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "56927fc3f536d087a6d70d0b5cde8720d36590b5"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "56927fc3f536d087a6d70d0b5cde8720d36590b5",
+    "Merge": "dfbb5e8 f95047d",
+    "AuthorDate": "Mon Apr 12 18:27:38 2021 +0200",
+    "CommitDate": "Mon Apr 12 18:27:38 2021 +0200",
+    "message": "Merge branch 'add-setuptools-pyproject' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #36\nCloses #36",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816436.734246,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "7501318508f78a696cd5d9bae5bcc043bdc0b37d",
+  "updated_on": 1618486998.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "63e8346bf42349cedb8c540bbdb68ab15248ce86"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "63e8346bf42349cedb8c540bbdb68ab15248ce86",
+    "AuthorDate": "Thu Apr 15 17:13:18 2021 +0530",
+    "CommitDate": "Thu Apr 15 17:13:18 2021 +0530",
+    "message": "Create CONTRIBUTING.md\n\nThis commit adds the contributing guidelines for creating\nthe changelog entries. This is needed to start using the\nhttps://github.com/Bitergia/release-tools for generating\nreleases for the GrimoireLab Toolkit.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816437.68478,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "0d87925b79c4a393d8cd5d4da3b70b63e1616fbf",
+  "updated_on": 1618834214.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "8c4463009057bd2f71bfde206f19f0d9a589ce52"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "8c4463009057bd2f71bfde206f19f0d9a589ce52",
+    "Merge": "56927fc 63e8346",
+    "AuthorDate": "Mon Apr 19 14:10:14 2021 +0200",
+    "CommitDate": "Mon Apr 19 14:10:14 2021 +0200",
+    "message": "Merge branch 'contributing-info-release-tools' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #37\nCloses #37",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816438.651522,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "d8f22864e5ab24571103868444966c3599a464d7",
+  "updated_on": 1618834524.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6d2619e3e25cd73cb4e01b74dc62b0696aef391d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "6d2619e3e25cd73cb4e01b74dc62b0696aef391d",
+    "AuthorDate": "Mon Apr 19 16:12:55 2021 +0530",
+    "CommitDate": "Mon Apr 19 17:45:24 2021 +0530",
+    "message": "[deps] Add flake8 and coverage to dev dependencies\n\nThis commit adds the flake8 and coverage to the development\ndependencies. These would be installed along with the other\ndependencies using 'poetry install'.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816439.646125,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "8f7d5dc60bc5cc9e861450bb4f71632dee45d1c0",
+  "updated_on": 1618841520.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "1a3acf44f01684876f940320ca18dedd02ae907b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "1a3acf44f01684876f940320ca18dedd02ae907b",
+    "Merge": "8c44630 6d2619e",
+    "AuthorDate": "Mon Apr 19 16:12:00 2021 +0200",
+    "CommitDate": "Mon Apr 19 16:12:00 2021 +0200",
+    "message": "Merge branch 'add-dev-dependencies' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #38\nCloses #38",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816440.64182,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "b1e37536c0c4c7ec4068e79ce52dc5c23a7637e0",
+  "updated_on": 1618842005.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "6cb1cb77de1ad5d65e3878a8dca0b900afaa5a56"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "6cb1cb77de1ad5d65e3878a8dca0b900afaa5a56",
+    "AuthorDate": "Mon Apr 19 16:09:13 2021 +0530",
+    "CommitDate": "Mon Apr 19 19:50:05 2021 +0530",
+    "message": "[CI] Use poetry for the CI github actions workflow\n\nThis commit enables to use of poetry for the installation\nof the dependencies & tool and running the test-suite in\nthe CI github actions workflow. This is needed as we are\nmigrating the GrimoireLab tools to using poetry.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816441.757472,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "acb4203a857d10a479c38d087fe9ac3cdcef333d",
+  "updated_on": 1618843480.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "79c67e04d8a474373defcbf8e83636aae353b935"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "79c67e04d8a474373defcbf8e83636aae353b935",
+    "Merge": "1a3acf4 6cb1cb7",
+    "AuthorDate": "Mon Apr 19 16:44:40 2021 +0200",
+    "CommitDate": "Mon Apr 19 16:44:40 2021 +0200",
+    "message": "Merge branch 'update-ci-poetry' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #39\nCloses #39",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816442.73603,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "ccd4bac0d102137a0b6ff85f636b9bb01f8a0018",
+  "updated_on": 1618908084.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "606e2d5e9b83aaf8867ac85fc02ae99efff61a97"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "606e2d5e9b83aaf8867ac85fc02ae99efff61a97",
+    "AuthorDate": "Tue Apr 20 13:21:11 2021 +0530",
+    "CommitDate": "Tue Apr 20 14:11:24 2021 +0530",
+    "message": "[gha] Create cd.yml\n\nThis commit adds the release github action which generates\na package, tests it with different python versions, publishes\nthe release on GitHub, and uploads the packages to PyPI whenever\na tag is generated and pushed.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816443.827415,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "6bf2756db6ba40f290167183068b5d39c9d90195",
+  "updated_on": 1618921374.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "226bff47e0472a1ee26801c5c94244ee8d9f2241"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "226bff47e0472a1ee26801c5c94244ee8d9f2241",
+    "Merge": "79c67e0 606e2d5",
+    "AuthorDate": "Tue Apr 20 14:22:54 2021 +0200",
+    "CommitDate": "Tue Apr 20 14:22:54 2021 +0200",
+    "message": "Merge branch 'cd' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #40\nCloses #40",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816444.714536,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "b9b33b6b324432803b9fa94e35a998ff113ee9fe",
+  "updated_on": 1618922372.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "061696f773898349784191347fff5d741483d3d9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "061696f773898349784191347fff5d741483d3d9",
+    "AuthorDate": "Tue Apr 20 18:05:10 2021 +0530",
+    "CommitDate": "Tue Apr 20 18:09:32 2021 +0530",
+    "message": "[gha] Rename workflows\n\nThis commit renames the github actions workflows and also\nrewords the job names to avoid ambiguity. The badge in the\nREADME.md is updated accordingly.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816445.787723,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "626f15ffca8d8d7ef08f4a88f3b42463d2375eef",
+  "updated_on": 1618923357.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "3ebfcc0d59cf0ad14e911e52c28ec35d851022a3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "3ebfcc0d59cf0ad14e911e52c28ec35d851022a3",
+    "Merge": "226bff4 061696f",
+    "AuthorDate": "Tue Apr 20 14:55:57 2021 +0200",
+    "CommitDate": "Tue Apr 20 14:55:57 2021 +0200",
+    "message": "Merge branch 'rename-gha-workflows' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #41\nCloses #41",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816446.703944,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "2adc3ee1e36d3f6d5c1eb584e15e59b91ec0e4dd",
+  "updated_on": 1618928533.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "fbf8c2159d3e82793e96d1072f9262697cc71a56"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "fbf8c2159d3e82793e96d1072f9262697cc71a56",
+    "AuthorDate": "Tue Apr 20 16:22:13 2021 +0200",
+    "CommitDate": "Tue Apr 20 16:22:13 2021 +0200",
+    "message": "Release 0.2.0",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816447.809973,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "dd2dbd7b94be77f30e23c59373a45c985f7d8347",
+  "updated_on": 1619003049.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "0dfb69c8166374f68725ca9a1ed1b374ce505fe0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "0dfb69c8166374f68725ca9a1ed1b374ce505fe0",
+    "AuthorDate": "Wed Apr 21 12:36:49 2021 +0530",
+    "CommitDate": "Wed Apr 21 16:34:09 2021 +0530",
+    "message": "[tests] Restrict the workflow for a release tag\n\nThis commit adds a rule to restrict the tests workflow\nto run when a release tag is pushed to the repository.\n\nWhenever the maintainer uses the `publish` command,\na release commit and a release tag are pushed. This would\ntrigger the tests workflow twice resulting in redundant\nworkflows in the logs. This change is needed to avoid this.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816448.611494,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "0a93caac95066e632699ae8dc80591a0b87689bd",
+  "updated_on": 1619024938.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "30b025322fcfc71a4f1c7c1430c0731a4a7a6323"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "30b025322fcfc71a4f1c7c1430c0731a4a7a6323",
+    "Merge": "fbf8c21 0dfb69c",
+    "AuthorDate": "Wed Apr 21 19:08:58 2021 +0200",
+    "CommitDate": "Wed Apr 21 19:08:58 2021 +0200",
+    "message": "Merge branch 'restrict-tests-tags' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #42\nCloses #42",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816449.788245,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "3303f489a97cdfbbcbce28a696a8518efa3a874f",
+  "updated_on": 1626704845.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "494f6fe784ea4d409ae77bb313cb968fce180c9d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "494f6fe784ea4d409ae77bb313cb968fce180c9d",
+    "AuthorDate": "Mon Jul 19 19:52:46 2021 +0530",
+    "CommitDate": "Mon Jul 19 19:57:25 2021 +0530",
+    "message": "Update github action workflows\n\nThis commit updates the installation method of Poetry.\nIt also adds an extra condition for the `release` github\naction workflow to support the `x.y.z-something` release format.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@chaoss.community>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@chaoss.community>"
+    ],
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+},
+{
+  "backend_name": "CoQua",
+  "backend_version": "0.4.0",
+  "graal_version": "0.2.9",
+  "timestamp": 1638816450.813329,
+  "origin": "http://github.com/chaoss/grimoirelab-toolkit",
+  "uuid": "ea899310af4fd01f8f7422b6de3cb20c78f642e8",
+  "updated_on": 1626711207.0,
+  "classified_fields_filtered": null,
+  "category": "code_quality_flake8",
+  "search_fields": {
+    "item_id": "cc5a14a1c353f4389b1b70fa8aef1c61881bc8da"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-toolkit",
+  "data": {
+    "commit": "cc5a14a1c353f4389b1b70fa8aef1c61881bc8da",
+    "Merge": "30b0253 494f6fe",
+    "AuthorDate": "Mon Jul 19 18:13:27 2021 +0200",
+    "CommitDate": "Mon Jul 19 18:13:27 2021 +0200",
+    "message": "Merge branch 'update-gha' of 'https://github.com/vchrombie/grimoirelab-toolkit'\n\nMerges #43\nCloses #43",
+    "analysis": {
+      "warnings": 4
+    },
+    "analyzer": "flake8"
+  }
+}
+]

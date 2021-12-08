@@ -1,0 +1,4956 @@
+[
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815673.958949,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "3d962bea9c2114a0586036d013a9258cc0fc0b49",
+  "updated_on": 1500104728.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e3f3caeb0af5ee59a5a3e21d2b2752a672ed4782"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e3f3caeb0af5ee59a5a3e21d2b2752a672ed4782",
+    "parents": [],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Sat Jul 15 09:43:53 2017 +0200",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Sat Jul 15 09:45:28 2017 +0200",
+    "message": "Move kidash to a new directory.\n\nThis way it can be more easily covnerted into a pip package.\nI included some minor changes to the rest to match this change.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "in",
+        "file_path": "MANIFEST.in"
+      },
+      {
+        "blanks": 4,
+        "comments": 0,
+        "loc": 4,
+        "ext": "md",
+        "file_path": "README.md"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "_version.py"
+      },
+      {
+        "ccn": 7,
+        "avg_ccn": 3.5,
+        "avg_loc": 10.0,
+        "avg_tokens": 85.5,
+        "num_funs": 2,
+        "loc": 39,
+        "tokens": 306,
+        "ext": "py",
+        "blanks": 15,
+        "comments": 24,
+        "file_path": "kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 42,
+        "tokens": 220,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815674.048959,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "da4628bf5fc54cdc124fdefc309e630a0ed7e02a",
+  "updated_on": 1500278051.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "84b954309a5ce6719ec9f1aeb878478a999df4d1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "84b954309a5ce6719ec9f1aeb878478a999df4d1",
+    "parents": [
+      "e3f3caeb0af5ee59a5a3e21d2b2752a672ed4782"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jul 17 09:54:11 2017 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Mon Jul 17 09:54:11 2017 +0200",
+    "message": "[kidash] Add symbolic link to grimoire_elk so kidash can be executed without installing it.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815675.964636,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "3693481bb681d779eb7551ce555d1c40c1155374",
+  "updated_on": 1509481480.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e66972e0868c322782d10fefb392661f8189cacd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e66972e0868c322782d10fefb392661f8189cacd",
+    "parents": [
+      "84b954309a5ce6719ec9f1aeb878478a999df4d1"
+    ],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Tue Oct 31 12:12:53 2017 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Tue Oct 31 21:24:40 2017 +0100",
+    "message": "[kidash] Add support for using panels in the panels module\n\nNow, panels (JSON files with panel defintions) are looked for\nfirst in a local directory panels/json, and if not found, in the\npanels module, if it is present and importable.\nFor maintaining compatibility, panels with names such as\n\"panels/json/git.json\" are supported. But the most simple\n\"git.json\" is also supported, meaning \"git.json\" file in the\ncurrent directory, or \"git.json\" file in the corresponding\ndirectory of the modules file.\n\nSee README.md for more details.\n\nVersions for both grimoire-elk and grimoire-kidash are updated.\n\ngrimoirelab-panels is now a dependency of grimoire-kidash.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 12,
+        "comments": 0,
+        "loc": 30,
+        "ext": "md",
+        "file_path": "README.md"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "_version.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 220,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815676.591654,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "6d51a1a85fdcbad3d035ad1f4e6c91d40f0eb087",
+  "updated_on": 1510145934.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "de0392b5ac8b91b113d4aafd4ef72d0fd65e5851"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "de0392b5ac8b91b113d4aafd4ef72d0fd65e5851",
+    "parents": [
+      "e66972e0868c322782d10fefb392661f8189cacd"
+    ],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Mon Nov 6 23:58:11 2017 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Nov 8 13:58:54 2017 +0100",
+    "message": "[kidash][setup] Fix dependency on panels package\n\npanels is actually grimoirelab-panels.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 220,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815677.443548,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "1e5b72bcbf622c54ff112db7ce4133da9f1020d7",
+  "updated_on": 1511432663.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e1d7522a5b7fdacbe4de1b2510b3977263d9bcd9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e1d7522a5b7fdacbe4de1b2510b3977263d9bcd9",
+    "parents": [
+      "de0392b5ac8b91b113d4aafd4ef72d0fd65e5851"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Nov 20 16:04:29 2017 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Thu Nov 23 11:24:23 2017 +0100",
+    "message": "[kidash] Add option to clean all items not included in data sources provided\n\nThere are panels like overview or data status that include all data\nsources in them. But for a specific dashboard, only the active data sources\nshould be included. This is a first version that needs to be checked for\nlayout issues yet.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 7,
+        "avg_ccn": 3.5,
+        "avg_loc": 10.5,
+        "avg_tokens": 94.5,
+        "num_funs": 2,
+        "loc": 40,
+        "tokens": 328,
+        "ext": "py",
+        "blanks": 15,
+        "comments": 24,
+        "file_path": "kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815678.932096,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "1d488954549c12e219318f157d9065853836a84f",
+  "updated_on": 1511981675.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "df8cf998ef52feb74b505701d21a6c496c037d5a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "df8cf998ef52feb74b505701d21a6c496c037d5a",
+    "parents": [
+      "e1d7522a5b7fdacbe4de1b2510b3977263d9bcd9"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Nov 29 19:04:13 2017 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Nov 29 19:54:35 2017 +0100",
+    "message": "[kidash] Fix pep8 issues",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "kidash.py",
+      "_version.py",
+      "setup.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 7,
+        "avg_ccn": 3.5,
+        "avg_loc": 10.5,
+        "avg_tokens": 94.5,
+        "num_funs": 2,
+        "loc": 40,
+        "tokens": 328,
+        "ext": "py",
+        "blanks": 16,
+        "comments": 24,
+        "file_path": "kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 43,
+        "tokens": 219,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815682.621276,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "f8a29ca7ac6269c414e2223a12461ecae57225e2",
+  "updated_on": 1515042660.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "d8a3cd7294f2ed95cdb008aa0fe7a9b1111d23bf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "d8a3cd7294f2ed95cdb008aa0fe7a9b1111d23bf",
+    "parents": [
+      "df8cf998ef52feb74b505701d21a6c496c037d5a"
+    ],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Wed Jan 3 21:09:16 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Thu Jan 4 06:11:00 2018 +0100",
+    "message": "[kidash] Unbundle kidash completely\n\nThis commit unbundles kidash completely from grimoire-elk.\nNow, all of kidash lives in the kidash directory, and\neverything should be ready to relocate in a standalone repo.\nThe kidash.py binary is now kidash, in the bin directory.\nThe pip package is now kidash.\nVersion now is 0.4.0 (it was 0.30.x with GrimoireELK, but\nthen it was grimoire-kidash, so this is really a new package).",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "in",
+        "file_path": "MANIFEST.in"
+      },
+      {
+        "blanks": null,
+        "comments": null,
+        "loc": null,
+        "ccn": null,
+        "avg_ccn": null,
+        "avg_loc": null,
+        "avg_tokens": null,
+        "num_funs": null,
+        "tokens": null,
+        "file_path": "_version.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      },
+      {
+        "blanks": null,
+        "comments": null,
+        "loc": null,
+        "ccn": null,
+        "avg_ccn": null,
+        "avg_loc": null,
+        "avg_tokens": null,
+        "num_funs": null,
+        "tokens": null,
+        "file_path": "grimoire_elk"
+      },
+      {
+        "blanks": null,
+        "comments": null,
+        "loc": null,
+        "ccn": null,
+        "avg_ccn": null,
+        "avg_loc": null,
+        "avg_tokens": null,
+        "num_funs": null,
+        "tokens": null,
+        "file_path": "kidash.py"
+      },
+      {
+        "blanks": 16,
+        "comments": 24,
+        "loc": 41,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 4,
+        "tokens": 27,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 21,
+        "file_path": "kidash/__init__.py"
+      },
+      {
+        "ccn": 123,
+        "avg_ccn": 4.241379310344827,
+        "avg_loc": 14.448275862068966,
+        "avg_tokens": 100.86206896551724,
+        "num_funs": 29,
+        "loc": 430,
+        "tokens": 3005,
+        "ext": "py",
+        "blanks": 164,
+        "comments": 90,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 50,
+        "tokens": 259,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815683.421903,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "0ad1ff512ee9a7261404aadc704522c6bfd576f0",
+  "updated_on": 1515478929.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "294ef1f9a6d3fba724c808f7aa6ca106986114a4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "294ef1f9a6d3fba724c808f7aa6ca106986114a4",
+    "parents": [
+      "d8a3cd7294f2ed95cdb008aa0fe7a9b1111d23bf"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Tue Jan 9 07:22:09 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Tue Jan 9 07:22:09 2018 +0100",
+    "message": "[kidash] Fix error getting the title of an index pattern",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 123,
+        "avg_ccn": 4.241379310344827,
+        "avg_loc": 14.448275862068966,
+        "avg_tokens": 100.96551724137932,
+        "num_funs": 29,
+        "loc": 430,
+        "tokens": 3008,
+        "ext": "py",
+        "blanks": 164,
+        "comments": 90,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815684.393112,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "aaa072ba4e163d5cfb867cfc35b941d350a62e55",
+  "updated_on": 1516313898.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "50121ae4a8c9ada4ca776e340f95483adaf5143c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "50121ae4a8c9ada4ca776e340f95483adaf5143c",
+    "parents": [
+      "294ef1f9a6d3fba724c808f7aa6ca106986114a4"
+    ],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Thu Jan 18 23:18:18 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Thu Jan 18 23:18:18 2018 +0100",
+    "message": "[setup] Change to the new chaoss organization in GitHub",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 50,
+        "tokens": 259,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815685.683834,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "313759e55600e686992375bb8d994a7cd6bb0290",
+  "updated_on": 1516315612.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "28738d4cfe87d2a721277f51a764321b809441ff"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "28738d4cfe87d2a721277f51a764321b809441ff",
+    "parents": [
+      "50121ae4a8c9ada4ca776e340f95483adaf5143c"
+    ],
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Thu Jan 18 23:46:52 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Thu Jan 18 23:46:52 2018 +0100",
+    "message": "[flake8] Files now flake8 clean",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 120,
+        "avg_ccn": 4.137931034482759,
+        "avg_loc": 14.758620689655173,
+        "avg_tokens": 94.0,
+        "num_funs": 29,
+        "loc": 467,
+        "tokens": 3012,
+        "ext": "py",
+        "blanks": 164,
+        "comments": 90,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 52,
+        "tokens": 263,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 27,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815686.511013,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "53d23bb725a76195951b8ee3f21c9b77abff89e5",
+  "updated_on": 1516651645.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "35debd9a9a8e9000e4f5a98fd0215c897f64f088"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "35debd9a9a8e9000e4f5a98fd0215c897f64f088",
+    "parents": [
+      "28738d4cfe87d2a721277f51a764321b809441ff"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jan 22 21:07:25 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Mon Jan 22 21:07:25 2018 +0100",
+    "message": "Update version number to 0.4.1",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815687.664769,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "d96b36be33e618b10e60da4b1d2d04dc00955ac7",
+  "updated_on": 1516987902.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "3b8ce37c18254fecd7c7c4ce9ba9735f4ccce0ab"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "3b8ce37c18254fecd7c7c4ce9ba9735f4ccce0ab",
+    "parents": [
+      "35debd9a9a8e9000e4f5a98fd0215c897f64f088"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Thu Jan 25 20:35:57 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Fri Jan 26 18:31:42 2018 +0100",
+    "message": "[dashboard] Fix the bool filters for the dashboard\n\nThe 1/0 values are changed to True/False for kibana6 so the\nfilters work in this version.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 131,
+        "avg_ccn": 4.366666666666666,
+        "avg_loc": 14.833333333333334,
+        "avg_tokens": 95.7,
+        "num_funs": 30,
+        "loc": 484,
+        "tokens": 3158,
+        "ext": "py",
+        "blanks": 167,
+        "comments": 92,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815688.161854,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "01b6299c8d85f36a472c425a991ed4267d71fd92",
+  "updated_on": 1516988934.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "9913acda41fc619cafa595a3a44e41edfd297163"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "9913acda41fc619cafa595a3a44e41edfd297163",
+    "parents": [
+      "3b8ce37c18254fecd7c7c4ce9ba9735f4ccce0ab"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Thu Jan 25 23:12:23 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Fri Jan 26 18:48:54 2018 +0100",
+    "message": "[visualization] Include the style needed in Kibiana6 to show metrics vis correctly",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 137,
+        "avg_ccn": 4.419354838709677,
+        "avg_loc": 15.483870967741936,
+        "avg_tokens": 97.61290322580645,
+        "num_funs": 31,
+        "loc": 519,
+        "tokens": 3314,
+        "ext": "py",
+        "blanks": 171,
+        "comments": 96,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815688.973303,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "f88c18260cba0e53cbca25b255c70b78c97b4214",
+  "updated_on": 1516947632.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "d612df211f33a3d1b6564856bab0f70e431781cd"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "d612df211f33a3d1b6564856bab0f70e431781cd",
+    "parents": [
+      "35debd9a9a8e9000e4f5a98fd0215c897f64f088"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Fri Jan 26 07:20:32 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Fri Jan 26 07:20:32 2018 +0100",
+    "message": "[layout] Increase 1 height the panels of height 1 for kibana6\n\nIn kibana6 a panel with height 1 is too small to show the contents.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 124,
+        "avg_ccn": 4.133333333333334,
+        "avg_loc": 14.566666666666666,
+        "avg_tokens": 92.86666666666666,
+        "num_funs": 30,
+        "loc": 476,
+        "tokens": 3073,
+        "ext": "py",
+        "blanks": 169,
+        "comments": 92,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815689.862371,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "4cabbd769338a9df3caaef394340b2e1a3ab2e8e",
+  "updated_on": 1516989835.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "4b0ad6f9598448d5305bf28a30b0980fdd15ec6a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "4b0ad6f9598448d5305bf28a30b0980fdd15ec6a",
+    "parents": [
+      "9913acda41fc619cafa595a3a44e41edfd297163",
+      "d612df211f33a3d1b6564856bab0f70e431781cd"
+    ],
+    "Merge": "9913acd d612df2",
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Fri Jan 26 19:03:55 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Fri Jan 26 19:03:55 2018 +0100",
+    "message": "Merge branch 'kibana6-vis-metrics-height' of git://github.com/acs/grimoirelab-kidash",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 140,
+        "avg_ccn": 4.375,
+        "avg_loc": 15.25,
+        "avg_tokens": 96.28125,
+        "num_funs": 32,
+        "loc": 527,
+        "tokens": 3370,
+        "ext": "py",
+        "blanks": 176,
+        "comments": 98,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815690.694146,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "645b980b4fcd5d34f2f073d1c2aa8950861e07b8",
+  "updated_on": 1516994234.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a96194c9a7b4b8da8c913def58e2c81f6bdf3c77"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a96194c9a7b4b8da8c913def58e2c81f6bdf3c77",
+    "parents": [
+      "9913acda41fc619cafa595a3a44e41edfd297163",
+      "4b0ad6f9598448d5305bf28a30b0980fdd15ec6a"
+    ],
+    "Merge": "9913acd 4b0ad6f",
+    "Author": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "AuthorDate": "Fri Jan 26 19:06:21 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Fri Jan 26 20:17:14 2018 +0100",
+    "message": "Merge branch 'acs-kibana6-vis-metrics-height'",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 140,
+        "avg_ccn": 4.375,
+        "avg_loc": 15.25,
+        "avg_tokens": 96.28125,
+        "num_funs": 32,
+        "loc": 527,
+        "tokens": 3370,
+        "ext": "py",
+        "blanks": 178,
+        "comments": 98,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815692.15342,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "9ce5cd49e07d4b6dd95c64af29ef7902e6ee32ef",
+  "updated_on": 1517405407.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "ae60e4542a9715d08fb4828a509969317beb6e3d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "ae60e4542a9715d08fb4828a509969317beb6e3d",
+    "parents": [
+      "a96194c9a7b4b8da8c913def58e2c81f6bdf3c77"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Jan 31 14:21:28 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jan 31 14:30:07 2018 +0100",
+    "message": "[kidash] Remove by default from dashboards the study related visualizations\n\nA new name convention exists in GrimoireLab panels\nto allow kidash to decide if include the studies visualizations/widgets.\nStudy related widgets are named <source>_<study>_<name>, e.g.\n'git_study_pair_programming_main_numbers'\n\nThere is a command line option to enable the importing of this studies:\n--add-vis-studies",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 16,
+        "comments": 24,
+        "loc": 44,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 124,
+        "avg_ccn": 3.757575757575758,
+        "avg_loc": 13.333333333333334,
+        "avg_tokens": 83.63636363636364,
+        "num_funs": 33,
+        "loc": 548,
+        "tokens": 3498,
+        "ext": "py",
+        "blanks": 182,
+        "comments": 99,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815692.723585,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "3c916aed085dd1dd1f6ec08a919c0cc7a98a68c1",
+  "updated_on": 1517418892.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "3d0e589b12384e18ed19df912c3113a04107d594"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "3d0e589b12384e18ed19df912c3113a04107d594",
+    "parents": [
+      "ae60e4542a9715d08fb4828a509969317beb6e3d"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Jan 31 18:14:52 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jan 31 18:14:52 2018 +0100",
+    "message": "[release] Update version number to 0.4.2",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815693.486749,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "6a0c883f22be2a50fff7d8f055e0267cdc43be2f",
+  "updated_on": 1517470948.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "175ce125c36297346f4e082852467a7c3fbd97c2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "175ce125c36297346f4e082852467a7c3fbd97c2",
+    "parents": [
+      "3d0e589b12384e18ed19df912c3113a04107d594"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Thu Feb 1 03:43:23 2018 +0100",
+    "Commit": "Jesus M. Gonzalez-Barahona <jgb@gsyc.es>",
+    "CommitDate": "Thu Feb 1 08:42:28 2018 +0100",
+    "message": "[import] Don't modify the height of visualizatons in dashboards from Kibana >= 6\n\nIf a dashboard has been created with Kibana >= 6 the issue with the\nheight=1 in which the visualization can be shown completly because\nthe title bar has been shown. So don't modify the height in these\ncases becasue the dashboard creator has decided to use this heigth=1\nin any case.\n\nFixes #5",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.424242424242424,
+        "avg_tokens": 84.03030303030303,
+        "num_funs": 33,
+        "loc": 551,
+        "tokens": 3511,
+        "ext": "py",
+        "blanks": 185,
+        "comments": 108,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815693.956326,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "d9ffd11d4b74c44adf2df3821800fdb19b2353cb",
+  "updated_on": 1520441046.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "45ffb28e615dba2f5e73a0644ad8c2c307ab57bf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "45ffb28e615dba2f5e73a0644ad8c2c307ab57bf",
+    "parents": [
+      "175ce125c36297346f4e082852467a7c3fbd97c2"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Mar 7 17:42:00 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Mar 7 17:44:06 2018 +0100",
+    "message": "[kidash] Update elastic import\n\nThis code updates the import of the elastic class",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.424242424242424,
+        "avg_tokens": 84.03030303030303,
+        "num_funs": 33,
+        "loc": 551,
+        "tokens": 3509,
+        "ext": "py",
+        "blanks": 185,
+        "comments": 108,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815694.573387,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "813ef22c1296346737b96cead5a61d2fc841625f",
+  "updated_on": 1520921565.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "2d7a4be80e0313b49eb395d283276a2e3e5358e4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "2d7a4be80e0313b49eb395d283276a2e3e5358e4",
+    "parents": [
+      "45ffb28e615dba2f5e73a0644ad8c2c307ab57bf"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Tue Mar 13 07:12:45 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Tue Mar 13 07:12:45 2018 +0100",
+    "message": "[release] Update version number to 0.4.3",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815696.051504,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "90478dc9de956f38e3f2a8065e9c3d48844ceb74",
+  "updated_on": 1521825459.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e45a88848ab4099034c13b8cd503ecc5e5494b92"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e45a88848ab4099034c13b8cd503ecc5e5494b92",
+    "parents": [
+      "2d7a4be80e0313b49eb395d283276a2e3e5358e4"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Fri Mar 23 17:49:46 2018 +0100",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Fri Mar 23 18:17:39 2018 +0100",
+    "message": "[kidash] Update elk import\n\nThis code updates the import sections of bin/kidash.py and\nkidash/kidash.py with the new names of elk packages.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 16,
+        "comments": 24,
+        "loc": 44,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.424242424242424,
+        "avg_tokens": 84.03030303030303,
+        "num_funs": 33,
+        "loc": 551,
+        "tokens": 3509,
+        "ext": "py",
+        "blanks": 185,
+        "comments": 108,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815696.629028,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "23d6d39e983bd58859662901209b409004678951",
+  "updated_on": 1522124603.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b51640794be786e19b3eaf01fa979000a43c43eb"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b51640794be786e19b3eaf01fa979000a43c43eb",
+    "parents": [
+      "e45a88848ab4099034c13b8cd503ecc5e5494b92"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Tue Mar 27 06:23:23 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Tue Mar 27 06:23:23 2018 +0200",
+    "message": "[release] Update version number to 0.4.4",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815697.239702,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "e24c331f7579841c45802276bad81a8daab80dc9",
+  "updated_on": 1528175096.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a64685702ed828625be0e91954ce007102ea2392"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a64685702ed828625be0e91954ce007102ea2392",
+    "parents": [
+      "b51640794be786e19b3eaf01fa979000a43c43eb"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jun 4 19:52:46 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Tue Jun 5 07:04:56 2018 +0200",
+    "message": "[kidash] Use #!/usr/bin/env python3 to work inside venvs correctly",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 16,
+        "comments": 24,
+        "loc": 44,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815698.182071,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "a05015425a872e9dac92d8271d3a7053b9c6c49d",
+  "updated_on": 1528175096.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "6eac59993db60763dd8a4fab3886a7dcaa8e59a9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "6eac59993db60763dd8a4fab3886a7dcaa8e59a9",
+    "parents": [
+      "a64685702ed828625be0e91954ce007102ea2392"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jun 4 20:03:51 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Tue Jun 5 07:04:56 2018 +0200",
+    "message": "[kidash] Preserve uiStateJSON dict when cleaning a dashboard from not needed data sources\n\nIn this dict is stored the custom title. It is just a state dict so if it includes\nstate related to panels that have been removed, it should not be a problem. Checked\nthat with the Overview panel.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.393939393939394,
+        "avg_tokens": 83.84848484848484,
+        "num_funs": 33,
+        "loc": 550,
+        "tokens": 3503,
+        "ext": "py",
+        "blanks": 185,
+        "comments": 108,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815699.106938,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "65fe91bd9d42468f3edcee80610da8cb0a56470f",
+  "updated_on": 1528390396.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f34e53876ddf2d2f732ba5d506acaaae0e3ee025"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "f34e53876ddf2d2f732ba5d506acaaae0e3ee025",
+    "parents": [
+      "6eac59993db60763dd8a4fab3886a7dcaa8e59a9"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Thu Jun 7 18:53:16 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Thu Jun 7 18:53:16 2018 +0200",
+    "message": "[release] Update version number to 0.4.5",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815700.659797,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "06446417674eb5155e62ff66452109fa955b5bfe",
+  "updated_on": 1529511816.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "5c13d0af47f3e30c7ebfbd7a1bab09ed955a560f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "5c13d0af47f3e30c7ebfbd7a1bab09ed955a560f",
+    "parents": [
+      "f34e53876ddf2d2f732ba5d506acaaae0e3ee025"
+    ],
+    "Author": "alpgarcia <alpgarcia@bitergia.com>",
+    "AuthorDate": "Mon May 28 14:26:04 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jun 20 18:23:36 2018 +0200",
+    "message": "Add release_date to panel json\n\nThis change adds a new field `release_date` to panels exported using kidash. It also\nadds a new `strict` argument that allows to upload a panel only when its release\ndate is newer than the one stored in `.kibana`.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 16,
+        "comments": 24,
+        "loc": 45,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.424242424242424,
+        "avg_tokens": 84.57575757575758,
+        "num_funs": 33,
+        "loc": 574,
+        "tokens": 3687,
+        "ext": "py",
+        "blanks": 196,
+        "comments": 111,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815701.337376,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "a551c61c51372738a50bbf286d70ededc3eaa6ab",
+  "updated_on": 1529511816.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a67d2f049054d937bc94cafbc07a3ea8e5557bed"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a67d2f049054d937bc94cafbc07a3ea8e5557bed",
+    "parents": [
+      "5c13d0af47f3e30c7ebfbd7a1bab09ed955a560f"
+    ],
+    "Author": "alpgarcia <alpgarcia@bitergia.com>",
+    "AuthorDate": "Mon May 28 14:52:23 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jun 20 18:23:36 2018 +0200",
+    "message": "Add try/except to show content of error responses\n\nElasticSearch returns error details within content. This change captures exceptions\nfrom `kidash` binary and uses logger to print them.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 19,
+        "comments": 24,
+        "loc": 51,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815702.20643,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "bf9931654fff0f8a3f1da18862e778c17a1fd70b",
+  "updated_on": 1529511816.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8717a883fac38b3a279fa72e3137fa46cca28fd2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "8717a883fac38b3a279fa72e3137fa46cca28fd2",
+    "parents": [
+      "a67d2f049054d937bc94cafbc07a3ea8e5557bed"
+    ],
+    "Author": "alpgarcia <alpgarcia@bitergia.com>",
+    "AuthorDate": "Mon May 28 16:53:42 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jun 20 18:23:36 2018 +0200",
+    "message": "Add constant for release date field name",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "ccn": 125,
+        "avg_ccn": 3.787878787878788,
+        "avg_loc": 13.424242424242424,
+        "avg_tokens": 84.57575757575758,
+        "num_funs": 33,
+        "loc": 575,
+        "tokens": 3694,
+        "ext": "py",
+        "blanks": 196,
+        "comments": 111,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815703.603109,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "6f1eac3d2f49b6a14611b26c1bc40da52ae3fff0",
+  "updated_on": 1529511816.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b38fc6d151065e25053c139fd1d1c295342c7a1f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b38fc6d151065e25053c139fd1d1c295342c7a1f",
+    "parents": [
+      "8717a883fac38b3a279fa72e3137fa46cca28fd2"
+    ],
+    "Author": "alpgarcia <alpgarcia@bitergia.com>",
+    "AuthorDate": "Thu Jun 7 16:11:10 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jun 20 18:23:36 2018 +0200",
+    "message": "Update mapping in Kibana6 if needed\n\nWhen using Kibana 6, .kibana index mapping is set to strict. That means we cannot\ninclude new fields in the index without explicitely add the corresponding mapping\nfor that field. This change detects when this error is raised, updates .kibana\nmapping including `release_date`  field and tries to upload panel again.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 20,
+        "comments": 24,
+        "loc": 53,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 126,
+        "avg_ccn": 3.7058823529411766,
+        "avg_loc": 13.529411764705882,
+        "avg_tokens": 83.11764705882354,
+        "num_funs": 34,
+        "loc": 602,
+        "tokens": 3819,
+        "ext": "py",
+        "blanks": 204,
+        "comments": 128,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815704.870564,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "c8da5a1445e0863a2227d4e71e8d8953d9c4b891",
+  "updated_on": 1530263636.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "418a0d46fa2e0abfb9b4b1d53e071dfe0e675da0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "418a0d46fa2e0abfb9b4b1d53e071dfe0e675da0",
+    "parents": [
+      "b38fc6d151065e25053c139fd1d1c295342c7a1f"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Tue Jun 19 20:06:40 2018 +0200",
+    "Commit": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "CommitDate": "Fri Jun 29 11:13:56 2018 +0200",
+    "message": "[kidash] Add support for importing and exporting only index patterns\n\nAdded new option --split-index-patterns so the index patterns are stored\nin separate files from the dashboard, visualization and searches.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py"
+    ],
+    "analysis": [
+      {
+        "blanks": 20,
+        "comments": 24,
+        "loc": 54,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 136,
+        "avg_ccn": 3.7777777777777777,
+        "avg_loc": 13.583333333333334,
+        "avg_tokens": 85.13888888888889,
+        "num_funs": 36,
+        "loc": 638,
+        "tokens": 4102,
+        "ext": "py",
+        "blanks": 220,
+        "comments": 150,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815706.83292,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "449a10e1be2f88f156982bb241d05d529bd43a6d",
+  "updated_on": 1530263636.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "311ff2670be4226867c102c77945524c1554d678"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "311ff2670be4226867c102c77945524c1554d678",
+    "parents": [
+      "418a0d46fa2e0abfb9b4b1d53e071dfe0e675da0"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Jun 20 18:19:24 2018 +0200",
+    "Commit": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "CommitDate": "Fri Jun 29 11:13:56 2018 +0200",
+    "message": "[tests] Add test for split-index-patterns new param",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 290,
+        "ext": "json",
+        "file_path": "tests/data/overview-with-index-patterns.json"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 9,
+        "tokens": 67,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 21,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 27,
+        "tokens": 166,
+        "ext": "py",
+        "blanks": 11,
+        "comments": 25,
+        "file_path": "tests/test_export.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815707.432373,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "d227d2312c32e387648a55e3f6817b2331e78f16",
+  "updated_on": 1530506438.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "2e04006e630a7209f9c66ec306674a3152cf1d21"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "2e04006e630a7209f9c66ec306674a3152cf1d21",
+    "parents": [
+      "311ff2670be4226867c102c77945524c1554d678"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jul 2 06:40:38 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Mon Jul 2 06:40:38 2018 +0200",
+    "message": "[release] Update version number to 0.4.6",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815708.08337,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "5b7dcd0a8e6fa27b0ff8ca942f72c218c27573fa",
+  "updated_on": 1530533794.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e14d9dd63344c6cc7404900828adedceff9e34e1"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e14d9dd63344c6cc7404900828adedceff9e34e1",
+    "parents": [
+      "2e04006e630a7209f9c66ec306674a3152cf1d21"
+    ],
+    "Author": "alpgarcia <alpgarcia@bitergia.com>",
+    "AuthorDate": "Fri Jun 29 15:06:16 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Mon Jul 2 14:16:34 2018 +0200",
+    "message": "Add release date support for Index Patterns\n\nIndex patterns can be used in stritc mode now.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 142,
+        "avg_ccn": 3.736842105263158,
+        "avg_loc": 13.68421052631579,
+        "avg_tokens": 85.07894736842105,
+        "num_funs": 38,
+        "loc": 678,
+        "tokens": 4304,
+        "ext": "py",
+        "blanks": 241,
+        "comments": 171,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815708.93284,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "df284daa3c2a1e9affedce43c67bae4fc2d6dc57",
+  "updated_on": 1530538877.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f72ec89899dc4f095b2fe4af1b1277ee0870fe7a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "f72ec89899dc4f095b2fe4af1b1277ee0870fe7a",
+    "parents": [
+      "e14d9dd63344c6cc7404900828adedceff9e34e1"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Mon Jul 2 15:41:17 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Mon Jul 2 15:41:17 2018 +0200",
+    "message": "[release] Update version number to 0.4.7",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815710.361204,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "e5c093d190dd8cc0251a19a6d23fc950c8d51847",
+  "updated_on": 1530701111.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "eca6f83ef48a24d8e60871f5ba6b34156228435e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "eca6f83ef48a24d8e60871f5ba6b34156228435e",
+    "parents": [
+      "f72ec89899dc4f095b2fe4af1b1277ee0870fe7a"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Jul 4 12:36:36 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jul 4 12:45:11 2018 +0200",
+    "message": "Don't sys.exit from kidash.py library\n\nAll library must raise an exception if errors appear, never sys.exit because\nit will exit the caller program. Let the caller program to manage the exception\nand to decide what to do.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 21,
+        "comments": 24,
+        "loc": 56,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 142,
+        "avg_ccn": 3.736842105263158,
+        "avg_loc": 13.68421052631579,
+        "avg_tokens": 85.13157894736842,
+        "num_funs": 38,
+        "loc": 679,
+        "tokens": 4308,
+        "ext": "py",
+        "blanks": 242,
+        "comments": 171,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815711.191846,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "ce7d542eeabca2e8bd161cd0488a1323c43c8ccf",
+  "updated_on": 1530701490.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "0c35eb5e09db923a272cf4d3c202c8aff75368af"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "0c35eb5e09db923a272cf4d3c202c8aff75368af",
+    "parents": [
+      "eca6f83ef48a24d8e60871f5ba6b34156228435e"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Wed Jul 4 12:51:30 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Jul 4 12:51:30 2018 +0200",
+    "message": "[release] Update version number to 0.4.8",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815712.159156,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "1a254750218cb86441d63896ca175420cfa8a0c3",
+  "updated_on": 1535993201.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "bb697bfb1b9c7ad58b224e3b64d25eec46598cf3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "bb697bfb1b9c7ad58b224e3b64d25eec46598cf3",
+    "parents": [
+      "0c35eb5e09db923a272cf4d3c202c8aff75368af"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Mon Sep 3 18:11:01 2018 +0200",
+    "Commit": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "CommitDate": "Mon Sep 3 18:46:41 2018 +0200",
+    "message": "[kidash] Remove dashboards by title\n\nThis code allows to remove dashboards by title, thus overcoming\nthe new way of generating ids in Kibana6, which are hashed-based.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 143,
+        "avg_ccn": 3.763157894736842,
+        "avg_loc": 13.68421052631579,
+        "avg_tokens": 85.60526315789474,
+        "num_funs": 38,
+        "loc": 679,
+        "tokens": 4326,
+        "ext": "py",
+        "blanks": 244,
+        "comments": 171,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815712.791501,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "3367f0f7be110ac2a401561f68757a582c127200",
+  "updated_on": 1536223845.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "03291a58834c396f0e99b45d5a62399e73d91ed4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "03291a58834c396f0e99b45d5a62399e73d91ed4",
+    "parents": [
+      "bb697bfb1b9c7ad58b224e3b64d25eec46598cf3"
+    ],
+    "Author": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "AuthorDate": "Thu Sep 6 10:50:45 2018 +0200",
+    "Commit": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "CommitDate": "Thu Sep 6 10:50:45 2018 +0200",
+    "message": "Fix import/export of searches\n\n`_id` checking for compatibility with old Kibana versions now\nlooks for type as prefix followed by `:` character. Old check\nwas wrong as it just checked if `_id` contained type in any\nplace, which is a problem because types are common words like\n`search` that can be used as part of titles and ids as well.\nNotice that old ids were not hashes, but string similar to\ntitles.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 143,
+        "avg_ccn": 3.763157894736842,
+        "avg_loc": 13.68421052631579,
+        "avg_tokens": 85.73684210526316,
+        "num_funs": 38,
+        "loc": 679,
+        "tokens": 4336,
+        "ext": "py",
+        "blanks": 244,
+        "comments": 171,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815713.404783,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "05fef20c3c61377b5d829287e8ca36ebb50ca4c6",
+  "updated_on": 1536314611.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e7e2e005c24d5ec01ef94a07c928b943c1fd6d10"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e7e2e005c24d5ec01ef94a07c928b943c1fd6d10",
+    "parents": [
+      "bb697bfb1b9c7ad58b224e3b64d25eec46598cf3",
+      "03291a58834c396f0e99b45d5a62399e73d91ed4"
+    ],
+    "Merge": "bb697bf 03291a5",
+    "Author": "valerio <valerio.cosentino@gmail.com>",
+    "AuthorDate": "Fri Sep 7 12:03:31 2018 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Fri Sep 7 12:03:31 2018 +0200",
+    "message": "Merge pull request #17 from alpgarcia/search-id-bug\n\nFix import/export of searches",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 143,
+        "avg_ccn": 3.763157894736842,
+        "avg_loc": 13.68421052631579,
+        "avg_tokens": 85.73684210526316,
+        "num_funs": 38,
+        "loc": 679,
+        "tokens": 4336,
+        "ext": "py",
+        "blanks": 244,
+        "comments": 171,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815714.028675,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "324cfb1ad4808e3e6d802eb9aa3a1a06bf8bc9f4",
+  "updated_on": 1536344323.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "88f2dd81f5435b032d9ab02c0400caabae66710b"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "88f2dd81f5435b032d9ab02c0400caabae66710b",
+    "parents": [
+      "e7e2e005c24d5ec01ef94a07c928b943c1fd6d10"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Sep 7 14:18:43 2018 -0400",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Sep 7 14:18:43 2018 -0400",
+    "message": "[release] Update version number to 0.4.9",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815715.446746,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "54db5ca53ca02f5ee05bdf02dd5f88a859700560",
+  "updated_on": 1536943798.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "ee56ad4436f033c5c13835c12fed23a766fa1fda"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "ee56ad4436f033c5c13835c12fed23a766fa1fda",
+    "parents": [
+      "88f2dd81f5435b032d9ab02c0400caabae66710b"
+    ],
+    "Author": "Alvaro del Castillo <acs@bitergia.com>",
+    "AuthorDate": "Fri Sep 14 18:49:58 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Fri Sep 14 18:49:58 2018 +0200",
+    "message": "[import] Create the Kibana index if not exists before importing anything",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 22,
+        "comments": 24,
+        "loc": 58,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 151,
+        "avg_ccn": 3.682926829268293,
+        "avg_loc": 13.463414634146341,
+        "avg_tokens": 84.36585365853658,
+        "num_funs": 41,
+        "loc": 715,
+        "tokens": 4571,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815716.906466,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "401d363c15d02d7b61430bb3e9e9421d74ef02ac",
+  "updated_on": 1537186306.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "0cf5db3e797b457cbd090fdfa2210652ea9fd95a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "0cf5db3e797b457cbd090fdfa2210652ea9fd95a",
+    "parents": [
+      "88f2dd81f5435b032d9ab02c0400caabae66710b",
+      "ee56ad4436f033c5c13835c12fed23a766fa1fda"
+    ],
+    "Merge": "88f2dd8 ee56ad4",
+    "Author": "valerio <valerio.cosentino@gmail.com>",
+    "AuthorDate": "Mon Sep 17 14:11:46 2018 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Mon Sep 17 14:11:46 2018 +0200",
+    "message": "Merge pull request #21 from acs/fix-init-.kibana\n\n[import] Create the Kibana index if not exists before importing anything",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 22,
+        "comments": 24,
+        "loc": 58,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 151,
+        "avg_ccn": 3.682926829268293,
+        "avg_loc": 13.463414634146341,
+        "avg_tokens": 84.36585365853658,
+        "num_funs": 41,
+        "loc": 715,
+        "tokens": 4571,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815717.562526,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "5d42dbd13389c54865bc3853982d1990b9976a51",
+  "updated_on": 1537356725.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "984e06521508689b835e72bc0d274e576f00bea2"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "984e06521508689b835e72bc0d274e576f00bea2",
+    "parents": [
+      "0cf5db3e797b457cbd090fdfa2210652ea9fd95a"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Wed Sep 19 13:32:05 2018 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Wed Sep 19 13:32:05 2018 +0200",
+    "message": "[release] Update version number to 0.4.10",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815718.434537,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "edbc0d0d618c5b60d58d9238be05ad5dfdcf049f",
+  "updated_on": 1537542320.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "bfddacf0367eba17ba8f769c713f15ba21d81042"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "bfddacf0367eba17ba8f769c713f15ba21d81042",
+    "parents": [
+      "984e06521508689b835e72bc0d274e576f00bea2"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Fri Sep 21 17:05:20 2018 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Fri Sep 21 17:05:20 2018 +0200",
+    "message": "[kidash] Disable kibiter 6 configuration\n\nThis code temporarily disables the configuration of the default\nindex pattern and time picker for kibiter 6.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 152,
+        "avg_ccn": 3.707317073170732,
+        "avg_loc": 13.536585365853659,
+        "avg_tokens": 84.63414634146342,
+        "num_funs": 41,
+        "loc": 718,
+        "tokens": 4582,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 189,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815719.300191,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "5016a0065c694c1327b6fb5ebac988aea8a1b24b",
+  "updated_on": 1537542678.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "d8278b74fabf63ce3643ccc387ba2e0d26f018ed"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "d8278b74fabf63ce3643ccc387ba2e0d26f018ed",
+    "parents": [
+      "984e06521508689b835e72bc0d274e576f00bea2",
+      "bfddacf0367eba17ba8f769c713f15ba21d81042"
+    ],
+    "Merge": "984e065 bfddacf",
+    "Author": "valerio <valcos@bitergia.com>",
+    "AuthorDate": "Fri Sep 21 17:11:18 2018 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Fri Sep 21 17:11:18 2018 +0200",
+    "message": "Merge pull request #22 from valeriocos/disable-conf-kib6\n\n[kidash] Disable kibiter 6 configuration",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 152,
+        "avg_ccn": 3.707317073170732,
+        "avg_loc": 13.536585365853659,
+        "avg_tokens": 84.63414634146342,
+        "num_funs": 41,
+        "loc": 718,
+        "tokens": 4582,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 189,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815720.135671,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "b336e0b9ef8d29122bd240be8a826affbb032e08",
+  "updated_on": 1537769296.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a3bb7778aa1e09f356eb1619dfb790070176952f"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a3bb7778aa1e09f356eb1619dfb790070176952f",
+    "parents": [
+      "d8278b74fabf63ce3643ccc387ba2e0d26f018ed"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Mon Sep 24 08:08:16 2018 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Mon Sep 24 08:08:16 2018 +0200",
+    "message": "[release] Update version number to 0.4.11",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815720.715765,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "1fd0120d740b377f2a8b14d037e56cf4c394ac01",
+  "updated_on": 1537886526.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "720eb91aae90ee44f97777a6cb00f1fad145ac2d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "720eb91aae90ee44f97777a6cb00f1fad145ac2d",
+    "parents": [
+      "a3bb7778aa1e09f356eb1619dfb790070176952f"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Sep 25 16:42:06 2018 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Sep 25 16:42:06 2018 +0200",
+    "message": "[kidash] Enable Kibiter 6 configuration\n\nAfter fixing the problems with .kibana initialization\nin Mordred and GELK, this feature can be enabled again.",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 151,
+        "avg_ccn": 3.682926829268293,
+        "avg_loc": 13.463414634146341,
+        "avg_tokens": 84.36585365853658,
+        "num_funs": 41,
+        "loc": 715,
+        "tokens": 4571,
+        "ext": "py",
+        "blanks": 262,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815721.479599,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "420b45839ad3e461983cb5110415dd933f5efbd5",
+  "updated_on": 1538035168.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "f2f1b54d436fe4141999c3219edb812e1ef6c13c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "f2f1b54d436fe4141999c3219edb812e1ef6c13c",
+    "parents": [
+      "a3bb7778aa1e09f356eb1619dfb790070176952f",
+      "720eb91aae90ee44f97777a6cb00f1fad145ac2d"
+    ],
+    "Merge": "a3bb777 720eb91",
+    "Author": "valerio <valcos@bitergia.com>",
+    "AuthorDate": "Thu Sep 27 09:59:28 2018 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Thu Sep 27 09:59:28 2018 +0200",
+    "message": "Merge pull request #23 from sduenas/enable_conf_6\n\n[kidash] Enable Kibiter 6 configuration",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 151,
+        "avg_ccn": 3.682926829268293,
+        "avg_loc": 13.463414634146341,
+        "avg_tokens": 84.36585365853658,
+        "num_funs": 41,
+        "loc": 715,
+        "tokens": 4571,
+        "ext": "py",
+        "blanks": 262,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815722.105603,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "428d3e8cd05ce2f87e26654f025df756d35060e0",
+  "updated_on": 1538547843.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8a8bd1c0ef9ed48f5e47193e5f3e01b4796e4284"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "8a8bd1c0ef9ed48f5e47193e5f3e01b4796e4284",
+    "parents": [
+      "f2f1b54d436fe4141999c3219edb812e1ef6c13c"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Wed Oct 3 08:21:01 2018 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Wed Oct 3 08:24:03 2018 +0200",
+    "message": "[release] Update version number to 0.4.12",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815722.939311,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "8ff871e0ae112f28886b69dbf933d82e415d1168",
+  "updated_on": 1539763295.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b39b55c834d7f9fbbb52fe6a48832590b2d0dc76"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b39b55c834d7f9fbbb52fe6a48832590b2d0dc76",
+    "parents": [
+      "8a8bd1c0ef9ed48f5e47193e5f3e01b4796e4284"
+    ],
+    "Author": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "AuthorDate": "Tue Oct 16 10:09:11 2018 +0200",
+    "Commit": "Alvaro del Castillo <acs@bitergia.com>",
+    "CommitDate": "Wed Oct 17 10:01:35 2018 +0200",
+    "message": "Add check for query key in bool filter fix",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 152,
+        "avg_ccn": 3.707317073170732,
+        "avg_loc": 13.487804878048781,
+        "avg_tokens": 84.53658536585365,
+        "num_funs": 41,
+        "loc": 716,
+        "tokens": 4578,
+        "ext": "py",
+        "blanks": 262,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815723.400261,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "533e382374bc2069eef6f3e1da32e4bdb6d080ee",
+  "updated_on": 1539773153.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "af1350a0f2b0bd859ef7feb81b800c5d82c10c47"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "af1350a0f2b0bd859ef7feb81b800c5d82c10c47",
+    "parents": [
+      "b39b55c834d7f9fbbb52fe6a48832590b2d0dc76"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Wed Oct 17 12:45:53 2018 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Wed Oct 17 12:45:53 2018 +0200",
+    "message": "Update version number to 0.4.13",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815724.211128,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "4be49b14e38b67f41590818cf6d824e7de694871",
+  "updated_on": 1557357358.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b15df6d24d94f489ef9e82221342a9aa1f72647c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b15df6d24d94f489ef9e82221342a9aa1f72647c",
+    "parents": [
+      "af1350a0f2b0bd859ef7feb81b800c5d82c10c47"
+    ],
+    "Author": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "AuthorDate": "Wed May 8 16:24:20 2019 +0200",
+    "Commit": "valerio <valcos@bitergia.com>",
+    "CommitDate": "Thu May 9 01:15:58 2019 +0200",
+    "message": "Add viz title to data source removal checks\n\nGitLab visualizations weren't being added to Overview panel\nwhen data source filtering is active. That was due to the use\nof widget title in the checks, but not visualization title,\nthat is a different one. Widget's title is the one you set\nin the dashboard, while the right one to use is the title you\nset when creating the visualization, as it is hidden in the\ndashboard and it doesn't change from dashboard to dashboard\nas it is associated to the viz and not to the panel.\n\nThe old check using the title coming from the dashboard is\nstill there to avoid cases that could be already working based\non it.\n\nSigned-off-by: Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "Signed-off-by": [
+      "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 153,
+        "avg_ccn": 3.731707317073171,
+        "avg_loc": 13.536585365853659,
+        "avg_tokens": 85.21951219512195,
+        "num_funs": 41,
+        "loc": 725,
+        "tokens": 4650,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 190,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815725.018084,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "44a548ebd030e2e69ef613f42be36810a73363ce",
+  "updated_on": 1557747174.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "2af3a3dc1b7bc12efe3b4b0e5f6bce6dcb0d220a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "2af3a3dc1b7bc12efe3b4b0e5f6bce6dcb0d220a",
+    "parents": [
+      "b15df6d24d94f489ef9e82221342a9aa1f72647c"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Mon May 13 13:32:54 2019 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Mon May 13 13:32:54 2019 +0200",
+    "message": "Update version number to 0.4.14\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815725.737898,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "7b5dd312d07d15402e94b5c795480700079e46bc",
+  "updated_on": 1562755426.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b8f335346f4b0d8f9202907e01987bcd7cf4c7b4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b8f335346f4b0d8f9202907e01987bcd7cf4c7b4",
+    "parents": [
+      "2af3a3dc1b7bc12efe3b4b0e5f6bce6dcb0d220a"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Jul 10 12:43:46 2019 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Jul 10 12:43:46 2019 +0200",
+    "message": "[setup] Fix format type for long description of package\n\nPypi requires that the format of the long description for a\npackage is detailed in the variable `long_description_content_type`,\nin setup.py. Since it now supports Markdown, the conversion to\nreST is not needed anymore.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 46,
+        "tokens": 232,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 24,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815726.588773,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "856e8fc81a23c0e59b5d3e200b0db3db1e3c152d",
+  "updated_on": 1563262206.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a93c5f472adfd2e7b2d711e65736ed2b2072e4b3"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a93c5f472adfd2e7b2d711e65736ed2b2072e4b3",
+    "parents": [
+      "2af3a3dc1b7bc12efe3b4b0e5f6bce6dcb0d220a",
+      "b8f335346f4b0d8f9202907e01987bcd7cf4c7b4"
+    ],
+    "Merge": "2af3a3d b8f3353",
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Tue Jul 16 09:30:06 2019 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Tue Jul 16 09:30:06 2019 +0200",
+    "message": "Merge branch 'setup-long-desc' of 'https://github.com/valeriocos/grimoirelab-kidash'\n\nMerges #28",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 46,
+        "tokens": 232,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 24,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815730.162941,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "ca61917cf5f91fba740278ddc64f9de15efc1415",
+  "updated_on": 1563265609.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "086ddc22227a6fe34a69a98778df65b5d382d89e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "086ddc22227a6fe34a69a98778df65b5d382d89e",
+    "parents": [
+      "a93c5f472adfd2e7b2d711e65736ed2b2072e4b3"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Mon Jul 15 09:09:12 2019 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Tue Jul 16 10:26:49 2019 +0200",
+    "message": "[kidash] Update license info\n\nThis code updates the license info based on\nthe content of https://www.gnu.org/licenses/gpl-3.0.html\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 22,
+        "comments": 21,
+        "loc": 58,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 4,
+        "tokens": 27,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 20,
+        "file_path": "kidash/__init__.py"
+      },
+      {
+        "ccn": 153,
+        "avg_ccn": 3.731707317073171,
+        "avg_loc": 13.536585365853659,
+        "avg_tokens": 85.21951219512195,
+        "num_funs": 41,
+        "loc": 725,
+        "tokens": 4650,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 187,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 46,
+        "tokens": 232,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 9,
+        "tokens": 67,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 20,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 27,
+        "tokens": 166,
+        "ext": "py",
+        "blanks": 11,
+        "comments": 24,
+        "file_path": "tests/test_export.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815733.627025,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "4052cec512f7692b690a73f6d0cf34f4229fcb45",
+  "updated_on": 1563347900.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "267e113b8d5a3ad91ca451797941a0636197afae"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "267e113b8d5a3ad91ca451797941a0636197afae",
+    "parents": [
+      "a93c5f472adfd2e7b2d711e65736ed2b2072e4b3",
+      "086ddc22227a6fe34a69a98778df65b5d382d89e"
+    ],
+    "Merge": "a93c5f4 086ddc2",
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Jul 17 09:18:20 2019 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Jul 17 09:18:20 2019 +0200",
+    "message": "Merge branch 'update-license' of 'https://github.com/valeriocos/grimoirelab-kidash'\n\nMerges #29",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 22,
+        "comments": 21,
+        "loc": 58,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 4,
+        "tokens": 27,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 20,
+        "file_path": "kidash/__init__.py"
+      },
+      {
+        "ccn": 153,
+        "avg_ccn": 3.731707317073171,
+        "avg_loc": 13.536585365853659,
+        "avg_tokens": 85.21951219512195,
+        "num_funs": 41,
+        "loc": 725,
+        "tokens": 4650,
+        "ext": "py",
+        "blanks": 263,
+        "comments": 187,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 46,
+        "tokens": 232,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 9,
+        "tokens": 67,
+        "ext": "py",
+        "blanks": 4,
+        "comments": 20,
+        "file_path": "tests/run_tests.py"
+      },
+      {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 27,
+        "tokens": 166,
+        "ext": "py",
+        "blanks": 11,
+        "comments": 24,
+        "file_path": "tests/test_export.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815734.59355,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "ccd76dd08950d86c5ec2538c50a7758a22b6f93a",
+  "updated_on": 1563532296.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "99a422788258fd15e04447e7076e0c7c7e1d6b30"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "99a422788258fd15e04447e7076e0c7c7e1d6b30",
+    "parents": [
+      "267e113b8d5a3ad91ca451797941a0636197afae"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Jul 19 12:31:36 2019 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Jul 19 12:31:36 2019 +0200",
+    "message": "Update version number to 0.4.15\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815735.511098,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "e5098623b5b5c599370b3d5067d7c368a6ec6ccb",
+  "updated_on": 1576675663.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "70887484f9abf8dc14285216e5dd423339d93776"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "70887484f9abf8dc14285216e5dd423339d93776",
+    "parents": [
+      "267e113b8d5a3ad91ca451797941a0636197afae"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Dec 18 14:27:43 2019 +0100",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Dec 18 14:27:43 2019 +0100",
+    "message": "[bin/kidash] Remove unused imports\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 22,
+        "comments": 21,
+        "loc": 56,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815736.403214,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "85d3ebf0a07654dedc34676d86ccab4bf05479df",
+  "updated_on": 1576675693.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "fe9313d94f5fc544c9f38dce4901a417c9965f19"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "fe9313d94f5fc544c9f38dce4901a417c9965f19",
+    "parents": [
+      "70887484f9abf8dc14285216e5dd423339d93776"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Dec 18 14:28:13 2019 +0100",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Dec 18 14:28:13 2019 +0100",
+    "message": "[bin/kidash] Remove ELK imports\n\nThis code removes the ELK imports of\nElasticOcean and config_logging.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 25,
+        "comments": 21,
+        "loc": 63,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815737.171067,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "90693b02a01f60056f6a76907b676324233023e3",
+  "updated_on": 1576675981.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8e4554f8338073ec2ad872edde5b499b72ab225a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "8e4554f8338073ec2ad872edde5b499b72ab225a",
+    "parents": [
+      "fe9313d94f5fc544c9f38dce4901a417c9965f19"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Dec 18 14:33:01 2019 +0100",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Dec 18 14:33:01 2019 +0100",
+    "message": "[kidash/kidash] Remove ELK imports\n\nThis code replaces the ELK imports with the new function `grimoire_con`\nand class `ElasticSearch`. This change is needed to decouple\nKidash from a useless dependency with ELK.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 158,
+        "avg_ccn": 3.6744186046511627,
+        "avg_loc": 13.534883720930232,
+        "avg_tokens": 86.5813953488372,
+        "num_funs": 43,
+        "loc": 757,
+        "tokens": 4902,
+        "ext": "py",
+        "blanks": 277,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815738.044483,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "fd646e704b567944c6e3d293adf16d0a85d4d1c9",
+  "updated_on": 1576676206.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "46155080f9e7a86704d310bb5b4dbf578179bea7"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "46155080f9e7a86704d310bb5b4dbf578179bea7",
+    "parents": [
+      "8e4554f8338073ec2ad872edde5b499b72ab225a"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Dec 18 14:36:46 2019 +0100",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Wed Dec 18 14:36:46 2019 +0100",
+    "message": "[setup] Remove ELK dependency\n\nThis code removes ELK from the list of dependencies.\nThis change is needed to enable kidash supporting\npython 3.7.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 48,
+        "tokens": 236,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815740.006986,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "5bd11284955ddf114f9a19b0db1967fb52466f72",
+  "updated_on": 1577096003.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "917402f72e27be3545c8ee10bf3e32bc72e4b177"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "917402f72e27be3545c8ee10bf3e32bc72e4b177",
+    "parents": [
+      "99a422788258fd15e04447e7076e0c7c7e1d6b30",
+      "46155080f9e7a86704d310bb5b4dbf578179bea7"
+    ],
+    "Merge": "99a4227 4615508",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Mon Dec 23 10:58:45 2019 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Mon Dec 23 11:13:23 2019 +0100",
+    "message": "Merge branch 'remove-elk-dependencies' of 'https://github.com/valeriocos/grimoirelab-kidash'\n\nMerges #32\nCloses #32",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 25,
+        "comments": 21,
+        "loc": 63,
+        "ext": "/tmp/worktrees/grimoirelab-kidash/bin/kidash",
+        "file_path": "bin/kidash"
+      },
+      {
+        "ccn": 158,
+        "avg_ccn": 3.6744186046511627,
+        "avg_loc": 13.534883720930232,
+        "avg_tokens": 86.5813953488372,
+        "num_funs": 43,
+        "loc": 757,
+        "tokens": 4902,
+        "ext": "py",
+        "blanks": 277,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 48,
+        "tokens": 236,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815740.745409,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "bb66fdb1a7e461230163ce9439ad042d37031c13",
+  "updated_on": 1578043037.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "d8527062dc7f1ae5a849f793d3e3970ad85b351a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "d8527062dc7f1ae5a849f793d3e3970ad85b351a",
+    "parents": [
+      "917402f72e27be3545c8ee10bf3e32bc72e4b177"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Jan 3 10:17:17 2020 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Jan 3 10:17:17 2020 +0100",
+    "message": "Update version number to 0.4.16\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815741.695962,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "6f417130d6c1c3b444f42f1973f4777f222d4d4d",
+  "updated_on": 1582133825.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "65b777e71c6e12de0bb5b4748d45716055c4161e"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "65b777e71c6e12de0bb5b4748d45716055c4161e",
+    "parents": [
+      "d8527062dc7f1ae5a849f793d3e3970ad85b351a"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Wed Feb 19 16:32:34 2020 +0100",
+    "Commit": "valerio <valcos@bitergia.com>",
+    "CommitDate": "Wed Feb 19 18:37:05 2020 +0100",
+    "message": "[doc] Update README\n\nThis code updates the readme by providing instructions\nto upload and download dashboards with Kidash.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 9,
+        "comments": 0,
+        "loc": 34,
+        "ext": "md",
+        "file_path": "README.md"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815742.869779,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "aa277d183027c71046282232127f9d06afaf5244",
+  "updated_on": 1582650897.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "e8795023b31df726850b32e3f019a933ea614d5a"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "e8795023b31df726850b32e3f019a933ea614d5a",
+    "parents": [
+      "65b777e71c6e12de0bb5b4748d45716055c4161e"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Tue Feb 25 10:29:09 2020 +0100",
+    "Commit": "valerio <valcos@bitergia.com>",
+    "CommitDate": "Tue Feb 25 18:14:57 2020 +0100",
+    "message": "[kidash/kidash] Delete dependency with `grimoirelab-panels`\n\nThis code deletes the dependecy with `grimoirelab-panels` to avoid\nimport wrong dashboards\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 156,
+        "avg_ccn": 3.627906976744186,
+        "avg_loc": 13.30232558139535,
+        "avg_tokens": 84.93023255813954,
+        "num_funs": 43,
+        "loc": 746,
+        "tokens": 4829,
+        "ext": "py",
+        "blanks": 276,
+        "comments": 188,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 234,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815743.379877,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "0f50c6651f50d9ac1fa26c35356da3e6b160114a",
+  "updated_on": 1584702918.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "4f3e7cf09145169bf8c4025c127228c97e3455c8"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "4f3e7cf09145169bf8c4025c127228c97e3455c8",
+    "parents": [
+      "e8795023b31df726850b32e3f019a933ea614d5a"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Fri Mar 20 12:15:18 2020 +0100",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Fri Mar 20 12:15:18 2020 +0100",
+    "message": "Update version number to 0.4.17\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815744.237372,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "8d859238b47a6a9b5cb6afa0847fbc88636f8ad1",
+  "updated_on": 1590424546.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "a0e6b758f1ce37e15f0decbc69589b4ed05971d9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "a0e6b758f1ce37e15f0decbc69589b4ed05971d9",
+    "parents": [
+      "4f3e7cf09145169bf8c4025c127228c97e3455c8"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Thu May 21 15:50:43 2020 +0200",
+    "Commit": "valerio <valcos@bitergia.com>",
+    "CommitDate": "Mon May 25 18:35:46 2020 +0200",
+    "message": "[kidash] Support import to Kibiter/Kibana 6.8\n\nThis code allows to import Sigils dashboards to\nKibana/Kibiter 6.8.x instances, granting backward\ncompatibilty with previous versions.\n\nKibana 6.8.x sets the .kibana mapping to strict,\nthus it makes impossible to modify the .kibana index\nafter creation. For this reason, Kidash has been modified\nin the following way.\n\n- Kidash now uploads an ad-hoc .kibana mapping, which\ncontains the metadashboard and projectname types. This\nis needed to guarantee that Kibiter top menu works for\nKibana 6.8.x\n\n- The `release_date` attribute stored in .kibana for\nversions prior to 6.8.x has been moved to a different\nindex: `.grimoirelab-sigils`. This is needed since custom\nfields cannot be saved in Kibana standard objects anymore\n(dashboard, index patterns, etc.). Thus, each time there\nis an attempt to upload a dashboard or index pattern to\nKibana, the release_date is retrieved from this new index\nand compared with the release_date included in the\nuploaded objects. If the object can be uploaed, the\nrelease date included into it is popped out and saved\nto the `.grimoirelab-sigils` index together with the\nid and type of the object.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 162,
+        "avg_ccn": 3.6,
+        "avg_loc": 13.933333333333334,
+        "avg_tokens": 88.75555555555556,
+        "num_funs": 45,
+        "loc": 1204,
+        "tokens": 6249,
+        "ext": "py",
+        "blanks": 294,
+        "comments": 207,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815745.002595,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "c1063e1552d55e4600a2f09e708ea6b9881e914d",
+  "updated_on": 1590424546.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "407f24a3cd4d79175358cbff7a14e693bb706c90"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "407f24a3cd4d79175358cbff7a14e693bb706c90",
+    "parents": [
+      "a0e6b758f1ce37e15f0decbc69589b4ed05971d9"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Fri May 22 12:54:29 2020 +0200",
+    "Commit": "valerio <valcos@bitergia.com>",
+    "CommitDate": "Mon May 25 18:35:46 2020 +0200",
+    "message": "[kidash] Improving log messages\n\nThis code improves the log messages to give\nbetter information when uploading a dashboard/index pattern.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 162,
+        "avg_ccn": 3.6,
+        "avg_loc": 13.911111111111111,
+        "avg_tokens": 88.88888888888889,
+        "num_funs": 45,
+        "loc": 1204,
+        "tokens": 6259,
+        "ext": "py",
+        "blanks": 294,
+        "comments": 207,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815745.797638,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "0a3e132d855d074c6037909c7bb7468fa4340318",
+  "updated_on": 1590772206.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "142eddd0a64139bfa4a8a0d9e87306422a4de26d"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "142eddd0a64139bfa4a8a0d9e87306422a4de26d",
+    "parents": [
+      "407f24a3cd4d79175358cbff7a14e693bb706c90"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Fri May 29 19:06:11 2020 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Fri May 29 19:10:06 2020 +0200",
+    "message": "[kidash] Remove support for kibana <6.x\n\nThis code removes the support for kibana <6.x. Furthermore,\nit also removes the logic used in the past to convert 0/1\nvalues to boolean in filters. That change was needed to\nallow the migration to <6.8, now for version >=6.8 it\nisn't needed anymore.\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 148,
+        "avg_ccn": 3.3636363636363638,
+        "avg_loc": 13.636363636363637,
+        "avg_tokens": 86.52272727272727,
+        "num_funs": 44,
+        "loc": 1177,
+        "tokens": 6059,
+        "ext": "py",
+        "blanks": 288,
+        "comments": 205,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815746.843479,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "c3a9260e5a086e4459574d6183b91bab43e85e24",
+  "updated_on": 1591367377.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "acefde2c87171b4427744aedd95689cbce1afa05"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "acefde2c87171b4427744aedd95689cbce1afa05",
+    "parents": [
+      "407f24a3cd4d79175358cbff7a14e693bb706c90",
+      "142eddd0a64139bfa4a8a0d9e87306422a4de26d"
+    ],
+    "Merge": "407f24a 142eddd",
+    "Author": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "AuthorDate": "Fri Jun 5 16:29:37 2020 +0200",
+    "Commit": "Alberto P\u00e9rez Garc\u00eda-Plaza <alpgarcia@bitergia.com>",
+    "CommitDate": "Fri Jun 5 16:29:37 2020 +0200",
+    "message": "Merge branch 'valeriocos-fix-10789' of 'https://github.com/valeriocos/grimoirelab-kidash.git'\n\nMerges #39\nCloses #39",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 148,
+        "avg_ccn": 3.3636363636363638,
+        "avg_loc": 13.636363636363637,
+        "avg_tokens": 86.52272727272727,
+        "num_funs": 44,
+        "loc": 1177,
+        "tokens": 6059,
+        "ext": "py",
+        "blanks": 288,
+        "comments": 205,
+        "file_path": "kidash/kidash.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815747.790252,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "4ee9ceabf82f523addc9116bfc83312946728f87",
+  "updated_on": 1592029191.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "7154853ae6acf8e5aec00f31e7a417207d8be559"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "7154853ae6acf8e5aec00f31e7a417207d8be559",
+    "parents": [
+      "acefde2c87171b4427744aedd95689cbce1afa05"
+    ],
+    "Author": "Valerio Cosentino <valcos@bitergia.com>",
+    "AuthorDate": "Sat Jun 13 08:19:51 2020 +0200",
+    "Commit": "Valerio Cosentino <valcos@bitergia.com>",
+    "CommitDate": "Sat Jun 13 08:19:51 2020 +0200",
+    "message": "Update version number to 0.4.18\n\nSigned-off-by: Valerio Cosentino <valcos@bitergia.com>",
+    "Signed-off-by": [
+      "Valerio Cosentino <valcos@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815750.435085,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "34584e50e6d40f00a1fec6bd8b7e3022c77d5721",
+  "updated_on": 1611318947.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8afa56c15091cff30839da00ab20642e40324dec"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "8afa56c15091cff30839da00ab20642e40324dec",
+    "parents": [
+      "7154853ae6acf8e5aec00f31e7a417207d8be559"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Fri Jan 22 17:36:32 2021 +0530",
+    "Commit": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "CommitDate": "Fri Jan 22 18:05:47 2021 +0530",
+    "message": "[flake8] Fix flake8 errors\n\nThis commit adds the setup.cfg file which has flake8\nconfigurations for the project. It also fixes the\nexisting flake8 errors.\n\nThis commit also includes the metadata files and tests\nin MANIFEST.in file.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "in",
+        "file_path": "MANIFEST.in"
+      },
+      {
+        "ccn": 147,
+        "avg_ccn": 3.340909090909091,
+        "avg_loc": 13.545454545454545,
+        "avg_tokens": 86.4090909090909,
+        "num_funs": 44,
+        "loc": 1174,
+        "tokens": 6057,
+        "ext": "py",
+        "blanks": 281,
+        "comments": 205,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "cfg",
+        "file_path": "setup.cfg"
+      },
+      {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 27,
+        "tokens": 166,
+        "ext": "py",
+        "blanks": 12,
+        "comments": 24,
+        "file_path": "tests/test_export.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815753.465519,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "2b1dae7ba9d07a0eae50ea29115ddb589ea4d018",
+  "updated_on": 1611334909.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "08a85a817386daff0c5d488b548f9cfaed3507f0"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "08a85a817386daff0c5d488b548f9cfaed3507f0",
+    "parents": [
+      "7154853ae6acf8e5aec00f31e7a417207d8be559",
+      "8afa56c15091cff30839da00ab20642e40324dec"
+    ],
+    "Merge": "7154853 8afa56c",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Jan 22 18:01:49 2021 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Jan 22 18:01:49 2021 +0100",
+    "message": "Merge branch 'fix-flake8-errors' of 'https://github.com/vchrombie/grimoirelab-kidash'\n\nMerges #41\nCloses #41",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "in",
+        "file_path": "MANIFEST.in"
+      },
+      {
+        "ccn": 147,
+        "avg_ccn": 3.340909090909091,
+        "avg_loc": 13.545454545454545,
+        "avg_tokens": 86.4090909090909,
+        "num_funs": 44,
+        "loc": 1174,
+        "tokens": 6057,
+        "ext": "py",
+        "blanks": 281,
+        "comments": 205,
+        "file_path": "kidash/kidash.py"
+      },
+      {
+        "blanks": 0,
+        "comments": 0,
+        "loc": 0,
+        "ext": "cfg",
+        "file_path": "setup.cfg"
+      },
+      {
+        "ccn": 1,
+        "avg_ccn": 1.0,
+        "avg_loc": 12.0,
+        "avg_tokens": 96.0,
+        "num_funs": 1,
+        "loc": 27,
+        "tokens": 166,
+        "ext": "py",
+        "blanks": 12,
+        "comments": 24,
+        "file_path": "tests/test_export.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815754.758246,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "f3b2287f50f854b51bcdd12263d40c1ee9cc8fd0",
+  "updated_on": 1611334993.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "38a1ba48300dcb98a052110c01a7e9184e727e46"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "38a1ba48300dcb98a052110c01a7e9184e727e46",
+    "parents": [
+      "08a85a817386daff0c5d488b548f9cfaed3507f0"
+    ],
+    "Author": "Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "AuthorDate": "Thu Jan 21 20:13:59 2021 +0530",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Jan 22 18:03:13 2021 +0100",
+    "message": "[CI] Add Github Actions as the CI service\n\nThis commit adds the support of GitHub Actions as the CI service.\n\nSigned-off-by: Venu Vardhan Reddy Tekula <venu@bitergia.com>",
+    "Signed-off-by": [
+      "Venu Vardhan Reddy Tekula <venu@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 10,
+        "comments": 2,
+        "loc": 32,
+        "ext": "yml",
+        "file_path": ".github/workflows/ci.yml"
+      },
+      {
+        "blanks": 9,
+        "comments": 0,
+        "loc": 34,
+        "ext": "md",
+        "file_path": "README.md"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815755.993676,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "d84f78ab36d80e73954cab90c1b2ae9880e3cd81",
+  "updated_on": 1611335007.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "cae4fe4a75e8f6dd3ad96037a8f766bbf35eb48c"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "cae4fe4a75e8f6dd3ad96037a8f766bbf35eb48c",
+    "parents": [
+      "08a85a817386daff0c5d488b548f9cfaed3507f0",
+      "38a1ba48300dcb98a052110c01a7e9184e727e46"
+    ],
+    "Merge": "08a85a8 38a1ba4",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Jan 22 18:03:27 2021 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Fri Jan 22 18:03:27 2021 +0100",
+    "message": "Merge branch 'gha' of 'https://github.com/vchrombie/grimoirelab-kidash'\n\nMerges #42\nCloses #42",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "blanks": 10,
+        "comments": 2,
+        "loc": 32,
+        "ext": "yml",
+        "file_path": ".github/workflows/ci.yml"
+      },
+      {
+        "blanks": 9,
+        "comments": 0,
+        "loc": 34,
+        "ext": "md",
+        "file_path": "README.md"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815756.675054,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "e268e54ec15eadfecbcb64af3767ba999f128863",
+  "updated_on": 1611664578.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "b425de2a4a496af51dff82aea88c4b67b87f3ccf"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "b425de2a4a496af51dff82aea88c4b67b87f3ccf",
+    "parents": [
+      "cae4fe4a75e8f6dd3ad96037a8f766bbf35eb48c"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Tue Jan 26 13:36:18 2021 +0100",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Tue Jan 26 13:36:18 2021 +0100",
+    "message": "Update version number to 0.4.19\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815757.301055,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "2a6adbc4e8775542b0f697375fa3f05995d968f2",
+  "updated_on": 1622594886.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "babf58554cb9705fd2f4800ce2d5ed1682f7e182"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "babf58554cb9705fd2f4800ce2d5ed1682f7e182",
+    "parents": [
+      "b425de2a4a496af51dff82aea88c4b67b87f3ccf"
+    ],
+    "Author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+    "AuthorDate": "Wed Jun 2 00:48:06 2021 +0000",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Wed Jun 2 00:48:06 2021 +0000",
+    "message": "Bump urllib3 from 1.24.3 to 1.26.5\n\nBumps [urllib3](https://github.com/urllib3/urllib3) from 1.24.3 to 1.26.5.\n- [Release notes](https://github.com/urllib3/urllib3/releases)\n- [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)\n- [Commits](https://github.com/urllib3/urllib3/compare/1.24.3...1.26.5)\n\n---\nupdated-dependencies:\n- dependency-name: urllib3\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+    "Signed-off-by": [
+      "dependabot[bot] <support@github.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 234,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815757.984447,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "83aabbca57589d43f4929588c52cc5ebb7a76987",
+  "updated_on": 1622822016.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "15a60bf4caedd7d85ab6f3d2374b39a1e0872c43"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "15a60bf4caedd7d85ab6f3d2374b39a1e0872c43",
+    "parents": [
+      "b425de2a4a496af51dff82aea88c4b67b87f3ccf",
+      "babf58554cb9705fd2f4800ce2d5ed1682f7e182"
+    ],
+    "Merge": "b425de2 babf585",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Fri Jun 4 17:53:36 2021 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Fri Jun 4 17:53:36 2021 +0200",
+    "message": "Merge pull request #44 from chaoss/dependabot/pip/urllib3-1.26.5\n\nBump urllib3 from 1.24.3 to 1.26.5",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 234,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815758.482296,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "22d992a09e8d8b2e09a15ffd19f2fc85a95b269b",
+  "updated_on": 1623250632.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "8a51abffeabf9fa69ed2c19e5a7d3ca1ed18e959"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "8a51abffeabf9fa69ed2c19e5a7d3ca1ed18e959",
+    "parents": [
+      "15a60bf4caedd7d85ab6f3d2374b39a1e0872c43"
+    ],
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Wed Jun 9 16:57:12 2021 +0200",
+    "Commit": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "CommitDate": "Wed Jun 9 16:57:12 2021 +0200",
+    "message": "Update version number to 0.4.20\n\nSigned-off-by: Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "Signed-off-by": [
+      "Santiago Due\u00f1as <sduenas@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815759.249014,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "35e6150cd9538da972ac2d51c00c784b5badfffe",
+  "updated_on": 1626693579.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "94569bbb47f52e1816b5884b2f3514e852457c94"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "94569bbb47f52e1816b5884b2f3514e852457c94",
+    "parents": [
+      "8a51abffeabf9fa69ed2c19e5a7d3ca1ed18e959"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Mon Jul 19 13:19:39 2021 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Mon Jul 19 13:19:39 2021 +0200",
+    "message": "[setup] Upgrade requests to 2.26.0\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 234,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815760.108947,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "c48e13c5c37ddb4a4e3e328d91094e6252f21741",
+  "updated_on": 1626712422.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "618f72904d689ad50251eda1d3fea1649a284dc4"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "618f72904d689ad50251eda1d3fea1649a284dc4",
+    "parents": [
+      "8a51abffeabf9fa69ed2c19e5a7d3ca1ed18e959",
+      "94569bbb47f52e1816b5884b2f3514e852457c94"
+    ],
+    "Merge": "8a51abf 94569bb",
+    "Author": "Santiago Due\u00f1as <sduenas@bitergia.com>",
+    "AuthorDate": "Mon Jul 19 18:33:42 2021 +0200",
+    "Commit": "GitHub <noreply@github.com>",
+    "CommitDate": "Mon Jul 19 18:33:42 2021 +0200",
+    "message": "Merge branch ' upgrade_requests_2.26' of 'https://github.com/zhquan/grimoirelab-kidash'\n\nMerges #46\nCloses #46\nFixes #45",
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 47,
+        "tokens": 234,
+        "ext": "py",
+        "blanks": 6,
+        "comments": 23,
+        "file_path": "setup.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+},
+{
+  "backend_name": "CoCom",
+  "backend_version": "0.5.1",
+  "graal_version": "0.2.9",
+  "timestamp": 1638815760.811035,
+  "origin": "http://github.com/chaoss/grimoirelab-kidash",
+  "uuid": "cfc794d99707fc5e21448e03d7f3b1e7de33b776",
+  "updated_on": 1626795596.0,
+  "classified_fields_filtered": null,
+  "category": "code_complexity_lizard_file",
+  "search_fields": {
+    "item_id": "322757e6c84b12da0b72e1ad3b4721c59ef9adf9"
+  },
+  "tag": "http://github.com/chaoss/grimoirelab-kidash",
+  "data": {
+    "commit": "322757e6c84b12da0b72e1ad3b4721c59ef9adf9",
+    "parents": [
+      "618f72904d689ad50251eda1d3fea1649a284dc4"
+    ],
+    "Author": "Quan Zhou <quan@bitergia.com>",
+    "AuthorDate": "Tue Jul 20 17:39:56 2021 +0200",
+    "Commit": "Quan Zhou <quan@bitergia.com>",
+    "CommitDate": "Tue Jul 20 17:39:56 2021 +0200",
+    "message": "Update version number to 0.4.21\n\nSigned-off-by: Quan Zhou <quan@bitergia.com>",
+    "Signed-off-by": [
+      "Quan Zhou <quan@bitergia.com>"
+    ],
+    "files": [
+      "MANIFEST.in",
+      "README.md",
+      "setup.cfg",
+      "setup.py",
+      "bin/kidash",
+      "kidash/kidash.py",
+      "kidash/__init__.py",
+      "kidash/_version.py",
+      "tests/run_tests.py",
+      "tests/test_export.py",
+      "tests/data/overview-with-index-patterns.json"
+    ],
+    "analysis": [
+      {
+        "ccn": 0,
+        "avg_ccn": 0,
+        "avg_loc": 0,
+        "avg_tokens": 0,
+        "num_funs": 0,
+        "loc": 1,
+        "tokens": 3,
+        "ext": "py",
+        "blanks": 0,
+        "comments": 1,
+        "file_path": "kidash/_version.py"
+      }
+    ],
+    "analyzer": "lizard_file"
+  }
+}
+]

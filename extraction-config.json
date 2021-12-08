@@ -1,0 +1,52 @@
+{
+    "repositories": [
+        {
+            "uri": "chaoss/grimoirelab-graal",
+            "entrypoint": "graal"
+        }, 
+        {
+            "uri": "chaoss/grimoirelab-sirmordred",
+            "entrypoint": "sirmordred"
+        },
+        {
+            "uri": "chaoss/grimoirelab-sortinghat",
+            "entrypoint": "sortinghat"
+        },
+        {
+            "uri": "chaoss/grimoirelab-perceval",
+            "entrypoint": "perceval"
+        },
+        {
+            "uri": "chaoss/grimoirelab-elk",
+            "entrypoint": "grimoire_elk"
+        },
+        {
+            "uri": "chaoss/grimoirelab-perceval-weblate",
+            "entrypoint": "perceval"
+        },
+        {
+            "uri": "chaoss/grimoirelab-perceval-puppet",
+            "entrypoint": "perceval"
+        },
+        {
+            "uri": "chaoss/grimoire-perceval-mozilla",
+            "entrypoint": "perceval"
+        },
+        {
+            "uri": "chaoss/grimoirelab-kidash",
+            "entrypoint": "kidash"
+        },
+        {
+            "uri": "chaoss/grimoirelab-toolkit",
+            "entrypoint": "grimoirelab_toolkit"
+        },
+        {
+            "uri": "chaoss/grimoirelab-cereslib",
+            "entrypoint": "cereslib"
+        },
+        {
+            "uri": "chaoss/grimoirelab-kingarthur",
+            "entrypoint": "arthur"
+        }
+    ]
+}
