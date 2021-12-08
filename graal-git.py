@@ -1,12 +1,13 @@
-from joblib import Parallel, delayed
-from array import array
-from graal.backends.core.cocom import CoCom
 import json
+import math
 import os
 import shutil
 import sys
+from array import array
+
 import matplotlib.pyplot as plt
-import math
+from graal.backends.core.cocom import CoCom
+from joblib import Parallel, delayed
 
 
 class GraalTest:
@@ -14,6 +15,7 @@ class GraalTest:
     Can be used to analyse a single Github repository,
     and store and graph the complexity changes per python file.
     """
+
     BASE_URL = "http://github.com/"
     DATA_PATH = "../tmp/"
     RESULTS_PATH = "../results/"
@@ -30,7 +32,7 @@ class GraalTest:
         """
         Sets up Graal repository
         """
-        sys.stdout.write(f'Started analysis with repo: {repository_name}\n')
+        sys.stdout.write(f"Started analysis with repo: {repository_name}\n")
         self.repository_name = repository_name
         repo_uri = os.path.join(self.BASE_URL, repository_name)
         repo_dir = os.path.join(self.DATA_PATH, repository_name)
@@ -54,7 +56,7 @@ class GraalTest:
         for commit in self.repository.fetch():
             sys.stdout.write(f'\rProcessing commit: {commit["uuid"]}')
             self.handle(commit)
-        sys.stdout.write('\rDone!')
+        sys.stdout.write("\rDone!")
         sys.stdout.flush()
         sys.stdout.write("\n")
 
@@ -74,8 +76,8 @@ class GraalTest:
         Adds a new file complexity entry to the current results.
         """
         path = file["file_path"]
-        file.pop('file_path', None)
-        file.pop('ext', None)
+        file.pop("file_path", None)
+        file.pop("ext", None)
         entry = {"timestamp": commit["timestamp"], "analysis": file}
         try:
             self.file_complexity[path].append(entry)
@@ -108,8 +110,17 @@ class GraalTest:
 
     def graph_complexity(self):
         """Graphs Cocom results with pyplot"""
-        metrics: array = ["ccn", "avg_ccn", "avg_loc", "avg_tokens",
-                          "num_funs", "loc", "tokens", "blanks", "comments"]
+        metrics: array = [
+            "ccn",
+            "avg_ccn",
+            "avg_loc",
+            "avg_tokens",
+            "num_funs",
+            "loc",
+            "tokens",
+            "blanks",
+            "comments",
+        ]
         rows = columns = int(math.sqrt(len(metrics)))
         if len(metrics) % columns > 0:
             rows += 1
@@ -122,7 +133,7 @@ class GraalTest:
                 x: array = [change["timestamp"] for change in entry]
                 y: array = [change["analysis"][metric] for change in entry]
                 axis[row, col].plot(x, y, label=file)
-            axis[row, col].set_title(f'Cocom: {metric}')
+            axis[row, col].set_title(f"Cocom: {metric}")
             i += 1
         plt.show()
 
@@ -157,5 +168,7 @@ if __name__ == "__main__":
         data = config.read()
         json_data = json.loads(data)
         repositories = json_data["repositories"]
-    Parallel(n_jobs=len(repositories))(delayed(perform_repository_analysis)(
-        repositories[i]) for i in range(len(repositories)))
+    Parallel(n_jobs=len(repositories))(
+        delayed(perform_repository_analysis)(repositories[i])
+        for i in range(len(repositories))
+    )
