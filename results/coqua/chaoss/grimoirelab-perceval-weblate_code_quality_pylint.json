@@ -644,5 +644,5 @@
     },
     "analyzer": "pylint"
   }
-},
+}
 ]
