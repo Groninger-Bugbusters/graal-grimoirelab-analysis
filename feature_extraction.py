@@ -1,13 +1,12 @@
-from graal.backends.core.coqua import CoQua
-from graal.backends.core.cocom import CoCom
-
 import json
-from joblib import Parallel, delayed
 import os
-from pathlib import Path
 import shutil
 import sys
-import threading
+from pathlib import Path
+
+from graal.backends.core.cocom import CoCom
+from graal.backends.core.coqua import CoQua
+from joblib import Parallel, delayed
 
 
 class CocomExtraction:
