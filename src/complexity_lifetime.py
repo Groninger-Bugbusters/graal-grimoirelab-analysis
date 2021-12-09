@@ -12,6 +12,8 @@ complexity_lifetimes = {}
 
 
 def main(path: str):
+    complexity_lifetimes.clear()
+
     with open(path, "r") as data:
         commits = json.loads(data.read())
 
