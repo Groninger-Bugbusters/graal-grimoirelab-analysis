@@ -36,10 +36,10 @@ def handle_commit(commit, metric):
 
     timestamp = commit["data"]["CommitDate"]
     timestamp = parse(timestamp)
-    results[metric].append({"timestamp": timestamp, "avg": avg, "max": max})
+    results[metric].append({"timestamp": timestamp, "avg": avg, "max": max, 'commit':commit["data"]["commit"]})
 
 
-git_uri = "https://github.com/chaoss/grimoirelab-graal"
+git_uri = "https://github.com/Groninger-Bugbusters/grimoirelab-graal"
 git_path = os.path.abspath("../tmp/cocom")
 out_path = os.path.abspath("./results/cocom.json")
 
@@ -47,10 +47,10 @@ cc = CoCom(uri=git_uri, git_path=git_path, in_paths=[".py"])
 
 # gets results
 with open("./results/cocom-complete", "a") as output_file:
-    i = 0
     for commit in cc.fetch(
-        category=CATEGORY_COCOM_LIZARD_REPOSITORY, from_date=datetime(2021, 1, 13)
+        category=CATEGORY_COCOM_LIZARD_REPOSITORY, from_date=datetime(2022, 1, 26, 8, 00)
     ):
+
         print(commit["data"]["commit"])
 
         output_file.write(f'{json.dumps(commit, indent=2)},\n')
@@ -58,9 +58,6 @@ with open("./results/cocom-complete", "a") as output_file:
         for metric in results.keys():
             handle_commit(commit, metric)
 
-        if i > 2:
-            break
-        i += 1 
 
 # plots results. 
 for metric, results in results.items():
@@ -70,7 +67,7 @@ for metric, results in results.items():
     # max = [entry["max"] for entry in results]
     x = [entry["timestamp"] for entry in results]
 
-    print(avg)
+    print(f'{metric=} - {avg=}')
 
     plt.plot(x, avg, label=f"avg {metric}")
     # plt.plot(x, max, label=f"max {metric}")
