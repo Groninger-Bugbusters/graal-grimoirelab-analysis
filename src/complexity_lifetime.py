@@ -80,14 +80,19 @@ def show(metric: str, repository_name:str):
                 gotEntry = False
 
                 if ts == entry["timestamp"]:
-                    final_results[ts][name] = entry[metric]
                     gotEntry = True
+
+                    if metric not in entry: 
+                        continue
+
+                    final_results[ts][name] = entry[metric]
                     break
 
                 if entry["timestamp"] > ts:
                     break
-
-                prev_comp = entry[metric]
+                
+                if metric in entry: 
+                    prev_comp = entry[metric]
 
             if not gotEntry:
                 final_results[ts][name] = prev_comp
